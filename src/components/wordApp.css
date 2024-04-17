@@ -7,3 +7,11 @@ p {
   font-size: 51px;
 }
 
+.textWord {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.textWord1 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}

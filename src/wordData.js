@@ -1,6 +1,6 @@
 const wordData = [
   {
-    date: '2023-04-17',
+    date: 'April 17, 2024',
     word: 'Verhandlung',
     example1: 'Die Verhandlung war lang und anstrengend.',
     example2: '',

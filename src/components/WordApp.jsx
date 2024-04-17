@@ -42,7 +42,7 @@ function WordApp() {
       {wordData.slice(0, visibleWordsCount).map(word => (
         <div className='border-bottom mb-4' key={word.id}>
           <div className=''>
-            <div className='d-flex mb-3 justify-content-center'>
+            <div className='d-flex textWord1 mb-3 justify-content-center'>
               Word of the Day : {word.date}
             </div>
             <div className='d-flex justify-content-center'>
@@ -73,17 +73,16 @@ function WordApp() {
             </b>
           </div>
 
-          <p className='fst-italic d-flex justify-content-center'>
+          <p className='fst-italic textWord1 mb-5 d-flex justify-content-center'>
             {word.grammar}
           </p>
-          <h2>{word.word}</h2>
-          <p>
+          <p className='textWord'>
             <b>Exp 1:</b> {word.example1}
           </p>
-          <p>
+          <p className='textWord'>
             <b>Exp 2:</b> {word.example2}
           </p>
-          <p>
+          <p className='textWord'>
             <b>Eng:</b> {word.meaningENG}
           </p>
           <p>
