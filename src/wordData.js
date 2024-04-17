@@ -9,6 +9,7 @@ const wordData = [
     id: '1',
     level: "1",
     block: "1",
+    grammar: "noun",
   },
   {
     date: '2023-04-18',
@@ -20,6 +21,7 @@ const wordData = [
     id: '2',
     level: "1",
     block: "1",
+    grammar: "noun",
   },
   {
     date: '2023-04-18',
@@ -31,6 +33,7 @@ const wordData = [
     id: '2',
     level: "1",
     block: "1",
+    grammar: "noun",
   },
   {
     date: '2023-04-18',
@@ -42,6 +45,7 @@ const wordData = [
     id: '2',
     level: "1",
     block: "1",
+    grammar: "noun",
   },
   {
     date: '2023-04-18',
@@ -53,6 +57,7 @@ const wordData = [
     id: '2',
     level: "1",
     block: "1",
+    grammar: "noun",
   },
   {
     date: '2023-04-18',
@@ -64,6 +69,7 @@ const wordData = [
     id: '2',
     level: "1",
     block: "1",
+    grammar: "noun",
   },
 
 ];
