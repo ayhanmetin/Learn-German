@@ -10,7 +10,7 @@ function App() {
         <Nav />
       </div>
       <div className='d-flex me-4 ms-4 mt-4 justify-content-center'>
-        <div className='d-flex col-6 justify-content-center'>
+        <div className='d-flex col-12 justify-content-center'>
           <WordApp />
         </div>
       </div>

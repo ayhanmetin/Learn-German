@@ -6,7 +6,6 @@ const wordData = [
     example2: '',
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
-    tag: 'business',
     id: '1',
     level: "1",
     block: "1",
@@ -18,7 +17,6 @@ const wordData = [
     example2: '',
     meaningENG: 'to develop',
     meaningTR: 'geliştirmek',
-    tag: 'technology',
     id: '2',
     level: "1",
     block: "1",
@@ -30,7 +28,6 @@ const wordData = [
     example2: '',
     meaningENG: 'to develop',
     meaningTR: 'geliştirmek',
-    tag: 'technology',
     id: '2',
     level: "1",
     block: "1",
@@ -42,7 +39,6 @@ const wordData = [
     example2: '',
     meaningENG: 'to develop',
     meaningTR: 'geliştirmek',
-    tag: 'technology',
     id: '2',
     level: "1",
     block: "1",
@@ -54,7 +50,6 @@ const wordData = [
     example2: '',
     meaningENG: 'to develop',
     meaningTR: 'geliştirmek',
-    tag: 'technology',
     id: '2',
     level: "1",
     block: "1",
@@ -66,12 +61,11 @@ const wordData = [
     example2: '',
     meaningENG: 'to develop',
     meaningTR: 'geliştirmek',
-    tag: 'technology',
     id: '2',
     level: "1",
     block: "1",
   },
-  
+
 ];
 
 export default wordData;
