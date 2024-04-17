@@ -8,6 +8,8 @@ const wordData = [
     meaningTR: 'müzakere',
     tag: 'business',
     id: '1',
+    level: "1",
+    block: "1",
   },
   {
     date: '2023-04-18',
@@ -18,6 +20,8 @@ const wordData = [
     meaningTR: 'geliştirmek',
     tag: 'technology',
     id: '2',
+    level: "1",
+    block: "1",
   },
 ];
 
