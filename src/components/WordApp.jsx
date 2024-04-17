@@ -1,5 +1,5 @@
 import React from 'react';
-import wordData from '../wordData';  // Adjust the path as necessary based on your project structure
+import wordData from '../wordData'; 
 
 function WordApp() {
   return (
@@ -7,29 +7,17 @@ function WordApp() {
       {wordData.map((word) => (
         <div key={word.id}>
           <p className='text-center'>
-            <b>Date:</b> {word.date}
+            <b>Word of the Day:</b> {word.date}
           </p>
-          <h2 className='text-center'>Word of the Day: {word.word}</h2>
-          <div className=''>
-            <img
-              src={word.image}
-              alt={`Image representing the word ${word.word}`}
-              className='rounded-circle mt-2 shadow-lg'
-              style={{
-                width: '100px',
-                height: '100px',
-                objectFit: 'cover',
-              }}
-            />
-          </div>
+          <h2 className='text-center'>{word.word}</h2>
           <p>
-            <b>Example:</b> {word.example}
+            <b>Exp:</b> {word.example1}
           </p>
           <p>
-            <b>English:</b> {word.meaningENG}
+            <b>Eng:</b> {word.meaningENG}
           </p>
           <p>
-            <b>Turkish:</b> {word.meaningTR}
+            <b>Tr:</b> {word.meaningTR}
           </p>
         </div>
       ))}
