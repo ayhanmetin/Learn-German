@@ -9,7 +9,7 @@ function App() {
     <>
       <div className='container'>
         <div className='row justify-content-center mt-0'>
-          <div className='col-12 col-md-8 mt-0'>
+          <div className='col-12 col-md-8 mt-0 bg-body-tertiary'>
             <div className='mt-0 mb-5'>
               <Nav />
             </div>
