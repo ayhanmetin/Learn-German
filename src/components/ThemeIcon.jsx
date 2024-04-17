@@ -11,13 +11,13 @@ function ThemeIcon() {
 
   const containerStyles = {
     background: theme === 'light' ? '#666' : '#DDD',
-    width: '35px',  
+    width: '37px',  
     height: '16px', 
-    borderRadius: '10px',  
+    borderRadius: '19px',  
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: '3px',  
+    padding: '2px',  
     cursor: 'pointer',
     boxSizing: 'border-box',
   };

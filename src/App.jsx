@@ -1,19 +1,22 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WordApp from './components/WordApp';
 import Nav from './components/Nav';
-import frankfurt from './image/Frankfurt.jpeg';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <div className=''>
-        <Nav />
-      </div>
-      <div className='d-flex me-4 ms-4 mt-4 justify-content-center'>
-        <div className='d-flex col-12 justify-content-center'>
-          <WordApp />
+      <div className='container'>
+        <div className='row justify-content-center mt-0'>
+          <div className='col-8 mt-0'>
+            <div className='mt-0 mb-5'>
+              <Nav />
+            </div>
+            <WordApp />
+          </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
