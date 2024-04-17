@@ -4,6 +4,7 @@ import './nav.css';
 import Profile from './Profile';
 import SubscribeForm from './SubscribeForm';
 import Theme2 from './Theme2';
+import { NavLink } from 'react-router-dom';
 
 export default function Nav() {
   return (
@@ -27,33 +28,33 @@ export default function Nav() {
         <ul className='navbar-nav me-auto mb-3'>
           <div className='d-flex gap-5 justify-content-between'>
             <li className='nav-item'>
-              <a
+              <NavLink
                 className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
-                href='#'
+                to='/'
               >
                 home
-              </a>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <a
+              <NavLink
                 className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
-                href='#'
+                to='/mix'
               >
                 mix
-              </a>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <a
+              <NavLink
                 className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
-                href='#'
+                to='/quiz'
               >
                 quiz
-              </a>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <a
+              <NavLink
                 className='favButton link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
-                href='#'
+                to='/favourite'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -66,12 +67,12 @@ export default function Nav() {
                   <path d='M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5z' />
                   <path d='M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1z' />
                 </svg>
-              </a>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <a
+              <NavLink
                 className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
-                href='#'
+                to=''
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -91,7 +92,7 @@ export default function Nav() {
                   <circle cx='10.5' cy='10.5' r='7.5'></circle>
                   <path d='M21 21l-5.2-5.2'></path>
                 </svg>
-              </a>
+              </NavLink>
             </li>
           </div>
         </ul>

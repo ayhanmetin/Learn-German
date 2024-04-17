@@ -14,10 +14,10 @@ function App() {
               <Nav />
             </div>
             <WordApp />
+            <Footer />
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
