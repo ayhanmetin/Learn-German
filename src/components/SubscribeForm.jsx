@@ -31,7 +31,7 @@ function SubscribeForm() {
           value={email}
           onChange={e => setEmail(e.target.value)}
         />
-        <button type='submit' className='btn btn-sm btn-outline-warning subscribe-button'>
+        <button type='submit' className='btn btn-outline-warning subscribe-button'>
           {' '}
           subscribe
         </button>

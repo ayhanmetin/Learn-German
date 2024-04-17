@@ -5,6 +5,7 @@
 }
 
 .email-input {
+  border-radius: 3px;
   font-family: 'Libre Franklin', sans-serif;
   font-size: small;
   margin-left: 0 1px;
@@ -15,13 +16,18 @@
 }
 
 .subscribe-button {
+  gap: 5px;
+  font-size: xx-small;
+  color: #c69500;
+  border-color: gray;
+  border-radius: 3px;
   font-family: 'Libre Franklin', sans-serif;
   font-size: small;
   margin: 0 3px;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .subscribe-button {

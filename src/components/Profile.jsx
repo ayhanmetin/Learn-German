@@ -1,5 +1,5 @@
 import React from 'react';
-import cv from '../image/cv.jpeg';
+import flag from '../image/Flag_of_Germany.png';
 
 export default function () {
   return (
@@ -11,8 +11,8 @@ export default function () {
         <div className='d-flex align-items-center'>
           <div className='me-2'>
             <img
-              src={cv}
-              alt='Ayhan Metin'
+              src={flag}
+              alt='Flag_of_Germany'
               className='rounded-circle mt-2 shadow-lg'
               style={{
                 width: '30px',
