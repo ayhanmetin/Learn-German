@@ -11,14 +11,16 @@ export default function Nav() {
     <>
       <div style={{ borderTop: '7px solid #FEC214' }}>
         <div className='gap-5 mt-3 mb-0 me-3 ms-3 d-flex justify-content-between'>
-          <Profile />
+          <div className='mt-2'>
+            <Profile />
+          </div>
           <div className='mb-0 pb-0'>
             <p className='emailText mb-2'>
               Word of the Day, straight to your inbox!
             </p>
             <SubscribeForm />
           </div>
-          <div>
+          <div className='m-0 p-0'>
             <Theme2 />
           </div>
         </div>
