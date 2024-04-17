@@ -10,15 +10,20 @@ export default function Nav() {
     <>
       <div className='' style={{ borderTop: '7px solid #FEC214' }}>
         {' '}
-        <div className='gap-5 mt-4 mb-4 m-3 d-flex justify-content-between'>
+        <div className='gap-5 mt-3 mb-0 me-3 ms-3 d-flex justify-content-between'>
           <Profile />
-          <SubscribeForm />
+          <div className=''>
+            <p className='emailText'>
+              Word of the Day, straight to your inbox!
+            </p>
+            <SubscribeForm />
+          </div>
           <ThemeIcon />
         </div>
       </div>
 
       <div className='container'>
-        <ul className='navbar-nav me-auto mb-2'>
+        <ul className='navbar-nav me-auto mb-3'>
           <div className='d-flex gap-5 justify-content-between'>
             <li className='nav-item'>
               <a

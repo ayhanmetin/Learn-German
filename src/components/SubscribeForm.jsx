@@ -27,11 +27,11 @@ function SubscribeForm() {
         <input
           type='email'
           className='form-control email-input'
-          placeholder='enter your email'
+          placeholder='Enter your email'
           value={email}
           onChange={e => setEmail(e.target.value)}
         />
-        <button type='submit' className='btn btn-outline-warning subscribe-button'>
+        <button type='submit' className='btn btn-sm btn-outline-warning subscribe-button'>
           {' '}
           subscribe
         </button>
