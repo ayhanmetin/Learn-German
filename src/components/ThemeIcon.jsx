@@ -11,24 +11,24 @@ function ThemeIcon() {
 
   const containerStyles = {
     background: theme === 'light' ? '#FFCE01' : '#EDEDED',
-    width: '36px',
-    height: '16px',
-    borderRadius: '19px',
+    width: '25px',
+    height: '14px',
+    borderRadius: '15px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: '2px',
+    padding: '3px',
     cursor: 'pointer',
     boxSizing: 'border-box',
   };
 
   const buttonStyles = {
-    width: '12px',
-    height: '12px',
+    width: '10px',
+    height: '10px',
     borderRadius: '50%',
     backgroundColor: theme === 'light' ? '#000000' : '#000000',
     transition: 'transform 0.25s ease-out',
-    transform: theme === 'light' ? 'translateX(0)' : 'translateX(18px)', // Adjusted for new container width
+    transform: theme === 'light' ? 'translateX(0)' : 'translateX(9px)', 
   };
 
   return (

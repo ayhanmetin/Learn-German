@@ -12,8 +12,8 @@ export default function Nav() {
         {' '}
         <div className='gap-5 mt-3 mb-0 me-3 ms-3 d-flex justify-content-between'>
           <Profile />
-          <div className=''>
-            <p className='emailText'>
+          <div className='mb-0 pb-0'>
+            <p className='emailText mb-2'>
               Word of the Day, straight to your inbox!
             </p>
             <SubscribeForm />
