@@ -18,3 +18,12 @@ a {
   padding: 0px;
   padding-left: 3px;
 }
+
+.svgBtn {
+  all: unset; /* Unsets all inherited styles */
+  cursor: pointer; /* Ensures the cursor indicates a clickable button */
+  display: inline-block; /* Makes sure the button is properly formatted */
+  padding: 0; /* Removes padding */
+  border: none; /* Removes border */
+  background: none; /* Removes background */
+}
