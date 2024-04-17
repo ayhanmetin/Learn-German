@@ -22,7 +22,7 @@ export default function Nav() {
           <div className='d-flex gap-5 justify-content-between'>
             <li className='nav-item'>
               <a
-                className='link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
+                className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
                 href='#'
               >
                 home
@@ -31,7 +31,7 @@ export default function Nav() {
 
             <li className='nav-item'>
               <a
-                className='link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
+                className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
                 href='#'
               >
                 mix
@@ -39,16 +39,16 @@ export default function Nav() {
             </li>
             <li className='nav-item'>
               <a
-                className='link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
+                className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
                 href='#'
               >
-                pro
+                quiz
               </a>
             </li>
 
             <li className='nav-item'>
               <a
-                className='favButton link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
+                className='favButton link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
                 href='#'
               >
                 <svg
@@ -67,7 +67,7 @@ export default function Nav() {
 
             <li className='nav-item'>
               <a
-                className='link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'
+                className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
                 href='#'
               >
                 <a class='link-secondary' href='#' aria-label='Search'>
