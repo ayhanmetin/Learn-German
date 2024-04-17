@@ -27,7 +27,7 @@ function SubscribeForm() {
         <input
           type='email'
           className='form-control email-input'
-          placeholder='Enter your email'
+          placeholder='enter your email'
           value={email}
           onChange={e => setEmail(e.target.value)}
         />
