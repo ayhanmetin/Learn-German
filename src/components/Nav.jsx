@@ -28,7 +28,7 @@ export default function Nav() {
 
       <div className='container'>
         <ul className='navbar-nav me-auto mb-3'>
-          <div className='d-flex gap-5 justify-content-between'>
+          <div className='d-flex justify-content-around'>
             <li className='nav-item'>
               <NavLink
                 className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
@@ -43,14 +43,6 @@ export default function Nav() {
                 to='/mix'
               >
                 mix
-              </NavLink>
-            </li>
-            <li className='nav-item'>
-              <NavLink
-                className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
-                to='/quiz'
-              >
-                quiz
               </NavLink>
             </li>
             <li className='nav-item'>
