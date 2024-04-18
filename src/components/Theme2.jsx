@@ -4,8 +4,8 @@ import './nav.css';
 const lightThemeIcon = (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width='16'
-    height='16'
+    width='23'
+    height='23'
     fill='currentColor'
     class='bi bi-brightness-low-fill'
     viewBox='0 0 16 16'
@@ -17,8 +17,8 @@ const lightThemeIcon = (
 const darkThemeIcon = (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width='25'
-    height='25'
+    width='23'
+    height='23'
     fill='currentColor'
     class='bi bi-mask'
     viewBox='0 0 16 16'
