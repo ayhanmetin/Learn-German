@@ -20,7 +20,8 @@ function WordApp() {
   const populateVoices = () => {
     let voices = window.speechSynthesis.getVoices();
     return voices.filter(
-      voice => voice.gender === 'female' || voice.name.toLowerCase().includes('female')
+      voice =>
+        voice.gender === 'female' || voice.name.toLowerCase().includes('female')
     );
   };
 
@@ -29,7 +30,7 @@ function WordApp() {
     const speech = new SpeechSynthesisUtterance(word.word);
     let voices = populateVoices();
     if (voices.length > 0) {
-      speech.voice = voices[0];  // Use the first found female voice
+      speech.voice = voices[0]; // Use the first found female voice
     }
     window.speechSynthesis.speak(speech);
   };
@@ -40,21 +41,23 @@ function WordApp() {
   };
 
   // Filtering logic to find words based on the search term or display a limited number
-  const filteredWords = searchTerm.length > 0
-    ? wordData.filter(word =>
-        word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        word.meaningENG.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        word.meaningTR.toLowerCase().includes(searchTerm.toLowerCase())
-      )
-    : wordData.slice(0, visibleWordsCount);
+  const filteredWords =
+    searchTerm.length > 0
+      ? wordData.filter(
+          word =>
+            word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            word.meaningENG.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            word.meaningTR.toLowerCase().includes(searchTerm.toLowerCase())
+        )
+      : wordData.slice(0, visibleWordsCount);
 
   return (
     <div className='container col-12'>
-      <div className="search-bar mb-3">
+      <div className='search-bar mb-3'>
         <input
-          type="text"
-          className="form-control"
-          placeholder="Search words..."
+          type='text'
+          className='form-control'
+          placeholder='Search words...'
           value={searchTerm}
           onChange={handleSearch}
         />
@@ -66,11 +69,19 @@ function WordApp() {
               Word of the Day: {word.date}
             </div>
             <div className='d-flex justify-content-center'>
-              <div className='col-4' style={{ borderBottom: '1px solid #336079' }}></div>
+              <div
+                className='col-4'
+                style={{ borderBottom: '1px solid #336079' }}
+              ></div>
             </div>
-            <b className='d-flex wordDay justify-content-center'>
+            <b className='d-flex mobileWord wordDay justify-content-center'>
               {word.word}
-              <span onClick={() => readWordAloud(word)} style={{ cursor: 'pointer', marginLeft: '5px' }}>
+            </b>
+            <div className='d-flex justify-content-center mb-2'>
+              <span
+                onClick={() => readWordAloud(word)}
+                style={{ cursor: 'pointer', marginLeft: '5px' }}
+              >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   width='46'
@@ -84,7 +95,7 @@ function WordApp() {
                   <path d='M8.707 11.182A4.5 4.5 0 0 0 10.025 8a4.5 4.5 0 0 0-1.318-3.182L8 5.525A3.5 3.5 0 0 1 9.025 8 3.5 3.5 0 0 1 8 10.475zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06' />
                 </svg>
               </span>
-            </b>
+            </div>
           </div>
 
           <p className='fst-italic textWord1 mb-5 d-flex justify-content-center'>
@@ -108,7 +119,10 @@ function WordApp() {
 
       {visibleWordsCount < wordData.length && !searchTerm && (
         <div className='d-grid gap-2 col-6 mx-auto'>
-          <button className='btn btn-sm btn-primary' onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}>
+          <button
+            className='btn btn-sm btn-primary'
+            onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}
+          >
             Load More
           </button>
         </div>

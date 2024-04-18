@@ -4,8 +4,7 @@ p {
 
 .wordDay {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 51px;
-}
+  font-size: 2.6875rem; }
 
 .textWord {
   font-family: 'Libre Franklin', sans-serif;
@@ -19,4 +18,10 @@ p {
 .textWord2 {
   font-size: 18px;
 }
+
+/* @media (max-width: 576px) {
+  .mobileWord {
+         
+  }
+} */
 
