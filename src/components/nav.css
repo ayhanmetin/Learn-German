@@ -31,8 +31,8 @@ a {
 .sticky-nav {
   position: sticky;
   top: 0;
-  z-index: 1020; /* Ensures it stays on top of other content */
-  width: 100%; /* Ensures it spans the full width of the viewport */
+  z-index: 1020;
+  width: 100%; 
 }
 
 

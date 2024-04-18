@@ -84,8 +84,6 @@ function WordApp() {
 
 
 
-
-
   return (
     <div className='container col-12'>
       <div className='search-bar mb-3'>
@@ -154,7 +152,7 @@ function WordApp() {
             className='btn btn-sm btn-primary'
             onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}
           >
-            Load More
+            
           </button>
         </div>
       )}
