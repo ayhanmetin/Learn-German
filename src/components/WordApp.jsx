@@ -40,6 +40,34 @@ function WordApp() {
     setSearchTerm(event.target.value);
   };
 
+  const handlePrint = word => {
+    const currentScrollPosition = window.scrollY; // Save current scroll position
+
+    const printContent = `
+      <h1>${word.word}</h1>
+      <p>Grammar: ${word.grammar}</p>
+      <p>English: ${word.meaningENG}</p>
+      <p>Turkish: ${word.meaningTR}</p>
+      <p>Example 1: ${word.example1}</p>
+      <p>Example 2: ${word.example2}</p>
+    `;
+
+    const printWindow = window.open('', '', 'height=600,width=800');
+    printWindow.document.write('<html><head><title>Print</title></head><body>');
+    printWindow.document.write(printContent);
+    printWindow.document.write('</body></html>');
+    printWindow.document.close();
+
+    // Wait for the print dialog to close
+    printWindow.onafterprint = function() {
+        printWindow.close(); // Close the print window
+        window.scrollTo(0, currentScrollPosition); // Restore the scroll position
+    };
+
+    printWindow.print();
+};
+
+
   // Filtering logic to find words based on the search term or display a limited number
   const filteredWords =
     searchTerm.length > 0
@@ -114,6 +142,12 @@ function WordApp() {
           <p>
             <b>Tr:</b> {word.meaningTR}
           </p>
+          <button
+            onClick={() => handlePrint(word)}
+            style={{ marginLeft: '10px' }}
+          >
+            Print
+          </button>
         </div>
       ))}
 
