@@ -7,9 +7,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div className='container'>
+     <div className="bg-body-tertiary" style={{ minHeight: '100vh' }}>
+      <div className='container bg-body-tertiary'>
         <div className='row justify-content-center mt-0'>
-          <div className='col-12 col-md-8 mt-0 bg-body-tertiary'>
+          <div className='col-12 col-md-8 mt-0 '>
             <div className='mt-0 mb-5'>
               <Nav />
             </div>
@@ -17,6 +18,7 @@ function App() {
             <Footer />
           </div>
         </div>
+      </div>
       </div>
     </>
   );

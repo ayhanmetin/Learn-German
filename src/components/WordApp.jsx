@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
+import WordCountDisplay from './WordCountDisplay';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -42,6 +43,7 @@ function WordApp() {
       {wordData.slice(0, visibleWordsCount).map(word => (
         <div className='border-bottom mb-4' key={word.id}>
           <div className=''>
+            <WordCountDisplay />
             <div className='d-flex textWord1 mb-3 justify-content-center'>
               Word of the Day : {word.date}
             </div>
@@ -76,11 +78,12 @@ function WordApp() {
           <p className='fst-italic textWord1 mb-5 d-flex justify-content-center'>
             {word.grammar}
           </p>
+          <div className='textWord1 mb-3'>Example</div>
           <p className='textWord'>
-            <b>Exp 1:</b> {word.example1}
+            <b>Example 1:</b> {word.example1}
           </p>
           <p className='textWord'>
-            <b>Exp 2:</b> {word.example2}
+            <b>Example 2:</b> {word.example2}
           </p>
           <p className='textWord'>
             <b>Eng:</b> {word.meaningENG}
@@ -90,10 +93,13 @@ function WordApp() {
           </p>
         </div>
       ))}
+
       {visibleWordsCount < wordData.length && (
-        <button className='btn btn-primary' onClick={loadMoreWords}>
-          Load More
-        </button>
+        <div className='d-grid gap-2 col-6 mx-auto'>
+          <button className='btn btn-sm btn-primary' onClick={loadMoreWords}>
+            Load More
+          </button>
+        </div>
       )}
     </div>
   );

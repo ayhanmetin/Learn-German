@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './nav.css';
 import Profile from './Profile';
-import SubscribeForm from './SubscribeForm';
 import Theme2 from './Theme2';
 import { NavLink } from 'react-router-dom';
 
@@ -11,14 +10,8 @@ export default function Nav() {
     <>
       <div style={{ borderTop: '7px solid #FEC214' }}>
         <div className='gap-5 mt-3 mb-0 me-3 ms-3 d-flex justify-content-between'>
-          <div className='mt-2'>
+          <div className='mt-0'>
             <Profile />
-          </div>
-          <div className='mb-0 pb-0'>
-            <p className='emailText mb-2'>
-              Word of the Day, straight to your inbox!
-            </p>
-            <SubscribeForm />
           </div>
           <div className='m-0 p-0'>
             <Theme2 />
@@ -28,7 +21,7 @@ export default function Nav() {
 
       <div className='container'>
         <ul className='navbar-nav me-auto mb-3'>
-          <div className='d-flex justify-content-around'>
+          <div className='d-flex gap-5 justify-content-center'>
             <li className='nav-item'>
               <NavLink
                 className='link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
@@ -45,7 +38,7 @@ export default function Nav() {
                 mix
               </NavLink>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <NavLink
                 className='favButton link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
                 to='/favourite'
@@ -62,11 +55,10 @@ export default function Nav() {
                   <path d='M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1z' />
                 </svg>
               </NavLink>
-            </li>
+            </li> */}
           </div>
         </ul>
       </div>
-      <div className='border-bottom'></div>
     </>
   );
 }

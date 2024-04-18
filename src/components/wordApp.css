@@ -12,6 +12,10 @@ p {
 }
 
 .textWord1 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.textWord2 {
   font-size: 18px;
 }
