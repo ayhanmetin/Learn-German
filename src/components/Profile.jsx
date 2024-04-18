@@ -13,10 +13,10 @@ export default function () {
             <img
               src={flag}
               alt='Flag_of_Germany'
-              className='rounded-circle mt-2 shadow-lg'
+              className='rounded-circle mt-3 shadow-lg'
               style={{
-                width: '30px',
-                height: '30px',
+                width: '25px',
+                height: '25px',
                 objectFit: 'cover',
                 transition: 'transform 0.3s ease',
               }}

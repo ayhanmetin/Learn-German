@@ -7,7 +7,7 @@ const WordCountDisplay = () => {
 
   return (
     <div>
-      <h3>Total Words Available: {wordCount}</h3>
+      <h3>Total words available: {wordCount}</h3>
     </div>
   );
 };

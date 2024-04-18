@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
-import WordCountDisplay from './WordCountDisplay';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -39,11 +38,11 @@ function WordApp() {
   };
 
   return (
+    
     <div className='container col-12'>
       {wordData.slice(0, visibleWordsCount).map(word => (
         <div className='border-bottom mb-4' key={word.id}>
           <div className=''>
-            <WordCountDisplay />
             <div className='d-flex textWord1 mb-3 justify-content-center'>
               Word of the Day : {word.date}
             </div>

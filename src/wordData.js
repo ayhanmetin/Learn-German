@@ -64,6 +64,45 @@ const wordData = [
     grammar: "verb",
     means: "Examine something to ensure it is correct, safe, or satisfactory."
   },
+  {
+    date: 'April 18, 2024',
+    word: 'überprüfen',
+    example1: 'Bitte überprüfen Sie die Daten noch einmal.',
+    example2: 'Der Techniker überprüft das Gerät auf Fehler.',
+    meaningENG: 'to check',
+    meaningTR: 'kontrol etmek',
+    id: '5',
+    level: "1",
+    block: "1",
+    grammar: "verb",
+    means: "Examine something to ensure it is correct, safe, or satisfactory."
+  },
+  {
+    date: 'April 18, 2024',
+    word: 'überprüfen',
+    example1: 'Bitte überprüfen Sie die Daten noch einmal.',
+    example2: 'Der Techniker überprüft das Gerät auf Fehler.',
+    meaningENG: 'to check',
+    meaningTR: 'kontrol etmek',
+    id: '5',
+    level: "1",
+    block: "1",
+    grammar: "verb",
+    means: "Examine something to ensure it is correct, safe, or satisfactory."
+  },
+  {
+    date: 'April 18, 2024',
+    word: 'überprüfen',
+    example1: 'Bitte überprüfen Sie die Daten noch einmal.',
+    example2: 'Der Techniker überprüft das Gerät auf Fehler.',
+    meaningENG: 'to check',
+    meaningTR: 'kontrol etmek',
+    id: '5',
+    level: "1",
+    block: "1",
+    grammar: "verb",
+    means: "Examine something to ensure it is correct, safe, or satisfactory."
+  },
 ];
 
 export default wordData;

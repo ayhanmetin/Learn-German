@@ -17,8 +17,8 @@ const lightThemeIcon = (
 const darkThemeIcon = (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width='16'
-    height='16'
+    width='25'
+    height='25'
     fill='currentColor'
     class='bi bi-mask'
     viewBox='0 0 16 16'
@@ -28,7 +28,7 @@ const darkThemeIcon = (
 );
 
 export default function Theme2() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
