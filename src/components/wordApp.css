@@ -20,17 +20,3 @@ p {
   font-size: 18px;
 }
 
-@media print {
-  body * {
-    visibility: hidden; /* Hide everything in the body by default */
-  }
-  #printableArea, #printableArea * {
-    visibility: visible; /* Only the printable area and its children will be visible */
-  }
-  #printableArea {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%; /* Ensure it takes the full width */
-  }
-}

@@ -4,60 +4,73 @@ import wordData from '../wordData';
 import './wordApp.css';
 
 function WordApp() {
+  // State for controlling the visibility count of words
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
+  // State for handling the search term input
+  const [searchTerm, setSearchTerm] = useState('');
 
+  // Effect hook for setting up speech synthesis when voices change
   useEffect(() => {
     if (window.speechSynthesis.onvoiceschanged !== undefined) {
       window.speechSynthesis.onvoiceschanged = populateVoices;
     }
   }, []);
 
-  // Function to populate voices and set a default female voice if available
-
+  // Function to populate voices, filtering for female voices or voices including 'female' in their name
   const populateVoices = () => {
     let voices = window.speechSynthesis.getVoices();
     return voices.filter(
-      voice =>
-        voice.gender === 'female' || voice.name.toLowerCase().includes('female')
+      voice => voice.gender === 'female' || voice.name.toLowerCase().includes('female')
     );
   };
 
-  // Function to handle reading the word out loud
-
-  const readWordAloud = text => {
-    const speech = new SpeechSynthesisUtterance(text);
+  // Function to handle the speech synthesis of a word
+  const readWordAloud = word => {
+    const speech = new SpeechSynthesisUtterance(word.word);
     let voices = populateVoices();
     if (voices.length > 0) {
-      speech.voice = voices[0]; // Set to the first female voice found
+      speech.voice = voices[0];  // Use the first found female voice
     }
     window.speechSynthesis.speak(speech);
   };
 
-  const loadMoreWords = () => {
-    setVisibleWordsCount(prevCount => prevCount + 5);
+  // Event handler for search input changes
+  const handleSearch = event => {
+    setSearchTerm(event.target.value);
   };
 
+  // Filtering logic to find words based on the search term or display a limited number
+  const filteredWords = searchTerm.length > 0
+    ? wordData.filter(word =>
+        word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        word.meaningENG.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        word.meaningTR.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    : wordData.slice(0, visibleWordsCount);
+
   return (
-    
     <div className='container col-12'>
-      {wordData.slice(0, visibleWordsCount).map(word => (
+      <div className="search-bar mb-3">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Search words..."
+          value={searchTerm}
+          onChange={handleSearch}
+        />
+      </div>
+      {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
-          <div className=''>
+          <div>
             <div className='d-flex textWord1 mb-3 justify-content-center'>
-              Word of the Day : {word.date}
+              Word of the Day: {word.date}
             </div>
             <div className='d-flex justify-content-center'>
-              <div
-                className='col-4'
-                style={{ borderBottom: '1px solid #336079' }}
-              ></div>
-            </div>{' '}
+              <div className='col-4' style={{ borderBottom: '1px solid #336079' }}></div>
+            </div>
             <b className='d-flex wordDay justify-content-center'>
-              {word.word}{' '}
-              <span
-                onClick={() => readWordAloud(word.word)}
-                style={{ cursor: 'pointer', marginLeft: '5px' }}
-              >
+              {word.word}
+              <span onClick={() => readWordAloud(word)} style={{ cursor: 'pointer', marginLeft: '5px' }}>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   width='46'
@@ -93,9 +106,9 @@ function WordApp() {
         </div>
       ))}
 
-      {visibleWordsCount < wordData.length && (
+      {visibleWordsCount < wordData.length && !searchTerm && (
         <div className='d-grid gap-2 col-6 mx-auto'>
-          <button className='btn btn-sm btn-primary' onClick={loadMoreWords}>
+          <button className='btn btn-sm btn-primary' onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}>
             Load More
           </button>
         </div>

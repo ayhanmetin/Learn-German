@@ -1,6 +1,5 @@
 import React from 'react';
 import GoTop from './GoTop';
-import SubscribeForm from './SubscribeForm';
 
 export default function Footer() {
   return (
