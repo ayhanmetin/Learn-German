@@ -87,8 +87,8 @@ function WordApp() {
       <div className='search-bar pb-5 mb-5'>
         <input
           type='text'
-          className='form-control text-center fs-6 text fw-light'
-          placeholder='Search'
+          className='form-control text-start fs-6 text fw-light'
+          placeholder={`🔍  Search`}
           value={searchTerm}
           onChange={handleSearch}
         />
