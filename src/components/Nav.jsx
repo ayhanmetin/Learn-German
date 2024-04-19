@@ -4,19 +4,27 @@ import './nav.css';
 import Profile from './Profile';
 import Theme2 from './Theme2';
 import { NavLink } from 'react-router-dom';
-import f from "../image/f.png"
+import f from '../image/f.png';
+import Twitter from './Twitter';
 
 export default function Nav() {
   return (
     <>
-      <div className='rounded' style={{ borderTop: '7px solid #FEC214' }}></div>
-      <img src={f} class="img-fluid rounded" />
+      {/* <div className='' style={{ borderTop: '15px solid #FEC214' }}></div> */}
+      <div className='image-container'>
+        <img
+          src={f}
+          className='img-fluid rounded-bottom'
+          alt='Descriptive Alt Text'
+        />
+      </div>
 
-      <div className='d-flex mt-3 gap-2 justify-content-end'>
-        <div className=''>
+      <div className='container'>
+        <div className='d-flex mt-1 gap-3 justify-content-end align-items-center'>
           <Profile />
+          <Twitter />
+          <Theme2 />
         </div>
-        <Theme2 />
       </div>
 
       <div className='container mt-5'>

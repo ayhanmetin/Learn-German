@@ -26,7 +26,7 @@ p {
 } */
 
 .loadMore {
-  border: 1px solid #ccc; /* Light gray border */
+  border: 1px solid #ccc; 
   border-radius: 3px; /* Rounded corners for a smoother look */
   font-family: 'Libre Franklin', sans-serif; /* Consistent font family */
   font-size: 14px; /* Appropriate font size for readability */

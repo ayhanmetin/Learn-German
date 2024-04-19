@@ -20,11 +20,11 @@ a {
 }
 
 .svgBtn {
-  all: unset; 
+  all: unset;
   cursor: pointer;
   display: inline-block;
-  padding: 0; 
-  border: none; 
+  padding: 0;
+  border: none;
   background: none;
 }
 
@@ -32,8 +32,19 @@ a {
   position: sticky;
   top: 0;
   z-index: 1020;
-  width: 100%; 
+  width: 100%;
 }
 
+.image-container {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
 
-
+.img-fluid {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center bottom;
+}

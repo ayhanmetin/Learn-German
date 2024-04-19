@@ -18,8 +18,8 @@ export const WhatsAppIcon = ({
 );
 
 export const VoiceIcon = ({
-  width = '16',
-  height = '16',
+  width = '17',
+  height = '17',
   fill = 'currentColor',
 }) => (
   <svg

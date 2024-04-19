@@ -85,11 +85,11 @@ function WordApp() {
 
   return (
     <div className='container col-12'>
-      <div className='search-bar mb-5'>
+      <div className='search-bar  mb-5'>
         <input
           type='text'
           className='form-control text-center fs-6 text fw-light'
-          placeholder={`🔍 Explore words in German, currently: ${visibleWordsCount} words available`}
+          placeholder={`🔍   Explore words in German, currently ${visibleWordsCount} words available`}
           value={searchTerm}
           onChange={handleSearch}
         />

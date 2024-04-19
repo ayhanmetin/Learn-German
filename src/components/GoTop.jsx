@@ -13,7 +13,7 @@ export default function GoTop() {
       <div className='container d-flex justify-content-end mt-3 pb-4'>
         <button
           onClick={scrollToTop}
-          className='btn btn-dark text-white'
+          className='btn btn-sm btn-dark text-white'
           aria-label='Go to top'
         >
           Go to top ▲

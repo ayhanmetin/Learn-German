@@ -5,18 +5,18 @@ export default function () {
   return (
     <>
       <header
-        className='d-flex justify-content-center align-items-center'
-        style={{ height: '10px' }} 
+        className='d-flex justify-content-center align-items-center pb-1'
+        
       >
         <div className='d-flex align-items-center'>
           <div className='me-2'>
             <img
               src={flag}
               alt='Flag of Germany'
-              className='rounded-circle mt-3 shadow-lg'
+              className='rounded-circle shadow-lg'
               style={{
-                width: '20px',  
-                height: '20px',  
+                width: '19px',
+                height: '19px',
                 objectFit: 'cover',
                 transition: 'transform 0.3s ease',
               }}
