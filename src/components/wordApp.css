@@ -4,7 +4,8 @@ p {
 
 .wordDay {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 2.6875rem; }
+  font-size: 2.6875rem;
+}
 
 .textWord {
   font-family: 'Libre Franklin', sans-serif;
@@ -21,7 +22,23 @@ p {
 
 /* @media (max-width: 576px) {
   .mobileWord {
-         
   }
 } */
 
+.loadMore {
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 3px; /* Rounded corners for a smoother look */
+  font-family: 'Libre Franklin', sans-serif; /* Consistent font family */
+  font-size: 14px; /* Appropriate font size for readability */
+  background-color: transparent; /* Elite and minimalistic background */
+  padding: 1px 1px; /* Minimal padding for a sleek design */
+  margin: 15px; /* Margin for spacing around the button */
+  padding: 3px;
+  cursor: pointer; /* Changes the cursor to a pointer to indicate clickable */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  border-radius: 12px;
+}
+
+.loadMore:hover {
+  background-color: #f8bc14;
+}

@@ -4,10 +4,7 @@ import wordData from '../wordData';
 import './wordApp.css';
 import { VoiceIcon } from './IconBox';
 
-
 function WordApp() {
-
-
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
@@ -72,25 +69,27 @@ function WordApp() {
   };
 
   useEffect(() => {
-    const newFilteredWords = searchTerm.trim().length > 0
-      ? wordData.filter(word =>
-          word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          word.meaningENG.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          word.meaningTR.toLowerCase().includes(searchTerm.toLowerCase())
-        )
-      : wordData.slice(0, visibleWordsCount);
+    const newFilteredWords =
+      searchTerm.trim().length > 0
+        ? wordData.filter(
+            word =>
+              word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
+              word.meaningENG
+                .toLowerCase()
+                .includes(searchTerm.toLowerCase()) ||
+              word.meaningTR.toLowerCase().includes(searchTerm.toLowerCase())
+          )
+        : wordData.slice(0, visibleWordsCount);
     setFilteredWords(newFilteredWords);
   }, [searchTerm, visibleWordsCount]);
 
-
-
   return (
     <div className='container col-12'>
-      <div className='search-bar mb-3'>
+      <div className='search-bar mb-5'>
         <input
           type='text'
-          className='form-control'
-          placeholder='Search words...'
+          className='form-control text-center fs-6 text fw-light'
+          placeholder={`🔍 Explore words in German, currently: ${visibleWordsCount} words available`}
           value={searchTerm}
           onChange={handleSearch}
         />
@@ -115,8 +114,7 @@ function WordApp() {
                 onClick={() => readWordAloud(word)}
                 style={{ cursor: 'pointer', marginLeft: '5px' }}
               >
-                <VoiceIcon width="30" height="30" />
-                
+                <VoiceIcon width='30' height='30' />
               </span>
             </div>
           </div>
@@ -147,13 +145,11 @@ function WordApp() {
       ))}
 
       {visibleWordsCount < wordData.length && !searchTerm && (
-        <div className='d-grid gap-2 col-6 mx-auto'>
+        <div className='d-grid col-8 mx-auto'>
           <button
-            className='btn btn-sm btn-primary'
+            className='loadMore'
             onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}
-          >
-            
-          </button>
+          >Show 50 more words</button>
         </div>
       )}
     </div>

@@ -4,24 +4,19 @@ import './nav.css';
 import Profile from './Profile';
 import Theme2 from './Theme2';
 import { NavLink } from 'react-router-dom';
-import WordCountDisplay from './WordCountDisplay';
+import f from "../image/f.png"
 
 export default function Nav() {
   return (
     <>
-      <div style={{ borderTop: '7px solid #FEC214' }}></div>
+      <div className='rounded' style={{ borderTop: '7px solid #FEC214' }}></div>
+      <img src={f} class="img-fluid rounded" />
 
-      <div className='d-flex justify-content-between gap-3 m-0 mt-3 p-0'>
-        <WordCountDisplay />
-
-        <div className='d-flex gap-2 justify-content-end'>
-          <div className='mt-2'>
-            
-            <Profile />
-          </div>
-
-          <Theme2 />
+      <div className='d-flex mt-3 gap-2 justify-content-end'>
+        <div className=''>
+          <Profile />
         </div>
+        <Theme2 />
       </div>
 
       <div className='container mt-5'>
