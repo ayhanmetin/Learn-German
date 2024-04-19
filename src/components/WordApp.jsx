@@ -84,14 +84,16 @@ function WordApp() {
 
   return (
     <div className='container col-12'>
-      <div className='search-bar pb-5 mb-5'>
-        <input
-          type='text'
-          className='form-control text-start fs-6 text fw-light'
-          placeholder={`🔍  Search`}
-          value={searchTerm}
-          onChange={handleSearch}
-        />
+      <div className='container d-flex justify-content-center align-items-center'>
+        <div className='search-bar pb-5 mb-5 col-md-8'>
+          <input
+            type='text'
+            className='form-control text-start fs-6 text fw-light'
+            placeholder={`🔍  Search`}
+            value={searchTerm}
+            onChange={handleSearch}
+          />
+        </div>
       </div>
 
       {filteredWords.map(word => (
