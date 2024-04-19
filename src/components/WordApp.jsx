@@ -112,7 +112,7 @@ function WordApp() {
                 <b className='d-flex mobileWord wordDay justify-content-center'>
                   {word.word}
                 </b>
-                <div className='d-flex justify-content-center mb-2'>
+                <div className='d-flex justify-content-center text-body-emphasis mb-2'>
                   <button
                     onClick={() => readWordAloud(word)}
                     style={{
