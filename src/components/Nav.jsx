@@ -20,7 +20,7 @@ export default function Nav() {
       </div>
 
       <div className='container'>
-        <div className='d-flex mt-1 gap-3 justify-content-end align-items-center'>
+        <div className='d-flex mt-1 gap-3 justify-content-end'>
           <Profile />
           <Twitter />
           <Theme2 />
@@ -68,7 +68,7 @@ export default function Nav() {
                 </svg>
               </NavLink>
             </li>
-            {/* <li className='nav-item'>
+            <li className='nav-item'>
               <NavLink
                 className='favButton link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
                 to='/favourite'
@@ -85,7 +85,7 @@ export default function Nav() {
                   <path d='M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1z' />
                 </svg>
               </NavLink>
-            </li> */}
+            </li>
           </div>
         </ul>
       </div>

@@ -26,19 +26,30 @@ p {
 } */
 
 .loadMore {
-  border: 1px solid #ccc; 
-  border-radius: 3px; /* Rounded corners for a smoother look */
-  font-family: 'Libre Franklin', sans-serif; /* Consistent font family */
-  font-size: 14px; /* Appropriate font size for readability */
-  background-color: transparent; /* Elite and minimalistic background */
-  padding: 1px 1px; /* Minimal padding for a sleek design */
-  margin: 15px; /* Margin for spacing around the button */
-  padding: 3px;
-  cursor: pointer; /* Changes the cursor to a pointer to indicate clickable */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  border: 0.3px solid #ccc;
+  border-radius: 3px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+  background-color: transparent;
+  padding: 1px 1px;
+  margin: 13px;
+  padding: 1.2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
   border-radius: 12px;
 }
 
 .loadMore:hover {
   background-color: #f8bc14;
+}
+
+.search-bar input.form-control:hover {
+  border-color: #0056b3;
+  box-shadow: 0 0 2px rgba(0, 86, 179, 0.5);
+}
+
+.search-bar input.form-control:focus {
+  border-color: #004085;
+  box-shadow: 0 0 4px rgba(0, 64, 133, 0.8);
+  outline: none;
 }

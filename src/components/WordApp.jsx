@@ -89,7 +89,7 @@ function WordApp() {
         <input
           type='text'
           className='form-control text-center fs-6 text fw-light'
-          placeholder={`🔍   Explore words in German, currently ${visibleWordsCount} words available`}
+          placeholder={`🔍   Explore words in German`}
           value={searchTerm}
           onChange={handleSearch}
         />
@@ -145,11 +145,13 @@ function WordApp() {
       ))}
 
       {visibleWordsCount < wordData.length && !searchTerm && (
-        <div className='d-grid col-8 mx-auto'>
+        <div className='d-grid col-4 mx-auto'>
           <button
             className='loadMore'
             onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}
-          >Show 50 more words</button>
+          >
+            50+ words
+          </button>
         </div>
       )}
     </div>
