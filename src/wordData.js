@@ -7,10 +7,14 @@ const wordData = [
     example2: 'Die Parteien erreichten schließlich eine Verhandlung.',
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
+    quote1:"",
+    quote2:"",
+    quote3:"",
     id: '1',
     level: '1',
     block: '1',
     grammar: 'noun',
+    grammar2:"3rd , singular , preterit zog | past participle gezogen",
     means: 'Circumlocution refers to the use of many words to say something that could be said more clearly and directly with fewer words. Usually encountered in formal speech and writing, circumlocution can also refer to speech that is intentionally evasive.'
   },
   

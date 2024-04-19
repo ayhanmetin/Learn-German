@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
-import { VoiceIcon } from './IconBox';
+import { BookIcon, PrintIcon, SearchIcon, VoiceIcon } from './IconBox';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -83,9 +83,6 @@ function WordApp() {
   }, [searchTerm, visibleWordsCount]);
 
   return (
-
-
-    
     <div className='container col-12'>
       <div className='search-bar pb-5 mb-5'>
         <input
@@ -97,13 +94,17 @@ function WordApp() {
         />
       </div>
 
-
-
-
-
-
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
+          <div className='d-flex justify-content-start gap-2 mb-4 text-body-emphasis'>
+            <button className='btnTop text-body-emphasis' onClick={() => handlePrint(word)}>
+              <PrintIcon width='30' height='30' />
+            </button>
+            <button className='btnTop text-body-emphasis'>
+              <BookIcon width='30' height='30' />
+            </button>
+          </div>
+
           <div className='container text-center'>
             <div className='row'>
               <div className='col-md-8'>
@@ -159,13 +160,8 @@ function WordApp() {
           <p>
             <b>Tr:</b> {word.meaningTR}
           </p>
-
-          <button onClick={() => handlePrint(word)}>Print</button>
         </div>
       ))}
-
-
-
 
       {visibleWordsCount < wordData.length && !searchTerm && (
         <div className='d-grid col-4 mx-auto'>

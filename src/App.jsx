@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import WordApp from './components/WordApp';
 import Footer from './components/Footer';
+import { Route, Routes } from 'react-router-dom';
+import Mix from './components/Mix';
+import Favorites from './components/Favorites';
 
 function App() {
   return (
@@ -14,7 +17,12 @@ function App() {
               <div className='mt-0 mb-5'>
                 <Nav />
               </div>
-              <WordApp />
+              <Routes>
+                <Route path='/' element={<WordApp />} />
+                <Route path='/home' element={<WordApp />} />
+                <Route path='/mix' element={<Mix />} />
+                <Route path='/favorites' element={<Favorites />} />
+              </Routes>
               <Footer />
             </div>
           </div>

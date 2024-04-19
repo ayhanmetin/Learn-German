@@ -71,7 +71,7 @@ export default function Nav() {
             <li className='nav-item'>
               <NavLink
                 className='favButton link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
-                to='/favourite'
+                to='/favorites'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
