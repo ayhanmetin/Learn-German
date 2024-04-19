@@ -83,6 +83,9 @@ function WordApp() {
   }, [searchTerm, visibleWordsCount]);
 
   return (
+
+
+    
     <div className='container col-12'>
       <div className='search-bar pb-5 mb-5'>
         <input
@@ -93,6 +96,11 @@ function WordApp() {
           onChange={handleSearch}
         />
       </div>
+
+
+
+
+
 
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
@@ -155,6 +163,9 @@ function WordApp() {
           <button onClick={() => handlePrint(word)}>Print</button>
         </div>
       ))}
+
+
+
 
       {visibleWordsCount < wordData.length && !searchTerm && (
         <div className='d-grid col-4 mx-auto'>
