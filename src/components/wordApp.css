@@ -55,24 +55,39 @@ p {
   outline: none;
 }
 
-/* CSS for mobile devices - less than 768px */
+.custom-image-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Prevents the image from overflowing the container */
+}
+
+.custom-image {
+  width: 170px;
+  height: 170px;
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.custom-image:hover {
+  transform: scale(2); /* Scales the image up 2 times */
+}
+
+
 @media (max-width: 767px) {
   .custom-image-container {
     display: flex;
-    justify-content: center; /* Centers the image within the container */
-    /* If your .custom-image-container is not directly applying, ensure it is used correctly in your HTML/JSX */
+    justify-content: center; 
   }
   .custom-image {
-    width: 50%; /* Adjusts width to 50% of its container */
-    height: auto; /* Keeps the image aspect ratio intact */
+    width: 50%;
+    height: auto; 
   }
 }
 
-/* Further reduce size for very small screens - less than 576px */
+
 @media (max-width: 575px) {
   .custom-image {
-    width: 25%; /* Further adjusts width to 25% of its container */
-    height: auto; /* Keeps the image aspect ratio intact */
+    width: 35%; 
+    height: auto; 
   }
 }
 

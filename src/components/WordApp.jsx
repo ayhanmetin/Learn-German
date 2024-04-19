@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
 import { VoiceIcon } from './IconBox';
-import image1 from '../image/icon2.png';
+import image1 from '../image/beenden.png';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -125,11 +125,11 @@ function WordApp() {
                     <VoiceIcon width='30' height='30' />
                   </button>
                 </div>
-                <p className='fst-italic textWord1 mb-5 d-flex justify-content-center'>
+                <p className='fst-italic textWord1 mb-3 d-flex justify-content-center'>
                   {word.grammar}
                 </p>
               </div>
-              <div className='custom-image-container col-md-4 col-sm-6'>
+              <div className='custom-image-container mb-3 col-md-4 col-sm-6'>
                 <img
                   src={image1}
                   className='img-thumbnail custom-image'
