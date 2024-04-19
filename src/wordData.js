@@ -2,6 +2,7 @@ const wordData = [
   {
     date: 'April 18, 2024',
     word: 'Verhandlung',
+    image:"",
     example1: 'Die Verhandlung war lang und anstrengend.',
     example2: 'Die Parteien erreichten schließlich eine Verhandlung.',
     meaningENG: 'negotiation',

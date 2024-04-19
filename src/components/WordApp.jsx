@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
 import { VoiceIcon } from './IconBox';
+import image1 from '../image/icon2.png';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -16,7 +17,6 @@ function WordApp() {
     }
   }, []);
 
-  // Function to populate voices, filtering for female voices or voices including 'female' in their name
   const populateVoices = () => {
     let voices = window.speechSynthesis.getVoices();
     return voices.filter(
@@ -89,41 +89,56 @@ function WordApp() {
         <input
           type='text'
           className='form-control text-center fs-6 text fw-light'
-          placeholder={`🔍   Explore words in German`}
+          placeholder='Search'
           value={searchTerm}
           onChange={handleSearch}
         />
       </div>
+
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
-          <div>
-            <div className='d-flex textWord1 mb-3 justify-content-center'>
-              Word of the Day: {word.date}
-            </div>
-            <div className='d-flex justify-content-center'>
-              <div
-                className='col-4'
-                style={{ borderBottom: '1px solid #336079' }}
-              ></div>
-            </div>
-
-            
-            <b className='d-flex mobileWord wordDay justify-content-center'>
-              {word.word}
-            </b>
-            <div className='d-flex justify-content-center mb-2'>
-              <span
-                onClick={() => readWordAloud(word)}
-                style={{ cursor: 'pointer', marginLeft: '5px' }}
-              >
-                <VoiceIcon width='30' height='30' />
-              </span>
+          <div className='container text-center'>
+            <div className='row'>
+              <div className='col-md-8'>
+                <div className='d-flex textWord1 mb-3 justify-content-center'>
+                  Word of the Day: {word.date}
+                </div>
+                <div className='d-flex justify-content-center'>
+                  <div
+                    className='col-4'
+                    style={{ borderBottom: '1px solid #336079' }}
+                  ></div>
+                </div>
+                <b className='d-flex mobileWord wordDay justify-content-center'>
+                  {word.word}
+                </b>
+                <div className='d-flex justify-content-center mb-2'>
+                  <button
+                    onClick={() => readWordAloud(word)}
+                    style={{
+                      border: 'none',
+                      background: 'transparent',
+                      cursor: 'pointer',
+                      marginLeft: '5px',
+                    }}
+                  >
+                    <VoiceIcon width='30' height='30' />
+                  </button>
+                </div>
+                <p className='fst-italic textWord1 mb-5 d-flex justify-content-center'>
+                  {word.grammar}
+                </p>
+              </div>
+              <div className='custom-image-container col-md-4 col-sm-6'>
+                <img
+                  src={image1}
+                  className='img-thumbnail custom-image'
+                  alt=''
+                />
+              </div>
             </div>
           </div>
 
-          <p className='fst-italic textWord1 mb-5 d-flex justify-content-center'>
-            {word.grammar}
-          </p>
           <div className='textWord1 mb-3'>Example</div>
           <p className='textWord'>
             <b>Example 1:</b> {word.example1}
@@ -137,12 +152,8 @@ function WordApp() {
           <p>
             <b>Tr:</b> {word.meaningTR}
           </p>
-          <button
-            onClick={() => handlePrint(word)}
-            style={{ marginLeft: '10px' }}
-          >
-            Print
-          </button>
+
+          <button onClick={() => handlePrint(word)}>Print</button>
         </div>
       ))}
 

@@ -40,16 +40,39 @@ p {
 }
 
 .loadMore:hover {
-  background-color: #f8bc14;
+  background-color: transparent;
+  border-color: #000000;
 }
 
 .search-bar input.form-control:hover {
-  border-color: #0056b3;
-  box-shadow: 0 0 2px rgba(0, 86, 179, 0.5);
+  border-color: #f5cd48;
+  box-shadow: 0 0 2px rgba(245, 205, 72, 0.5);
 }
 
 .search-bar input.form-control:focus {
-  border-color: #004085;
-  box-shadow: 0 0 4px rgba(0, 64, 133, 0.8);
+  border-color: #f5cd48;
+  box-shadow: 0 0 2px rgba(245, 205, 72, 0.5);
   outline: none;
 }
+
+/* CSS for mobile devices - less than 768px */
+@media (max-width: 767px) {
+  .custom-image-container {
+    display: flex;
+    justify-content: center; /* Centers the image within the container */
+    /* If your .custom-image-container is not directly applying, ensure it is used correctly in your HTML/JSX */
+  }
+  .custom-image {
+    width: 50%; /* Adjusts width to 50% of its container */
+    height: auto; /* Keeps the image aspect ratio intact */
+  }
+}
+
+/* Further reduce size for very small screens - less than 576px */
+@media (max-width: 575px) {
+  .custom-image {
+    width: 25%; /* Further adjusts width to 25% of its container */
+    height: auto; /* Keeps the image aspect ratio intact */
+  }
+}
+
