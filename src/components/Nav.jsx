@@ -19,7 +19,7 @@ export default function Nav() {
         />
       </div>
 
-      <div className='container'>
+      <div className='container mb-5 pb-2'>
         <div className='d-flex mt-1 gap-3 justify-content-end'>
           <Profile />
           <Twitter />

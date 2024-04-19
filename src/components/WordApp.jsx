@@ -85,7 +85,7 @@ function WordApp() {
 
   return (
     <div className='container col-12'>
-      <div className='search-bar  mb-5'>
+      <div className='search-bar pb-5 mb-5'>
         <input
           type='text'
           className='form-control text-center fs-6 text fw-light'
@@ -106,6 +106,8 @@ function WordApp() {
                 style={{ borderBottom: '1px solid #336079' }}
               ></div>
             </div>
+
+            
             <b className='d-flex mobileWord wordDay justify-content-center'>
               {word.word}
             </b>
