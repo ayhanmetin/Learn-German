@@ -2,7 +2,7 @@ const wordData = [
   {
     date: 'April 18, 2024',
     word: 'Verhandlung',
-    image:"",
+    image: "https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/beenden.png",
     example1: 'Die Verhandlung war lang und anstrengend.',
     example2: 'Die Parteien erreichten schließlich eine Verhandlung.',
     meaningENG: 'negotiation',
@@ -11,9 +11,9 @@ const wordData = [
     level: '1',
     block: '1',
     grammar: 'noun',
-    means:
-      'Circumlocution refers to the use of many words to say something that could be said more clearly and directly with fewer words. Usually encountered in formal speech and writing, circumlocution can also refer to speech that is intentionally evasive.',
+    means: 'Circumlocution refers to the use of many words to say something that could be said more clearly and directly with fewer words. Usually encountered in formal speech and writing, circumlocution can also refer to speech that is intentionally evasive.'
   },
+  
 
   {
     date: 'April 18, 2024',

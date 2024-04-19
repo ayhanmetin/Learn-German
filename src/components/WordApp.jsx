@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
 import { VoiceIcon } from './IconBox';
-import image1 from '../image/beenden.png';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -131,7 +130,7 @@ function WordApp() {
               </div>
               <div className='custom-image-container mb-3 col-md-4 col-sm-6'>
                 <img
-                  src={image1}
+                  src={word.image}
                   className='img-thumbnail custom-image'
                   alt=''
                 />
