@@ -97,11 +97,14 @@ function WordApp() {
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
           <div className='d-flex justify-content-start gap-2 mb-4 text-body-emphasis'>
-            <button className='btnTop text-body-emphasis' onClick={() => handlePrint(word)}>
-              <PrintIcon width='30' height='30' />
+            <button
+              className='btnTop text-body-emphasis'
+              onClick={() => handlePrint(word)}
+            >
+              <PrintIcon />
             </button>
             <button className='btnTop text-body-emphasis'>
-              <BookIcon width='30' height='30' />
+              <BookIcon />
             </button>
           </div>
 

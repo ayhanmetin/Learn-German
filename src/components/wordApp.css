@@ -41,7 +41,7 @@ p {
 
 .loadMore:hover {
   background-color: transparent;
-  border-color: #000000;
+  border-color: #f6d049;
 }
 
 .search-bar input.form-control:hover {
@@ -90,8 +90,11 @@ p {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  color: #333;
 }
 
-.btnTop:hover {
-  fill: #f33b1e;
+.btnTop:hover,
+.btnTop:hover svg {
+  color: #f6d049;
+  fill: #f6d049;
 }
