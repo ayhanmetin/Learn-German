@@ -100,20 +100,23 @@ function WordApp() {
         <div className='border-bottom mb-4' key={word.id}>
 
 
-<div className='d-flex flex-column align-items-start'>
-  <div className='d-flex justify-content-start gap-2 mb-1'>
-    <button className='btnTop d-flex align-items-center' onClick={() => handlePrint(word)}>
-      <PrintIcon />
-    </button>
-    <button className='btnTop d-flex align-items-center'>
-      <BookIcon />
-    </button>
-  </div>
+          
+          <div className='d-flex btnTop flex-column align-items-start'>
+            <div className='d-flex justify-content-start gap-2 mb-1'>
+              <button
+                className='btnTop d-flex align-items-center'
+                onClick={() => handlePrint(word)}
+              >
+                <PrintIcon />
+              </button>
+              <button className='btnTop d-flex align-items-center'>
+                <BookIcon />
+              </button>
+            </div>
 
-  <div className='textWord1 mb-4'>
-    {word.date}
-  </div>
-</div>
+            <div className='textWord1 mb-4'>{word.date}</div>
+          </div>
+
 
 
           <div className='container text-center'>

@@ -11,6 +11,7 @@ p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
+
 .textWord2 {
   font-size: 18px;
 }
@@ -113,7 +114,7 @@ p {
 .textWord1 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 11px;
-  text-align: start;
+  text-align: start; 
 }
 
 @media (max-width: 768px) {
@@ -121,35 +122,7 @@ p {
     text-align: start;
   }
   .btnTop {
-    justify-content: flex-start;
+    justify-content: flex-start; 
   }
 }
 
-/* Ensuring that the flex container starts its children from the same point */
-.d-flex.flex-column.align-items-start {
-  align-items: flex-start; /* Overrides any center alignment on mobile */
-}
-
-/* Adjusting button alignment and spacing */
-.btnTop {
-  justify-content: flex-start; /* Align content to the start */
-  margin-right: 8px; /* Adjust as needed to keep consistent spacing */
-}
-
-/* Ensuring that individual text elements are aligned to start */
-.textWord1,
-.text-body-emphasis {
-  text-align: start;
-}
-
-/* Media query to handle mobile-specific adjustments */
-@media (max-width: 768px) {
-  .textWord1,
-  .text-body-emphasis {
-    text-align: start; /* Ensures text aligns to the start on mobile */
-  }
-
-  .btnTop {
-    margin-right: 8px; /* Keeps consistent spacing between buttons */
-  }
-}
