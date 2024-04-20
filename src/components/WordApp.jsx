@@ -83,7 +83,9 @@ function WordApp() {
   };
 
   return (
+
     <div className='container col-12'>
+      
       <div className='container d-flex justify-content-center align-items-center'>
         <div className='search-bar pb-5 mb-2 col-md-8'>
           <input
@@ -112,6 +114,8 @@ function WordApp() {
           <div className='d-flex me-0 pe-0 textWord1 mb-4 justify-content-start'>
             {word.date}
           </div>
+
+          
           <div className='container text-center'>
             <div className='row'>
               <div className='col-md-8'>
