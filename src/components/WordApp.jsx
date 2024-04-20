@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
-import { BookIcon, PrintIcon, ShareIcon, VoiceIcon } from './IconBox';
+import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -120,9 +120,6 @@ function WordApp() {
           <div className='d-flex justify-content-between align-items-center mb-4'>
             <div className='textWord1 ms-0 me-2'>{word.date}</div>
             <div className='d-flex text-body-emphasis'>
-              <button className='btnTop ms-2 text-body-emphasis'>
-                <ShareIcon />
-              </button>
               <button
                 className='btnTop text-body-emphasis'
                 onClick={() => handlePrint(word)}
