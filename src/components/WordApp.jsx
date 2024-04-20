@@ -117,7 +117,7 @@ function WordApp() {
 
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
-          <div className='d-flex justify-content-between align-items-center mb-4'>
+          <div className='d-flex justify-content-start align-items-center mb-4'>
             <div className='textWord1 ms-0 me-2'>{word.date}</div>
             <div className='d-flex text-body-emphasis'>
               <button
