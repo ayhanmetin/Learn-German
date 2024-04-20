@@ -85,7 +85,7 @@ function WordApp() {
   return (
     <div className='container col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
-        <div className='search-bar pb-5 mb-2 col-md-8'>
+        <div className='search-bar pb-5 mb-2 col-10'>
           <input
             type='text'
             className='form-control text-start fs-6 text fw-light'
@@ -98,24 +98,23 @@ function WordApp() {
 
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
-          <div className='d-flex flex-column'></div>
+          <div className='d-flex flex-column'>
+            <div className='d-flex justify-content-start gap-2 mb-2 text-body-emphasis'>
+              <button
+                className='btnTop d-flex text-body-emphasis'
+                onClick={() => handlePrint(word)}
+              >
+                <PrintIcon />
+              </button>
+              <button className='btnTop d-flex text-body-emphasis'>
+                <BookIcon />
+              </button>
+            </div>
 
-          <div className='d-flex justify-content-start gap-2 mb-2 text-body-emphasis'>
-            <button
-              className='btnTop d-flex text-body-emphasis'
-              onClick={() => handlePrint(word)}
-            >
-              <PrintIcon />
-            </button>
-            <button className='btnTop d-flex text-body-emphasis'>
-              <BookIcon />
-            </button>
+            <div className='d-flex me-0 pe-0 textWord1 mb-4 justify-content-start'>
+              {word.date}
+            </div>
           </div>
-
-          <div className='d-flex me-0 pe-0 textWord1 mb-4 justify-content-start'>
-            {word.date}
-          </div>
-
           <div className='container text-center'>
             <div className='row'>
               <div className='col-md-8'>
