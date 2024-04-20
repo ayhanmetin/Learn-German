@@ -13,7 +13,7 @@ p {
 
 .textWord1 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .textWord2 {
@@ -60,18 +60,22 @@ p {
   justify-content: center;
 }
 .custom-image {
-  width: 170px;
-  height: 170px;
+  width: 190px;
+  height: 190px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 990px) {
   .custom-image-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
   }
   .custom-image {
     width: 50%;
     height: auto;
+    display: block;
   }
 }
 

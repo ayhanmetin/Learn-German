@@ -85,7 +85,7 @@ function WordApp() {
   return (
     <div className='container col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
-        <div className='search-bar pb-5 mb-5 col-md-8'>
+        <div className='search-bar pb-5 mb-2 col-md-8'>
           <input
             type='text'
             className='form-control text-start fs-6 text fw-light'
@@ -98,7 +98,7 @@ function WordApp() {
 
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
-          <div className='d-flex justify-content-start gap-2 mb-4 text-body-emphasis'>
+          <div className='d-flex justify-content-start gap-2 mb-3 text-body-emphasis'>
             <button
               className='btnTop text-body-emphasis'
               onClick={() => handlePrint(word)}
@@ -110,17 +110,15 @@ function WordApp() {
             </button>
           </div>
 
+          <div className='d-flex me-0 pe-0 textWord1 mb-1 justify-content-start'>
+            {word.date}
+          </div>
+
           <div className='container text-center'>
             <div className='row'>
               <div className='col-md-8'>
-                <div className='d-flex textWord1 mb-3 justify-content-center'>
-                  Word of the Day: {word.date}
-                </div>
                 <div className='d-flex justify-content-center'>
-                  <div
-                    className='col-4'
-                    style={{ borderBottom: '1px solid #336079' }}
-                  ></div>
+                  <div className='col-4'></div>
                 </div>
                 <b className='d-flex mobileWord wordDay justify-content-center'>
                   {word.word}
@@ -145,7 +143,7 @@ function WordApp() {
               <div className='custom-image-container mb-3 col-md-4 col-sm-6'>
                 <img
                   src={word.image}
-                  className='img-thumbnail custom-image'
+                  className='img-thumbnail custom-image mt-2'
                   alt=''
                 />
               </div>
