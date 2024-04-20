@@ -129,7 +129,7 @@ function WordApp() {
               >
                 <PrintIcon />
               </button>
-              <button className='btnTop me-5 ms-0 text-body-emphasis'>
+              <button className='btnTop me-1 ms-0 text-body-emphasis'>
                 <BookIcon />
               </button>
             </div>

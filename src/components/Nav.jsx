@@ -47,7 +47,7 @@ export default function Nav() {
                 </svg>
               </NavLink>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <NavLink
                 className='favButton link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
                 to='/mix'
@@ -67,7 +67,7 @@ export default function Nav() {
                   <path d='M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192m0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192' />
                 </svg>
               </NavLink>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <NavLink
                 className='favButton link-warning link-offset-3 link-underline-opacity-100 link-underline-secondary link-underline-opacity-100-hover'
