@@ -98,20 +98,16 @@ function WordApp() {
 
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
-          <div className='d-flex btnTop ms-0 ps-0 align-items-start'>
-            <div className='d-flex justify-content-start gap-2 mb-1'>
-              <button
-                className='btnTop ms-0 ps-0 d-flex align-items-center'
-                onClick={() => handlePrint(word)}
-              >
+          <div className='d-flex justify-content-between align-items-center mb-4'>
+            <div className='textWord1 ms-0 me-2'>{word.date}</div>
+            <div className='d-flex text-body-emphasis'>
+              <button className='btnTop text-body-emphasis' onClick={() => handlePrint(word)}>
                 <PrintIcon />
               </button>
-              <button className='btnTop'>
+              <button className='btnTop ms-2 text-body-emphasis'>
                 <BookIcon />
               </button>
             </div>
-
-            <div className='textWord1 mb-4'>{word.date}</div>
           </div>
 
           <div className='container text-center'>

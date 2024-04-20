@@ -11,7 +11,6 @@ p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-
 .textWord2 {
   font-size: 18px;
 }
@@ -91,18 +90,17 @@ p {
   border: none;
   cursor: pointer;
   color: #333;
-  display: flex; /* Ensuring that the flex-box model is applied */
-  align-items: start; /* Vertically centering the content */
-  justify-content: flex-start; /* Aligning items to the start */
 }
 .btnTop {
   background-color: transparent;
   border: none;
   cursor: pointer;
   color: #333;
-  display: flex; /* Ensuring that the flex-box model is applied */
-  align-items: start; /* Vertically centering the content */
-  justify-content: flex-start; /* Aligning items to the start */
+}
+
+.btnTop svg {
+  width: 15px; 
+  height: 15px;
 }
 
 .btnTop:hover,
@@ -113,8 +111,7 @@ p {
 
 .textWord1 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 11px;
-  text-align: start; 
+  font-size: 13px;
 }
 
 @media (max-width: 768px) {
@@ -122,7 +119,6 @@ p {
     text-align: start;
   }
   .btnTop {
-    justify-content: flex-start; 
+    justify-content: flex-start;
   }
 }
-
