@@ -8,13 +8,22 @@ function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
+  const [voices, setVoices] = useState([]);
 
   useEffect(() => {
-    setFilteredWords(wordData.slice(0, visibleWordsCount)); // Initial setting of words
-  }, [visibleWordsCount]);
+    const loadVoices = () => {
+      setVoices(window.speechSynthesis.getVoices());
+    };
+
+    loadVoices();
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+
+    return () => {
+      window.speechSynthesis.onvoiceschanged = null;
+    };
+  }, []);
 
   const populateVoices = () => {
-    let voices = window.speechSynthesis.getVoices();
     return voices.filter(
       voice =>
         voice.gender === 'female' || voice.name.toLowerCase().includes('female')
@@ -23,12 +32,18 @@ function WordApp() {
 
   const readWordAloud = word => {
     const speech = new SpeechSynthesisUtterance(word.word);
-    let voices = populateVoices();
-    if (voices.length > 0) {
-      speech.voice = voices[0];
+    const femaleVoices = populateVoices();
+    if (femaleVoices.length > 0) {
+      speech.voice = femaleVoices[0];
+    } else {
+      console.log('No female voices available.');
     }
     window.speechSynthesis.speak(speech);
   };
+
+  useEffect(() => {
+    setFilteredWords(wordData.slice(0, visibleWordsCount));
+  }, [visibleWordsCount]);
 
   const handleSearch = event => {
     const value = event.target.value.toLowerCase();
@@ -43,7 +58,7 @@ function WordApp() {
       );
       setFilteredWords(newFilteredWords);
     } else {
-      setFilteredWords(wordData.slice(0, visibleWordsCount)); // Reset to initial state when search is cleared
+      setFilteredWords(wordData.slice(0, visibleWordsCount));
     }
   };
 
