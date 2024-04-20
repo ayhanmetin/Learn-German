@@ -17,10 +17,9 @@ p {
   text-align: left;
 }
 
-
 @media (max-width: 768px) {
   .textWord1 {
-    text-align: start; 
+    text-align: start;
   }
 }
 
@@ -103,6 +102,9 @@ p {
   border: none;
   cursor: pointer;
   color: #333;
+  display: flex; /* Ensuring that the flex-box model is applied */
+  align-items: center; /* Vertically centering the content */
+  justify-content: flex-start; /* Aligning items to the start */
 }
 
 .btnTop:hover,
@@ -113,6 +115,7 @@ p {
 
 @media (max-width: 768px) {
   .btnTop {
-    text-align: start; 
+    justify-content: flex-start; /* Ensures content starts from the left on mobile */
+    text-align: start; /* For any text content inside the button */
   }
 }
