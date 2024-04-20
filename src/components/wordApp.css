@@ -92,7 +92,7 @@ p {
   cursor: pointer;
   color: #333;
   display: flex; /* Ensuring that the flex-box model is applied */
-  align-items: center; /* Vertically centering the content */
+  align-items: start; /* Vertically centering the content */
   justify-content: flex-start; /* Aligning items to the start */
 }
 .btnTop {
@@ -101,7 +101,7 @@ p {
   cursor: pointer;
   color: #333;
   display: flex; /* Ensuring that the flex-box model is applied */
-  align-items: center; /* Vertically centering the content */
+  align-items: start; /* Vertically centering the content */
   justify-content: flex-start; /* Aligning items to the start */
 }
 
