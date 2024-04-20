@@ -99,14 +99,14 @@ p {
 }
 
 .btnTop svg {
-  width: 15px; 
+  width: 15px;
   height: 15px;
 }
 
 .btnTop:hover,
 .btnTop:hover svg {
   color: #f6d049;
-  fill: #f6d049;
+  fill: #f33b1e;
 }
 
 .textWord1 {

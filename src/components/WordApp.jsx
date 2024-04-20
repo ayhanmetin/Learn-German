@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
-import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
+import { BookIcon, PrintIcon, ShareIcon, VoiceIcon } from './IconBox';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -82,6 +82,25 @@ function WordApp() {
     };
   };
 
+  const handleShare = async word => {
+    try {
+      const shareData = {
+        title: word.word,
+        text: `Check out this word: ${word.word}\nMeaning in English: ${word.meaningENG}\nMeaning in Turkish: ${word.meaningTR}\nExamples:\n1. ${word.example1}\n2. ${word.example2}`,
+        url: window.location.href, // You can use the URL of your app or the specific page of the word
+      };
+
+      if (navigator.share) {
+        await navigator.share(shareData);
+        console.log('Word shared successfully');
+      } else {
+        console.log('Share API not supported in this browser');
+      }
+    } catch (error) {
+      console.error('Error sharing the word:', error);
+    }
+  };
+
   return (
     <div className='container col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
@@ -101,10 +120,16 @@ function WordApp() {
           <div className='d-flex justify-content-between align-items-center mb-4'>
             <div className='textWord1 ms-0 me-2'>{word.date}</div>
             <div className='d-flex text-body-emphasis'>
-              <button className='btnTop text-body-emphasis' onClick={() => handlePrint(word)}>
+              <button className='btnTop ms-2 text-body-emphasis'>
+                <ShareIcon />
+              </button>
+              <button
+                className='btnTop text-body-emphasis'
+                onClick={() => handlePrint(word)}
+              >
                 <PrintIcon />
               </button>
-              <button className='btnTop ms-2 text-body-emphasis'>
+              <button className='btnTop me-5 ms-0 text-body-emphasis'>
                 <BookIcon />
               </button>
             </div>
