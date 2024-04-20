@@ -110,7 +110,7 @@ function WordApp() {
             </button>
           </div>
 
-          <div className='d-flex me-0 pe-0 textWord1 mb-1 justify-content-start'>
+          <div className='d-flex me-0 pe-0 textWord1 mb-4 justify-content-start'>
             {word.date}
           </div>
 
