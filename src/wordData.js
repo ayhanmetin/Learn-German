@@ -26,7 +26,7 @@ const wordData = [
     example2: 'Sie verbessert ständig ihre Deutschkenntnisse.',
     meaningENG: 'to improve',
     meaningTR: 'iyileştirmek',
-    id: '1',
+    id: '99',
     level: '1',
     block: '1',
     grammar: 'verb',

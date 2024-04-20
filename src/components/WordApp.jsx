@@ -2,19 +2,16 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
-import { BookIcon, PrintIcon, SearchIcon, VoiceIcon } from './IconBox';
+import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
 
-  // Effect hook for setting up speech synthesis when voices change
   useEffect(() => {
-    if (window.speechSynthesis.onvoiceschanged !== undefined) {
-      window.speechSynthesis.onvoiceschanged = populateVoices;
-    }
-  }, []);
+    setFilteredWords(wordData.slice(0, visibleWordsCount)); // Initial setting of words
+  }, [visibleWordsCount]);
 
   const populateVoices = () => {
     let voices = window.speechSynthesis.getVoices();
@@ -24,63 +21,51 @@ function WordApp() {
     );
   };
 
-  // Function to handle the speech synthesis of a word
   const readWordAloud = word => {
     const speech = new SpeechSynthesisUtterance(word.word);
     let voices = populateVoices();
     if (voices.length > 0) {
-      speech.voice = voices[0]; // Use the first found female voice
+      speech.voice = voices[0];
     }
     window.speechSynthesis.speak(speech);
   };
 
-  // Event handler for search input changes
   const handleSearch = event => {
-    setSearchTerm(event.target.value);
+    const value = event.target.value.toLowerCase();
+    setSearchTerm(value);
+
+    if (value.trim()) {
+      const newFilteredWords = wordData.filter(
+        word =>
+          word.word.toLowerCase().includes(value) ||
+          word.meaningENG.toLowerCase().includes(value) ||
+          word.meaningTR.toLowerCase().includes(value)
+      );
+      setFilteredWords(newFilteredWords);
+    } else {
+      setFilteredWords(wordData.slice(0, visibleWordsCount)); // Reset to initial state when search is cleared
+    }
   };
 
   const handlePrint = word => {
-    const currentScrollPosition = window.scrollY; // Save current scroll position
-
-    const printContent = `
-      <h1>${word.word}</h1>
+    const currentScrollPosition = window.scrollY;
+    const printContent = `<h1>${word.word}</h1>
       <p>Grammar: ${word.grammar}</p>
       <p>English: ${word.meaningENG}</p>
       <p>Turkish: ${word.meaningTR}</p>
       <p>Example 1: ${word.example1}</p>
-      <p>Example 2: ${word.example2}</p>
-    `;
-
+      <p>Example 2: ${word.example2}</p>`;
     const printWindow = window.open('', '', 'height=600,width=800');
     printWindow.document.write('<html><head><title>Print</title></head><body>');
     printWindow.document.write(printContent);
     printWindow.document.write('</body></html>');
     printWindow.document.close();
-
-    // Wait for the print dialog to close
-
-    printWindow.onafterprint = function () {
-      printWindow.close();
-      window.scrollTo(0, currentScrollPosition); // Restore the scroll position
-    };
-
     printWindow.print();
+    printWindow.onafterprint = () => {
+      printWindow.close();
+      window.scrollTo(0, currentScrollPosition);
+    };
   };
-
-  useEffect(() => {
-    const newFilteredWords =
-      searchTerm.trim().length > 0
-        ? wordData.filter(
-            word =>
-              word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
-              word.meaningENG
-                .toLowerCase()
-                .includes(searchTerm.toLowerCase()) ||
-              word.meaningTR.toLowerCase().includes(searchTerm.toLowerCase())
-          )
-        : wordData.slice(0, visibleWordsCount);
-    setFilteredWords(newFilteredWords);
-  }, [searchTerm, visibleWordsCount]);
 
   return (
     <div className='container col-12'>
@@ -109,36 +94,33 @@ function WordApp() {
               <BookIcon />
             </button>
           </div>
-
           <div className='d-flex me-0 pe-0 textWord1 mb-4 justify-content-start'>
             {word.date}
           </div>
-
           <div className='container text-center'>
             <div className='row'>
               <div className='col-md-8'>
                 <div className='d-flex justify-content-center'>
-                  <div className='col-4'></div>
+                  <b className='d-flex mobileWord wordDay justify-content-center'>
+                    {word.word}
+                  </b>
                 </div>
-                <b className='d-flex mobileWord wordDay justify-content-center'>
-                  {word.word}
-                </b>
+                <button
+                  onClick={() => readWordAloud(word)}
+                  style={{
+                    border: 'none',
+                    background: 'transparent',
+                    cursor: 'pointer',
+                    marginLeft: '5px',
+                  }}
+                >
+                  <VoiceIcon width='30' height='30' />
+                </button>
                 <div className='d-flex justify-content-center text-body-emphasis mb-2'>
-                  <button
-                    onClick={() => readWordAloud(word)}
-                    style={{
-                      border: 'none',
-                      background: 'transparent',
-                      cursor: 'pointer',
-                      marginLeft: '5px',
-                    }}
-                  >
-                    <VoiceIcon width='30' height='30' />
-                  </button>
+                  <p className='fst-italic textWord1 mb-3 d-flex justify-content-center'>
+                    {word.grammar}
+                  </p>
                 </div>
-                <p className='fst-italic textWord1 mb-3 d-flex justify-content-center'>
-                  {word.grammar}
-                </p>
               </div>
               <div className='custom-image-container mb-3 col-md-4 col-sm-6'>
                 <img
@@ -149,7 +131,6 @@ function WordApp() {
               </div>
             </div>
           </div>
-
           <div className='textWord1 mb-3'>Example</div>
           <p className='textWord'>
             <b>Example 1:</b> {word.example1}
@@ -166,7 +147,7 @@ function WordApp() {
         </div>
       ))}
 
-      {visibleWordsCount < wordData.length && !searchTerm && (
+      {visibleWordsCount < wordData.length && searchTerm === '' && (
         <div className='d-grid col-4 mx-auto'>
           <button
             className='loadMore'
