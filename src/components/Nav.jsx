@@ -4,23 +4,16 @@ import './nav.css';
 import Profile from './Profile';
 import Theme2 from './Theme2';
 import { NavLink } from 'react-router-dom';
-import f from '../image/f.png';
 import Twitter from './Twitter';
 
 export default function Nav() {
   return (
     <>
-      {/* <div className='' style={{ borderTop: '15px solid #FEC214' }}></div> */}
-      <div className='image-container'>
-        <img
-          src={f}
-          className='img-fluid rounded-bottom'
-          alt='Frankfurt am Main'
-        />
-      </div>
-
       <div className='container mb-5 pb-2'>
-        <div className='d-flex mt-1 gap-3 justify-content-end'>
+        <div
+          className='d-flex mt-1 gap-3 justify-content-end'
+          style={{ backgroundColor: '#9F3A2B', padding: '10px' }}
+        >
           <Profile />
           <Twitter />
           <Theme2 />

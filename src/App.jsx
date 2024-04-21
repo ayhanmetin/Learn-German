@@ -10,7 +10,7 @@ import Favorites from './components/Favorites';
 function App() {
   return (
     <>
-      <div className='bg-transparent' style={{ minHeight: '100vh' }}>
+      <div className='bg-transparent container col-12' style={{ minHeight: '100vh' }}>
         <div className='container bg-transparent'>
           <div className='row justify-content-center mt-0'>
             <div className='col-12 col-md-8 mt-0 '>
