@@ -6,19 +6,31 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Mix from './components/Mix';
 import Favorites from './components/Favorites';
+import { SpeedInsights } from '@vercel/speed-insights/react'; // Import the component
 
 function App() {
   return (
     <>
-      <div className='bg-transparent container col-12' style={{ minHeight: '100vh' }}>
-        <div className='container bg-transparent'>
-          <div className='row justify-content-center mt-0'>
-            <div className='col-12 col-md-8 mt-0 '>
-              <div className='mt-0 mb-5'>
+      <div
+        className='bg-transparent container col-12'
+        style={{ padding: 0, margin: 0 }}
+      >
+        <div className='container bg-transparent' style={{ paddingTop: 0, marginTop: 0 }}>
+          <div className='row justify-content-center' style={{ paddingTop: 0, marginTop: 0 }}>
+            <div className='col-12 col-md-8' style={{ paddingTop: 0, marginTop: 0 }}>
+              <div style={{ marginTop: 0, marginBottom: 5 }}>
                 <Nav />
               </div>
               <Routes>
-                <Route path='/' element={<WordApp />} />
+                <Route
+                  path='/'
+                  element={
+                    <>
+                      <WordApp />
+                      <SpeedInsights url='https://almancakelime.com' />
+                    </>
+                  }
+                />
                 <Route path='/home' element={<WordApp />} />
                 <Route path='/mix' element={<Mix />} />
                 <Route path='/favorites' element={<Favorites />} />
