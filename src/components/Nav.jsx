@@ -13,12 +13,12 @@ export default function Nav() {
     <>
       <div className='container mb-5 pb-2'>
         <div
-          className='d-flex justify-content-between align-items-center rounded-bottom gap-3'
+          className='d-flex justify-content-between align-items-center rounded-bottom gap-3 px-3'
           style={{
             backgroundColor: '#DA513D',
           }}
         >
-          <div className='profilLink ms-5'>
+          <div className='profilLink'>
             <NavLink to='/profile' className=''>
               <Profile />
             </NavLink>
@@ -36,7 +36,7 @@ export default function Nav() {
             </NavLink>
           </div>
 
-          <div className='position-relative me-5' style={{ top: '-3px' }}>
+          <div className='position-relative' style={{ top: '-3px' }}>
             <Theme2 />
           </div>
         </div>
