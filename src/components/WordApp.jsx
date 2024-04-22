@@ -88,7 +88,7 @@ function WordApp() {
       const shareData = {
         title: word.word,
         text: `Check out this word: ${word.word}\nMeaning in English: ${word.meaningENG}\nMeaning in Turkish: ${word.meaningTR}\nExamples:\n1. ${word.example1}\n2. ${word.example2}`,
-        url: window.location.href, // You can use the URL of your app or the specific page of the word
+        url: window.location.href,
       };
 
       if (navigator.share) {
