@@ -16,10 +16,6 @@ export default function Nav() {
           className='d-flex justify-content-center align-items-center rounded-bottom gap-3'
           style={{
             backgroundColor: '#DA513D',
-            paddingLeft: '29px',
-            paddingRight: '29px',
-            paddingTop: '1px',
-            paddingBottom: '1px',
           }}
         >
           <div className='profilLink'>
