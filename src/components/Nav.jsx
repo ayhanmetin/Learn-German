@@ -11,12 +11,18 @@ export default function Nav() {
     <>
       <div className='container mb-5 pb-2'>
         <div
-          className='d-flex mt-1 gap-3 justify-content-end'
+          className='d-flex rounded-bottom gap-3'
           style={{ backgroundColor: '#9F3A2B', padding: '10px' }}
         >
-          <Profile />
-          <Twitter />
-          <Theme2 />
+          <div className='me-auto'>
+            <Profile />
+          </div>
+          <div>
+            <Twitter />
+          </div>
+          <div className='position-relative' style={{ top: '-3px' }}>
+            <Theme2 />
+          </div>
         </div>
       </div>
 

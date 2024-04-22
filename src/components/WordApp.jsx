@@ -103,6 +103,7 @@ function WordApp() {
   };
 
   return (
+    
     <div className='container col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
         <div className='search-bar pb-5 mb-2 col-10'>
