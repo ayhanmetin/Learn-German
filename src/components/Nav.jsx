@@ -9,7 +9,7 @@ import { BookmarkedIcon, HomeIcon, MixIcon } from './IconBox';
 export default function Nav() {
   return (
     <>
-      <div className='container mb-2 pb-2'>
+      <div className='container mb-0 pb-0'>
         <div
           className='container p-2 mb-1 pb-2 d-flex justify-content-between align-items-center rounded-bottom gap-3 px-3'
           style={{ backgroundColor: '#DA513D' }}
