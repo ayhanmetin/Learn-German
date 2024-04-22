@@ -140,7 +140,7 @@ function WordApp() {
                       cursor: 'pointer',
                     }}
                   >
-                    <VoiceIcon width='30' height='30' />
+                    <VoiceIcon width='24' height='24' />
                   </button>
                 </div>
                 <div className='d-flex justify-content-start text-body-emphasis mt-3 mb-2'>
