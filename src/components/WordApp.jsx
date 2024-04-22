@@ -98,9 +98,15 @@ function WordApp() {
       </div>
 
       {filteredWords.map(word => (
-        <div className='border-bottom mb-2' key={word.id}>
-          <div className='d-flex justify-content-start mb-4'>
-            <div className='textWord1 fs-7 mt-1 text ms-0 me-3 position-relative' style={{ top: '2px' }}>
+        <div
+          className='border rounded border-dark-subtle p-4  mb-5'
+          key={word.id}
+        >
+          <div className='d-flex justify-content-between mb-4'>
+            <div
+              className='textWord1 fs-7 mt-1 text ms-0 me-3 position-relative'
+              style={{ top: '2px' }}
+            >
               {word.date}
             </div>
             <div className='d-flex gap-3 text-body-emphasis'>
@@ -110,7 +116,7 @@ function WordApp() {
               >
                 <PrintIcon />
               </button>
-              <button className='btnTop btnTop1 me-1 ms-0 text-body-emphasis'>
+              <button className='btnTop btnTop1 me-4 ms-0 text-body-emphasis'>
                 <BookIcon />
               </button>
             </div>
@@ -125,9 +131,10 @@ function WordApp() {
                     {word.word}
                   </b>
                   <button
-                    className='ms-3'
+                    className='ms-3 position-relative'
                     onClick={() => readWordAloud(word)}
                     style={{
+                      top: '3px',
                       border: 'none',
                       background: 'transparent',
                       cursor: 'pointer',
