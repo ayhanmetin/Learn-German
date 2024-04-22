@@ -83,25 +83,6 @@ function WordApp() {
     };
   };
 
-  const handleShare = async word => {
-    try {
-      const shareData = {
-        title: word.word,
-        text: `Check out this word: ${word.word}\nMeaning in English: ${word.meaningENG}\nMeaning in Turkish: ${word.meaningTR}\nExamples:\n1. ${word.example1}\n2. ${word.example2}`,
-        url: window.location.href,
-      };
-
-      if (navigator.share) {
-        await navigator.share(shareData);
-        console.log('Word shared successfully');
-      } else {
-        console.log('Share API not supported in this browser');
-      }
-    } catch (error) {
-      console.error('Error sharing the word:', error);
-    }
-  };
-
   return (
     <div className='container col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
@@ -118,7 +99,7 @@ function WordApp() {
 
       {filteredWords.map(word => (
         <div className='border-bottom mb-2' key={word.id}>
-          <div className='d-flex justify-content-start align-items-center mb-4'>
+          <div className='d-flex justify-content-start mb-4'>
             <div className='textWord1 fs-7 mt-1 me-3 text ms-0 me-2'>
               {word.date}
             </div>
@@ -135,27 +116,29 @@ function WordApp() {
             </div>
           </div>
 
-          <div className='container text-center'>
+          {/* Word Card */}
+
+          <div className=''>
             <SpeedInsights />
             <div className='row'>
               <div className='col-md-8'>
-                <div className='d-flex justify-content-center'>
-                  <b className='d-flex mobileWord wordDay justify-content-center'>
+                <div className='d-flex justify-content-start'>
+                  <b className='d-flex mobileWord wordDay justify-content-start'>
                     {word.word}
                   </b>
+                  <button
+                    className='ms-3'
+                    onClick={() => readWordAloud(word)}
+                    style={{
+                      border: 'none',
+                      background: 'transparent',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    <VoiceIcon width='30' height='30' />
+                  </button>
                 </div>
-                <button
-                  onClick={() => readWordAloud(word)}
-                  style={{
-                    border: 'none',
-                    background: 'transparent',
-                    cursor: 'pointer',
-                    marginLeft: '5px',
-                  }}
-                >
-                  <VoiceIcon width='30' height='30' />
-                </button>
-                <div className='d-flex justify-content-center text-body-emphasis mb-2'>
+                <div className='d-flex justify-content-start text-body-emphasis mt-3 mb-2'>
                   <p className='fst-italic textWord1 mb-3 d-flex justify-content-center'>
                     {word.grammar}
                   </p>
@@ -165,7 +148,7 @@ function WordApp() {
                 <img
                   src={word.image}
                   className='img-thumbnail custom-image mt-2'
-                  alt=''
+                  alt={`Image depicting the word ${word.word}`}
                 />
               </div>
             </div>
