@@ -28,7 +28,7 @@ export default function Nav() {
           </div>
         </div>
         <div className='learnGerman mt-2 fw-ligh text-body-emphasis'>
-        Learn German for TESDAF, Goethe-Institut, and TELC certification
+          Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
         </div>
       </div>
 
