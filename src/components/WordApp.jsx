@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
 import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -118,10 +119,10 @@ function WordApp() {
       {filteredWords.map(word => (
         <div className='border-bottom mb-4' key={word.id}>
           <div className='d-flex justify-content-center mb-4 align-items-center mb-4'>
-            <div className='textWord1 ms-0 me-2'>{word.date}</div>
-            <div className='d-flex text-body-emphasis'>
+            <div className='textWord1 fs-6 text ms-0 me-2'>{word.date}</div>
+            <div className='d-flex gap-3 text-body-emphasis'>
               <button
-                className='btnTop text-body-emphasis'
+                className='btnTop ms-1 text-body-emphasis'
                 onClick={() => handlePrint(word)}
               >
                 <PrintIcon />
@@ -133,6 +134,7 @@ function WordApp() {
           </div>
 
           <div className='container text-center'>
+            <SpeedInsights />
             <div className='row'>
               <div className='col-md-8'>
                 <div className='d-flex justify-content-center'>
