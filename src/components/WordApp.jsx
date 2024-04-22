@@ -99,7 +99,7 @@ function WordApp() {
 
       {filteredWords.map(word => (
         <div
-          className='border rounded border-dark-subtle p-4  mb-5'
+          className='border-bottom border-dark-subtle p-4  mb-3'
           key={word.id}
         >
           <div className='d-flex justify-content-between mb-4'>
