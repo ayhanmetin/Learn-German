@@ -6,7 +6,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./src/image/Flag_of_Germany.png" type="image/png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Learn a new German word every day! Explore the most commonly used German vocabulary and prepare for language proficiency tests like TESDAF, Goethe-Institut, and TELC." />
+    <meta name="description" content="Learn German for TESDAF, Goethe-Institut, and TELC certification
+" />
     <title>German Word of the Day | Prepare for TESDAF, Goethe, TELC</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
