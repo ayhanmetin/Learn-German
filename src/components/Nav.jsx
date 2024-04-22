@@ -4,7 +4,7 @@ import './nav.css';
 import Profile from './Profile';
 import Theme2 from './Theme2';
 import { NavLink } from 'react-router-dom';
-import Twitter from './Twitter';
+// import Twitter from './Twitter';
 
 export default function Nav() {
   return (
@@ -14,15 +14,21 @@ export default function Nav() {
           className='d-flex rounded-bottom gap-3'
           style={{ backgroundColor: '#9F3A2B', padding: '10px' }}
         >
-          <div className='me-auto'>
-            <Profile />
+          <div className='me-auto d-flex justify-content-start'>
+            <div>
+              {' '}
+              <Profile />
+            </div>
           </div>
-          <div>
+          {/* <div>
             <Twitter />
-          </div>
+          </div> */}
           <div className='position-relative' style={{ top: '-3px' }}>
             <Theme2 />
           </div>
+        </div>
+        <div className='learnGerman mt-2 fw-ligh text-body-emphasis'>
+        Learn German for TESDAF, Goethe-Institut, and TELC certification
         </div>
       </div>
 

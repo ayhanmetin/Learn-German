@@ -48,3 +48,9 @@ a {
   object-fit: cover;
   object-position: center bottom;
 }
+
+.learnGerman {
+  font-family: 'Libre Franklin', sans-serif;
+  font-style: italic;
+  font-size: 13px;
+}
