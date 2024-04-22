@@ -14,7 +14,13 @@ export default function Nav() {
       <div className='container mb-5 pb-2'>
         <div
           className='d-flex justify-content-between align-items-center rounded-bottom gap-3'
-          style={{ backgroundColor: '#DA513D', padding: '10px' }}
+          style={{
+            backgroundColor: '#DA513D',
+            paddingLeft: '29px',
+            paddingRight: '29px',
+            padding: '1px',
+            
+          }}
         >
           <div className='profilLink'>
             <NavLink to='/profile' className=''>
