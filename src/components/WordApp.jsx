@@ -105,7 +105,7 @@ function WordApp() {
   return (
     <div className='container col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
-        <div className='search-bar pb-5 mb-1 col-10'>
+        <div className='search-bar pb-5 mb-1 col-8'>
           <input
             type='text'
             className='form-control text-start fs-6 text fw-light'
@@ -119,7 +119,9 @@ function WordApp() {
       {filteredWords.map(word => (
         <div className='border-bottom mb-2' key={word.id}>
           <div className='d-flex justify-content-start align-items-center mb-4'>
-            <div className='textWord1 fs-7 mt-1 me-3 text ms-0 me-2'>{word.date}</div>
+            <div className='textWord1 fs-7 mt-1 me-3 text ms-0 me-2'>
+              {word.date}
+            </div>
             <div className='d-flex gap-3 text-body-emphasis'>
               <button
                 className='btnTop ms-1 text-body-emphasis'
@@ -168,6 +170,8 @@ function WordApp() {
               </div>
             </div>
           </div>
+
+          {/* to do */}
           <div className='textWord1 mb-3'>Example</div>
           <p className='textWord'>
             <b>Example 1:</b> {word.example1}
