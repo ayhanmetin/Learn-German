@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const lightThemeIcon = (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width='26'
-    height='26'
+    width='28'
+    height='28'
     fill='currentColor'
     className='bi bi-toggle-on text-light'
     viewBox='0 0 16 16'
@@ -16,8 +16,8 @@ const lightThemeIcon = (
 const darkThemeIcon = (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width='26'
-    height='26'
+    width='28'
+    height='28'
     fill='currentColor'
     class='bi bi-toggle-off '
     viewBox='0 0 16 16'

@@ -2,22 +2,24 @@ const wordData = [
   {
     date: 'April 18, 2024',
     word: 'Verhandlung',
-    image: "https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/beenden.png",
+    image:
+      'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/beenden.png',
     example1: 'Die Verhandlung war lang und anstrengend.',
     example2: 'Die Parteien erreichten schließlich eine Verhandlung.',
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
-    quote1:"",
-    quote2:"",
-    quote3:"",
+    quote1: '',
+    quote2: '',
+    quote3: '',
     id: '1',
+    tag: '',
     level: '1',
     block: '1',
     grammar: 'noun',
-    grammar2:"3rd , singular , preterit zog | past participle gezogen",
-    means: 'Circumlocution refers to the use of many words to say something that could be said more clearly and directly with fewer words. Usually encountered in formal speech and writing, circumlocution can also refer to speech that is intentionally evasive.'
+    grammar2: '3rd , singular , preterit zog | past participle gezogen',
+    means:
+      'Circumlocution refers to the use of many words to say something that could be said more clearly and directly with fewer words. Usually encountered in formal speech and writing, circumlocution can also refer to speech that is intentionally evasive.',
   },
-  
 
   {
     date: 'April 18, 2024',

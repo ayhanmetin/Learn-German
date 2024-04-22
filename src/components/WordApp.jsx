@@ -90,7 +90,7 @@ function WordApp() {
           <input
             type='text'
             className='form-control text-start fs-6 text fw-light'
-            placeholder={`🔍  Search`}
+            placeholder={`Search`}
             value={searchTerm}
             onChange={handleSearch}
           />
@@ -100,7 +100,7 @@ function WordApp() {
       {filteredWords.map(word => (
         <div className='border-bottom mb-2' key={word.id}>
           <div className='d-flex justify-content-start mb-4'>
-            <div className='textWord1 fs-7 mt-1 me-3 text ms-0 me-2'>
+            <div className='textWord1 fs-7 mt-1 text ms-0 me-3 position-relative' style={{ top: '2px' }}>
               {word.date}
             </div>
             <div className='d-flex gap-3 text-body-emphasis'>
@@ -110,13 +110,11 @@ function WordApp() {
               >
                 <PrintIcon />
               </button>
-              <button className='btnTop me-1 ms-0 text-body-emphasis'>
+              <button className='btnTop btnTop1 me-1 ms-0 text-body-emphasis'>
                 <BookIcon />
               </button>
             </div>
           </div>
-
-          {/* Word Card */}
 
           <div className=''>
             <SpeedInsights />

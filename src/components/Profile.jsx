@@ -14,8 +14,8 @@ export default function () {
             alt='Flag of Germany'
             className='rounded-circle shadow-lg'
             style={{
-              width: '25px',
-              height: '25px',
+              width: '24px',
+              height: '24px',
               objectFit: 'cover',
               transition: 'transform 0.3s ease',
               position: 'relative',

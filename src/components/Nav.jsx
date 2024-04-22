@@ -16,10 +16,13 @@ export default function Nav() {
           className='d-flex justify-content-between align-items-center rounded-bottom gap-3'
           style={{ backgroundColor: '#DA513D', padding: '10px' }}
         >
-          <div>
-            <Profile />
+          <div className='profilLink'>
+            <NavLink to='/profile' className=''>
+              <Profile />
+            </NavLink>
           </div>
-          <div className='d-flex justify-content-center text-light align-items-center gap-5'>
+
+          <div className='d-flex navLink justify-content-center text-light align-items-center gap-5'>
             <NavLink to='/home' className='text-light'>
               <HomeIcon />
             </NavLink>
@@ -30,6 +33,7 @@ export default function Nav() {
               <BookmarkedIcon />
             </NavLink>
           </div>
+
           <div className='position-relative' style={{ top: '-3px' }}>
             <Theme2 />
           </div>

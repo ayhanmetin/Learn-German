@@ -103,20 +103,20 @@ p {
   color: #333;
 }
 
-.btnTop svg {
-  width: 15px;
-  height: 15px;
+.btnTop1 svg {
+  width: 14px;
+  height: 14px;
 }
 
 .btnTop:hover,
 .btnTop:hover svg {
   color: #da513d;
-  fill: #f33b1e;
+  fill: #da513d;
 }
 
 .textWord1 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 @media (max-width: 768px) {
@@ -134,3 +134,12 @@ p {
   font-weight: 400;
   font-style: italic;
 }
+
+.search-bar input[type="text"] {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 10px center; /* Adjust according to your layout */
+  padding-left: 35px; /* Provide enough padding to not overlap text with icon */
+  background-size: 16px 16px; /* Match the SVG size */
+}
+
