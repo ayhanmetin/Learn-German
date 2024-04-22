@@ -14,15 +14,21 @@ export default function Nav() {
       <div className='container mb-5 pb-2'>
         <div
           className='d-flex justify-content-between align-items-center rounded-bottom gap-3'
-          style={{ backgroundColor: '#9F3A2B', padding: '10px' }}
+          style={{ backgroundColor: '#DA513D', padding: '10px' }}
         >
           <div>
             <Profile />
           </div>
           <div className='d-flex justify-content-center text-light align-items-center gap-5'>
-            <HomeIcon />
-            <MixIcon />
-            <BookmarkedIcon />
+            <NavLink to='/home' className='text-light'>
+              <HomeIcon />
+            </NavLink>
+            <NavLink to='/mix' className='text-light'>
+              <MixIcon />
+            </NavLink>
+            <NavLink to='/favorites' className='text-light'>
+              <BookmarkedIcon />
+            </NavLink>
           </div>
           <div className='position-relative' style={{ top: '-3px' }}>
             <Theme2 />
@@ -63,7 +69,6 @@ export default function Nav() {
           </div>
         </ul>
       </div> */}
-
     </>
   );
 }
