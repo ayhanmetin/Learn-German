@@ -37,47 +37,47 @@ export default function Nav() {
           Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
         </div>
 
-        <div className='d-flex container col-8 altNav align-items-center justify-content-center mt-5 px-2 mb-0'>
-          <nav className='d-flex  justify-content-center align-items-center gap-4'>
+        <div className='d-flex altNav align-items-center justify-content-center mt-5 px-2 mb-0'>
+          <nav className='d-flex justify-content-center align-items-center gap-4'>
             <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
-              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
+              className='altNav2'
             >
               #mixed
             </NavLink>
             <NavLink
               to='/living-in-germany'
               aria-label='Living in Germany'
-              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
+              className='altNav2'
             >
               #living
             </NavLink>
             <NavLink
               to='/business'
               aria-label='Business Related Words'
-              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
+              className='altNav2'
             >
               #business
             </NavLink>
             <NavLink
               to='/bureaucracy'
               aria-label='Understanding Bureaucracy in Germany'
-              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
+              className='altNav2'
             >
               #bureaucracy
             </NavLink>
             <NavLink
               to='/advanced-german'
               aria-label='Advanced German Words'
-              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
+              className='altNav2'
             >
               #pro
             </NavLink>
           </nav>
         </div>
-        <div className='border-bottom border-success p-2 border-opacity-25'></div>
       </div>
+      <div className='border-bottom border-success p-2 border-opacity-25'></div>
     </>
   );
 }
