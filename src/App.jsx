@@ -9,7 +9,7 @@ import Mix from './Categories/Mix';
 import Bureaucracy from './Categories/Bureaucracy';
 import Business from './Categories/Business';
 import Advanced from './Categories/Advanced';
-import Living from './Categories/Living';
+import Basics from './Categories/Basics';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
                 <Route path='/bureaucracy' element={<Bureaucracy />} />
                 <Route path='/advanced' element={<Advanced />} />
 
-                <Route path='/living' element={<Living />} />
+                <Route path='/basics' element={<Basics />} />
 
                 <Route path='/favorites' element={<Favorites />} />
               </Routes>

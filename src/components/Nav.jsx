@@ -47,11 +47,11 @@ export default function Nav() {
               #bureaucracy
             </NavLink>
             <NavLink
-              to='/living'
+              to='/basics'
               aria-label='Living in Germany'
               className='altNav2'
             >
-              #living
+              #basics
             </NavLink>
             <NavLink
               to='/business'
