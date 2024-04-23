@@ -143,4 +143,29 @@ p {
   background-size: 16px 16px;
 }
 
+/* Base CSS for the button */
+.button-voice {
+  position: relative;
+  top: 3px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Mobile specific CSS */
+@media (max-width: 768px) {
+  .button-voice {
+      display: block; /* Ensures the button is on its own line */
+      margin: 0 auto; /* Centers the button horizontally */
+      top: 0; /* Resets any top positioning for clean alignment */
+      width: 100%; /* Ensures full width but can be adjusted as needed */
+      text-align: center; /* Centers the icon within the button */
+  }
+
+  .button-voice svg { /* Assuming the VoiceIcon is an SVG */
+      margin: auto; /* Further ensure the icon centers in the button */
+  }
+}
+
+
 

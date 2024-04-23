@@ -102,7 +102,7 @@ function WordApp() {
           className='border-bottom border-dark-subtle p-4  mb-3'
           key={word.id}
         >
-          <div className='d-flex justify-content-between mb-4'>
+          <div className='d-flex justify-content-center mb-5'>
             <div
               className='textWord1 fs-7 mt-1 text ms-0 me-3 position-relative'
               style={{ top: '2px' }}
@@ -116,7 +116,7 @@ function WordApp() {
               >
                 <PrintIcon />
               </button>
-              <button className='btnTop btnTop1 me-4 ms-0 text-body-emphasis'>
+              <button className='btnTop btnTop1 ms-0 text-body-emphasis'>
                 <BookIcon />
               </button>
             </div>

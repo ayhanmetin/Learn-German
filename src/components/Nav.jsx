@@ -9,7 +9,7 @@ import { BookmarkedIcon, HomeIcon, MixIcon } from './IconBox';
 export default function Nav() {
   return (
     <div className='container mb-0 pb-0'>
-      <nav className='d-flex navLink justify-content-between align-items-center p-2 rounded-bottom gap-3 px-3' style={{ backgroundColor: '#DA513D' }}>
+      <nav className='d-flex navLink justify-content-between align-items-center p-1 rounded-bottom gap-3 px-3' style={{ backgroundColor: '#DA513D' }}>
         <NavLink to='/profile' className='profile-link' aria-label='Profile'>
           <Profile />
         </NavLink>

@@ -48,10 +48,11 @@ a {
 .learnGerman {
   font-family: 'Libre Franklin', sans-serif;
   font-style: italic;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .navLink a {
+  padding: 7px;
   color: #fff;
   border-radius: 5px;
   transition: all 0.3s ease;
