@@ -32,7 +32,7 @@ export default function Nav() {
 
         <div className='d-flex altNav align-items-center justify-content-center p-0 mt-5 mb-0'>
           <nav className='d-flex justify-content-center align-items-center gap-3'>
-          <NavLink
+            <NavLink
               to='/advanced'
               aria-label='Explore Advanced German Words'
               className='altNav2'
@@ -47,7 +47,7 @@ export default function Nav() {
               #bureaucracy
             </NavLink>
             <NavLink
-              to='/living-in-germany'
+              to='/living'
               aria-label='Living in Germany'
               className='altNav2'
             >

@@ -8,7 +8,8 @@ import Favorites from './components/Favorites';
 import Mix from './Categories/Mix';
 import Bureaucracy from './Categories/Bureaucracy';
 import Business from './Categories/Business';
-
+import Advanced from './Categories/Advanced';
+import Living from './Categories/Living';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
                 <Route path='/business' element={<Business />} />
 
                 <Route path='/bureaucracy' element={<Bureaucracy />} />
+                <Route path='/advanced' element={<Advanced />} />
+
+                <Route path='/living' element={<Living />} />
 
                 <Route path='/favorites' element={<Favorites />} />
               </Routes>
