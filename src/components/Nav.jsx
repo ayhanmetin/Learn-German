@@ -11,7 +11,7 @@ export default function Nav() {
     <>
       <div className='container col-12 mb-0 pb-0'>
         <nav
-          className='d-flex navLink justify-content-between align-items-center p-1 rounded-bottom gap-3 px-3'
+          className='d-flex navLink justify-content-between align-items-center px-1 rounded-bottom gap-3 px-3'
           style={{ backgroundColor: '#DA513D' }}
         >
           <NavLink to='/profile' className='profile-link' aria-label='Profile'>
@@ -37,8 +37,8 @@ export default function Nav() {
           Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
         </div>
 
-        <div className='d-flex altNav align-items-center justify-content-center mt-5 px-2 mb-0'>
-          <nav className='d-flex justify-content-center align-items-center gap-4'>
+        <div className='d-flex container col-8 altNav align-items-center justify-content-center mt-5 px-2 mb-0'>
+          <nav className='d-flex  justify-content-center align-items-center gap-4'>
             <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
