@@ -86,15 +86,15 @@ a {
 
 .altNav {
   display: flex;
-  justify-content: center; /* Horizontally centers the content */
-  align-items: center; /* Vertically centers the content */
+  justify-content: center;
+  align-items: center;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 11px;
   color: #da513d;
-  width: 50%; /* Set the width of the nav */
-  margin: 0 auto; /* Centers the nav horizontally within its container */
-  list-style: none; /* Ensures no list item markers are shown */
+  width: 50%;
+  margin: 0 auto;
+  list-style: none;
 }
 
 .altNav2 {

@@ -87,7 +87,7 @@ function WordApp() {
   return (
     <div className='container col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
-        <div className='search-bar pb-5 mb-1 col-10'>
+        <div className='search-bar pb-2 mb-1 col-10'>
           <input
             type='text'
             className='form-control text-start fs-6 text fw-light'
@@ -98,14 +98,12 @@ function WordApp() {
         </div>
       </div>
 
-      
-
       {filteredWords.map(word => (
         <div
           className='border-bottom border-dark-subtle p-4  mb-3'
           key={word.id}
         >
-          <div className='d-flex justify-content-center mb-5'>
+          <div className='d-flex justify-content-center mb-3'>
             <div
               className='textWord1 fs-7 mt-1 text ms-0 me-3 position-relative'
               style={{ top: '2px' }}
@@ -146,13 +144,13 @@ function WordApp() {
                     <VoiceIcon width='24' height='24' />
                   </button>
                 </div>
-                <div className='d-flex justify-content-start text-body-emphasis mt-3 mb-2'>
-                  <p className='fst-italic textWord1 mb-3 d-flex justify-content-center'>
+                <div className='d-flex justify-content-start text-body-emphasis mt-1 mb-1'>
+                  <p className='fst-italic textWord1 mb-1 d-flex justify-content-center'>
                     {word.grammar}
                   </p>
                 </div>
               </div>
-              <div className='custom-image-container mb-3 col-md-4 col-sm-6'>
+              <div className='custom-image-container mt-0 mb-2 col-md-4 col-sm-6'>
                 <img
                   src={word.image}
                   className='img-thumbnail custom-image mt-2'
