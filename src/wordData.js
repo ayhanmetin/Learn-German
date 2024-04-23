@@ -40,7 +40,7 @@ const wordData = [
     means: 'A right or claim to something.',
     meaningENG: 'claim',
     meaningTR: 'talep',
-    id: '9',
+    id: '91',
     tag: 'basics',
     grammar2: 'Noun, masculine',
   },
