@@ -66,16 +66,52 @@ function WordApp() {
 
   const handlePrint = word => {
     const currentScrollPosition = window.scrollY;
-    const printContent = `<h1>${word.word}</h1>
-      <p>Grammar: ${word.grammar}</p>
-      <p>English: ${word.meaningENG}</p>
-      <p>Turkish: ${word.meaningTR}</p>
-      <p>Example 1: ${word.example1}</p>
-      <p>Example 2: ${word.example2}</p>`;
-    const printWindow = window.open('', '', 'height=600,width=800');
-    printWindow.document.write('<html><head><title>Print</title></head><body>');
+    const printContent = `
+    <html>
+      <head>
+        <title>Print</title>
+        <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+          }
+          .content {
+            text-align: left;
+            width: 80%; /* Adjust width as needed for your design preference */
+          }
+          h1 {
+            font-size: 24px;
+            margin-top: 20px;
+          }
+          p {
+            font-size: 18px;
+            margin: 10px 0;
+          }
+          .header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 30px;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="content">
+          <h1>${word.word}</h1>
+          <p>${word.grammar}</p>
+          <p>Example 1: ${word.example1}</p>
+          <p>Example 2: ${word.example2}</p>
+          <p>English: ${word.meaningENG} </p>
+          <p>Türkce: ${word.meaningTR}</p>
+          <p>Date: ${new Date().toLocaleDateString()}</p>
+        </div>
+      </body>
+    </html>`;
+
+    const printWindow = window.open('', '', 'height=800,width=1000');
     printWindow.document.write(printContent);
-    printWindow.document.write('</body></html>');
     printWindow.document.close();
     printWindow.print();
     printWindow.onafterprint = () => {
@@ -100,7 +136,7 @@ function WordApp() {
 
       {filteredWords.map(word => (
         <div
-          className='border-bottom border-dark-subtle p-4  mb-3'
+          className='border-bottom border-dark-subtle p-4 mb-3'
           key={word.id}
         >
           <div className='d-flex justify-content-center mb-3'>
@@ -123,35 +159,41 @@ function WordApp() {
             </div>
           </div>
 
-          <div className=''>
-            <SpeedInsights />
-            <div className='row'>
-              <div className='col-md-8'>
-                <div className='d-flex justify-content-start align-items-center'>
-                  <b className='d-flex mobileWord wordDay align-items-center'>
-                    {word.word}
-                  </b>
-                  <button
-                    className='ms-2 position-relative'
-                    onClick={() => readWordAloud(word)}
-                    style={{
-                      border: 'none',
-                      background: 'transparent',
-                      cursor: 'pointer',
-                      top: '0',
-                    }}
-                  >
-                    <VoiceIcon width='22' height='22' />
-                  </button>
-                </div>
-
-                <div className='d-flex justify-content-start text-body-emphasis mt-1 mb-1'>
-                  <p className='fst-italic textWord1 mb-1 d-flex justify-content-center'>
-                    {word.grammar}
-                  </p>
-                </div>
+          <div className='row'>
+            <div className='col-md-8'>
+              <div className='d-flex justify-content-start align-items-center mb-3'>
+                <b className='mobileWord wordDay'>{word.word}</b>
+                <button
+                  className='ms-2 position-relative'
+                  onClick={() => readWordAloud(word)}
+                  style={{
+                    border: 'none',
+                    background: 'transparent',
+                    cursor: 'pointer',
+                  }}
+                >
+                  <VoiceIcon width='22' height='22' />
+                </button>
               </div>
-              <div className='custom-image-container mt-0 mb-2 col-md-4 col-sm-6'>
+
+              <p className='fst-italic textWord1 mb-1'>{word.grammar}</p>
+              <div className='textWord1'>Example</div>
+              <p className='textWord'>
+                <b>Example 1:</b> {word.example1}
+              </p>
+              <p className='textWord'>
+                <b>Example 2:</b> {word.example2}
+              </p>
+              <p className='textWord'>
+                <b>Eng:</b> {word.meaningENG}
+              </p>
+              <p>
+                <b>Tr:</b> {word.meaningTR}
+              </p>
+            </div>
+
+            <div className='col-md-4'>
+              <div className='custom-image-container mt-0 mb-2'>
                 <img
                   src={word.image}
                   className='img-thumbnail custom-image mt-2'
@@ -160,21 +202,6 @@ function WordApp() {
               </div>
             </div>
           </div>
-
-          {/* to do */}
-          <div className='textWord1 mb-3'>Example</div>
-          <p className='textWord'>
-            <b>Example 1:</b> {word.example1}
-          </p>
-          <p className='textWord'>
-            <b>Example 2:</b> {word.example2}
-          </p>
-          <p className='textWord'>
-            <b>Eng:</b> {word.meaningENG}
-          </p>
-          <p>
-            <b>Tr:</b> {word.meaningTR}
-          </p>
         </div>
       ))}
 
