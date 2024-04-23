@@ -90,11 +90,17 @@ a {
   align-items: center;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
-  font-size: 15px;
   color: #da513d;
   width: 50%;
   margin: 0 auto;
   list-style: none;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .altNav {
+    font-size: 11px;
+  }
 }
 
 .altNav2 {

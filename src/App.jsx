@@ -29,8 +29,6 @@ function App() {
 
                 <Route path='/bureaucracy' element={<Bureaucracy />} />
 
-                <Route path='/advanced' element={<Advanced />} />
-
                 <Route path='/favorites' element={<Favorites />} />
               </Routes>
               <Footer />
