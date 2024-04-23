@@ -9,40 +9,33 @@ import { BookmarkedIcon, HomeIcon, MixIcon } from './IconBox';
 export default function Nav() {
   return (
     <>
-      <div className='container col-12 mb-0 pb-0'>
-        <nav
-          className='d-flex navLink justify-content-between align-items-center px-1 rounded-bottom gap-3 px-3'
-          style={{ backgroundColor: '#DA513D' }}
-        >
-          <NavLink to='/profile' className='profile-link' aria-label='Profile'>
-            <Profile />
-          </NavLink>
-          <NavLink to='/home' className='text-light' aria-label='Home'>
-            <HomeIcon />
-          </NavLink>
-          <NavLink to='/mix' className='text-light' aria-label='Mix'>
-            <MixIcon />
-          </NavLink>
-          <NavLink
-            to='/favorites'
-            className='text-light'
-            aria-label='Favorites'
-          >
-            <BookmarkedIcon />
-          </NavLink>
-          <Theme2 />
-        </nav>
+      <nav
+        className='d-flex navLink justify-content-between align-items-center rounded-bottom gap-1 px-3'
+        style={{ backgroundColor: '#DA513D' }}
+      >
+        <NavLink to='/profile' className='profile-link' aria-label='Profile'>
+          <Profile />
+        </NavLink>
+        <NavLink to='/home' className='text-light' aria-label='Home'>
+          <HomeIcon />
+        </NavLink>
+        <NavLink to='/favorites' className='text-light' aria-label='Favorites'>
+          <BookmarkedIcon />
+        </NavLink>
+        <Theme2 />
+      </nav>
 
+      <div className='container ms-0 ps-0 mb-0 pb-0'>
         <div className='learnGerman mt-2 fw-light text-body-emphasis'>
           Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
         </div>
 
-        <div className='d-flex altNav align-items-center justify-content-center mt-5 px-2 mb-0'>
+        <div className='d-flex altNav align-items-center justify-content-center mt-5 mb-0'>
           <nav className='d-flex justify-content-center align-items-center gap-4'>
             <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
-              className='altNav2'
+              className='ms-3 altNav2'
             >
               #mixed
             </NavLink>
@@ -70,9 +63,9 @@ export default function Nav() {
             <NavLink
               to='/advanced-german'
               aria-label='Advanced German Words'
-              className='altNav2'
+              className='altNav2 me-1'
             >
-              #pro
+              #advanced
             </NavLink>
           </nav>
         </div>

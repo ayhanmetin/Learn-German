@@ -4,8 +4,8 @@ import Nav from './components/Nav';
 import WordApp from './components/WordApp';
 import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
-import Mix from './components/Mix';
 import Favorites from './components/Favorites';
+import Mix from './Categories/Mix';
 
 function App() {
   return (
