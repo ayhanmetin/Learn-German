@@ -97,6 +97,7 @@ a {
   margin: 0 auto;
   list-style: none;
   font-size: 14px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
