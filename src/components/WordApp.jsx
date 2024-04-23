@@ -180,7 +180,7 @@ function WordApp() {
       {visibleWordsCount < wordData.length && searchTerm === '' && (
         <div className='d-grid col-4 mx-auto'>
           <button
-            className='loadMore'
+            className='loadMore text-body-emphasis'
             onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}
           >
             50+ words

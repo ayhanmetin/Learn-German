@@ -12,35 +12,30 @@ import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
-    <>
-      <div
-        className='bg-transparent container col-12'
-        style={{ minHeight: '100vh' }}
-      >
-        <div className='container bg-transparent'>
-          <div className='row justify-content-center mt-0'>
-            <div className='col-12 col-md-8 mt-0 '>
-              <div className='mt-0 mb-5'>
-                <Nav />
-              </div>
-              <Routes>
-                <Analytics />
-                <Route path='/' element={<WordApp />} />
-                <Route path='/home' element={<WordApp />} />
-                <Route path='/mix' element={<Mix />} />
-
-                <Route path='/advanced' element={<Advanced />} />
-
-                <Route path='/basics' element={<Basics />} />
-
-                <Route path='/favorites' element={<Favorites />} />
-              </Routes>
-              <Footer />
+    <div
+      className='bg-transparent container col-12'
+      style={{ minHeight: '100vh' }}
+    >
+      <Analytics />
+      <div className='container bg-transparent'>
+        <div className='row justify-content-center mt-0'>
+          <div className='col-12 col-md-8 mt-0'>
+            <div className='mt-0 mb-5'>
+              <Nav />
             </div>
+            <Routes>
+              <Route path='/' element={<WordApp />} />
+              <Route path='/home' element={<WordApp />} />
+              <Route path='/mix' element={<Mix />} />
+              <Route path='/advanced' element={<Advanced />} />
+              <Route path='/basics' element={<Basics />} />
+              <Route path='/favorites' element={<Favorites />} />
+            </Routes>
+            <Footer />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
