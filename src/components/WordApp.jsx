@@ -127,23 +127,24 @@ function WordApp() {
             <SpeedInsights />
             <div className='row'>
               <div className='col-md-8'>
-                <div className='d-flex justify-content-start'>
-                  <b className='d-flex mobileWord wordDay justify-content-start'>
+                <div className='d-flex justify-content-start align-items-center'>
+                  <b className='d-flex mobileWord wordDay align-items-center'>
                     {word.word}
                   </b>
                   <button
                     className='ms-2 position-relative'
                     onClick={() => readWordAloud(word)}
                     style={{
-                      top: '3px',
                       border: 'none',
                       background: 'transparent',
                       cursor: 'pointer',
+                      top: '0',
                     }}
                   >
                     <VoiceIcon width='22' height='22' />
                   </button>
                 </div>
+
                 <div className='d-flex justify-content-start text-body-emphasis mt-1 mb-1'>
                   <p className='fst-italic textWord1 mb-1 d-flex justify-content-center'>
                     {word.grammar}
