@@ -37,7 +37,7 @@ export default function Nav() {
           Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
         </div>
 
-        <div className='d-flex altNav align-items-center justify-content-center mt-4 border-bottom p-2 mb-2'>
+        <div className='d-flex altNav align-items-center justify-content-center mt-5 px-2 mb-0'>
           <nav className='d-flex justify-content-center align-items-center gap-4'>
             <NavLink
               to='/mix'
@@ -77,6 +77,7 @@ export default function Nav() {
           </nav>
         </div>
       </div>
+      <div className='border-bottom border-success p-2 border-opacity-25'></div>
     </>
   );
 }
