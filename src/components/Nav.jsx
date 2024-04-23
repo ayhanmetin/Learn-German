@@ -9,7 +9,7 @@ import { BookmarkedIcon, HomeIcon, MixIcon } from './IconBox';
 export default function Nav() {
   return (
     <>
-      <div className='container mb-0 pb-0'>
+      <div className='container col-12 mb-0 pb-0'>
         <nav
           className='d-flex navLink justify-content-between align-items-center p-1 rounded-bottom gap-3 px-3'
           style={{ backgroundColor: '#DA513D' }}
@@ -41,43 +41,43 @@ export default function Nav() {
           <nav className='d-flex justify-content-center align-items-center gap-4'>
             <NavLink
               to='/mix'
-              aria-label='Explore Mixed Topics'
-              className='altNav2'
+              aria-label='Explore Mixed German Words'
+              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
             >
               #mixed
             </NavLink>
             <NavLink
               to='/living-in-germany'
-              aria-label='Living in Germany Guide'
-              className='altNav2'
+              aria-label='Living in Germany'
+              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
             >
               #living
             </NavLink>
             <NavLink
               to='/business'
               aria-label='Business Related Words'
-              className='altNav2'
+              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
             >
               #business
             </NavLink>
             <NavLink
               to='/bureaucracy'
               aria-label='Understanding Bureaucracy in Germany'
-              className='altNav2'
+              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
             >
               #bureaucracy
             </NavLink>
             <NavLink
               to='/advanced-german'
               aria-label='Advanced German Words'
-              className='altNav2'
+              className='altNav2 ms-2 me-2 ms-md-1 me-md-1'
             >
-              #advanced
+              #pro
             </NavLink>
           </nav>
         </div>
+        <div className='border-bottom border-success p-2 border-opacity-25'></div>
       </div>
-      <div className='border-bottom border-success p-2 border-opacity-25'></div>
     </>
   );
 }
