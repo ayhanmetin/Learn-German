@@ -18,18 +18,14 @@ export default function Nav() {
             <Profile />
           </NavLink>
 
-          <div className='navigation-links d-flex justify-content-center text-light align-items-center gap-5'>
-            <NavLink to='/home' className='text-light' aria-label='Home'>
+          <div className='d-flex navLink justify-content-center text-light align-items-center gap-5'>
+            <NavLink to='/home' className='text-light'>
               <HomeIcon />
             </NavLink>
-            <NavLink to='/mix' className='text-light' aria-label='Mix'>
+            <NavLink to='/mix' className='text-light'>
               <MixIcon />
             </NavLink>
-            <NavLink
-              to='/favorites'
-              className='text-light'
-              aria-label='Bookmarked'
-            >
+            <NavLink to='/favorites' className='text-light'>
               <BookmarkedIcon />
             </NavLink>
           </div>
