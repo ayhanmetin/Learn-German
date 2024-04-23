@@ -25,17 +25,17 @@ export default function Nav() {
         <Theme2 />
       </nav>
 
-      <div className='container ms-0 ps-0 mb-0 pb-0'>
+      <div className='ms-0 ps-0 mb-0 pb-0'>
         <div className='learnGerman mt-2 fw-light text-body-emphasis'>
           Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
         </div>
 
-        <div className='d-flex altNav align-items-center justify-content-center mt-5 mb-0'>
-          <nav className='d-flex justify-content-center align-items-center gap-4'>
+        <div className='d-flex altNav align-items-center justify-content-center p-0 mt-5 mb-0'>
+          <nav className='d-flex justify-content-center align-items-center gap-3'>
             <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
-              className='ms-3 altNav2'
+              className='altNav2'
             >
               #mixed
             </NavLink>
@@ -63,7 +63,7 @@ export default function Nav() {
             <NavLink
               to='/advanced-german'
               aria-label='Advanced German Words'
-              className='altNav2 me-1'
+              className='altNav2'
             >
               #advanced
             </NavLink>
