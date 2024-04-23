@@ -14,10 +14,7 @@ function shuffleArray(array) {
 }
 
 function Mix() {
-  const [filteredWords, setFilteredWords] = useState(() => {
-    const mixWords = wordData.filter(word => word.tag === 'mix');
-    return shuffleArray([...mixWords]);
-  });
+  const [filteredWords, setFilteredWords] = useState(() => shuffleArray([...wordData]));
   const [voices, setVoices] = useState([]);
 
   useEffect(() => {
@@ -25,8 +22,10 @@ function Mix() {
       setVoices(window.speechSynthesis.getVoices());
     };
 
-    loadVoices();
-    window.speechSynthesis.onvoiceschanged = loadVoices;
+    if (window.speechSynthesis) {
+      loadVoices();
+      window.speechSynthesis.onvoiceschanged = loadVoices;
+    }
 
     return () => {
       window.speechSynthesis.onvoiceschanged = null;

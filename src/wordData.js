@@ -41,7 +41,7 @@ const wordData = [
     meaningENG: 'claim',
     meaningTR: 'talep',
     id: '9',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, masculine',
   },
   {
@@ -102,7 +102,7 @@ const wordData = [
     meaningENG: 'force',
     meaningTR: 'kuvvet',
     id: '6',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -118,7 +118,7 @@ const wordData = [
     meaningENG: 'relationship',
     meaningTR: 'ilişki',
     id: '7',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -268,7 +268,7 @@ const wordData = [
     meaningENG: 'challenge',
     meaningTR: 'meydan okuma',
     id: '17',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -298,7 +298,7 @@ const wordData = [
     meaningENG: 'commitment',
     meaningTR: 'bağlılık',
     id: '19',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, neuter',
   },
   {
@@ -313,7 +313,7 @@ const wordData = [
     meaningENG: 'integrity',
     meaningTR: 'dürüstlük',
     id: '20',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -328,7 +328,7 @@ const wordData = [
     meaningENG: 'sanity',
     meaningTR: 'akıl sağlığı',
     id: '21',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -343,7 +343,7 @@ const wordData = [
     meaningENG: 'sovereignty',
     meaningTR: 'egemenlik',
     id: '22',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -361,7 +361,7 @@ const wordData = [
     meaningENG: 'determinism',
     meaningTR: 'determinizm',
     id: '23',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, masculine',
   },
   {
@@ -378,7 +378,7 @@ const wordData = [
     meaningENG: 'convergence',
     meaningTR: 'yakınsama',
     id: '24',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -390,11 +390,11 @@ const wordData = [
     example1: 'Sie empfand eine tiefe Ambivalenz gegenüber seiner Rückkehr.',
     example2: 'Ambivalenz in seinen Gefühlen machte die Entscheidung schwer.',
     means:
-      'The state of having mixed feelings or contradictory ideas about something or someone.',
+      'The state of having basicsed feelings or contradictory ideas about something or someone.',
     meaningENG: 'ambivalence',
     meaningTR: 'ikirciklilik',
     id: '25',
-    tag: 'mix',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
 ];

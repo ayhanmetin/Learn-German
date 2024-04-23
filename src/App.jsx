@@ -8,6 +8,7 @@ import Favorites from './components/Favorites';
 import Mix from './Categories/Mix';
 import Advanced from './Categories/Advanced';
 import Basics from './Categories/Basics';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Nav />
               </div>
               <Routes>
+                <Analytics />
                 <Route path='/' element={<WordApp />} />
                 <Route path='/home' element={<WordApp />} />
                 <Route path='/mix' element={<Mix />} />

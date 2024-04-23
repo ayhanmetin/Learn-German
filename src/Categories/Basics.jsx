@@ -4,6 +4,7 @@ import wordData from '../wordData';
 import '../components/wordApp.css';
 import { BookIcon, PrintIcon, VoiceIcon } from '../components/IconBox';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -14,6 +15,7 @@ function shuffleArray(array) {
 }
 
 function Basics() {
+  <Analytics />;
   const [filteredWords, setFilteredWords] = useState(() => {
     const basicsWords = wordData.filter(word => word.tag === 'basics');
     return shuffleArray([...basicsWords]);

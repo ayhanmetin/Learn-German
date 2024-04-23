@@ -73,6 +73,7 @@ function Advanced() {
 
   return (
     <div className='container col-12'>
+      <Analytics />
       {filteredWords.map(word => (
         <div
           className='border-bottom border-dark-subtle px-4 mb-3'
