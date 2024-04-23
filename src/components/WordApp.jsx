@@ -112,7 +112,7 @@ function WordApp() {
             </div>
             <div className='d-flex gap-3 text-body-emphasis'>
               <button
-                className='btnTop ms-1 text-body-emphasis'
+                className='btnTop ms-0 text-body-emphasis'
                 onClick={() => handlePrint(word)}
               >
                 <PrintIcon />
@@ -132,7 +132,7 @@ function WordApp() {
                     {word.word}
                   </b>
                   <button
-                    className='ms-3 position-relative'
+                    className='ms-2 position-relative'
                     onClick={() => readWordAloud(word)}
                     style={{
                       top: '3px',
@@ -141,7 +141,7 @@ function WordApp() {
                       cursor: 'pointer',
                     }}
                   >
-                    <VoiceIcon width='24' height='24' />
+                    <VoiceIcon width='22' height='22' />
                   </button>
                 </div>
                 <div className='d-flex justify-content-start text-body-emphasis mt-1 mb-1'>
