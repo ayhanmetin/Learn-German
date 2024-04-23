@@ -4,6 +4,7 @@ import wordData from '../wordData';
 import './wordApp.css';
 import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { NavLink } from 'react-router-dom';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -96,6 +97,8 @@ function WordApp() {
           />
         </div>
       </div>
+
+      
 
       {filteredWords.map(word => (
         <div

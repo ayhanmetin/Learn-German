@@ -47,6 +47,7 @@ a {
 
 .learnGerman {
   font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
   font-style: italic;
   font-size: 11px;
 }
@@ -82,3 +83,20 @@ a {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); 
     transform: translateY(-2px); 
   } */
+
+.altNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  list-style: none;
+  list-style: none;
+  color: #da513d;
+}
+
+.altNav2 {
+  color: #da513d;
+  text-decoration: none;
+}

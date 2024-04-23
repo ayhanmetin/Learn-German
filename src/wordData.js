@@ -12,7 +12,7 @@ const wordData = [
     quote2: '',
     quote3: '',
     id: '1',
-    tag: '',
+    tag: 'business',
     level: '1',
     block: '1',
     grammar: 'noun',
