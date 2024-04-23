@@ -52,37 +52,23 @@ a {
 }
 
 .navLink a {
+  color: #fff;
+  border-radius: 5px;
   transition: all 0.3s ease;
-  text-decoration: none; /* Removes underline from links */
-}
-
-.navLink a {
-  display: inline-block;
-  background-color: #da513d; /* Original color */
-  color: #fff; /* White text color for contrast */
-  padding: 10px 20px;
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease;
-  text-decoration: none; /* Removes underline from links */
+  text-decoration: none;
 }
 
 .navLink a:hover,
-.navLink a:focus {
-  background-color: hsl(10, 71%, 60%); /* Lighter shade */
-  box-shadow: 0 0 10px rgba(218, 81, 61, 0.5); /* Subtle glow effect */
-}
-
-.navLink a:hover,
-.navLink a:focus {
+.navLink a:focus,
+.profilLink a:focus,
+.profilLink a:hover {
   background-color: hsl(10, 71%, 60%);
   box-shadow: 0 0 10px rgba(218, 81, 61, 0.5);
 }
 
 .profilLink a:focus,
 .profilLink a:hover {
-  padding: 10px 20px; /* Ensure the padding remains consistent on hover/focus */
-  background-color: hsl(10, 71%, 60%);
-  box-shadow: 0 0 10px rgba(218, 81, 61, 0.5);
+  padding: 10px 20px;
 }
 
 /* .navLink a {
