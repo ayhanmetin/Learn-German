@@ -32,7 +32,7 @@ export default function Nav() {
       </nav>
 
       <div className='ms-0 ps-0 mb-0 pb-0'>
-        <div className='learnGerman ms-2 mt-2 fw-normal text-body-emphasis'>
+        <div className='learnGerman ms-2 mt-2 text-body-emphasis'>
           Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
         </div>
 

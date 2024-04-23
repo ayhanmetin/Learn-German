@@ -1,3 +1,4 @@
+
 a {
   font-family: 'Libre Franklin', sans-serif;
 }
@@ -47,9 +48,9 @@ a {
 
 .learnGerman {
   font-family: 'Libre Franklin', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .navLink a {
