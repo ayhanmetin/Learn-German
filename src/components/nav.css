@@ -84,20 +84,31 @@ a {
     transform: translateY(-2px); 
   } */
 
-.altNav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: 400;
-  font-size: 11px;
-  color: #da513d;
-  width: 50%;
-  margin: 0 auto;
-  list-style: none;
-}
+  .altNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #da513d;
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+  }
+  
+  .altNav2 {
+    color: #da513d;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 4px;  /* Adjusted padding */
+    margin-bottom: 2px;  /* Constant margin to maintain space */
+    border-bottom: 1px solid transparent;  /* Add a transparent border */
+    transition: border-color 0.3s; /* Smooth transition for the border color */
+  }
+  
+  .altNav2:hover {
+    border-bottom: 1px solid #da513d; /* Changes only the color, not the border thickness */
+  }
+  
 
-.altNav2 {
-  color: #da513d;
-  text-decoration: none;
-}
