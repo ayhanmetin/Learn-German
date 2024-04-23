@@ -1,4 +1,3 @@
-
 a {
   font-family: 'Libre Franklin', sans-serif;
 }
@@ -62,28 +61,10 @@ a {
 }
 
 .navLink a:hover,
-.navLink a:focus,
-.profilLink a:focus,
-.profilLink a:hover {
+.navLink a:focus {
   background-color: hsl(10, 71%, 60%);
   box-shadow: 0 0 10px rgba(218, 81, 61, 0.5);
 }
-
-.profilLink a:focus,
-.profilLink a:hover {
-  padding: 10px 20px;
-}
-
-/* .navLink a {
-    transition: all 0.3s ease;
-    text-decoration: none; 
-  }
-
-  .navLink a:hover,
-  .navLink a:focus {
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); 
-    transform: translateY(-2px); 
-  } */
 
 .altNav {
   display: flex;
@@ -96,7 +77,7 @@ a {
   width: 50%;
   margin: 0 auto;
   list-style: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 

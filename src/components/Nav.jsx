@@ -10,19 +10,19 @@ export default function Nav() {
   return (
     <>
       <nav
-        className='d-flex navLink justify-content-between align-items-center rounded-bottom gap-1 px-3'
+        className='d-flex justify-content-between align-items-center rounded-bottom gap-1 px-3'
         style={{ backgroundColor: '#DA513D' }}
       >
-        <NavLink to='/profile' className='profile-link' aria-label='Profile'>
+        <NavLink to='/profile' className='profilLink' aria-label='Profile'>
           <Profile />
         </NavLink>
         <div className='d-flex navLink gap-3 justify-content-center align-items-center'>
-          <NavLink to='/home' className='text-light' aria-label='Home'>
+          <NavLink to='/home' className='text-light navLink' aria-label='Home'>
             <HomeIcon />
           </NavLink>
           <NavLink
             to='/favorites'
-            className='text-light'
+            className='text-light navLink'
             aria-label='Favorites'
           >
             <BookmarkedIcon />
