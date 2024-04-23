@@ -87,6 +87,7 @@ a {
 .altNav {
   display: flex;
   justify-content: center;
+  padding-bottom: 1px;
   align-items: center;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
@@ -94,7 +95,7 @@ a {
   width: 50%;
   margin: 0 auto;
   list-style: none;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {

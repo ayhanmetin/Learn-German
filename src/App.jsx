@@ -6,8 +6,9 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Favorites from './components/Favorites';
 import Mix from './Categories/Mix';
-import Advanced from './Categories/Advanced';
 import Bureaucracy from './Categories/Bureaucracy';
+import Business from './Categories/Business';
+
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
                 <Route path='/' element={<WordApp />} />
                 <Route path='/home' element={<WordApp />} />
                 <Route path='/mix' element={<Mix />} />
+                <Route path='/business' element={<Business />} />
 
                 <Route path='/bureaucracy' element={<Bureaucracy />} />
 

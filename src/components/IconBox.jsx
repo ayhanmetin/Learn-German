@@ -46,7 +46,7 @@ export const BookIcon = ({
     width='16'
     height='16'
     fill='currentColor'
-    class='bi bi-bookmark'
+    className='bi bi-bookmark'
     viewBox='0 0 16 16'
   >
     <path d='M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z' />
@@ -63,7 +63,7 @@ export const SearchIcon = ({
     width='16'
     height='16'
     fill='currentColor'
-    class='bi bi-search'
+    className='bi bi-search'
     viewBox='0 0 16 16'
   >
     <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0' />
@@ -80,7 +80,7 @@ export const PrintIcon = ({
     width='16'
     height='16'
     fill='currentColor'
-    class='bi bi-printer'
+    className='bi bi-printer'
     viewBox='0 0 16 16'
   >
     <path d='M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1' />
@@ -98,7 +98,7 @@ export const ShareIcon = ({
     width='16'
     height='16'
     fill='currentColor'
-    class='bi bi-share'
+    className='bi bi-share'
     viewBox='0 0 16 16'
   >
     <path d='M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3' />
@@ -115,7 +115,7 @@ export const HomeIcon = ({
     width='25'
     height='25'
     fill='currentColor'
-    class='favButton bi bi-house'
+    className='favButton bi bi-house'
     viewBox='0 0 16 16'
   >
     <path d='M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z' />
@@ -132,7 +132,7 @@ export const MixIcon = ({
     width='25'
     height='25'
     fill='currentColor'
-    class='favButton bi bi-shuffle'
+    className='favButton bi bi-shuffle'
     viewBox='0 0 16 16'
   >
     <path
@@ -153,7 +153,7 @@ export const BookmarkedIcon = ({
     width='25'
     height='25'
     fill='currentColor'
-    class='favButton bi bi-bookmarks'
+    className='favButton bi bi-bookmarks'
     viewBox='0 0 16 16'
   >
     <path d='M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1z' />

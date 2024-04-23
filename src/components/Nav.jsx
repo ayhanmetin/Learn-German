@@ -32,12 +32,19 @@ export default function Nav() {
 
         <div className='d-flex altNav align-items-center justify-content-center p-0 mt-5 mb-0'>
           <nav className='d-flex justify-content-center align-items-center gap-3'>
-            <NavLink
-              to='/mix'
-              aria-label='Explore Mixed German Words'
+          <NavLink
+              to='/advanced'
+              aria-label='Explore Advanced German Words'
               className='altNav2'
             >
-              #mixed
+              #advanced
+            </NavLink>
+            <NavLink
+              to='/bureaucracy'
+              aria-label='Understanding Bureaucracy in Germany'
+              className='altNav2'
+            >
+              #bureaucracy
             </NavLink>
             <NavLink
               to='/living-in-germany'
@@ -54,11 +61,11 @@ export default function Nav() {
               #business
             </NavLink>
             <NavLink
-              to='/bureaucracy'
-              aria-label='Understanding Bureaucracy in Germany'
+              to='/mix'
+              aria-label='Explore Mixed German Words'
               className='altNav2'
             >
-              #bureaucracy
+              #mixed
             </NavLink>
           </nav>
         </div>
