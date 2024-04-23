@@ -6,11 +6,16 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Favorites from './components/Favorites';
 import Mix from './Categories/Mix';
+import Advanced from './Categories/Advanced';
+import Bureaucracy from './Categories/Bureaucracy';
 
 function App() {
   return (
     <>
-      <div className='bg-transparent container col-12' style={{ minHeight: '100vh' }}>
+      <div
+        className='bg-transparent container col-12'
+        style={{ minHeight: '100vh' }}
+      >
         <div className='container bg-transparent'>
           <div className='row justify-content-center mt-0'>
             <div className='col-12 col-md-8 mt-0 '>
@@ -21,6 +26,11 @@ function App() {
                 <Route path='/' element={<WordApp />} />
                 <Route path='/home' element={<WordApp />} />
                 <Route path='/mix' element={<Mix />} />
+
+                <Route path='/bureaucracy' element={<Bureaucracy />} />
+
+                <Route path='/advanced' element={<Advanced />} />
+
                 <Route path='/favorites' element={<Favorites />} />
               </Routes>
               <Footer />

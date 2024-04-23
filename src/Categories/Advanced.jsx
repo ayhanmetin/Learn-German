@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export default function Advanced() {
-  return (
-    <div>Advanced</div>
-  )
+  return <div>Advanced</div>;
 }

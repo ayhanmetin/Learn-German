@@ -61,7 +61,7 @@ export default function Nav() {
               #bureaucracy
             </NavLink>
             <NavLink
-              to='/advanced-german'
+              to='/advanced'
               aria-label='Advanced German Words'
               className='altNav2'
             >
@@ -69,7 +69,6 @@ export default function Nav() {
             </NavLink>
           </nav>
         </div>
-        
       </div>
       <div className='border-bottom border-success p-2 border-opacity-25'></div>
     </>
