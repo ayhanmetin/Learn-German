@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import '../components/wordApp.css';
 import { BookIcon, PrintIcon, VoiceIcon } from '../components/IconBox';
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -73,7 +72,6 @@ function Advanced() {
 
   return (
     <div className='container col-12'>
-      <Analytics />
       {filteredWords.map(word => (
         <div
           className='border-bottom border-dark-subtle px-4 mb-3'
@@ -93,7 +91,6 @@ function Advanced() {
             </div>
           </div>
           <div>
-            <SpeedInsights />
             <div className='row'>
               <div className='col-md-8'>
                 <div className='d-flex justify-content-start'>
