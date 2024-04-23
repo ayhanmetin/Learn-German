@@ -11,8 +11,7 @@ const wordData = [
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
     id: '1',
-    tag: 'business',
-    level: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -27,8 +26,7 @@ const wordData = [
     meaningENG: 'admission',
     meaningTR: 'kabul',
     id: '2',
-    tag: 'bureaucracy',
-    level: 'intermediate',
+    tag: 'advanced',
     grammar2: 'Noun, feminine',
   },
   {
@@ -43,8 +41,7 @@ const wordData = [
     meaningENG: 'claim',
     meaningTR: 'talep',
     id: '9',
-    tag: 'law',
-    level: 'advanced',
+    tag: 'mix',
     grammar2: 'Noun, masculine',
   },
   {
@@ -59,8 +56,7 @@ const wordData = [
     meaningENG: 'development',
     meaningTR: 'gelişim',
     id: '3',
-    tag: 'bureaucracy',
-    level: 'beginner',
+    tag: 'advanced',
     grammar2: 'Noun, feminine',
   },
   {
@@ -75,8 +71,7 @@ const wordData = [
     meaningENG: 'freedom',
     meaningTR: 'özgürlük',
     id: '4',
-    tag: 'bureaucracy',
-    level: 'advanced',
+    tag: 'advanced',
     grammar2: 'Noun, feminine',
   },
   {
@@ -91,8 +86,7 @@ const wordData = [
     meaningENG: 'balance',
     meaningTR: 'denge',
     id: '5',
-    tag: 'business',
-    level: 'intermediate',
+    tag: 'basics',
     grammar2: 'Noun, neuter',
   },
   {
@@ -108,8 +102,7 @@ const wordData = [
     meaningENG: 'force',
     meaningTR: 'kuvvet',
     id: '6',
-    tag: 'physics',
-    level: 'business',
+    tag: 'mix',
     grammar2: 'Noun, feminine',
   },
   {
@@ -125,8 +118,7 @@ const wordData = [
     meaningENG: 'relationship',
     meaningTR: 'ilişki',
     id: '7',
-    tag: 'psychology',
-    level: 'business',
+    tag: 'mix',
     grammar2: 'Noun, feminine',
   },
   {
@@ -141,8 +133,7 @@ const wordData = [
     meaningENG: 'authorization',
     meaningTR: 'yetki',
     id: '8',
-    tag: 'business',
-    level: 'intermediate',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -157,8 +148,7 @@ const wordData = [
     meaningENG: 'claim',
     meaningTR: 'talep',
     id: '9',
-    tag: 'business',
-    level: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, masculine',
   },
   {
@@ -173,8 +163,7 @@ const wordData = [
     meaningENG: 'insight',
     meaningTR: 'anlayış',
     id: '10',
-    tag: 'bureaucracy',
-    level: 'intermediate',
+    tag: 'advanced',
     grammar2: 'Noun, feminine',
   },
   {
@@ -189,8 +178,7 @@ const wordData = [
     meaningENG: 'obligation',
     meaningTR: 'yükümlülük',
     id: '11',
-    tag: 'business',
-    level: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -205,8 +193,7 @@ const wordData = [
     meaningENG: 'success',
     meaningTR: 'başarı',
     id: '12',
-    tag: 'business',
-    level: 'beginner',
+    tag: 'basics',
     grammar2: 'Noun, masculine',
   },
   {
@@ -221,8 +208,7 @@ const wordData = [
     meaningENG: 'change',
     meaningTR: 'değişim',
     id: '13',
-    tag: 'business',
-    level: 'intermediate',
+    tag: 'basics',
     grammar2: 'Noun, masculine',
   },
   {
@@ -237,8 +223,7 @@ const wordData = [
     meaningENG: 'risk',
     meaningTR: 'risk',
     id: '14',
-    tag: 'bureaucracy',
-    level: 'advanced',
+    tag: 'advanced',
     grammar2: 'Noun, neuter',
   },
   {
@@ -253,8 +238,7 @@ const wordData = [
     meaningENG: 'justice',
     meaningTR: 'adalet',
     id: '15',
-    tag: 'bureaucracy',
-    level: 'beginner',
+    tag: 'advanced',
     grammar2: 'Noun, feminine',
   },
   {
@@ -269,8 +253,7 @@ const wordData = [
     meaningENG: 'performance',
     meaningTR: 'performans',
     id: '16',
-    tag: 'bureaucracy',
-    level: 'intermediate',
+    tag: 'advanced',
     grammar2: 'Noun, feminine',
   },
   {
@@ -285,8 +268,7 @@ const wordData = [
     meaningENG: 'challenge',
     meaningTR: 'meydan okuma',
     id: '17',
-    tag: 'motivation',
-    level: 'bureaucracy',
+    tag: 'mix',
     grammar2: 'Noun, feminine',
   },
   {
@@ -302,7 +284,6 @@ const wordData = [
     meaningTR: 'perspektif',
     id: '18',
     tag: 'living',
-    level: 'beginner',
     grammar2: 'Noun, feminine',
   },
   {
@@ -317,8 +298,7 @@ const wordData = [
     meaningENG: 'commitment',
     meaningTR: 'bağlılık',
     id: '19',
-    tag: 'living',
-    level: 'intermediate',
+    tag: 'mix',
     grammar2: 'Noun, neuter',
   },
   {
@@ -333,8 +313,7 @@ const wordData = [
     meaningENG: 'integrity',
     meaningTR: 'dürüstlük',
     id: '20',
-    tag: 'living',
-    level: 'advanced',
+    tag: 'mix',
     grammar2: 'Noun, feminine',
   },
   {
@@ -349,8 +328,7 @@ const wordData = [
     meaningENG: 'sanity',
     meaningTR: 'akıl sağlığı',
     id: '21',
-    tag: 'psychology',
-    level: 'advanced',
+    tag: 'mix',
     grammar2: 'Noun, feminine',
   },
   {
@@ -365,8 +343,7 @@ const wordData = [
     meaningENG: 'sovereignty',
     meaningTR: 'egemenlik',
     id: '22',
-    tag: 'political science',
-    level: 'advanced',
+    tag: 'mix',
     grammar2: 'Noun, feminine',
   },
   {
@@ -384,8 +361,7 @@ const wordData = [
     meaningENG: 'determinism',
     meaningTR: 'determinizm',
     id: '23',
-    tag: 'philosophy',
-    level: 'advanced',
+    tag: 'mix',
     grammar2: 'Noun, masculine',
   },
   {
@@ -402,8 +378,7 @@ const wordData = [
     meaningENG: 'convergence',
     meaningTR: 'yakınsama',
     id: '24',
-    tag: 'economics',
-    level: 'advanced',
+    tag: 'mix',
     grammar2: 'Noun, feminine',
   },
   {
@@ -419,8 +394,7 @@ const wordData = [
     meaningENG: 'ambivalence',
     meaningTR: 'ikirciklilik',
     id: '25',
-    tag: 'psychology',
-    level: 'advanced',
+    tag: 'mix',
     grammar2: 'Noun, feminine',
   },
 ];

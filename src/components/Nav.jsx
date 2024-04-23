@@ -16,36 +16,28 @@ export default function Nav() {
         <NavLink to='/profile' className='profile-link' aria-label='Profile'>
           <Profile />
         </NavLink>
-        <NavLink to='/home' className='text-light' aria-label='Home'>
-          <HomeIcon />
-        </NavLink>
-        <NavLink to='/favorites' className='text-light' aria-label='Favorites'>
-          <BookmarkedIcon />
-        </NavLink>
+        <div className='d-flex navLink gap-3 justify-content-center align-items-center'>
+          <NavLink to='/home' className='text-light' aria-label='Home'>
+            <HomeIcon />
+          </NavLink>
+          <NavLink
+            to='/favorites'
+            className='text-light'
+            aria-label='Favorites'
+          >
+            <BookmarkedIcon />
+          </NavLink>
+        </div>
         <Theme2 />
       </nav>
 
       <div className='ms-0 ps-0 mb-0 pb-0'>
-        <div className='learnGerman mt-2 fw-light text-body-emphasis'>
+        <div className='learnGerman mt-2 fw-normal text-body-emphasis'>
           Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
         </div>
 
         <div className='d-flex altNav align-items-center justify-content-center p-0 mt-5 mb-0'>
           <nav className='d-flex justify-content-center align-items-center gap-3'>
-            <NavLink
-              to='/advanced'
-              aria-label='Explore Advanced German Words'
-              className='altNav2'
-            >
-              #advanced
-            </NavLink>
-            <NavLink
-              to='/bureaucracy'
-              aria-label='Understanding Bureaucracy in Germany'
-              className='altNav2'
-            >
-              #bureaucracy
-            </NavLink>
             <NavLink
               to='/basics'
               aria-label='Living in Germany'
@@ -53,19 +45,20 @@ export default function Nav() {
             >
               #basics
             </NavLink>
-            <NavLink
-              to='/business'
-              aria-label='Business Related Words'
-              className='altNav2'
-            >
-              #business
-            </NavLink>
+
             <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
               className='altNav2'
             >
               #mixed
+            </NavLink>
+            <NavLink
+              to='/advanced'
+              aria-label='Explore Advanced German Words'
+              className='altNav2'
+            >
+              #advanced
             </NavLink>
           </nav>
         </div>

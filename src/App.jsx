@@ -6,8 +6,6 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Favorites from './components/Favorites';
 import Mix from './Categories/Mix';
-import Bureaucracy from './Categories/Bureaucracy';
-import Business from './Categories/Business';
 import Advanced from './Categories/Advanced';
 import Basics from './Categories/Basics';
 
@@ -28,9 +26,7 @@ function App() {
                 <Route path='/' element={<WordApp />} />
                 <Route path='/home' element={<WordApp />} />
                 <Route path='/mix' element={<Mix />} />
-                <Route path='/business' element={<Business />} />
 
-                <Route path='/bureaucracy' element={<Bureaucracy />} />
                 <Route path='/advanced' element={<Advanced />} />
 
                 <Route path='/basics' element={<Basics />} />
