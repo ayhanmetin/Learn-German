@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import Favorites from './components/Favorites';
 import Mix from './Categories/Mix';
 import Advanced from './Categories/Advanced';
+
 import Basics from './Categories/Basics';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -29,10 +30,10 @@ function App() {
       className='bg-transparent container col-12'
       style={{
         minHeight: '100vh',
-        paddingLeft: isMobile ? 0 : '', // Remove padding on mobile
-        paddingRight: isMobile ? 0 : '', // Remove padding on mobile
-        marginLeft: isMobile ? 0 : '', // Remove margin on mobile
-        marginRight: isMobile ? 0 : '', // Remove margin on mobile
+        paddingLeft: isMobile ? 0 : '', 
+        paddingRight: isMobile ? 0 : '', 
+        marginLeft: isMobile ? 0 : '', 
+        marginRight: isMobile ? 0 : '', 
       }}
     >
       <Analytics />
@@ -47,6 +48,7 @@ function App() {
               <Route path='/home' element={<WordApp />} />
               <Route path='/mix' element={<Mix />} />
               <Route path='/advanced' element={<Advanced />} />
+
               <Route path='/basics' element={<Basics />} />
               <Route path='/favorites' element={<Favorites />} />
             </Routes>

@@ -45,7 +45,6 @@ export default function Nav() {
             >
               #basics
             </NavLink>
-
             <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
