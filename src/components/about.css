@@ -1,3 +1,8 @@
+.title {
+  font-family: 'Libre Franklin', sans-serif;
+  color: #c6c553;
+}
+
 a {
   font-family: 'Libre Franklin', sans-serif;
 }
@@ -16,4 +21,8 @@ h1 {
 
 h2 {
   font-size: 17px;
+}
+p,
+h2 {
+  margin-left: 12px;
 }
