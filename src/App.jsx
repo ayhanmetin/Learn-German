@@ -6,10 +6,10 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Favorites from './components/Favorites';
 import Mix from './Categories/Mix';
-import Advanced from './Categories/Advanced';
-
 import Basics from './Categories/Basics';
+import Travel from './Categories/Travel';
 import { Analytics } from '@vercel/analytics/react';
+import About from './components/About';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -30,14 +30,17 @@ function App() {
       className='bg-transparent container col-12'
       style={{
         minHeight: '100vh',
-        paddingLeft: isMobile ? 0 : '', 
-        paddingRight: isMobile ? 0 : '', 
-        marginLeft: isMobile ? 0 : '', 
-        marginRight: isMobile ? 0 : '', 
+        paddingLeft: isMobile ? 0 : '',
+        paddingRight: isMobile ? 0 : '',
+        marginLeft: isMobile ? 0 : '',
+        marginRight: isMobile ? 0 : '',
       }}
     >
       <Analytics />
-      <div className='container bg-transparent' style={{ maxWidth: '100%', padding: 0 }}>
+      <div
+        className='container bg-transparent'
+        style={{ maxWidth: '100%', padding: 0 }}
+      >
         <div className='row justify-content-center mt-0'>
           <div className='col-12 col-md-8 mt-0'>
             <div className='mt-0 mb-5'>
@@ -47,8 +50,8 @@ function App() {
               <Route path='/' element={<WordApp />} />
               <Route path='/home' element={<WordApp />} />
               <Route path='/mix' element={<Mix />} />
-              <Route path='/advanced' element={<Advanced />} />
-
+              <Route path='/travel' element={<Travel />} />
+              <Route path='/about' element={<About />} />
               <Route path='/basics' element={<Basics />} />
               <Route path='/favorites' element={<Favorites />} />
             </Routes>

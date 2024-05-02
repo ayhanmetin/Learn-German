@@ -78,7 +78,6 @@ function Advanced() {
           key={word.id}
         >
           <div className='d-flex justify-content-center mb-3'>
-            
             <div className='d-flex gap-3 text-body-emphasis'>
               <button
                 className='btnTop ms-0 text-body-emphasis'

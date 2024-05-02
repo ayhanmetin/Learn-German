@@ -28,7 +28,7 @@ const wordData = [
     meaningTR: 'kabul',
     id: '2',
     tip: '',
-    tag: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -60,7 +60,7 @@ const wordData = [
     meaningTR: 'gelişim',
     id: '3',
     tip: '',
-    tag: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -76,7 +76,7 @@ const wordData = [
     meaningTR: 'özgürlük',
     id: '4',
     tip: '',
-    tag: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -174,7 +174,7 @@ const wordData = [
     meaningTR: 'anlayış',
     id: '10',
     tip: '',
-    tag: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -238,7 +238,7 @@ const wordData = [
     meaningTR: 'risk',
     id: '14',
     tip: '',
-    tag: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, neuter',
   },
   {
@@ -254,7 +254,7 @@ const wordData = [
     meaningTR: 'adalet',
     id: '15',
     tip: '',
-    tag: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {
@@ -270,7 +270,7 @@ const wordData = [
     meaningTR: 'performans',
     id: '16',
     tip: '',
-    tag: 'advanced',
+    tag: 'basics',
     grammar2: 'Noun, feminine',
   },
   {

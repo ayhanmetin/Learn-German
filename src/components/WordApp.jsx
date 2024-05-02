@@ -196,7 +196,7 @@ function WordApp() {
               <div className='custom-image-container mt-0 mb-2'>
                 <img
                   src={word.image}
-                  className='img-thumbnail custom-image mt-2'
+                  className='custom-image mt-2'
                   alt={`Image depicting the word ${word.word}`}
                 />
               </div>

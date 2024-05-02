@@ -13,7 +13,7 @@ export default function Nav() {
         className='d-flex justify-content-between align-items-center rounded-bottom gap-1 px-3'
         style={{ backgroundColor: '#DA513D' }}
       >
-        <NavLink to='/profile' className='profilLink' aria-label='Profile'>
+        <NavLink to='/about' className='profilLink' aria-label='Profile'>
           <Profile />
         </NavLink>
         <div className='d-flex navLink gap-3 justify-content-center align-items-center'>
@@ -45,19 +45,20 @@ export default function Nav() {
             >
               #basics
             </NavLink>
+            
+            <NavLink
+              to='/travel'
+              aria-label='Explore Advanced German Words'
+              className='altNav2'
+            >
+              #travel
+            </NavLink>
             <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
               className='altNav2'
             >
               #mixed
-            </NavLink>
-            <NavLink
-              to='/advanced'
-              aria-label='Explore Advanced German Words'
-              className='altNav2'
-            >
-              #advanced
             </NavLink>
           </nav>
         </div>
