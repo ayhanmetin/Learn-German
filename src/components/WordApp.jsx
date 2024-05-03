@@ -176,20 +176,22 @@ function WordApp() {
                 </button>
               </div>
 
-              <p className='fst-italic textWord1 mb-1'>{word.grammar}</p>
-              <div className='textWord1'>Example</div>
-              <p className='textWord'>
-                <b>Example 1:</b> {word.example1}
-              </p>
-              <p className='textWord'>
-                <b>Example 2:</b> {word.example2}
-              </p>
-              <p className='textWord'>
-                <b>Eng:</b> {word.meaningENG}
-              </p>
-              <p>
-                <b>Tr:</b> {word.meaningTR}
-              </p>
+              <div className='word-container'>
+                <p className='fst-italic textWord1 mt-0 pt-0 mb-4'>{word.grammar}</p>
+                <div className='textWord1'>Example</div>
+                <p className='textWord'>
+                  <strong>Example 1:</strong> {word.example1}
+                </p>
+                <p className='textWord'>
+                  <strong>Example 2:</strong> {word.example2}
+                </p>
+                <p className='textWord'>
+                  <strong>Eng:</strong> {word.meaningENG}
+                </p>
+                <p className='textWord'>
+                  <strong>Tr:</strong> {word.meaningTR}
+                </p>
+              </div>
             </div>
 
             <div className='col-md-4'>

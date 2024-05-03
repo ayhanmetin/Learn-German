@@ -14,6 +14,8 @@ p {
 
 .textWord {
   font-family: 'Libre Franklin', sans-serif;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .textWord2 {
@@ -117,6 +119,8 @@ p {
 .textWord1 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
