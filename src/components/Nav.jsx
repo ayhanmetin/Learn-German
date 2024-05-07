@@ -54,13 +54,6 @@ export default function Nav() {
               #travel
             </NavLink>
             <NavLink
-              to='/advanced'
-              aria-label='Explore Mixed German Words'
-              className='altNav2'
-            >
-              #advanced
-            </NavLink>
-            <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
               className='altNav2'

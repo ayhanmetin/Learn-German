@@ -5,28 +5,28 @@ export default function Footer2() {
     <footer className='container d-flex flex-column flex-sm-row justify-content-between pt-4 mb-3 fs-6'>
       <ul className='list-unstyled'>
         <li>
-          <Link
-            to='/about#almancaKitaplar'
+          <a
             className='text-decoration-none text-secondary'
+            href='/about#almancaSertifikalar'
           >
             Almanca öğrenmek için kitaplar
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
-            to='/about#almancaUlkeler'
+          <a
             className='text-decoration-none text-secondary'
+            href='/about#almancaUlkeler'
           >
-            Almanca konuşulan AB ülkeleri
-          </Link>
+            Almanca konuşulan AB ülkeleri{' '}
+          </a>
         </li>
         <li>
-          <Link
-            to='/about#almancaSertifikalar'
+          <a
             className='text-decoration-none text-secondary'
+            href='/about#almancaKitaplar'
           >
-            Almanca dil sertifikaları
-          </Link>
+            Almanca Öğrenmek için Kitaplar{' '}
+          </a>
         </li>
       </ul>
       <div>© 2024</div>

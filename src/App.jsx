@@ -10,7 +10,6 @@ import Basics from './Categories/Basics';
 import Travel from './Categories/Travel';
 import { Analytics } from '@vercel/analytics/react';
 import About from './components/About';
-import Advanced from './Categories/Travel';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -55,7 +54,6 @@ function App() {
               <Route path='/about' element={<About />} />
               <Route path='/basics' element={<Basics />} />
               <Route path='/favorites' element={<Favorites />} />
-              <Route path='/advanced' element={<Advanced />} />
 
             </Routes>
             <Footer />
