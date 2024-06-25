@@ -111,7 +111,6 @@ function Basics() {
     printContent += `
           <p>- "${word.meaningENG}"</p>
           <p>- "${word.meaningTR}"</p>
-          <p>⇢ ${word.tip}</p>
         </div>
       </body>
     </html>`;
