@@ -119,7 +119,7 @@ function Advanced() {
               <p className='textWord'>
                 <b>Eng:</b> {word.meaningENG}
               </p>
-              <p>
+              <p className='p-0 m-0'>
                 <b>Tr:</b> {word.meaningTR}
               </p>
             </div>

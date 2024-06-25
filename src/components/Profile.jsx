@@ -4,29 +4,24 @@ import flag from '../image/Flag_of_Germany.png';
 export default function () {
   return (
     <>
-      <div
-        className='d-flex align-items-center'
-        style={{ margin: 0, padding: 0 }}
+      <div className='d-flex align-items-center'
+        style={{
+          transition: 'transform 0.3s ease', // Apply transition to the container
+        }}
+        onMouseOver={e => (e.currentTarget.style.transform = 'scale(1.08)')}
+        onMouseOut={e => (e.currentTarget.style.transform = 'scale(1)')}
       >
-        <div className='me-2' style={{ margin: 0, padding: 0 }}>
-          <img
-            src={flag}
-            alt='Flag of Germany'
-            className='rounded-circle shadow-lg'
-            style={{
-              width: '24px',
-              height: '24px',
-              objectFit: 'cover',
-              transition: 'transform 0.3s ease',
-              position: 'relative',
-              top: '-1.8px',
-              margin: 0,
-              padding: 0,
-            }}
-            onMouseOver={e => (e.currentTarget.style.transform = 'scale(1.08)')}
-            onMouseOut={e => (e.currentTarget.style.transform = 'scale(1)')}
-          />
-        </div>
+        <img
+          src={flag}
+          alt='Flag of Germany'
+          className='rounded-circle shadow-lg me-2'
+          style={{
+            width: '24px',
+            height: '24px',
+            objectFit: 'cover'
+          }}
+        />
+        <span className='text-white fw-lighter'>info</span>
       </div>
     </>
   );

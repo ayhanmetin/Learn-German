@@ -34,14 +34,19 @@ function WordApp() {
 
   const readWordAloud = word => {
     const speech = new SpeechSynthesisUtterance(word.word);
-    const femaleVoices = populateVoices();
-    if (femaleVoices.length > 0) {
-      speech.voice = femaleVoices[0];
+    const germanVoices = populateVoices().filter(
+      voice => voice.lang === 'de-DE'
+    );
+    if (germanVoices.length > 0) {
+      speech.voice = germanVoices[0];
+      console.log(`Using voice: ${speech.voice.name}, Language: ${speech.voice.lang}`);
     } else {
-      console.log('No female voices available.');
+      console.log('No German voices available.');
     }
+    speech.lang = 'de-DE';
     window.speechSynthesis.speak(speech);
-  };
+};
+
 
   useEffect(() => {
     setFilteredWords(wordData.slice(0, visibleWordsCount));
@@ -162,7 +167,7 @@ function WordApp() {
           <div className='row'>
             <div className='col-md-8'>
               <div className='d-flex justify-content-start align-items-center mb-3'>
-                <b className='mobileWord wordDay'>{word.word}</b>
+                <b className='mobileWord wordDay'>{`${word.article} ${word.word}`}</b>
                 <button
                   className='ms-2 position-relative'
                   onClick={() => readWordAloud(word)}
@@ -177,8 +182,9 @@ function WordApp() {
               </div>
 
               <div className='word-container'>
-                <p className='fst-italic textWord1 mt-0 pt-0 mb-4'>{word.grammar}</p>
-                <div className='textWord1'>Example</div>
+                <p className='fst-italic textWord1 mb-3 mt-0 pt-0 mb-4'>
+                  {word.grammar}
+                </p>
                 <p className='textWord'>
                   <strong>Example 1:</strong> {word.example1}
                 </p>
@@ -213,7 +219,7 @@ function WordApp() {
             className='loadMore text-body-emphasis'
             onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}
           >
-            50+ words
+            50 weitere Wörter
           </button>
         </div>
       )}

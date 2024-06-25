@@ -13,7 +13,7 @@ export default function Nav() {
         className='d-flex justify-content-between align-items-center rounded-bottom gap-1 px-3'
         style={{ backgroundColor: '#DA513D' }}
       >
-        <NavLink to='/about' className='profilLink' aria-label='Profile'>
+        <NavLink to='/about' className='text-white' aria-label='Profile'>
           <Profile />
         </NavLink>
         <div className='d-flex navLink gap-3 justify-content-center align-items-center'>
@@ -32,10 +32,6 @@ export default function Nav() {
       </nav>
 
       <div className='ms-0 ps-0 mb-0 pb-0'>
-        <div className='learnGerman ms-2 mt-2 text-body-emphasis'>
-          Deutsch lernen für TestDaF, Goethe-Institut und TELC-Zertifizierung
-        </div>
-
         <div className='d-flex altNav align-items-center justify-content-center p-0 mt-5 mb-0'>
           <nav className='d-flex justify-content-center align-items-center gap-3'>
             <NavLink
@@ -45,7 +41,14 @@ export default function Nav() {
             >
               #basics
             </NavLink>
-            
+            <NavLink
+              to='/basics'
+              aria-label='Living in Germany'
+              className='altNav2'
+            >
+              #advanced
+            </NavLink>
+
             <NavLink
               to='/travel'
               aria-label='Explore Advanced German Words'
@@ -56,9 +59,9 @@ export default function Nav() {
             <NavLink
               to='/mix'
               aria-label='Explore Mixed German Words'
-              className='altNav2'
+              className='altNav2 quiz-button'
             >
-              #mixed
+              #Quiz
             </NavLink>
           </nav>
         </div>

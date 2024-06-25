@@ -45,13 +45,6 @@ a {
   object-position: center bottom;
 }
 
-.learnGerman {
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: 500;
-  font-style: italic;
-  font-size: 12px;
-}
-
 .navLink a {
   padding: 7px;
   color: #fff;
@@ -99,4 +92,29 @@ a {
 
 .altNav2:hover {
   border-bottom: 1px solid #da513d;
+}
+
+.text-white,
+.text-white a {
+  text-decoration: none !important;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footerText {
+  color: #da513d;
+  text-decoration: none;
+}
+
+.vh-100 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.quiz-button:hover {
+  border-bottom: 1px solid green;
+  color: green;
 }

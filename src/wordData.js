@@ -1,6 +1,7 @@
 const wordData = [
   {
     date: 'April 18, 2024',
+    article: 'die',
     word: 'Verhandlung',
     grammar: 'noun',
     image:
@@ -13,7 +14,6 @@ const wordData = [
     id: '1',
     tip: '',
     tag: 'basics',
-    grammar2: 'Noun, feminine',
   },
   {
     date: 'April 19, 2024',

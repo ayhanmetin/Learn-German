@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import WordApp from './components/WordApp';
-import Footer from './components/Footer';
+import Footer2 from './components/Footer2';
 import { Route, Routes } from 'react-router-dom';
 import Favorites from './components/Favorites';
 import Mix from './Categories/Mix';
@@ -27,20 +27,15 @@ function App() {
 
   return (
     <div
-      className='bg-transparent container col-12'
+      className='d-flex flex-column min-vh-100'
       style={{
-        minHeight: '100vh',
         paddingLeft: isMobile ? 0 : '',
         paddingRight: isMobile ? 0 : '',
         marginLeft: isMobile ? 0 : '',
         marginRight: isMobile ? 0 : '',
       }}
     >
-      <Analytics />
-      <div
-        className='container bg-transparent'
-        style={{ maxWidth: '100%', padding: 0 }}
-      >
+      <div className='container bg-transparent' style={{ maxWidth: '100%', padding: 0 }}>
         <div className='row justify-content-center mt-0'>
           <div className='col-12 col-md-8 mt-0'>
             <div className='mt-0 mb-5'>
@@ -54,11 +49,12 @@ function App() {
               <Route path='/about' element={<About />} />
               <Route path='/basics' element={<Basics />} />
               <Route path='/favorites' element={<Favorites />} />
-
             </Routes>
-            <Footer />
           </div>
         </div>
+      </div>
+      <div className='mt-auto'>
+        <Footer2 />
       </div>
     </div>
   );

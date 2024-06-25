@@ -111,8 +111,8 @@ function Basics() {
                 </button>
               </div>
 
-              <p className='fst-italic textWord1 mb-1'>{word.grammar}</p>
-              <div className='textWord1'>Example</div>
+              <p className='fst-italic textWord1 mb-3'>{word.grammar}</p>
+
               <p className='textWord'>
                 <b>Example 1:</b> {word.example1}
               </p>
@@ -122,7 +122,7 @@ function Basics() {
               <p className='textWord'>
                 <b>Eng:</b> {word.meaningENG}
               </p>
-              <p>
+              <p className='m-0 p-0'>
                 <b>Tr:</b> {word.meaningTR}
               </p>
             </div>
