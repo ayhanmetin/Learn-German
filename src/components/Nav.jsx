@@ -4,7 +4,7 @@ import './nav.css';
 import Profile from './Profile';
 import Theme2 from './Theme2';
 import { NavLink } from 'react-router-dom';
-import { BookmarkedIcon, HomeIcon, MixIcon } from './IconBox';
+import { BlogIcon, BookmarkedIcon, HomeIcon, MixIcon } from './IconBox';
 
 export default function Nav() {
   return (
@@ -16,24 +16,27 @@ export default function Nav() {
         <NavLink to='/about' className='text-white' aria-label='Profile'>
           <Profile />
         </NavLink>
-        <div className='d-flex navLink gap-3 justify-content-center align-items-center'>
-          <NavLink to='/home' className='text-light navLink' aria-label='Home'>
+        <div className='d-flex navLink gap-0 justify-content-center align-items-center'>
+          <NavLink to='/home' className='text-light navLink me-5' aria-label='Home'>
             <HomeIcon />
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to='/favorites'
             className='text-light navLink'
             aria-label='Favorites'
           >
             <BookmarkedIcon />
-          </NavLink>
+          </NavLink> */}
+          {/* <NavLink to='/home' className='text-light navLink' aria-label='Home'>
+            <BlogIcon />
+          </NavLink> */}
         </div>
         <Theme2 />
       </nav>
 
       <div className='ms-0 ps-0 mb-0 pb-0'>
         <div className='d-flex altNav align-items-center justify-content-center p-0 mt-5 mb-0'>
-          <nav className='d-flex justify-content-center align-items-center gap-3'>
+          <nav className='d-flex justify-content-center align-items-center gap-5'>
             <NavLink
               to='/basics'
               aria-label='Living in Germany'
@@ -42,27 +45,27 @@ export default function Nav() {
               #basics
             </NavLink>
             <NavLink
-              to='/basics'
+              to='/advanced'
               aria-label='Living in Germany'
               className='altNav2'
             >
               #advanced
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to='/travel'
               aria-label='Explore Advanced German Words'
               className='altNav2'
             >
               #travel
-            </NavLink>
-            <NavLink
-              to='/mix'
+            </NavLink> */}
+            {/* <NavLink
+              to='/quiz'
               aria-label='Explore Mixed German Words'
               className='altNav2 quiz-button'
             >
-              #Quiz
-            </NavLink>
+              #quiz
+            </NavLink> */}
           </nav>
         </div>
       </div>

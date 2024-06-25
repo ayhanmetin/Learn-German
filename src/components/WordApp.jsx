@@ -39,14 +39,15 @@ function WordApp() {
     );
     if (germanVoices.length > 0) {
       speech.voice = germanVoices[0];
-      console.log(`Using voice: ${speech.voice.name}, Language: ${speech.voice.lang}`);
+      console.log(
+        `Using voice: ${speech.voice.name}, Language: ${speech.voice.lang}`
+      );
     } else {
       console.log('No German voices available.');
     }
     speech.lang = 'de-DE';
     window.speechSynthesis.speak(speech);
-};
-
+  };
 
   useEffect(() => {
     setFilteredWords(wordData.slice(0, visibleWordsCount));
@@ -71,7 +72,8 @@ function WordApp() {
 
   const handlePrint = word => {
     const currentScrollPosition = window.scrollY;
-    const printContent = `
+
+    let printContent = `
     <html>
       <head>
         <title>Print</title>
@@ -105,24 +107,41 @@ function WordApp() {
       <body>
         <div class="content">
           <h1>${word.word}</h1>
-          <p>${word.grammar}</p>
-          <p>Example 1: ${word.example1}</p>
-          <p>Example 2: ${word.example2}</p>
-          <p>English: ${word.meaningENG} </p>
-          <p>Türkce: ${word.meaningTR}</p>
-          <p>Date: ${new Date().toLocaleDateString()}</p>
+          <p>・${word.grammar}</p>`;
+
+
+    if (word.example1) {
+      printContent += `<p>‣ ${word.example1}</p>`;
+    }
+    if (word.example2) {
+      printContent += `<p>‣ ${word.example2}</p>`;
+    }
+    if (word.example3) {
+      printContent += `<p>‣ ${word.example3}</p>`;
+    }
+    if (word.example4) {
+      printContent += `<p>‣ ${word.example4}</p>`;
+    }
+    if (word.example5) {
+      printContent += `<p>‣ ${word.example5}</p>`;
+    }
+
+    printContent += `
+          <p>- "${word.meaningENG}"</p>
+          <p>- "${word.meaningTR}"</p>
+          <p>⇢ ${word.tip}</p>
         </div>
       </body>
     </html>`;
 
-    const printWindow = window.open('', '', 'height=800,width=1000');
+    const printWindow = window.open('', '_blank');
+    printWindow.document.open();
     printWindow.document.write(printContent);
     printWindow.document.close();
+    printWindow.focus();
     printWindow.print();
-    printWindow.onafterprint = () => {
-      printWindow.close();
-      window.scrollTo(0, currentScrollPosition);
-    };
+    printWindow.close();
+    window.scrollTo(0, currentScrollPosition);
   };
 
   return (
@@ -158,9 +177,9 @@ function WordApp() {
               >
                 <PrintIcon />
               </button>
-              <button className='btnTop btnTop1 ms-0 text-body-emphasis'>
+              {/* <button className='btnTop btnTop1 ms-0 text-body-emphasis'>
                 <BookIcon />
-              </button>
+              </button> */}
             </div>
           </div>
 
@@ -182,21 +201,45 @@ function WordApp() {
               </div>
 
               <div className='word-container'>
-                <p className='fst-italic textWord1 mb-3 mt-0 pt-0 mb-4'>
-                  {word.grammar}
+                <p className='fst-italic fs-6 textWord1 mb-3 mt-0 pt-0 mb-4'>
+                  ・{word.grammar}
                 </p>
-                <p className='textWord'>
-                  <strong>Example 1:</strong> {word.example1}
+                {word.example1 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example1}
+                  </p>
+                )}
+                {word.example2 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example2}
+                  </p>
+                )}
+                {word.example3 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example3}
+                  </p>
+                )}
+                {word.example4 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example4}
+                  </p>
+                )}
+                {word.example5 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example5}
+                  </p>
+                )}
+                <p className='textWord fst-italic'>
+                  <strong>-</strong> {`"${word.meaningENG}"`}
                 </p>
-                <p className='textWord'>
-                  <strong>Example 2:</strong> {word.example2}
+                <p className='textWord fst-italic'>
+                  <strong>-</strong> {`"${word.meaningTR}"`}
                 </p>
-                <p className='textWord'>
-                  <strong>Eng:</strong> {word.meaningENG}
-                </p>
-                <p className='textWord'>
-                  <strong>Tr:</strong> {word.meaningTR}
-                </p>
+                {word.tip && (
+                  <p className='textWord'>
+                    <strong>⇢</strong> {word.tip}
+                  </p>
+                )}
               </div>
             </div>
 

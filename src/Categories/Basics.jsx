@@ -55,22 +55,75 @@ function Basics() {
 
   const handlePrint = word => {
     const currentScrollPosition = window.scrollY;
-    const printContent = `<h1>${word.word}</h1>
-      <p>Grammar: ${word.grammar}</p>
-      <p>English: ${word.meaningENG}</p>
-      <p>Turkish: ${word.meaningTR}</p>
-      <p>Example 1: ${word.example1}</p>
-      <p>Example 2: ${word.example2}</p>`;
-    const printWindow = window.open('', '', 'height=600,width=800');
-    printWindow.document.write('<html><head><title>Print</title></head><body>');
+
+    let printContent = `
+    <html>
+      <head>
+        <title>Print</title>
+        <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+          }
+          .content {
+            text-align: left;
+            width: 80%; /* Adjust width as needed for your design preference */
+          }
+          h1 {
+            font-size: 24px;
+            margin-top: 20px;
+          }
+          p {
+            font-size: 18px;
+            margin: 10px 0;
+          }
+          .header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 30px;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="content">
+          <h1>${word.word}</h1>
+          <p>・${word.grammar}</p>`;
+
+    if (word.example1) {
+      printContent += `<p>‣ ${word.example1}</p>`;
+    }
+    if (word.example2) {
+      printContent += `<p>‣ ${word.example2}</p>`;
+    }
+    if (word.example3) {
+      printContent += `<p>‣ ${word.example3}</p>`;
+    }
+    if (word.example4) {
+      printContent += `<p>‣ ${word.example4}</p>`;
+    }
+    if (word.example5) {
+      printContent += `<p>‣ ${word.example5}</p>`;
+    }
+
+    printContent += `
+          <p>- "${word.meaningENG}"</p>
+          <p>- "${word.meaningTR}"</p>
+          <p>⇢ ${word.tip}</p>
+        </div>
+      </body>
+    </html>`;
+
+    const printWindow = window.open('', '_blank');
+    printWindow.document.open();
     printWindow.document.write(printContent);
-    printWindow.document.write('</body></html>');
     printWindow.document.close();
+    printWindow.focus();
     printWindow.print();
-    printWindow.onafterprint = () => {
-      printWindow.close();
-      window.scrollTo(0, currentScrollPosition);
-    };
+    printWindow.close();
+    window.scrollTo(0, currentScrollPosition);
   };
 
   return (
@@ -88,16 +141,16 @@ function Basics() {
               >
                 <PrintIcon />
               </button>
-              <button className='btnTop btnTop1 ms-0 text-body-emphasis'>
+              {/* <button className='btnTop btnTop1 ms-0 text-body-emphasis'>
                 <BookIcon />
-              </button>
+              </button> */}
             </div>
           </div>
 
           <div className='row'>
             <div className='col-md-8'>
               <div className='d-flex justify-content-start align-items-center mb-3'>
-                <b className='mobileWord wordDay'>{word.word}</b>
+                <b className='mobileWord wordDay'>{`${word.article} ${word.word}`}</b>
                 <button
                   className='ms-2 position-relative'
                   onClick={() => readWordAloud(word)}
@@ -111,28 +164,55 @@ function Basics() {
                 </button>
               </div>
 
-              <p className='fst-italic textWord1 mb-3'>{word.grammar}</p>
-
-              <p className='textWord'>
-                <b>Example 1:</b> {word.example1}
-              </p>
-              <p className='textWord'>
-                <b>Example 2:</b> {word.example2}
-              </p>
-              <p className='textWord'>
-                <b>Eng:</b> {word.meaningENG}
-              </p>
-              <p className='m-0 p-0'>
-                <b>Tr:</b> {word.meaningTR}
-              </p>
+              <div className='word-container'>
+                <p className='fst-italic fs-6 textWord1 mb-3 mt-0 pt-0 mb-4'>
+                  ・{word.grammar}
+                </p>
+                {word.example1 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example1}
+                  </p>
+                )}
+                {word.example2 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example2}
+                  </p>
+                )}
+                {word.example3 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example3}
+                  </p>
+                )}
+                {word.example4 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example4}
+                  </p>
+                )}
+                {word.example5 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example5}
+                  </p>
+                )}
+                <p className='textWord fst-italic'>
+                  <strong>-</strong> {`"${word.meaningENG}"`}
+                </p>
+                <p className='textWord fst-italic'>
+                  <strong>-</strong> {`"${word.meaningTR}"`}
+                </p>
+                {word.tip && (
+                  <p className='textWord'>
+                    <strong>⇢</strong> {word.tip}
+                  </p>
+                )}
+              </div>
             </div>
 
             <div className='col-md-4'>
               <div className='custom-image-container mt-0 mb-2'>
                 <img
                   src={word.image}
-                  className='img-thumbnail custom-image mt-2'
-                  alt={`Image depicting the word ${word.word}`}
+                  className='custom-image mt-2'
+                  alt={`${word.word}`}
                 />
               </div>
             </div>

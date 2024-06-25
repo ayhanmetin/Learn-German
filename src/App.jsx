@@ -4,12 +4,10 @@ import Nav from './components/Nav';
 import WordApp from './components/WordApp';
 import Footer2 from './components/Footer2';
 import { Route, Routes } from 'react-router-dom';
-import Favorites from './components/Favorites';
-import Mix from './Categories/Mix';
 import Basics from './Categories/Basics';
-import Travel from './Categories/Travel';
 import { Analytics } from '@vercel/analytics/react';
 import About from './components/About';
+import Advanced from './Categories/Advanced';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -35,6 +33,7 @@ function App() {
         marginRight: isMobile ? 0 : '',
       }}
     >
+      <Analytics />
       <div className='container bg-transparent' style={{ maxWidth: '100%', padding: 0 }}>
         <div className='row justify-content-center mt-0'>
           <div className='col-12 col-md-8 mt-0'>
@@ -44,11 +43,9 @@ function App() {
             <Routes>
               <Route path='/' element={<WordApp />} />
               <Route path='/home' element={<WordApp />} />
-              <Route path='/mix' element={<Mix />} />
-              <Route path='/travel' element={<Travel />} />
+              <Route path='/advanced' element={<Advanced />} />
               <Route path='/about' element={<About />} />
               <Route path='/basics' element={<Basics />} />
-              <Route path='/favorites' element={<Favorites />} />
             </Routes>
           </div>
         </div>

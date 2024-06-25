@@ -21,7 +21,7 @@ export default function () {
             objectFit: 'cover'
           }}
         />
-        <span className='text-white fw-lighter'>info</span>
+        <span className='text-white fw-medium'>info</span>
       </div>
     </>
   );

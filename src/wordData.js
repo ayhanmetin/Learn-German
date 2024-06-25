@@ -1,6 +1,7 @@
 const wordData = [
   {
     date: 'April 18, 2024',
+    wordNo: "18042024",
     article: 'die',
     word: 'Verhandlung',
     grammar: 'noun',
@@ -8,11 +9,14 @@ const wordData = [
       'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/beenden.png',
     example1: 'Die Verhandlung war lang und anstrengend.',
     example2: 'Die Parteien erreichten schließlich eine Verhandlung.',
+    example3:"",
+    example4:"",
+    example5:"",
     means: 'The act of negotiating or bargaining.',
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
     id: '1',
-    tip: '',
+    tip: 'tip1',
     tag: 'basics',
   },
   {
