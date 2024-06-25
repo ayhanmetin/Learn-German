@@ -12,7 +12,7 @@ export default function Footer2() {
         <li>
           <Link
             to='/about#almancaSertifikalar'
-            className='text-decoration-none footerText'
+            className='text-decoration-none text-body-secondary footerText'
           >
             📚 Informationen über Deutschlernen
           </Link>
@@ -20,7 +20,7 @@ export default function Footer2() {
         <li>
           <p className='mb-1 mt-3'>© 2024 Ayhan Metin</p>
           <p className='mb-5 mt-1'>
-            <a href={instagramUrl} target="_blank" rel="noopener noreferrer" style={{ border: 'none', color: "black", background: 'none', cursor: 'pointer' }}>
+            <a href={instagramUrl} target="_blank" rel="noopener noreferrer" style={{ border: 'none', color: "#da513d", background: 'none', cursor: 'pointer' }}>
               <InstaIcon />
             </a>
           </p>
