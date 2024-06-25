@@ -247,7 +247,7 @@ function WordApp() {
                 <img
                   src={word.image}
                   className='custom-image mt-2'
-                  alt={`Image depicting the word ${word.word}`}
+                  alt={`${word.word}`}
                 />
               </div>
             </div>
