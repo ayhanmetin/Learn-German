@@ -26,8 +26,13 @@
 }
 
 @keyframes flashColors {
-  0%, 100% { background-color: white; }
-  66% { background-color: gold; }
+  0%,
+  100% {
+    background-color: white;
+  }
+  66% {
+    background-color: gold;
+  }
 }
 
 .wordDay {
