@@ -16,13 +16,15 @@ const wordData = [
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
     id: '1',
-    tip: 'sss',
+    tip: '',
     tag: 'basics',
   },
   {
     date: 'April 19, 2024',
     word: 'Zulassung',
     grammar: 'noun',
+    wordNo: "18042024",
+    article: 'die',
     image:
       'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/2/zulassung.png',
     example1: 'Die Zulassung für das Programm war sehr kompetitiv.',
@@ -38,6 +40,8 @@ const wordData = [
   {
     date: 'April 26, 2024',
     word: 'Anspruch',
+    wordNo: "18042024",
+    article: 'die',
     grammar: 'noun',
     image:
       'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/9/anspruch.png',
@@ -55,6 +59,8 @@ const wordData = [
     date: 'April 20, 2024',
     word: 'Entwicklung',
     grammar: 'noun',
+    wordNo: "18042024",
+    article: 'die',
     image:
       'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/3/entwicklung.png',
     example1: 'Die Entwicklung neuer Technologien ist atemberaubend.',
@@ -86,6 +92,8 @@ const wordData = [
   {
     date: 'April 22, 2024',
     word: 'Gleichgewicht',
+    wordNo: "18042024",
+    article: 'die',
     grammar: 'noun',
     image:
       'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/5/gleichgewicht.png',

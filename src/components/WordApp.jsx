@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
 import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
-import { SpeedInsights } from '@vercel/speed-insights/react';
-import { NavLink } from 'react-router-dom';
+
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
@@ -105,7 +104,7 @@ function WordApp() {
         </style>
       </head>
       <body>
-        <div class="content">
+        <div className="content">
           <h1>${word.word}</h1>
           <p>・${word.grammar}</p>`;
 

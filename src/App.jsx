@@ -3,11 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import WordApp from './components/WordApp';
 import Footer2 from './components/Footer2';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Basics from './Categories/Basics';
 import { Analytics } from '@vercel/analytics/react';
 import About from './components/About';
 import Advanced from './Categories/Advanced';
+import Today from './components/Today';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -34,7 +35,10 @@ function App() {
       }}
     >
       <Analytics />
-      <div className='container bg-transparent' style={{ maxWidth: '100%', padding: 0 }}>
+      <div
+        className='container bg-transparent'
+        style={{ maxWidth: '100%', padding: 0 }}
+      >
         <div className='row justify-content-center mt-0'>
           <div className='col-12 col-md-8 mt-0'>
             <div className='mt-0 mb-5'>
@@ -46,6 +50,7 @@ function App() {
               <Route path='/advanced' element={<Advanced />} />
               <Route path='/about' element={<About />} />
               <Route path='/basics' element={<Basics />} />
+              <Route path='/today/:wordNo' element={<Today />} />
             </Routes>
           </div>
         </div>
