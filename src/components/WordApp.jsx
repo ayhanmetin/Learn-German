@@ -198,7 +198,7 @@ function WordApp() {
                 </button>
               </div>
 
-              <div className='word-container'>
+              <div className='word-container mainBody'>
                 <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
                   {word.grammar}
                 </p>
@@ -258,7 +258,7 @@ function WordApp() {
         <div className='d-grid col-4 mx-auto'>
           <button
             className='loadMore text-body-emphasis'
-            onClick={() => setVisibleWordsCount(prevCount => prevCount + 5)}
+            onClick={() => setVisibleWordsCount(prevCount => prevCount + 50)}
           >
             50 weitere Wörter
           </button>

@@ -164,3 +164,13 @@ p {
     margin: auto;
   }
 }
+
+@media (max-width: 768px) {
+  .mainBody {
+    text-align: justify;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.6;
+  }
+}
+

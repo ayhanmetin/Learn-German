@@ -1,17 +1,19 @@
 const wordData = [
   {
-    date: 'April 18, 2024',
-    wordNo: "18042024",
+    date: 'June 27, 2024',
+    wordNo: '27062024',
     article: 'die',
     word: 'Verhandlung',
     grammar: 'noun',
     image:
       'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/verhandlung.png',
-    example1: 'Die Verhandlung war lang und anstrengend.',
-    example2: 'Die Parteien erreichten schließlich eine Verhandlung.',
-    example3:"",
-    example4:"",
-    example5:"",
+    example1: 'Die Verhandlung beginnt um zehn Uhr.',
+    example2:
+      'Nach langen Verhandlungen erreichten die Parteien endlich eine Einigung.',
+    example3:
+      'Die Verhandlung über die komplexen Handelsbedingungen erforderte ein tiefes Verständnis internationaler Gesetze und Vorschriften.',
+    example4: '',
+    example5: '',
     means: 'The act of negotiating or bargaining.',
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
@@ -23,7 +25,7 @@ const wordData = [
     date: 'April 19, 2024',
     word: 'Zulassung',
     grammar: 'noun',
-    wordNo: "18042024",
+    wordNo: '18042024',
     article: 'die',
     image:
       'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/2/zulassung.png',
@@ -40,7 +42,7 @@ const wordData = [
   {
     date: 'April 26, 2024',
     word: 'Anspruch',
-    wordNo: "18042024",
+    wordNo: '18042024',
     article: 'die',
     grammar: 'noun',
     image:
@@ -59,7 +61,7 @@ const wordData = [
     date: 'April 20, 2024',
     word: 'Entwicklung',
     grammar: 'noun',
-    wordNo: "18042024",
+    wordNo: '18042024',
     article: 'die',
     image:
       'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/3/entwicklung.png',
@@ -92,7 +94,7 @@ const wordData = [
   {
     date: 'April 22, 2024',
     word: 'Gleichgewicht',
-    wordNo: "18042024",
+    wordNo: '18042024',
     article: 'die',
     grammar: 'noun',
     image:
