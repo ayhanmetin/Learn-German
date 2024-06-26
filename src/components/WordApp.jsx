@@ -109,7 +109,6 @@ function WordApp() {
           <h1>${word.word}</h1>
           <p>・${word.grammar}</p>`;
 
-
     if (word.example1) {
       printContent += `<p>‣ ${word.example1}</p>`;
     }
@@ -186,6 +185,7 @@ function WordApp() {
             <div className='col-md-8'>
               <div className='d-flex justify-content-start align-items-center mb-3'>
                 <b className='mobileWord wordDay'>{`${word.article} ${word.word}`}</b>
+
                 <button
                   className='ms-2 position-relative'
                   onClick={() => readWordAloud(word)}
@@ -200,8 +200,8 @@ function WordApp() {
               </div>
 
               <div className='word-container'>
-                <p className='fst-italic fs-6 textWord1 mb-3 mt-0 pt-0 mb-4'>
-                  ・{word.grammar}
+                <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
+                  {word.grammar}
                 </p>
                 {word.example1 && (
                   <p className='textWord'>
@@ -228,15 +228,15 @@ function WordApp() {
                     <strong>‣</strong> {word.example5}
                   </p>
                 )}
-                <p className='textWord fst-italic'>
-                  <strong>-</strong> {`"${word.meaningENG}"`}
+                <p className='textWord fst-italic mt-4'>
+                  <strong>&nbsp;-</strong> &nbsp;{`"${word.meaningENG}"`}
                 </p>
                 <p className='textWord fst-italic'>
-                  <strong>-</strong> {`"${word.meaningTR}"`}
+                  <strong>&nbsp;-</strong> &nbsp;{`"${word.meaningTR}"`}
                 </p>
                 {word.tip && (
-                  <p className='textWord'>
-                    <strong>⇢</strong> {word.tip}
+                  <p className='textWord mt-3'>
+                    <strong>&nbsp;⇢</strong> {word.tip}
                   </p>
                 )}
               </div>

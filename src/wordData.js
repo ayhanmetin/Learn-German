@@ -6,7 +6,7 @@ const wordData = [
     word: 'Verhandlung',
     grammar: 'noun',
     image:
-      'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/beenden.png',
+      'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/verhandlung.png',
     example1: 'Die Verhandlung war lang und anstrengend.',
     example2: 'Die Parteien erreichten schließlich eine Verhandlung.',
     example3:"",
@@ -16,7 +16,7 @@ const wordData = [
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
     id: '1',
-    tip: 'tip1',
+    tip: 'sss',
     tag: 'basics',
   },
   {
