@@ -62,38 +62,41 @@ const Today = () => {
       {wordDetails.map((details, index) => (
         <div
           key={index}
-          className='border-bottom mainBody container col-12 text-center border-dark-subtle p-4 mb-3'
+          className='border-bottom mainBody container col-12 text-start border-dark-subtle p-4 mb-3'
         >
           <h2 className='wordDay'>
             {details.article} {details.word}{' '}
-            <p className='fst-italic fs-6 text-body-secondary'>{details.grammar}</p>
           </h2>
           <div>
-          {details.example1 && (
-            <p className='textWord'>
-              <strong>‣</strong> {details.example1}
+            <p className='fst-italic fs-6 text-body-secondary'>
+              {details.grammar}
             </p>
-          )}
-          {details.example2 && (
-            <p className='textWord'>
-              <strong>‣</strong> {details.example2}
-            </p>
-          )}
-          {details.example3 && (
-            <p className='textWord'>
-              <strong>‣</strong> {details.example3}
-            </p>
-          )}
-          {details.example4 && (
-            <p className='textWord'>
-              <strong>‣</strong> {details.example4}
-            </p>
-          )}
-          {details.example5 && (
-            <p className='textWord'>
-              <strong>‣</strong> {details.example5}
-            </p>
-          )}
+
+            {details.example1 && (
+              <p className='textWord'>
+                <strong>‣</strong> {details.example1}
+              </p>
+            )}
+            {details.example2 && (
+              <p className='textWord'>
+                <strong>‣</strong> {details.example2}
+              </p>
+            )}
+            {details.example3 && (
+              <p className='textWord'>
+                <strong>‣</strong> {details.example3}
+              </p>
+            )}
+            {details.example4 && (
+              <p className='textWord'>
+                <strong>‣</strong> {details.example4}
+              </p>
+            )}
+            {details.example5 && (
+              <p className='textWord'>
+                <strong>‣</strong> {details.example5}
+              </p>
+            )}
           </div>
           <p className='textWord fst-italic mt-4'>
             <strong>&nbsp;-</strong> &nbsp;{`"${details.meaningENG}"`}
