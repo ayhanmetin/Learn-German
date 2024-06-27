@@ -56,11 +56,24 @@ p {
 .custom-image-container {
   display: flex;
   justify-content: center;
+  /* Optional: Adding some padding and a background color */
+  padding: 10px;
 }
+
 .custom-image {
-  width: 190px;
-  height: 190px;
+  width: 320px;
+  height: 300px;
+  border-radius: 20px;
+  border: 5px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.custom-image:hover {
+  transform: scale(1.75);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
 
 @media (max-width: 990px) {
   .custom-image-container {
