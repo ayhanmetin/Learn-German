@@ -25,7 +25,7 @@ export default function Footer2() {
               rel='noopener noreferrer'
               style={{
                 border: 'none',
-                color: '#B1D5FF',
+                color: '#179B95',
                 background: 'none',
                 cursor: 'pointer',
               }}

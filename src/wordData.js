@@ -1,4 +1,47 @@
 const wordData = [
+
+
+  {
+    date: 'June 27, 2024',
+    wordNo: '270624',
+    article: '',
+    word: 'teilnehmen',
+    grammar: 'verb',
+    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+    example1:'Woran hat Jana am Anfang teilgenommen? An einem Französischkurs an der Uni.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'participate',
+    meaningTR: '',
+    tip1: '',
+    tip2: '',
+    tip3: '',
+    tag: 'basics',
+  },
+
+  {
+    date: 'June 27, 2024',
+    wordNo: '270624',
+    article: '',
+    word: 'freuen',
+    grammar: 'verb',
+    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+    example1:
+      'Schön, dass du da warst. Ich habe mich sehr über deinen Besuch gefreut.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'pleased, happy',
+    meaningTR: '',
+    tip1: '',
+    tip2: '',
+    tip3: '',
+    tag: 'basics',
+  },
+
   {
     date: 'June 27, 2024',
     wordNo: '270624',
@@ -955,7 +998,8 @@ const wordData = [
     example1: 'Wir haben uns entschieden, einen Wurstteller zu essen.',
     example2:
       'Ich habe mich für die Jahreskarte im Fitnessstudio entschieden, weil ich gerne Sport mache und es auch am Abend viele verschiedene Kurse gibt.',
-    example3: '',
+    example3:
+      'Wofür hat sich Jana entschieden? Für ein Zimmer im Studentenwohnheim.',
     example4: '',
     example5: '',
     meaningENG: '',

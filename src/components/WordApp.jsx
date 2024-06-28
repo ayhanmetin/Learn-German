@@ -195,7 +195,7 @@ function WordApp() {
                   <VoiceIcon width='22' height='22' />
                 </button>
               </div>
-              <div class='d-flex justify-content-center'>
+              <div class='d-flex justify-content-start'>
                 {' '}
                 <div className='word-container fs-5 mainBody'>
                   {word.grammar && (
