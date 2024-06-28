@@ -163,7 +163,7 @@ function Basics() {
                 </button>
               </div>
 
-              <div className='word-container'>
+              <div className='word-container fs-5'>
                 <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
                   {word.grammar}
                 </p>

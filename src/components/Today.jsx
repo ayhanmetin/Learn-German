@@ -67,7 +67,7 @@ const Today = () => {
           <h2 className='wordDay'>
             {details.article} {details.word}{' '}
           </h2>
-          <div>
+          <div className='fs-4'>
             <p className='fst-italic fs-6 text-body-secondary'>
               {details.grammar}
             </p>

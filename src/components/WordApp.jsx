@@ -197,7 +197,7 @@ function WordApp() {
                 </button>
               </div>
 
-              <div className='word-container mainBody'>
+              <div className='word-container fs-5 mainBody'>
                 {word.grammar && (
                   <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
                     {word.grammar}
