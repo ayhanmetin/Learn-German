@@ -4,7 +4,6 @@ import wordData from '../wordData';
 import './wordApp.css';
 import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
 
-
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(5);
   const [searchTerm, setSearchTerm] = useState('');
@@ -199,9 +198,11 @@ function WordApp() {
               </div>
 
               <div className='word-container mainBody'>
-                <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
-                  {word.grammar}
-                </p>
+                {word.grammar && (
+                  <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
+                    {word.grammar}
+                  </p>
+                )}
                 {word.example1 && (
                   <p className='textWord'>
                     <strong>‣</strong> {word.example1}
@@ -228,14 +229,26 @@ function WordApp() {
                   </p>
                 )}
                 <p className='textWord fst-italic mt-4'>
-                  <strong>&nbsp;-</strong> &nbsp;{`"${word.meaningENG}"`}
+                  <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                 </p>
-                <p className='textWord fst-italic'>
-                  <strong>&nbsp;-</strong> &nbsp;{`"${word.meaningTR}"`}
-                </p>
-                {word.tip && (
+                {word.meaningTR && (
+                  <p className='textWord fst-italic'>
+                    <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                  </p>
+                )}
+                {word.tip1 && (
                   <p className='textWord mt-3'>
-                    <strong>&nbsp;⇢</strong> {word.tip}
+                    <strong>&nbsp;⇢</strong> {word.tip1}
+                  </p>
+                )}
+                {word.tip2 && (
+                  <p className='textWord mt-3'>
+                    <strong>&nbsp;⇢</strong> {word.tip2}
+                  </p>
+                )}
+                {word.tip3 && (
+                  <p className='textWord mt-3'>
+                    <strong>&nbsp;⇢</strong> {word.tip3}
                   </p>
                 )}
               </div>

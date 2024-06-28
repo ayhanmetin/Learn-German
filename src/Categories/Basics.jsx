@@ -193,14 +193,26 @@ function Basics() {
                   </p>
                 )}
                 <p className='textWord fst-italic mt-4'>
-                  <strong>&nbsp;-</strong> &nbsp;{`"${word.meaningENG}"`}
+                  <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                 </p>
-                <p className='textWord fst-italic'>
-                  <strong>&nbsp;-</strong> &nbsp;{`"${word.meaningTR}"`}
-                </p>
-                {word.tip && (
+                {word.meaningTR && (
+                  <p className='textWord fst-italic'>
+                    <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                  </p>
+                )}
+                {word.tip1 && (
                   <p className='textWord mt-3'>
-                    <strong>&nbsp;⇢</strong> {word.tip}
+                    <strong>&nbsp;⇢</strong> {word.tip1}
+                  </p>
+                )}
+                {word.tip2 && (
+                  <p className='textWord mt-3'>
+                    <strong>&nbsp;⇢</strong> {word.tip2}
+                  </p>
+                )}
+                {word.tip3 && (
+                  <p className='textWord mt-3'>
+                    <strong>&nbsp;⇢</strong> {word.tip3}
                   </p>
                 )}
               </div>
