@@ -1,20 +1,19 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './nav.css';
-import Profile from './Profile';
 import Theme2 from './Theme2';
 import { NavLink } from 'react-router-dom';
-import { BlogIcon, BookmarkedIcon, HomeIcon, MixIcon } from './IconBox';
+import { BlogIcon, BookmarkedIcon, CalIcon, HomeIcon, MixIcon } from './IconBox';
 
 export default function Nav() {
   return (
     <>
       <nav
         className='d-flex justify-content-between align-items-center rounded-bottom gap-1 px-3'
-        style={{ backgroundColor: '#DA513D' }}
+        style={{ backgroundColor: '#132732' }}
       >
-        <NavLink to='/about' className='text-white' aria-label='Profile'>
-          <Profile />
+        <NavLink to='/calender' className='text-white calIcon' aria-label='Calender'>
+         <CalIcon />
         </NavLink>
         <div className='d-flex navLink gap-0 justify-content-center align-items-center'>
           <NavLink to='/home' className='text-light navLink me-5' aria-label='Home'>
@@ -40,14 +39,14 @@ export default function Nav() {
             <NavLink
               to='/basics'
               aria-label='Living in Germany'
-              className='altNav2'
+              className='altNav2 text-dark-emphasis'
             >
               #basics
             </NavLink>
             <NavLink
               to='/advanced'
               aria-label='Living in Germany'
-              className='altNav2'
+              className='altNav2 text-dark-emphasis'
             >
               #advanced
             </NavLink>

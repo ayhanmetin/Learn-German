@@ -39,16 +39,16 @@ p {
 
 .loadMore:hover {
   background-color: transparent;
-  border-color: #da513d;
+  border-color: #132732;
 }
 
 .search-bar input.form-control:hover {
-  border-color: #da513d;
+  border-color: #132732;
   box-shadow: 0 0 2px rgba(245, 205, 72, 0.5);
 }
 
 .search-bar input.form-control:focus {
-  border-color: #da513d;
+  border-color: #132732;
   box-shadow: 0 0 2px rgba(245, 205, 72, 0.5);
   outline: none;
 }
@@ -121,7 +121,7 @@ p {
 
 .btnTop:hover,
 .btnTop:hover svg {
-  color: #da513d;
+  color: #132732;
   fill: #ffce01;
 }
 

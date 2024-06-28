@@ -55,9 +55,12 @@ a {
 
 .navLink a:hover,
 .navLink a:focus {
-  background-color: hsl(10, 71%, 60%);
-  box-shadow: 0 0 10px rgba(218, 81, 61, 0.5);
+  background-color: hsl(195, 36%, 25%); 
+  box-shadow: 0 0 10px rgba(49, 82, 95, 0.5); 
 }
+
+
+
 
 .altNav {
   display: flex;
@@ -66,7 +69,7 @@ a {
   align-items: center;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
-  color: #da513d;
+  color: #132732;
   width: 50%;
   margin: 0 auto;
   list-style: none;
@@ -81,7 +84,7 @@ a {
 }
 
 .altNav2 {
-  color: #da513d;
+  color: #132732;
   text-decoration: none;
   display: inline-block;
   padding-bottom: 4px;
@@ -91,7 +94,7 @@ a {
 }
 
 .altNav2:hover {
-  border-bottom: 1px solid #da513d;
+  border-bottom: 1px solid #132732;
 }
 
 .text-white,
@@ -116,4 +119,12 @@ a {
 .quiz-button:hover {
   border-bottom: 1px solid green;
   color: green;
+}
+
+.calIcon {
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.calIcon:hover {
+  transform: scale(1.3);
 }
