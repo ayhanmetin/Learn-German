@@ -179,11 +179,10 @@ function WordApp() {
             </div>
           </div>
 
-          <div className='row'>
-            <div className='col-md-8'>
+          <div className='d-flex justify-content-start align-items-center'>
+            <div className='col-md-12'>
               <div className='d-flex justify-content-start align-items-center mb-3'>
                 <b className='mobileWord wordDay'>{`${word.article} ${word.word}`}</b>
-
                 <button
                   className='ms-2 position-relative'
                   onClick={() => readWordAloud(word)}
@@ -196,61 +195,63 @@ function WordApp() {
                   <VoiceIcon width='22' height='22' />
                 </button>
               </div>
-
-              <div className='word-container fs-5 mainBody'>
-                {word.grammar && (
-                  <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
-                    {word.grammar}
+              <div class='d-flex justify-content-center'>
+                {' '}
+                <div className='word-container fs-5 mainBody'>
+                  {word.grammar && (
+                    <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
+                      {word.grammar}
+                    </p>
+                  )}
+                  {word.example1 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example1}
+                    </p>
+                  )}
+                  {word.example2 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example2}
+                    </p>
+                  )}
+                  {word.example3 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example3}
+                    </p>
+                  )}
+                  {word.example4 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example4}
+                    </p>
+                  )}
+                  {word.example5 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example5}
+                    </p>
+                  )}
+                  <p className='textWord fst-italic mt-4'>
+                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                   </p>
-                )}
-                {word.example1 && (
-                  <p className='textWord'>
-                    <strong>‣</strong> {word.example1}
-                  </p>
-                )}
-                {word.example2 && (
-                  <p className='textWord'>
-                    <strong>‣</strong> {word.example2}
-                  </p>
-                )}
-                {word.example3 && (
-                  <p className='textWord'>
-                    <strong>‣</strong> {word.example3}
-                  </p>
-                )}
-                {word.example4 && (
-                  <p className='textWord'>
-                    <strong>‣</strong> {word.example4}
-                  </p>
-                )}
-                {word.example5 && (
-                  <p className='textWord'>
-                    <strong>‣</strong> {word.example5}
-                  </p>
-                )}
-                <p className='textWord fst-italic mt-4'>
-                  <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
-                </p>
-                {word.meaningTR && (
-                  <p className='textWord fst-italic'>
-                    <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
-                  </p>
-                )}
-                {word.tip1 && (
-                  <p className='textWord mt-3'>
-                    <strong>&nbsp;⇢</strong> {word.tip1}
-                  </p>
-                )}
-                {word.tip2 && (
-                  <p className='textWord mt-3'>
-                    <strong>&nbsp;⇢</strong> {word.tip2}
-                  </p>
-                )}
-                {word.tip3 && (
-                  <p className='textWord mt-3'>
-                    <strong>&nbsp;⇢</strong> {word.tip3}
-                  </p>
-                )}
+                  {word.meaningTR && (
+                    <p className='textWord fst-italic'>
+                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                    </p>
+                  )}
+                  {word.tip1 && (
+                    <p className='textWord mt-3'>
+                      <strong>&nbsp;⇢</strong> {word.tip1}
+                    </p>
+                  )}
+                  {word.tip2 && (
+                    <p className='textWord mt-3'>
+                      <strong>&nbsp;⇢</strong> {word.tip2}
+                    </p>
+                  )}
+                  {word.tip3 && (
+                    <p className='textWord mt-3'>
+                      <strong>&nbsp;⇢</strong> {word.tip3}
+                    </p>
+                  )}
+                </div>
               </div>
             </div>
           </div>

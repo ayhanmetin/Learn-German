@@ -146,8 +146,8 @@ function Basics() {
             </div>
           </div>
 
-          <div className='row'>
-            <div className='col-md-8'>
+          <div className='d-flex justify-content-start align-items-center'>
+            <div className='col-md-12'>
               <div className='d-flex justify-content-start align-items-center mb-3'>
                 <b className='mobileWord wordDay'>{`${word.article} ${word.word}`}</b>
                 <button

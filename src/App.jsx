@@ -9,6 +9,7 @@ import { Analytics } from '@vercel/analytics/react';
 import About from './components/About';
 import Advanced from './Categories/Advanced';
 import Today from './components/Today';
+import './app.css';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -39,19 +40,21 @@ function App() {
         className='container bg-transparent'
         style={{ maxWidth: '100%', padding: 0 }}
       >
-        <div className='row justify-content-center mt-0'>
+        <div className='d-flex justify-content-center align-items-center mt-0'>
           <div className='col-12 col-md-8 mt-0'>
             <div className='mt-0 mb-5'>
               <Nav />
             </div>
-            <Routes>
-              <Route path='/' element={<WordApp />} />
-              <Route path='/home' element={<WordApp />} />
-              <Route path='/advanced' element={<Advanced />} />
-              <Route path='/about' element={<About />} />
-              <Route path='/basics' element={<Basics />} />
-              <Route path='/today/:wordNo' element={<Today />} />
-            </Routes>
+            <div className='d-flex justify-content-center align-items-center'>
+              <Routes>
+                <Route path='/' element={<WordApp />} />
+                <Route path='/home' element={<WordApp />} />
+                <Route path='/advanced' element={<Advanced />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/basics' element={<Basics />} />
+                <Route path='/today/:wordNo' element={<Today />} />
+              </Routes>
+            </div>
           </div>
         </div>
       </div>
