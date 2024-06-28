@@ -56,7 +56,6 @@ p {
 .custom-image-container {
   display: flex;
   justify-content: center;
-  /* Optional: Adding some padding and a background color */
   padding: 10px;
 }
 

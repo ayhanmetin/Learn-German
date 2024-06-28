@@ -1,11 +1,12 @@
 import React from 'react';
-import "./wordApp.css"
+import wordData from '../wordData'; 
 
-const WordCountDisplay = ({ wordData }) => {
-  const wordCount = wordData.length;
+const WordCountDisplay = () => {
+  const wordCount = wordData.length; 
+
   return (
     <div>
-      <h3 className='wordCount'>Total words: {wordCount}</h3>
+      <h3 className='wordCount'>Total words: {wordCount}</h3> 
     </div>
   );
 };
