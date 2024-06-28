@@ -6,7 +6,7 @@ const WordCountDisplay = () => {
 
   return (
     <div>
-      <h3 className='wordCount'>Total words: {wordCount}</h3> 
+      <h3 className='wordCount ms-3'>Total words: {wordCount}</h3> 
     </div>
   );
 };
