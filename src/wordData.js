@@ -2,6 +2,27 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    article: 'der',
+    word: 'Vorteil',
+    grammar: 'noun',
+    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+    example1:
+      'Vor allem die jüngere Generation zweifelt nicht an den Vorteilen ihrer Zweisprachigkeit.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'advantage',
+    meaningTR: '',
+    tip1: 'Vor allem - "especially," setting the emphasis on the importance of what follows in the sentence.',
+    tip2: 'zweifelt nicht an (anzweifeln = "doubts") - "Does not doubt.", "Zweisprachigkeit" (bilingualism)',
+    tip3: 'den Vorteilen - "The advantages." "Vorteile" is the plural form of "Vorteil" (advantage), and "den" is the plural dative article used here because of the preposition "an."',
+    tag: 'basics',
+  },
+
+  {
+    date: 'June 27, 2024',
+    wordNo: '270624',
     article: '',
     word: 'erinnern',
     grammar: 'verb',

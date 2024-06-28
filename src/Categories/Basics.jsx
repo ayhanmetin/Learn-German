@@ -217,16 +217,6 @@ function Basics() {
                 )}
               </div>
             </div>
-
-            <div className='col-md-4'>
-              <div className='custom-image-container mt-0 mb-2'>
-                <img
-                  src={word.image}
-                  className='custom-image mt-2'
-                  alt={`${word.word}`}
-                />
-              </div>
-            </div>
           </div>
         </div>
       ))}
