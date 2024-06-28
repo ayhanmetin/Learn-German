@@ -5,8 +5,14 @@ const WordCountDisplay = () => {
   const wordCount = wordData.length;
 
   return (
-    <div>
-      <h3 className='wordCount ms-3 mt-3'>Total words: {wordCount}</h3>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <h3 className='wordCount mt-3 mb-0'>Total words: {wordCount}</h3>
     </div>
   );
 };
