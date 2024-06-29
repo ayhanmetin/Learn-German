@@ -21,7 +21,7 @@ export default function Nav() {
 >
   <NavLink
     to='/calendar'
-    className='text-white'
+    className='text-white nav1'
     aria-label='Calendar'
     style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
   >
@@ -29,7 +29,7 @@ export default function Nav() {
   </NavLink>
   <NavLink
     to='/home'
-    className='text-light'
+    className='text-light nav1'
     aria-label='Home'
     style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
   >

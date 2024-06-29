@@ -5,7 +5,7 @@ import './wordApp.css';
 import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
 
 function WordApp() {
-  const [visibleWordsCount, setVisibleWordsCount] = useState(5);
+  const [visibleWordsCount, setVisibleWordsCount] = useState(50);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
   const [voices, setVoices] = useState([]);
@@ -160,12 +160,12 @@ function WordApp() {
           key={word.id}
         >
           <div className='d-flex justify-content-center mb-3'>
-            <div
+            {/* <div
               className='textWord1 fs-7 mt-1 text ms-0 me-3 position-relative'
               style={{ top: '2px' }}
             >
               {word.date}
-            </div>
+            </div> */}
             <div className='d-flex gap-3 text-body-emphasis'>
               <button
                 className='btnTop ms-0 text-body-emphasis'

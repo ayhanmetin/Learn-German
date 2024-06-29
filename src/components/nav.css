@@ -127,3 +127,8 @@ a {
 .calIcon:hover {
   transform: scale(1.3);
 }
+
+.nav1:hover {
+  transform: scale(1.25); 
+}
+
