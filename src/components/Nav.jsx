@@ -8,6 +8,7 @@ import {
   BookmarkedIcon,
   CalIcon,
   HomeIcon,
+  InfoIcon,
   MixIcon,
 } from './IconBox';
 import WordCountDisplay from './WordCountDisplay';
@@ -16,30 +17,40 @@ export default function Nav() {
   return (
     <>
       <nav
-  className='d-flex justify-content-between align-items-center rounded-bottom px-3'
-  style={{ backgroundColor: '#132732', height: '50px' }}
->
-  <NavLink
-    to='/calendar'
-    className='text-white nav1'
-    aria-label='Calendar'
-    style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
-  >
-    <CalIcon />
-  </NavLink>
-  <NavLink
-    to='/home'
-    className='text-light nav1'
-    aria-label='Home'
-    style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
-  >
-    <HomeIcon />
-  </NavLink>
-  <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
-    <Theme2 />
-  </div>
-</nav>
-
+        className='d-flex justify-content-between align-items-center rounded-bottom px-3'
+        style={{ backgroundColor: '#132732', height: '50px' }}
+      >
+        <NavLink
+          to='/about'
+          className='text-white nav1'
+          aria-label='Calendar'
+          style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
+        >
+          <InfoIcon />
+        </NavLink>
+        <div className='d-flex gap-4 justify-content-between align-items-center'>
+          {' '}
+          <NavLink
+            to='/home'
+            className='text-light nav1'
+            aria-label='Home'
+            style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
+          >
+            <HomeIcon />
+          </NavLink>
+          <NavLink
+            to='/calendar'
+            className='text-white nav1'
+            aria-label='Calendar'
+            style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
+          >
+            <CalIcon />
+          </NavLink>
+        </div>
+        <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+          <Theme2 />
+        </div>
+      </nav>
 
       <div className='ms-0 ps-0 mb-0 pb-0'>
         <div className='d-flex altNav align-items-center justify-content-center p-0 mt-5 mb-0'>

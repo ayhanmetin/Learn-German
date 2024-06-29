@@ -10,7 +10,7 @@ export default function Footer2() {
       <ul className='list-unstyled mb-0 w-100 text-center d-flex flex-column justify-content-end'>
         <li>
           <Link
-            to='/about#almancaSertifikalar'
+            to='/about'
             className='text-decoration-none text-body-secondary footerText'
           >
             📚 Informationen über Deutschlernen
