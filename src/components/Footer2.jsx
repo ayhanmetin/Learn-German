@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { InstaIcon, MediumIcon, XIcon } from './IconBox';
+import { InstaIcon, XIcon } from './IconBox';
 import GoTop from './GoTop';
 
 export default function Footer2() {
@@ -52,22 +52,6 @@ export default function Footer2() {
                   }}
                 >
                   <InstaIcon />
-                </a>
-              </p>
-
-              <p className='mb-5 mt-1'>
-                <a
-                  href={instagramUrl}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  style={{
-                    border: 'none',
-                    color: '#e6a938',
-                    background: 'none',
-                    cursor: 'pointer',
-                  }}
-                >
-                  <MediumIcon />
                 </a>
               </p>
             </div>
