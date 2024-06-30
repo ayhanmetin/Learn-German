@@ -22,32 +22,25 @@ export default function Nav() {
       >
         <NavLink
           to='/about'
-          className='text-white nav1'
+          className='d-flex gap-4 justify-content-between align-items-start text-white nav1'
           aria-label='Calendar'
-          style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
         >
           <InfoIcon />
         </NavLink>
         <div className='d-flex gap-4 justify-content-between align-items-center'>
           {' '}
-          <NavLink
-            to='/home'
-            className='text-light nav1'
-            aria-label='Home'
-            style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
-          >
+          <NavLink to='/home' className='text-light nav1' aria-label='Home'>
             <HomeIcon />
           </NavLink>
           <NavLink
             to='/calendar'
             className='text-white nav1'
             aria-label='Calendar'
-            style={{ flex: 1, display: 'flex', justifyContent: 'center' }}
           >
             <CalIcon />
           </NavLink>
         </div>
-        <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+        <div>
           <Theme2 />
         </div>
       </nav>
