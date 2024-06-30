@@ -1,5 +1,6 @@
 import React from 'react';
 import wordData from '../wordData';
+import { Link } from 'react-router-dom';
 
 const WordCountDisplay = () => {
   const wordCount = wordData.length;
@@ -8,11 +9,26 @@ const WordCountDisplay = () => {
     <div
       style={{
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
       }}
     >
-      <h3 className='wordCount mt-3 mb-0'>Total words: {wordCount}</h3>
+      <h3 className='wordCount mt-3 mb-0'>
+        <Link
+          to='/wordlist'
+          style={{
+            textDecoration: 'none',
+            color: 'inherit',
+            padding: '0',
+            height: 'fit-content',
+            display: 'inline',
+            marginRight: '5px',
+          }}
+        >
+          Total words: {wordCount}
+        </Link>
+      </h3>
     </div>
   );
 };

@@ -192,14 +192,7 @@ function Basics() {
                       <strong>‣</strong> {word.example5}
                     </p>
                   )}
-                  <p className='textWord fst-italic mt-4'>
-                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
-                  </p>
-                  {word.meaningTR && (
-                    <p className='textWord fst-italic'>
-                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
-                    </p>
-                  )}
+
                   {word.tip1 && (
                     <p className='textWord mt-3'>
                       <strong>&nbsp;⇢</strong> {word.tip1}
@@ -213,6 +206,14 @@ function Basics() {
                   {word.tip3 && (
                     <p className='textWord mt-3'>
                       <strong>&nbsp;⇢</strong> {word.tip3}
+                    </p>
+                  )}
+                  <p className='textWord fst-italic mt-4'>
+                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
+                  </p>
+                  {word.meaningTR && (
+                    <p className='textWord fst-italic'>
+                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
                     </p>
                   )}
                 </div>

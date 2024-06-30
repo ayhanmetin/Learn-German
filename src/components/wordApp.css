@@ -101,13 +101,11 @@ p {
 .btnTop {
   background-color: transparent;
   border: none;
-  cursor: pointer;
   color: #333;
 }
 .btnTop {
   background-color: transparent;
   border: none;
-  cursor: pointer;
   color: #333;
 }
 
@@ -184,10 +182,12 @@ p {
   }
 }
 
-.meaning {
-  color: #e6a938;
-}
 
 .grammar {
   color: #4a89dd;
+}
+
+
+.wordCount:hover {
+  transform: scale(1.1);
 }
