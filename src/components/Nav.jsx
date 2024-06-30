@@ -18,7 +18,7 @@ export default function Nav() {
     <>
       <nav
         className='d-flex justify-content-between align-items-center rounded-bottom px-3'
-        style={{ backgroundColor: '#132732', height: '50px' }}
+        style={{ backgroundColor: 'black', height: '50px' }}
       >
         <NavLink
           to='/about'
@@ -61,6 +61,13 @@ export default function Nav() {
               className='altNav2 text-dark-emphasis'
             >
               #advanced
+            </NavLink>
+            <NavLink
+              to='/quiz'
+              aria-label='Living in Germany'
+              className='altNav2 text-dark-emphasis'
+            >
+              #quiz
             </NavLink>
           </nav>
         </div>

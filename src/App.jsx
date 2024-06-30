@@ -10,6 +10,7 @@ import About from './components/About';
 import Advanced from './Categories/Advanced';
 import Today from './components/Today';
 import './app.css';
+import Quiz from './Categories/Quiz';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -52,6 +53,7 @@ function App() {
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/basics' element={<Basics />} />
+                <Route path='/quiz' element={<Quiz />} />
                 <Route path='/today/:wordNo' element={<Today />} />
               </Routes>
             </div>

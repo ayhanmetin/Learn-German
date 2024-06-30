@@ -88,7 +88,7 @@ function Basics() {
         </style>
       </head>
       <body>
-        <div class="content">
+        <div className="content">
           <h1>${word.word}</h1>
           <p>・${word.grammar}</p>`;
 
@@ -162,7 +162,7 @@ function Basics() {
                   <VoiceIcon width='22' height='22' />
                 </button>
               </div>
-              <div class='d-flex justify-content-start'>
+              <div className='d-flex justify-content-start'>
                 <div className='word-container fs-5'>
                   <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
                     {word.grammar}

@@ -10,7 +10,7 @@ export default function GoTop() {
 
   return (
     <>
-      <div className='container d-flex justify-content-end mt-3 pb-4'>
+      <div className='container d-flex justify-content-center mt-3 mb-0 pb-0 pb-4'>
         <button
           onClick={scrollToTop}
           className='btn btn-link p-0 border-0 text-body-emphasis'

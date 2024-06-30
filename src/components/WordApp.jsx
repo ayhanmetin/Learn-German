@@ -154,11 +154,8 @@ function WordApp() {
         </div>
       </div>
 
-      {filteredWords.map(word => (
-        <div
-          className='border-bottom border-dark-subtle p-4 mb-3'
-          key={word.id}
-        >
+      {filteredWords.map((word, index) => (
+        <div className='border-bottom border-dark-subtle p-4 mb-3' key={index}>
           <div className='d-flex justify-content-center mb-3'>
             {/* <div
               className='textWord1 fs-7 mt-1 text ms-0 me-3 position-relative'
@@ -195,11 +192,11 @@ function WordApp() {
                   <VoiceIcon width='22' height='22' />
                 </button>
               </div>
-              <div class='d-flex justify-content-start'>
+              <div className='d-flex justify-content-start'>
                 {' '}
                 <div className='word-container fs-5 mainBody'>
                   {word.grammar && (
-                    <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
+                    <p className='fst-italic grammar fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
                       {word.grammar}
                     </p>
                   )}
@@ -228,7 +225,7 @@ function WordApp() {
                       <strong>‣</strong> {word.example5}
                     </p>
                   )}
-                  <p className='textWord fst-italic mt-4'>
+                  <p className='textWord meaning fst-italic mt-4'>
                     <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                   </p>
                   {word.meaningTR && (
