@@ -1,3 +1,4 @@
+// WordCountDisplay.jsx
 import React from 'react';
 import wordData from '../wordData';
 import { Link } from 'react-router-dom';
