@@ -149,7 +149,7 @@ function Basics() {
           <div className='d-flex justify-content-start align-items-center'>
             <div className='col-md-12'>
               <div className='d-flex justify-content-start align-items-center mb-3'>
-                <b className='mobileWord wordDay'>{`${word.article} ${word.word}`}</b>
+                <b className='mobileWord wordDay fs-1'>{`${word.article} ${word.word}`}</b>
                 <button
                   className='ms-2 position-relative'
                   onClick={() => readWordAloud(word)}
@@ -163,7 +163,7 @@ function Basics() {
                 </button>
               </div>
               <div className='d-flex justify-content-start'>
-                <div className='word-container fs-5'>
+                <div className='word-container fs-4'>
                   <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
                     {word.grammar}
                   </p>

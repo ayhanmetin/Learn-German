@@ -1,31 +1,27 @@
-// WordList.jsx
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import wordData from '../wordData'; // Assuming you have a file with word data
-import WordDetail from './WordDetail';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import wordData from '../wordData';
+import "./wordList.css";
 
 const WordList = () => {
-  const [selectedIndex, setSelectedIndex] = useState(null);
+  const navigate = useNavigate();
 
-  const handleWordClick = (index) => {
-    setSelectedIndex(index);
+  const handleWordClick = (word) => {
+    navigate(`/wordlist/${encodeURIComponent(word)}`); // Navigates to the WordDetail component
   };
 
   return (
-    <div className="container mt-5">
-      {selectedIndex !== null && (
-        <div className="word-detail mb-4">
-          <WordDetail index={selectedIndex} />
-        </div>
-      )}
-      <div className="word-list">
+    <div className='container mt-0 pt-0'>
+      <div className='word-list'>
         {wordData.map((word, index) => (
           <React.Fragment key={index}>
-            <span 
-              style={{ cursor: 'pointer', color: 'blue' }}
-              onClick={() => handleWordClick(index)}
+            <span
+              className='fs-6 wordList'
+              style={{ cursor: 'pointer' }}
+              onClick={() => handleWordClick(word.word)}
             >
-              {word.article ? `${word.article} ` : ''}{word.word}
+              {word.article ? `${word.article} ` : ''}
+              {word.word}
             </span>
             {index < wordData.length - 1 && <span>, </span>}
           </React.Fragment>
