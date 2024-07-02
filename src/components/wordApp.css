@@ -24,7 +24,6 @@ p {
 
 .loadMore {
   border: 0.3px solid #ccc;
-  border-radius: 3px;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 13px;
   background-color: transparent;
@@ -33,7 +32,6 @@ p {
   padding: 1.2px;
   cursor: pointer;
   transition: background-color 0.3s;
-  border-radius: 12px;
 }
 
 .loadMore:hover {

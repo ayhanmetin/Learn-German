@@ -88,7 +88,7 @@ a {
   margin-bottom: 2px;
   border-bottom: 1px solid transparent;
   transition: border-color 0.3s;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .altNav2:hover {
@@ -99,7 +99,7 @@ a {
 .text-white a {
   text-decoration: none !important;
   color: white;
-  font-size: 16px;
+  font-size: 1px;
 }
 
 .footerText {
@@ -130,4 +130,3 @@ a {
 .nav1:hover {
   transform: scale(1.25);
 }
-

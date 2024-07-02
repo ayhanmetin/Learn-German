@@ -11,8 +11,8 @@ const WordCountDisplay = () => {
       style={{
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: 'start',
+        alignItems: 'start',
       }}
     >
       <h3 className='wordCount mt-3 mb-0'>
