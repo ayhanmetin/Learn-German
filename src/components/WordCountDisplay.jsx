@@ -17,7 +17,7 @@ const WordCountDisplay = () => {
     >
       <h3 className='wordCount mt-3 mb-0'>
         <Link
-          to='/wordlist'
+          to='/word'
           style={{
             textDecoration: 'none',
             color: 'inherit',

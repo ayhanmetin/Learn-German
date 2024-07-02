@@ -56,7 +56,7 @@ function App() {
                 <Route path='/about' element={<About />} />
                 <Route path='/basics' element={<Basics />} />
                 <Route path='/word/:wordName' element={<WordDetail />} />
-                <Route path='/wordlist' element={<WordList />} />
+                <Route path='/word' element={<WordList />} />
                 <Route path='/quiz' element={<Quiz />} />
                 <Route path='/today/:wordNo' element={<Today />} />
               </Routes>
