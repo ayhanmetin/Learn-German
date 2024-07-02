@@ -1,13 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import wordData from '../wordData';
-import "./wordList.css";
+import './wordList.css';
 
 const WordList = () => {
   const navigate = useNavigate();
 
-  const handleWordClick = (word) => {
-    navigate(`/wordlist/${encodeURIComponent(word)}`); // Navigates to the WordDetail component
+  const handleWordClick = word => {
+    navigate(`/word/${encodeURIComponent(word)}`);
   };
 
   return (
@@ -16,7 +16,7 @@ const WordList = () => {
         {wordData.map((word, index) => (
           <React.Fragment key={index}>
             <span
-              className='fs-6 wordList'
+              className='wordList'
               style={{ cursor: 'pointer' }}
               onClick={() => handleWordClick(word.word)}
             >

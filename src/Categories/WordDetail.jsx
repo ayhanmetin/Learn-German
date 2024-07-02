@@ -19,13 +19,13 @@ const WordDetail = () => {
 
   return (
     <>
-      <div className='container d-flex flex-column mb-5 mt-0 pt-3 '>
-        <div className='word-container fs-5 mainBody border-top border-bottom mb-4'>
+      <div className='container d-flex flex-column mb-5 mt-0 pt-3'>
+        <div className='word-container fs-5 mainBody border-bottom mb-4'>
           <b className='mobileWord fs-2 wordDay' style={wordDayStyle}>
             {`${word.article} ${word.word}`}
           </b>
           {word.grammar && (
-            <p className='fst-italic mt-3 grammar fs-6 ms-0 ps-0 mb-4'>
+            <p className='fst-italic mt-2 grammar fs-6 ms-0 ps-0 mb-4'>
               {word.grammar}
             </p>
           )}
@@ -73,7 +73,7 @@ const WordDetail = () => {
             <strong>-</strong> {word.meaningENG}
           </p>
           {word.meaningTR && (
-            <p className='textWord fst-italic'>
+            <p className='textWord fs-6 fst-italic'>
               <strong>-</strong> {word.meaningTR}
             </p>
           )}
