@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
+import Footer2 from './Footer2';
 import './wordApp.css';
 import {
   BookIcon,
@@ -277,6 +278,7 @@ function WordApp() {
           </button>
         </div>
       )}
+      
     </div>
   );
 }

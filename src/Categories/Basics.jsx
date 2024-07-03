@@ -2,9 +2,15 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import '../components/wordApp.css';
-import { BookIcon, CopyIcon, PrintIcon, VoiceIcon } from '../components/IconBox';
+import {
+  BookIcon,
+  CopyIcon,
+  PrintIcon,
+  VoiceIcon,
+} from '../components/IconBox';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from '@vercel/analytics/react';
+import Footer2 from '../components/Footer2';
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -234,6 +240,9 @@ function Basics() {
           </div>
         </div>
       ))}
+      <div className='mt-auto'>
+       <Footer2 />
+      </div>
     </div>
   );
 }

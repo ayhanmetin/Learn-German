@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import WordApp from './components/WordApp';
-import Footer2 from './components/Footer2';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Basics from './Categories/Basics';
 import { Analytics } from '@vercel/analytics/react';
@@ -64,9 +63,6 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
-      <div className='mt-auto'>
-        <Footer2 />
       </div>
     </div>
   );
