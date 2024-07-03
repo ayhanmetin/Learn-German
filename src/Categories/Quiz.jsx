@@ -119,7 +119,7 @@ const Quiz = () => {
 
   return (
     <div className='col-12 app mt-3 pt-0'>
-      <div className='col-10'>
+      <div className='col-12'>
         <div className='scoreboard text-body-secondary'>
           <div className='score-item'>
             <i className='fas fa-heart'></i>
