@@ -28,17 +28,11 @@
   margin: 10px auto;
 }
 
-.start-again-btn:hover {
-  background-color: #b1d5ff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px);
-}
-
 .scoreboard {
   display: flex;
   justify-content: center;
   gap: 35px;
-  padding: 15px 15px;
+  padding: 15px;
   background: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -83,50 +77,56 @@
 }
 
 .choices button {
+  background-color: #f7f7f7;
   color: black;
-  border: none;
+  border: 1px solid #ddd;
   padding: 24px 24px;
   font-size: 15px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease;
   font-weight: 600;
   min-height: 100px;
 }
 
-.choices button:hover {
+.choices button:active {
   background-color: #b1d5ff;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-  outline: none;
-  color: black;
 }
 
 .wrong-words {
-  font-size: 2px;
+  font-size: 16px;
   background: #ffffff;
   padding: 20px;
 }
 
 .wrong-words h3 {
-  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 600;
-}
-
-.wrong-words p {
-  font-size: 16px;
 }
 
 @media (max-width: 480px) {
   .choices {
     grid-template-columns: 1fr;
   }
-}
 
-.game-over {
-  font-family: 'Poppins', sans-serif;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
+  .card, .scoreboard, .choices button {
+    padding: 20px;
+  }
+
+  .card h1 {
+    font-size: 24px;
+  }
+
+  .score-item {
+    font-size: 18px;
+  }
+
+  .start-again-btn, .choices button {
+    padding: 12px 10px;
+  }
+
+  .choices button:active {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(0); 
+  }
 }
