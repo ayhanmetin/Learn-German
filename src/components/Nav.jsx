@@ -14,7 +14,7 @@ export default function Nav() {
         style={{ backgroundColor: 'black', height: '50px' }}
       >
         {/* First group at the start */}
-        <div className='d-flex gap-3 align-items-center'>
+        <div className='d-flex mt-2 gap-3 align-items-center'>
           <NavLink to='/basics' aria-label='B1' className='altNav2 ms-3 text-light'>
             B1
           </NavLink>
