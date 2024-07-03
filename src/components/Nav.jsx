@@ -9,6 +9,7 @@ import WordCountDisplay from './WordCountDisplay';
 export default function Nav() {
   return (
     <>
+    <div className='col-10'></div>
       <nav
         className='d-flex justify-content-between align-items-center rounded-bottom px-3'
         style={{ backgroundColor: 'black', height: '50px' }}

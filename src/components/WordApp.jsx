@@ -2,7 +2,13 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
-import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
+import {
+  BookIcon,
+  BookmarkedIcon,
+  CopyIcon,
+  PrintIcon,
+  VoiceIcon,
+} from './IconBox';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(20);
@@ -140,7 +146,7 @@ function WordApp() {
   };
 
   return (
-    <div className='container col-12'>
+    <div className='col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
         <div className='search-bar pb-2 mb-1 col-10'>
           <input
@@ -162,6 +168,21 @@ function WordApp() {
                 onClick={() => handlePrint(word)}
               >
                 <PrintIcon />
+              </button>
+              <button
+                className='ms-2 btnTop ms-0 text-body-emphasis'
+                onClick={() =>
+                  navigator.clipboard.writeText(
+                    `https://www.almancakelime.com/word/${word.word}`
+                  )
+                }
+                style={{
+                  border: 'none',
+                  background: 'transparent',
+                  cursor: 'pointer',
+                }}
+              >
+                <CopyIcon />
               </button>
             </div>
           </div>

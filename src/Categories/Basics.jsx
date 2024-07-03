@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import '../components/wordApp.css';
-import { BookIcon, PrintIcon, VoiceIcon } from '../components/IconBox';
+import { BookIcon, CopyIcon, PrintIcon, VoiceIcon } from '../components/IconBox';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -126,7 +126,7 @@ function Basics() {
   };
 
   return (
-    <div className='container col-12'>
+    <div className='col-12'>
       {filteredWords.map(word => (
         <div
           className='border-bottom border-dark-subtle p-4 mb-3'
@@ -140,9 +140,21 @@ function Basics() {
               >
                 <PrintIcon />
               </button>
-              {/* <button className='btnTop btnTop1 ms-0 text-body-emphasis'>
-                <BookIcon />
-              </button> */}
+              <button
+                className='ms-2 btnTop ms-0 text-body-emphasis'
+                onClick={() =>
+                  navigator.clipboard.writeText(
+                    `https://www.almancakelime.com/word/${word.word}`
+                  )
+                }
+                style={{
+                  border: 'none',
+                  background: 'transparent',
+                  cursor: 'pointer',
+                }}
+              >
+                <CopyIcon />
+              </button>
             </div>
           </div>
 
