@@ -12,16 +12,15 @@
 .container {
   width: 100%;
   max-width: 600px;
-  overflow: hidden; /* Prevents content from making the container expand */
+  overflow: hidden;
 }
 
 .start-again-btn {
-  background-color: #007bff;
-  color: white;
+  background-color: #b1d5ff;
+  color: black;
   border: none;
-  padding: 15px 30px;
+  padding: 10px 15px;
   font-size: 14px;
-  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: 600;
@@ -30,17 +29,17 @@
 }
 
 .start-again-btn:hover {
-  background-color: #0056b3;
+  background-color: #b1d5ff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
 }
 
 .scoreboard {
   display: flex;
-  justify-content: space-between;
-  padding: 15px 25px;
+  justify-content: center;
+  gap: 35px;
+  padding: 15px 15px;
   background: #ffffff;
-  border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
@@ -48,7 +47,7 @@
 .score-item {
   display: flex;
   align-items: center;
-  font-size: 22px;
+  font-size: 25px;
   color: #333;
 }
 
@@ -61,20 +60,19 @@
   background: #ffffff;
   padding: 30px;
   text-align: center;
-  border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  min-height: 250px; 
+  margin-bottom: 10px;
+  min-height: 250px;
 }
 
 .card h1 {
   font-size: 40px;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-weight: 600;
-  white-space: nowrap; /* Prevents text from wrapping */
-  overflow: hidden; /* Hides text that overflows */
-  text-overflow: ellipsis; /* Adds an ellipsis to overflowing text */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .choices {
@@ -104,20 +102,19 @@
 }
 
 .wrong-words {
+  font-size: 2px;
   background: #ffffff;
   padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .wrong-words h3 {
-  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
   margin-bottom: 10px;
   font-weight: 600;
 }
 
 .wrong-words p {
-  color: #666;
   font-size: 16px;
 }
 
@@ -125,4 +122,11 @@
   .choices {
     grid-template-columns: 1fr;
   }
+}
+
+.game-over {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
 }

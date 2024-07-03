@@ -94,10 +94,10 @@ const Quiz = () => {
           </div>
         </div>
         {gameOver ? (
-          <div className='game-over'>
-            <h1>Game Over - Score: {score}</h1>
-            <button className='start-again-btn' onClick={resetGame}>
-              Start Again
+          <div className='mb-2'>
+            <h1 className='game-over'>Score: {score}</h1>
+            <button className='start-again-btn mt-4' onClick={resetGame}>
+            Noch einmal?
             </button>
           </div>
         ) : (
@@ -114,7 +114,7 @@ const Quiz = () => {
         )}
         {wrongWords.length > 0 && (
           <div className='wrong-words'>
-            <h3>Incorrect Words:</h3>
+            <h3>Falsch wörter:</h3>
             <p>{wrongWords.join(', ')}</p>
           </div>
         )}
