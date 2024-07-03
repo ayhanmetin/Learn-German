@@ -6,8 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background-color: #f0f2f5;
   padding: 20px;
 }
 
@@ -22,20 +20,20 @@
   padding: 15px 25px;
   background: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
 .score-item {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 22px;
   color: #333;
 }
 
 .score-item i {
   margin-right: 10px;
-  color: #007bff;
+  color: #b1d5ff;
 }
 
 .card {
@@ -43,12 +41,12 @@
   padding: 30px;
   text-align: center;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
 .card h1 {
-  font-size: 32px;
+  font-size: 28px;
   color: #333;
   margin-bottom: 30px;
   font-weight: 600;
@@ -57,32 +55,34 @@
 .choices {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+  gap: 20px;
 }
 
 .choices button {
-  background-color: #007bff;
+  background-color: #b1d5ff;
   color: white;
   border: none;
-  padding: 15px 20px;
-  font-size: 16px;
-  border-radius: 8px;
+  padding: 18px 24px;
+  font-size: 18px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: 400;
 }
 
-.choices button:hover {
+.choices button:hover,
+.choices button:focus {
   background-color: #0056b3;
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  outline: none;
 }
 
 .wrong-words {
   background: #ffffff;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .wrong-words h3 {
@@ -93,7 +93,7 @@
 
 .wrong-words p {
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media (max-width: 480px) {
