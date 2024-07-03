@@ -5,7 +5,7 @@ import './wordApp.css';
 import { BookIcon, PrintIcon, VoiceIcon } from './IconBox';
 
 function WordApp() {
-  const [visibleWordsCount, setVisibleWordsCount] = useState(50);
+  const [visibleWordsCount, setVisibleWordsCount] = useState(20);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
   const [voices, setVoices] = useState([]);
@@ -125,7 +125,6 @@ function WordApp() {
 
     printContent += `
           <p>- "${word.meaningENG}"</p>
-          <p>- "${word.meaningTR}"</p>
         </div>
       </body>
     </html>`;
@@ -170,9 +169,6 @@ function WordApp() {
               >
                 <PrintIcon />
               </button>
-              {/* <button className='btnTop btnTop1 ms-0 text-body-emphasis'>
-                <BookIcon />
-              </button> */}
             </div>
           </div>
 

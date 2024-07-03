@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.app {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.score-item {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #333;
+}
+
+.score-item i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.card h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.choices button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 400;
+}
+
+.choices button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.wrong-words {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.wrong-words h3 {
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.wrong-words p {
+  color: #666;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .choices {
+    grid-template-columns: 1fr;
+  }
+}
