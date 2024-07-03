@@ -27,26 +27,27 @@ const Quiz = () => {
 
     const correct = currentWord.meaningENG;
     const potentialChoices = shuffledWords
-      .map(data => data.meaningENG)
-      .filter(meaning => meaning !== correct);
+      .filter(data => data.meaningENG !== correct && data.meaningENG)
+      .map(data => data.meaningENG);
 
-    // Ensure at least one incorrect choice is available
     let incorrectChoices = randomChoices(potentialChoices, 1);
-    if (incorrectChoices.length < 1) {
-      incorrectChoices = [shuffledWords[(currentIndex + 1) % shuffledWords.length].meaningENG];
+    if (incorrectChoices.length < 1 || !incorrectChoices[0]) {
+      incorrectChoices = [
+        shuffledWords[(currentIndex + 1) % shuffledWords.length].meaningENG,
+      ];
     }
 
-    const shuffledChoices = shuffle([correct, ...incorrectChoices]);
+    const shuffledChoices = shuffle([correct, ...incorrectChoices]).filter(
+      choice => choice
+    ); 
     setChoices(shuffledChoices);
   };
 
   const randomChoices = (options, number) => {
     let result = [];
-    let count = options.length;
-    while (result.length < number && count > 0) {
+    while (result.length < number && options.length > 0) {
       let index = Math.floor(Math.random() * options.length);
       result.push(options.splice(index, 1)[0]);
-      count--;
     }
     return result;
   };
@@ -62,13 +63,18 @@ const Quiz = () => {
   const handleChoice = choice => {
     const isCorrect = choice === shuffledWords[currentIndex].meaningENG;
     if (isCorrect) {
-      setCurrentIndex(currentIndex + 1 < shuffledWords.length ? currentIndex + 1 : 0);
-      setScore(prevScore => prevScore + 10);
+      setCurrentIndex(prevIndex => (prevIndex + 1) % shuffledWords.length);
+      setScore(prevScore => prevScore + 1);
     } else {
-      setLives(prevLives => prevLives - 1 <= 0 ? 0 : prevLives - 1);
+      setLives(prevLives => Math.max(prevLives - 1, 0));
       setWrongWords(prev => [...prev, shuffledWords[currentIndex].word]);
       if (lives - 1 <= 0) setGameOver(true);
     }
+  };
+
+  const displayWord = () => {
+    const { article, word } = shuffledWords[currentIndex] || {};
+    return article ? `${article} ${word}` : word;
   };
 
   const resetGame = () => {
@@ -97,24 +103,28 @@ const Quiz = () => {
           <div className='mb-2'>
             <h1 className='game-over'>Score: {score}</h1>
             <button className='start-again-btn mt-4' onClick={resetGame}>
-            Noch einmal?
+              Noch einmal?
             </button>
           </div>
         ) : (
           <div className='card'>
-            <h1>{shuffledWords[currentIndex]?.word || 'Loading word...'}</h1>
+            <h1>{displayWord() || 'Loading word...'}</h1>
             <div className='choices'>
-              {choices.map((choice, index) => (
-                <button key={index} onClick={() => handleChoice(choice)}>
-                  {choice}
-                </button>
-              ))}
+              {choices.length ? (
+                choices.map((choice, index) => (
+                  <button key={index} onClick={() => handleChoice(choice)}>
+                    {choice}
+                  </button>
+                ))
+              ) : (
+                <div>Loading choices...</div>
+              )}
             </div>
           </div>
         )}
         {wrongWords.length > 0 && (
-          <div className='wrong-words'>
-            <h3>Falsch wörter:</h3>
+          <div className='wrong-words mb-5 pb-5'>
+            <h3>Falsch Wörter:</h3>
             <p>{wrongWords.join(', ')}</p>
           </div>
         )}
