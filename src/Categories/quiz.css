@@ -29,8 +29,7 @@
   margin: 10px auto;
 }
 
-.start-again-btn:hover,
-.start-again-btn:focus {
+.start-again-btn:hover {
   background-color: #0056b3;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
@@ -55,7 +54,7 @@
 
 .score-item i {
   margin-right: 10px;
-  color: #007bff;
+  color: #b1d5ff;
 }
 
 .card {
@@ -65,11 +64,11 @@
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-  min-height: 250px; /* Fixed minimum height */
+  min-height: 250px; 
 }
 
 .card h1 {
-  font-size: 28px;
+  font-size: 40px;
   color: #333;
   margin-bottom: 20px;
   font-weight: 600;
@@ -79,29 +78,29 @@
 }
 
 .choices {
+  color: black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
 .choices button {
-  background-color: #007bff;
-  color: white;
+  color: black;
   border: none;
   padding: 24px 24px;
-  font-size: 20px;
-  border-radius: 10px;
+  font-size: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: 600;
-  min-height: 100px; /* Fixed height for uniformity */
+  min-height: 100px;
 }
 
 .choices button:hover {
-  background-color: #0056b3;
+  background-color: #b1d5ff;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
   outline: none;
+  color: black;
 }
 
 .wrong-words {

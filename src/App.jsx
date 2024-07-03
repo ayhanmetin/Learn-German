@@ -6,7 +6,6 @@ import Footer2 from './components/Footer2';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Basics from './Categories/Basics';
 import { Analytics } from '@vercel/analytics/react';
-import About from './components/About';
 import Advanced from './Categories/Advanced';
 import Today from './components/Today';
 import './app.css';
@@ -56,7 +55,6 @@ function App() {
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/calendar' element={<Calendar />} />
 
-                <Route path='/about' element={<About />} />
                 <Route path='/basics' element={<Basics />} />
                 <Route path='/word/:wordName' element={<WordDetail />} />
                 <Route path='/word' element={<WordList />} />
