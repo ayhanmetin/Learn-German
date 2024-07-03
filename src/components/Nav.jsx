@@ -13,9 +13,12 @@ export default function Nav() {
         className='d-flex justify-content-between align-items-center rounded-bottom px-3'
         style={{ backgroundColor: 'black', height: '50px' }}
       >
-        {/* First group at the start */}
         <div className='d-flex mt-2 gap-3 align-items-center'>
-          <NavLink to='/basics' aria-label='B1' className='altNav2 ms-3 text-light'>
+          <NavLink
+            to='/basics'
+            aria-label='B1'
+            className='altNav2 ms-3 text-light'
+          >
             B1
           </NavLink>
           <NavLink
@@ -27,7 +30,7 @@ export default function Nav() {
           </NavLink>
         </div>
 
-        <div className='d-flex justify-content-center align-items-center gap-4 flex-grow-1'>
+        <div className='d-flex mb-1 justify-content-center align-items-center gap-4 flex-grow-1'>
           <NavLink to='/home' className='text-light nav1' aria-label='Home'>
             <HomeIcon />
           </NavLink>
