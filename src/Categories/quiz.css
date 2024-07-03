@@ -16,25 +16,34 @@
 }
 
 .start-again-btn {
-  background-color: #b1d5ff;
-  color: black;
-  border: none;
-  padding: 10px 15px;
-  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
   font-weight: 600;
   display: block;
-  margin: 10px auto;
+  margin: 20px auto;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.start-again-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .scoreboard {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 35px;
   padding: 15px;
-  background: #ffffff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
@@ -50,19 +59,18 @@
   color: #b1d5ff;
 }
 
-.card {
+.cardCss {
   background: #ffffff;
   padding: 30px;
   text-align: center;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
-  min-height: 250px;
+  min-height: 80px;
 }
 
-.card h1 {
+.cardCss h1 {
   font-size: 40px;
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
@@ -77,10 +85,9 @@
 }
 
 .choices button {
-  background-color: #f7f7f7;
   color: black;
   border: 1px solid #ddd;
-  padding: 24px 24px;
+  padding: 20px;
   font-size: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -94,39 +101,42 @@
 
 .wrong-words {
   font-size: 16px;
-  background: #ffffff;
-  padding: 20px;
+  padding: 5px;
 }
 
 .wrong-words h3 {
   font-size: 20px;
-  margin-bottom: 10px;
-  font-weight: 600;
+  margin-bottom: 2px;
 }
 
 @media (max-width: 480px) {
   .choices {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    margin: 0;
   }
 
-  .card, .scoreboard, .choices button {
-    padding: 20px;
+  .cardCss,
+  .scoreboard,
+  .choices button {
+    font-size: 13px;
+    padding: 3px;
   }
 
-  .card h1 {
-    font-size: 24px;
+  .cardCss h1 {
+    font-size: 25px;
   }
 
   .score-item {
     font-size: 18px;
   }
 
-  .start-again-btn, .choices button {
-    padding: 12px 10px;
+  .start-again-btn,
+  .choices button {
+    padding: 2px;
   }
 
   .choices button:active {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: translateY(0); 
+    transform: translateY(0);
   }
 }

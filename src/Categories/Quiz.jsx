@@ -23,24 +23,55 @@ const Quiz = () => {
 
   const generateChoices = () => {
     const currentWord = shuffledWords[currentIndex];
-    if (!currentWord) return;
+    if (!currentWord) {
+      console.error('No current word available');
+      return;
+    }
 
     const correct = currentWord.meaningENG;
+    if (!correct) {
+      console.error('Correct meaning not available', currentWord);
+      return;
+    }
+
     const potentialChoices = shuffledWords
-      .filter(data => data.meaningENG !== correct && data.meaningENG)
+      .filter(data => data.meaningENG && data.meaningENG !== correct)
       .map(data => data.meaningENG);
+
+    if (!potentialChoices.length) {
+      console.error('No potential choices available', shuffledWords);
+      return;
+    }
 
     let incorrectChoices = randomChoices(potentialChoices, 1);
     if (incorrectChoices.length < 1 || !incorrectChoices[0]) {
+      console.error(
+        'Failed to select an incorrect choice, using fallback',
+        potentialChoices
+      );
+      const fallbackChoice = shuffledWords.find(
+        data => data.meaningENG && data.meaningENG !== correct
+      );
       incorrectChoices = [
-        shuffledWords[(currentIndex + 1) % shuffledWords.length].meaningENG,
+        fallbackChoice
+          ? fallbackChoice.meaningENG
+          : 'No incorrect choice available',
       ];
     }
 
-    const shuffledChoices = shuffle([correct, ...incorrectChoices]).filter(
-      choice => choice
-    ); 
-    setChoices(shuffledChoices);
+    const shuffledChoices = shuffle([correct, ...incorrectChoices]);
+    if (shuffledChoices.includes(undefined) || shuffledChoices.includes(null)) {
+      console.error(
+        'Shuffled choices include undefined or null',
+        shuffledChoices
+      );
+    }
+
+    setChoices(
+      shuffledChoices.filter(
+        choice => typeof choice === 'string' && choice.trim() !== ''
+      )
+    );
   };
 
   const randomChoices = (options, number) => {
@@ -89,25 +120,27 @@ const Quiz = () => {
   return (
     <div className='col-12 app mt-3 pt-0'>
       <div className='col-10'>
-        <div className='scoreboard'>
+        <div className='scoreboard text-body-secondary'>
           <div className='score-item'>
             <i className='fas fa-heart'></i>
-            <span>{lives}</span>
+            <span className='text-body-secondary'>{lives}</span>
           </div>
           <div className='score-item'>
             <i className='fas fa-star'></i>
-            <span>{score}</span>
+            <span className='text-body-secondary'>{score}</span>
           </div>
         </div>
         {gameOver ? (
           <div className='mb-2'>
-            <h1 className='game-over'>Score: {score}</h1>
-            <button className='start-again-btn mt-4' onClick={resetGame}>
+            <h1 className='d-flex justify-content-center align-items-center'>
+              🎯 {score}{' '}
+            </h1>
+            <button className='start-again-btn mt-4 mb-5' onClick={resetGame}>
               Noch einmal?
             </button>
           </div>
         ) : (
-          <div className='card'>
+          <div className='cardCss'>
             <h1>{displayWord() || 'Loading word...'}</h1>
             <div className='choices'>
               {choices.length ? (
@@ -123,9 +156,8 @@ const Quiz = () => {
           </div>
         )}
         {wrongWords.length > 0 && (
-          <div className='wrong-words mb-5 pb-5'>
-            <h3>Falsch Wörter:</h3>
-            <p>{wrongWords.join(', ')}</p>
+          <div className='wrong-words text-body-secondary ms-4 mb-5 pb-5'>
+            <h3>🏴‍☠️ {wrongWords.join(', ')}</h3>
           </div>
         )}
       </div>
