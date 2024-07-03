@@ -6,12 +6,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 0;
 }
 
 .container {
-  width: 200%;
+  width: 100%;
   max-width: 600px;
+  overflow: hidden; /* Prevents content from making the container expand */
+}
+
+.start-again-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  display: block;
+  margin: 10px auto;
+}
+
+.start-again-btn:hover,
+.start-again-btn:focus {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 .scoreboard {
@@ -33,7 +55,7 @@
 
 .score-item i {
   margin-right: 10px;
-  color: #b1d5ff;
+  color: #007bff;
 }
 
 .card {
@@ -43,13 +65,17 @@
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  min-height: 250px; /* Fixed minimum height */
 }
 
 .card h1 {
   font-size: 28px;
   color: #333;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-weight: 600;
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hides text that overflows */
+  text-overflow: ellipsis; /* Adds an ellipsis to overflowing text */
 }
 
 .choices {
@@ -59,19 +85,19 @@
 }
 
 .choices button {
-  background-color: #b1d5ff;
+  background-color: #007bff;
   color: white;
   border: none;
-  padding: 18px 24px;
-  font-size: 18px;
+  padding: 24px 24px;
+  font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-weight: 400;
+  font-weight: 600;
+  min-height: 100px; /* Fixed height for uniformity */
 }
 
-.choices button:hover,
-.choices button:focus {
+.choices button:hover {
   background-color: #0056b3;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);

@@ -46,7 +46,7 @@ function App() {
       >
         <div className='d-flex justify-content-center align-items-center mt-0'>
           <div className='col-12 col-md-8 mt-0'>
-            <div className='mt-0 mb-5'>
+            <div className='mt-0 mb-4'>
               <Nav />
             </div>
             <div className='d-flex justify-content-center align-items-center'>
