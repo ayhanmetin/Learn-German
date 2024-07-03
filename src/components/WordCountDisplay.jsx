@@ -15,7 +15,7 @@ const WordCountDisplay = () => {
         alignItems: 'start',
       }}
     >
-      <h3 className='wordCount mt-3 mb-0'>
+      <h3 className='wordCount ms-3 mt-3 mb-0'>
         <Link
           to='/word'
           style={{

@@ -15,7 +15,7 @@ export default function Nav() {
       >
         {/* First group at the start */}
         <div className='d-flex gap-3 align-items-center'>
-          <NavLink to='/basics' aria-label='B1' className='altNav2 text-light'>
+          <NavLink to='/basics' aria-label='B1' className='altNav2 ms-3 text-light'>
             B1
           </NavLink>
           <NavLink
@@ -27,7 +27,6 @@ export default function Nav() {
           </NavLink>
         </div>
 
-        {/* Icons centered in the middle */}
         <div className='d-flex justify-content-center align-items-center gap-4 flex-grow-1'>
           <NavLink to='/home' className='text-light nav1' aria-label='Home'>
             <HomeIcon />
@@ -43,7 +42,7 @@ export default function Nav() {
             <GameIcon />
           </NavLink>
         </div>
-        <div>
+        <div className='me-3'>
           <Theme2 />
         </div>
       </nav>
