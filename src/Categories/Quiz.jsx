@@ -156,7 +156,7 @@ const Quiz = () => {
           </div>
         )}
         {wrongWords.length > 0 && (
-          <div className='wrong-words text-body-secondary ms-1 mb-5 pb-5'>
+          <div className='wrong-words text-body-secondary ms-4 mb-5 pb-5'>
             <h3>🏴‍☠️ {wrongWords.join(', ')}</h3>
           </div>
         )}
