@@ -140,9 +140,9 @@ const Quiz = () => {
             </button>
           </div>
         ) : (
-          <div className='cardCss'>
-            <h1>{displayWord() || 'Loading word...'}</h1>
-            <div className='choices'>
+          <div className='cardCss text-body-secondary'>
+            <h1 className='text-body-secondary'>{displayWord() || 'Loading word...'}</h1>
+            <div className='choices text-body-secondary'>
               {choices.length ? (
                 choices.map((choice, index) => (
                   <button key={index} onClick={() => handleChoice(choice)}>

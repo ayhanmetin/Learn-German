@@ -59,7 +59,6 @@
 }
 
 .cardCss {
-  background: #ffffff;
   padding: 30px;
   text-align: center;
   margin-bottom: 10px;
@@ -69,8 +68,8 @@
 .cardCss h1 {
   font-size: 40px;
   color: #333;
-  margin-bottom: 20px;
-  font-weight: 600;
+  margin-bottom: 40px;
+  font-weight: 300;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -87,16 +86,18 @@
   color: black;
   border: 1px solid #ddd;
   padding: 20px;
-  font-size: 15px;
+  font-size: 19px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-weight: 600;
+  font-weight: 100;
   min-height: 100px;
+  background-color: #f8f8f8;
 }
 
-.choices button:active {
-  background-color: #b1d5ff;
+.choices button:hover {
+  background-color: #e2e2e2; 
 }
+
 
 .wrong-words {
   font-size: 13px;
