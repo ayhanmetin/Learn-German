@@ -278,7 +278,9 @@ function WordApp() {
           </button>
         </div>
       )}
-      
+      <div className='mt-auto'>
+       <Footer2 />
+      </div>
     </div>
   );
 }
