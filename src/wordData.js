@@ -2605,7 +2605,7 @@ const wordData = [
     example3: '',
     example4: '',
     example5: '',
-    meaningENG: '',
+    meaningENG: 'adult',
     meaningTR: '',
     tip1: '',
     tip2: '',
