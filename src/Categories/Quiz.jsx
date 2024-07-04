@@ -141,7 +141,9 @@ const Quiz = () => {
           </div>
         ) : (
           <div className='cardCss text-body-secondary'>
-            <h1 className='text-body-secondary'>{displayWord() || 'Loading word...'}</h1>
+            <h1 className='text-body-secondary'>
+              {displayWord() || 'Loading word...'}
+            </h1>
             <div className='choices text-body-secondary'>
               {choices.length ? (
                 choices.map((choice, index) => (
@@ -157,7 +159,7 @@ const Quiz = () => {
         )}
         {wrongWords.length > 0 && (
           <div className='wrong-words text-body-secondary ms-4 mb-5 pb-5'>
-            <h3 className='fs-5'>🏴‍☠️ {wrongWords.join(', ')}</h3>
+            <p className='wrong-words'>🏴‍☠️ {wrongWords.join(', ')}</p>
           </div>
         )}
       </div>

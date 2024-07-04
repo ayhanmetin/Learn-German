@@ -21,7 +21,8 @@
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
   font-weight: 600;
   display: block;
   margin: 20px auto;
@@ -87,7 +88,7 @@
   padding: 20px;
   font-size: 19px;
   cursor: pointer;
-  transition: none;  /* Remove transitions to avoid stickiness */
+  transition: none; /* Remove transitions to avoid stickiness */
   font-weight: 100;
   min-height: 100px;
   background-color: #f8f8f8;
@@ -108,7 +109,7 @@
   margin-bottom: 2px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .choices {
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
@@ -118,7 +119,7 @@
   .cardCss,
   .scoreboard,
   .choices button {
-    font-size: 13px;
+    font-size: 15px;
     padding: 5px;
   }
 
@@ -135,8 +136,12 @@
     padding: 2px;
   }
 
-  /* Remove any transform effects to prevent the appearance of 'sticking' */
   .choices button:active {
-    background-color: #f8f8f8;  /* Reset to default background on active */
+    background-color: #f8f8f8;
+  }
+
+  .wrong-words {
+    font-size: 13px;
+    margin-top: 20px;
   }
 }
