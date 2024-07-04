@@ -88,7 +88,7 @@
   padding: 20px;
   font-size: 19px;
   cursor: pointer;
-  transition: none; 
+  transition: none;
   font-weight: 100;
   min-height: 100px;
   background-color: #f8f8f8;
@@ -99,7 +99,7 @@
 }
 
 .wrong-words {
-  font-size: 13px;
+  font-size: 18px;
   padding: 5px;
 }
 

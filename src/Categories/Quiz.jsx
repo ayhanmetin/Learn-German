@@ -12,7 +12,9 @@ const Quiz = () => {
   const [shuffledWords, setShuffledWords] = useState([]);
 
   useEffect(() => {
-    setShuffledWords(shuffle([...wordData]));
+    const shuffled = shuffle([...wordData]);
+    setShuffledWords(shuffled);
+    setCurrentIndex(Math.floor(Math.random() * shuffled.length));
   }, []);
 
   useEffect(() => {
@@ -34,7 +36,7 @@ const Quiz = () => {
       return;
     }
 
-    const potentialChoices = shuffledWords
+    let potentialChoices = shuffledWords
       .filter(data => data.meaningENG && data.meaningENG !== correct)
       .map(data => data.meaningENG);
 
@@ -49,13 +51,10 @@ const Quiz = () => {
         'Failed to select an incorrect choice, using fallback',
         potentialChoices
       );
-      const fallbackChoice = shuffledWords.find(
-        data => data.meaningENG && data.meaningENG !== correct
-      );
       incorrectChoices = [
-        fallbackChoice
-          ? fallbackChoice.meaningENG
-          : 'No incorrect choice available',
+        shuffledWords.find(
+          data => data.meaningENG && data.meaningENG !== correct
+        )?.meaningENG || 'No incorrect choice available',
       ];
     }
 
@@ -122,11 +121,11 @@ const Quiz = () => {
       <div className='col-12'>
         <div className='scoreboard text-body-secondary'>
           <div className='score-item'>
-            <i className='fas fa-heart'></i>
+            <i className='fas fa-ghost'></i>
             <span className='text-body-secondary'>{lives}</span>
           </div>
           <div className='score-item'>
-            <i className='fas fa-star'></i>
+            <i className='fas fa-check'></i>
             <span className='text-body-secondary'>{score}</span>
           </div>
         </div>
@@ -159,7 +158,27 @@ const Quiz = () => {
         )}
         {wrongWords.length > 0 && (
           <div className='wrong-words text-body-secondary ms-4 mb-5 pb-5'>
-            <p className='wrong-words'>🏴‍☠️ {wrongWords.join(', ')}</p>
+            <p className='wrong-words'>
+              🏴‍☠️
+              {wrongWords.map((word, index) => (
+                <a
+                  key={index}
+                  href={`https://www.almancakelime.com/word/${word}`}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  style={{
+                    textDecoration: 'none',
+                    color: 'inherit',
+                    cursor: 'pointer',
+                    padding: '0',
+                    margin: '0 5px',
+                  }}
+                >
+                  {word}
+                  {index < wrongWords.length - 1 ? ', ' : ''}
+                </a>
+              ))}
+            </p>
           </div>
         )}
       </div>
