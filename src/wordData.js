@@ -2315,7 +2315,7 @@ const wordData = [
     example3: '',
     example4: '',
     example5: '',
-    meaningENG: '',
+    meaningENG: 'public',
     meaningTR: '',
     tip1: '"den öffentlichen Verkehrsmitteln" - This phrase uses the definite article "den", indicating the dative plural case',
     tip2: '',
