@@ -21,8 +21,7 @@
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
   font-weight: 600;
   display: block;
   margin: 20px auto;
@@ -84,18 +83,19 @@
 
 .choices button {
   color: black;
-  border: 1px solid #ddd;
+  border: none;
   padding: 20px;
   font-size: 19px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: none;  /* Remove transitions to avoid stickiness */
   font-weight: 100;
   min-height: 100px;
   background-color: #f8f8f8;
 }
 
+/* Remove hover effect for simplicity and clarity */
 .choices button:hover {
-  background-color: #e2e2e2;
+  background-color: #f8f8f8;
 }
 
 .wrong-words {
@@ -110,7 +110,6 @@
 
 @media (max-width: 480px) {
   .choices {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
     margin: 0;
@@ -127,16 +126,6 @@
     font-size: 25px;
   }
 
-  .choices button {
-    color: black;
-    background-color: #f7f7f7;
-    border: none;
-    font-size: 13px;
-    padding: 10px;
-    min-height: 40px;
-    transition: none;
-  }
-
   .score-item {
     font-size: 18px;
   }
@@ -146,7 +135,8 @@
     padding: 2px;
   }
 
+  /* Remove any transform effects to prevent the appearance of 'sticking' */
   .choices button:active {
-    transform: translateY(0);
+    background-color: #f8f8f8;  /* Reset to default background on active */
   }
 }
