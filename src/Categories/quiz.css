@@ -88,13 +88,12 @@
   padding: 20px;
   font-size: 19px;
   cursor: pointer;
-  transition: none; /* Remove transitions to avoid stickiness */
+  transition: none; 
   font-weight: 100;
   min-height: 100px;
   background-color: #f8f8f8;
 }
 
-/* Remove hover effect for simplicity and clarity */
 .choices button:hover {
   background-color: #f8f8f8;
 }
@@ -124,7 +123,7 @@
   }
 
   .cardCss h1 {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .score-item {
