@@ -95,9 +95,8 @@
 }
 
 .choices button:hover {
-  background-color: #e2e2e2; 
+  background-color: #e2e2e2;
 }
-
 
 .wrong-words {
   font-size: 13px;
@@ -111,6 +110,7 @@
 
 @media (max-width: 480px) {
   .choices {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
     margin: 0;
@@ -125,6 +125,16 @@
 
   .cardCss h1 {
     font-size: 25px;
+  }
+
+  .choices button {
+    color: black;
+    background-color: #f7f7f7;
+    border: none;
+    font-size: 13px;
+    padding: 10px;
+    min-height: 40px;
+    transition: none;
   }
 
   .score-item {
