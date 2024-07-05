@@ -12,7 +12,7 @@ import {
 } from './IconBox';
 
 function WordApp() {
-  const [visibleWordsCount, setVisibleWordsCount] = useState(20);
+  const [visibleWordsCount, setVisibleWordsCount] = useState(10);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
   const [voices, setVoices] = useState([]);
@@ -272,9 +272,9 @@ function WordApp() {
         <div className='d-grid col-4 mx-auto'>
           <button
             className='loadMore text-body-emphasis'
-            onClick={() => setVisibleWordsCount(prevCount => prevCount + 50)}
+            onClick={() => setVisibleWordsCount(prevCount => prevCount + 20)}
           >
-            50 weitere Wörter
+            20 weitere Wörter
           </button>
         </div>
       )}
