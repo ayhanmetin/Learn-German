@@ -10,11 +10,14 @@ const Quiz = () => {
   const [wrongWords, setWrongWords] = useState([]);
   const [gameOver, setGameOver] = useState(false);
   const [shuffledWords, setShuffledWords] = useState([]);
+  const [batchIndex, setBatchIndex] = useState(0);
+  const batchSize = 30; // Size of each batch
 
   useEffect(() => {
     const shuffled = shuffle([...wordData]);
-    setShuffledWords(shuffled);
-    setCurrentIndex(Math.floor(Math.random() * shuffled.length));
+    const batches = createBatches(shuffled, batchSize);
+    setShuffledWords(batches);
+    setCurrentIndex(Math.floor(Math.random() * batches[0].length));
   }, []);
 
   useEffect(() => {
@@ -23,8 +26,21 @@ const Quiz = () => {
     }
   }, [currentIndex, shuffledWords, gameOver]);
 
+  const createBatches = (array, size) => {
+    const batches = [];
+    for (let i = 0; i < array.length; i += size) {
+      batches.push(array.slice(i, i + size));
+    }
+    return batches;
+  };
+
   const generateChoices = () => {
-    const currentWord = shuffledWords[currentIndex];
+    if (!shuffledWords[batchIndex]) {
+      console.error('No current batch available');
+      return;
+    }
+    const currentBatch = shuffledWords[batchIndex];
+    const currentWord = currentBatch[currentIndex];
     if (!currentWord) {
       console.error('No current word available');
       return;
@@ -36,12 +52,12 @@ const Quiz = () => {
       return;
     }
 
-    let potentialChoices = shuffledWords
+    let potentialChoices = currentBatch
       .filter(data => data.meaningENG && data.meaningENG !== correct)
       .map(data => data.meaningENG);
 
     if (!potentialChoices.length) {
-      console.error('No potential choices available', shuffledWords);
+      console.error('No potential choices available', currentBatch);
       return;
     }
 
@@ -52,7 +68,7 @@ const Quiz = () => {
         potentialChoices
       );
       incorrectChoices = [
-        shuffledWords.find(
+        currentBatch.find(
           data => data.meaningENG && data.meaningENG !== correct
         )?.meaningENG || 'No incorrect choice available',
       ];
@@ -91,19 +107,29 @@ const Quiz = () => {
   };
 
   const handleChoice = choice => {
-    const isCorrect = choice === shuffledWords[currentIndex].meaningENG;
+    const currentBatch = shuffledWords[batchIndex];
+    const isCorrect = choice === currentBatch[currentIndex].meaningENG;
     if (isCorrect) {
-      setCurrentIndex(prevIndex => (prevIndex + 1) % shuffledWords.length);
+      if (currentIndex + 1 < currentBatch.length) {
+        setCurrentIndex(currentIndex + 1);
+      } else {
+        setBatchIndex((batchIndex + 1) % shuffledWords.length);
+        setCurrentIndex(0);
+      }
       setScore(prevScore => prevScore + 1);
     } else {
       setLives(prevLives => Math.max(prevLives - 1, 0));
-      setWrongWords(prev => [...prev, shuffledWords[currentIndex].word]);
+      setWrongWords(prev => [...prev, currentBatch[currentIndex].word]);
       if (lives - 1 <= 0) setGameOver(true);
     }
   };
 
   const displayWord = () => {
-    const { article, word } = shuffledWords[currentIndex] || {};
+    if (!shuffledWords[batchIndex]) {
+      return 'Loading word...';
+    }
+    const currentBatch = shuffledWords[batchIndex];
+    const { article, word } = currentBatch[currentIndex] || {};
     return article ? `${article} ${word}` : word;
   };
 
@@ -113,7 +139,10 @@ const Quiz = () => {
     setWrongWords([]);
     setCurrentIndex(0);
     setGameOver(false);
-    setShuffledWords(shuffle([...wordData]));
+    const shuffled = shuffle([...wordData]);
+    const batches = createBatches(shuffled, batchSize);
+    setShuffledWords(batches);
+    setBatchIndex(0);
   };
 
   return (
@@ -141,7 +170,7 @@ const Quiz = () => {
         ) : (
           <div className='cardCss text-body-secondary'>
             <h1 className='text-body-secondary'>
-              {displayWord() || 'Loading word...'}
+              {displayWord()}
             </h1>
             <div className='choices text-body-secondary'>
               {choices.length ? (
