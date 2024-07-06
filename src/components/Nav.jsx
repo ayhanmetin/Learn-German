@@ -50,7 +50,10 @@ export default function Nav() {
           <Theme2 />
         </div>
       </nav>
-      <WordCountDisplay />
+
+      <div className='d-flex mb-1 justify-content-start align-items-center gap-1 flex-grow-1'>
+        <WordCountDisplay />
+      </div>
     </>
   );
 }
