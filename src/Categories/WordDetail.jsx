@@ -20,7 +20,7 @@ const WordDetail = () => {
   return (
     <>
       <div className='col-11 d-flex flex-column mb-5 mt-0 pt-3'>
-        <div className='word-container fs-5 mainBody border-bottom mb-4'>
+        <div className='word-container fs-5 mainBody mb-4'>
           <b className='mobileWord fs-2 wordDay' style={wordDayStyle}>
             {`${word.article} ${word.word}`}
           </b>
