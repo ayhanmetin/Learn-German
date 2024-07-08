@@ -1,4 +1,3 @@
-
 .wordList:hover {
   text-decoration: underline;
   margin-bottom: 1px;
@@ -13,6 +12,7 @@
   line-height: 1.6;
   font-style: italic;
   font-size: 14px;
+  white-space: nowrap; 
 }
 
 .word-detail {
@@ -23,7 +23,7 @@
 .wordCountx {
   transition: text-decoration 0.3s ease-in-out, margin-bottom 0.3s ease-in-out;
   font-family: 'Libre Franklin', sans-serif;
-  text-align:justify;
+  text-align: justify;
   word-wrap: break-word;
   hyphens: auto;
   line-height: 1.6;
