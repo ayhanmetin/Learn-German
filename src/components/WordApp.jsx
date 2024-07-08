@@ -274,7 +274,7 @@ function WordApp() {
             className='loadMore text-body-emphasis'
             onClick={() => setVisibleWordsCount(prevCount => prevCount + 20)}
           >
-            20 weitere Wörter
+            +20 weitere
           </button>
         </div>
       )}

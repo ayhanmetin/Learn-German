@@ -169,17 +169,6 @@ p {
   .button-voice svg {
     margin: auto;
   }
-  .loadMore {
-    border: 0.3px solid #ccc;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 13px;
-    background-color: transparent;
-    padding: 1px 1px;
-    margin: 13px;
-    padding: 1.2px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
 }
 
 @media (max-width: 768px) {
