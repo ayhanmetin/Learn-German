@@ -141,10 +141,10 @@ const wordData = [
 
   {
     date: 'June 27, 2024',
-    wordNo: '270624',
+    wordNo: '280624',
     article: 'die',
     word: 'Ratenzahlung',
-    grammar: '',
+    grammar: 'substantiv',
     image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
     example1: '',
     example2: '',
@@ -241,7 +241,7 @@ const wordData = [
 
   {
     date: 'June 27, 2024',
-    wordNo: '270624',
+    wordNo: '110925',
     article: 'der',
     word: 'Speicherplatz',
     grammar: 'substantiv',
