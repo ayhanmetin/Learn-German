@@ -241,7 +241,7 @@ function Basics() {
         </div>
       ))}
       <div className='mt-auto'>
-       <Footer2 />
+        <Footer2 />
       </div>
     </div>
   );

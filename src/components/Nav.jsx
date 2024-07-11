@@ -35,13 +35,13 @@ export default function Nav() {
           <NavLink to='/home' className='text-light nav1' aria-label='Home'>
             <HomeIcon />
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to='/calendar'
             className='text-white nav1'
             aria-label='Calendar'
           >
             <CalIcon />
-          </NavLink>
+          </NavLink> */}
           <NavLink to='/quiz' className='text-light nav1' aria-label='Quiz'>
             <GameIcon />
           </NavLink>

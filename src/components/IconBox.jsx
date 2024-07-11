@@ -273,7 +273,7 @@ export const MediumIcon = ({
     width='16'
     height='16'
     fill='currentColor'
-    class='bi bi-medium'
+    className='bi bi-medium'
     viewBox='0 0 16 16'
   >
     <path d='M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8m4.95 0c0 2.34-1.01 4.236-2.256 4.236S9.463 10.339 9.463 8c0-2.34 1.01-4.236 2.256-4.236S13.975 5.661 13.975 8M16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795' />
@@ -290,7 +290,7 @@ export const GameIcon = ({
     width='25'
     height='25'
     fill='currentColor'
-    class='bi bi-mortarboard'
+    className='bi bi-mortarboard'
     viewBox='0 0 16 16'
   >
     <path d='M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z' />
@@ -308,11 +308,11 @@ export const CopyIcon = ({
     width='16'
     height='16'
     fill='currentColor'
-    class='bi bi-copy'
+    className='bi bi-copy'
     viewBox='0 0 16 16'
   >
     <path
-      fill-rule='evenodd'
+      fillRule='evenodd'
       d='M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z'
     />
   </svg>

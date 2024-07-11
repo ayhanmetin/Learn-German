@@ -55,14 +55,15 @@ const Today = () => {
   }
 
   return (
-    <div className='container col-12'>
+    <div className='col-12'>
       <div className='d-flex justify-content-center'>
         <ShareButton />
       </div>
+      
       {wordDetails.map((details, index) => (
         <div
           key={index}
-          className='border-bottom mainBody container col-12 text-start border-dark-subtle p-4 mb-3'
+          className='border-bottom mainBody col-12 text-start border-dark-subtle p-4 mb-3'
         >
           <h2 className='wordDay'>
             {details.article} {details.word}{' '}
