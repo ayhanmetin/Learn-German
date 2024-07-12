@@ -4734,27 +4734,6 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
-    article: 'die',
-    word: 'Betreuung ',
-    grammar: 'substantiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
-    example1:
-      'Thomas und Eva finden, dass die Betreuung im Waldkindergarten sehr gut ist.',
-    example2: '',
-    example3: '',
-    example4: '',
-    example5: '',
-    meaningENG: 'care, supervision',
-    meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
-  },
-
-  {
-    date: 'June 27, 2024',
-    wordNo: '270624',
     article: '',
     word: 'ausfallen',
     grammar: 'verb',
