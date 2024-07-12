@@ -4509,7 +4509,7 @@ const wordData = [
     wordNo: '270624',
     article: '',
     word: 'ausrechnen',
-    grammar: '',
+    grammar: 'verb',
     image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
     example1: 'Die Kosten für die Tour müssen ausgerechnet werden.',
     example2: '',
@@ -4736,7 +4736,7 @@ const wordData = [
     wordNo: '270624',
     article: 'die',
     word: 'Betreuung ',
-    grammar: '',
+    grammar: 'substantiv',
     image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
     example1:
       'Thomas und Eva finden, dass die Betreuung im Waldkindergarten sehr gut ist.',
@@ -4800,7 +4800,7 @@ const wordData = [
     wordNo: '270624',
     article: '',
     word: 'leihen',
-    grammar: '',
+    grammar: 'verb',
     image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
     example1:
       'Ich habe fast alle gebrauchten Spielsachen auf dem Flohmarkt verkauft. Jetzt lese ich nur noch geliehene Bücher oder auf dem E-Reader.',
