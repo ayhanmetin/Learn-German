@@ -49,7 +49,7 @@ function App() {
             </div>
             <div className='d-flex justify-content-center align-items-center'>
               <Routes>
-                <Route path='/' element={<Calendar />} />
+                <Route path='/' element={<Quiz />} />
                 <Route path='/home' element={<WordApp />} />
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/calendar' element={<Calendar />} />
