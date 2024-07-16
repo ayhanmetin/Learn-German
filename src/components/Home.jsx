@@ -208,19 +208,13 @@ function WordApp() {
           <div className='text-center'>
             <div className='row custom-gutter custom-row-gap'>
               <div className='col-6'>
-                <Link
-                  to='/link-for-item-1'
-                  className='p-3 border bg-light d-block'
-                >
-                  Item 1
+                <Link to='/basics' className='p-3 border bg-light d-block'>
+                  B1
                 </Link>
               </div>
               <div className='col-6'>
-                <Link
-                  to='/link-for-item-2'
-                  className='p-3 border bg-light d-block'
-                >
-                  Item 2
+                <Link to='/advanced' className='p-3 border bg-light d-block'>
+                  C1
                 </Link>
               </div>
               <div className='col-6'>

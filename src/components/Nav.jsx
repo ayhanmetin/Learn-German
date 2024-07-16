@@ -14,24 +14,9 @@ export default function Nav() {
         className='d-flex justify-content-between align-items-center rounded-bottom px-3'
         style={{ backgroundColor: 'black', height: '50px' }}
       >
-        <div className='d-flex mt-2 gap-3 align-items-center'>
-          <NavLink
-            to='/basics'
-            aria-label='B1'
-            className='altNav2 ms-3 text-light'
-          >
-            B1
-          </NavLink>
-          <NavLink
-            to='/advanced'
-            aria-label='C1'
-            className='altNav2 text-light'
-          >
-            C1
-          </NavLink>
-        </div>
+      
 
-        <div className='d-flex mb-1 justify-content-center align-items-center gap-4 flex-grow-1'>
+        <div className='d-flex ms-5 mb-1 justify-content-center align-items-center gap-4 flex-grow-1'>
           <NavLink to='/home' className='text-light nav1' aria-label='Home'>
             <HomeIcon />
           </NavLink>

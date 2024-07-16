@@ -12,6 +12,7 @@ import WordList from './Categories/WordList';
 import WordDetail from './Categories/WordDetail';
 import Calendar from './Categories/Calendar';
 import Home from './components/Home';
+import Basics from './Categories/Basics';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -54,7 +55,7 @@ function App() {
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/calendar' element={<Calendar />} />
 
-                <Route path='/basics' element={<WordApp />} />
+                <Route path='/basics' element={<Basics />} />
                 <Route path='/word/:wordName' element={<WordDetail />} />
                 <Route path='/word' element={<WordList />} />
                 <Route path='/quiz' element={<Quiz />} />
