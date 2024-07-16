@@ -531,7 +531,7 @@ const wordData = [
     example3: '',
     example4: '',
     example5: '',
-    meaningENG: 'payment by instalments,',
+    meaningENG: 'payment by instalments',
     meaningTR: '',
     tip1: '',
     tip2: '',
