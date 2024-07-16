@@ -35,15 +35,9 @@ export default function Nav() {
           <NavLink to='/home' className='text-light nav1' aria-label='Home'>
             <HomeIcon />
           </NavLink>
-          {/* <NavLink
-            to='/calendar'
-            className='text-white nav1'
-            aria-label='Calendar'
-          >
-            <CalIcon />
-          </NavLink> */}
-          <NavLink to='/quiz' className='text-light nav1' aria-label='Quiz'>
-            <GameIcon />
+          
+          <NavLink to='/quiz' className='text-light mt-1' aria-label='Quiz'>
+            <i className='score-item fas fa-ghost'></i>
           </NavLink>
         </div>
         <div className='me-3'>

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.custom-gutter {
+  margin-right: -25px;
+  margin-left: -25px;
+}
+.custom-gutter > [class^='col-'] {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.custom-row-gap {
+  row-gap: 50px;
+}

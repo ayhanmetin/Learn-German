@@ -11,7 +11,7 @@ const Quiz = () => {
   const [gameOver, setGameOver] = useState(false);
   const [shuffledWords, setShuffledWords] = useState([]);
   const [batchIndex, setBatchIndex] = useState(0);
-  const batchSize = 30; // Size of each batch
+  const batchSize = 30; 
 
   useEffect(() => {
     const shuffled = shuffle([...wordData]);

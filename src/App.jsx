@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
 import WordApp from './components/WordApp';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Basics from './Categories/Basics';
 import { Analytics } from '@vercel/analytics/react';
 import Advanced from './Categories/Advanced';
 import Today from './components/Today';
@@ -12,6 +11,7 @@ import Quiz from './Categories/Quiz';
 import WordList from './Categories/WordList';
 import WordDetail from './Categories/WordDetail';
 import Calendar from './Categories/Calendar';
+import Home from './components/Home';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -49,12 +49,12 @@ function App() {
             </div>
             <div className='d-flex justify-content-center align-items-center'>
               <Routes>
-                <Route path='/' element={<Quiz />} />
-                <Route path='/home' element={<WordApp />} />
+                <Route path='/' element={<Home />} />
+                <Route path='/home' element={<Home />} />
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/calendar' element={<Calendar />} />
 
-                <Route path='/basics' element={<Basics />} />
+                <Route path='/basics' element={<WordApp />} />
                 <Route path='/word/:wordName' element={<WordDetail />} />
                 <Route path='/word' element={<WordList />} />
                 <Route path='/quiz' element={<Quiz />} />
