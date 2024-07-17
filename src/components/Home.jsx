@@ -32,7 +32,6 @@ function WordApp() {
   }, []);
 
   useEffect(() => {
-    // If the search term is empty, clear the filtered words array
     if (!searchTerm) {
       setFilteredWords([]);
     }

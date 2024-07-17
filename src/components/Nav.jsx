@@ -21,7 +21,7 @@ export default function Nav() {
             <HomeIcon />
           </NavLink>
           
-          <NavLink to='/quiz' className='text-light mt-1' aria-label='Quiz'>
+          <NavLink to='/quiz' className='text-light mt-0' aria-label='Quiz'>
             <i className='score-item  fas fa-ghost'></i>
           </NavLink>
         </div>
