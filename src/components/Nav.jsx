@@ -22,7 +22,7 @@ export default function Nav() {
           </NavLink>
           
           <NavLink to='/quiz' className='text-light mt-1' aria-label='Quiz'>
-            <i className='score-item fas fa-ghost'></i>
+            <i className='score-item  fas fa-ghost'></i>
           </NavLink>
         </div>
         <div className='me-3'>
