@@ -14,15 +14,13 @@ export default function Nav() {
         className='d-flex justify-content-between align-items-center rounded-bottom px-3'
         style={{ backgroundColor: 'black', height: '50px' }}
       >
-      
-
         <div className='d-flex ms-5 mb-1 justify-content-center align-items-center gap-4 flex-grow-1'>
-          <NavLink to='/home' className='text-light nav1' aria-label='Home'>
-            <HomeIcon />
+          <NavLink to='/home' className='text-light' aria-label='Home'>
+            <i class='score-item fa fa-graduation-cap'></i>
           </NavLink>
-          
+
           <NavLink to='/quiz' className='text-light mt-0' aria-label='Quiz'>
-            <i className='score-item  fas fa-ghost'></i>
+            <i className='score-item fa fa-ghost'></i>
           </NavLink>
         </div>
         <div className='me-3'>
