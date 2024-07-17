@@ -222,7 +222,7 @@ function WordApp() {
                   to='/link-for-item-3'
                   className='p-3 border bg-light d-block'
                 >
-                  Item 3
+                  Word of the day
                 </Link>
               </div>
               <div className='col-6'>
@@ -230,7 +230,7 @@ function WordApp() {
                   to='/link-for-item-4'
                   className='p-3 border bg-light d-block'
                 >
-                  Item 4
+                  Quiz
                 </Link>
               </div>
               <div className='col-6'>
@@ -238,7 +238,7 @@ function WordApp() {
                   to='/link-for-item-5'
                   className='p-3 border bg-light d-block'
                 >
-                  Item 5
+                  Total words
                 </Link>
               </div>
               <div className='col-6'>
@@ -254,7 +254,7 @@ function WordApp() {
                   to='/link-for-item-7'
                   className='p-3 border bg-light d-block'
                 >
-                  Item 7
+                  Twitter
                 </Link>
               </div>
               <div className='col-6'>
