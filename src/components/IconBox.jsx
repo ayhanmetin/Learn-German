@@ -112,8 +112,8 @@ export const HomeIcon = ({
 }) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    width='25'
-    height='25'
+    width='29'
+    height='29'
     fill='currentColor'
     className='favButton bi bi-house'
     viewBox='0 0 16 16'
