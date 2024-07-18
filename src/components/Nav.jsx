@@ -9,33 +9,31 @@ import WordCountDisplay from './WordCountDisplay';
 export default function Nav() {
   return (
     <>
-      <div className='col-10'></div>
       <nav
-        className='d-flex justify-content-between align-items-center rounded-bottom px-3'
+        className='d-flex  justify-content-between align-items-center rounded-bottom px-3'
         style={{ backgroundColor: 'black', height: '50px' }}
       >
-      
-
-        <div className='d-flex ms-5 mb-1 justify-content-center align-items-center gap-4 flex-grow-1'>
-          <NavLink to='/home' className='text-light nav1' aria-label='Home'>
-            <HomeIcon />
+        <NavLink to='/home' className='text-light nav1' aria-label='Home'>
+          <i className='fa fa-hat-wizard'></i> Deutsche lernen
+        </NavLink>
+        <div className='d-flex justify-content-end align-items-center flex-grow-1 me-2'>
+          <NavLink
+            to='/quiz'
+            className='nav1 text-light mt-0'
+            aria-label='Quiz'
+          >
+            Quiz{' '}
           </NavLink>
-          
-          <NavLink to='/quiz' className='text-light mt-0' aria-label='Quiz'>
-            <i className='score-item  fas fa-ghost'></i>
-          </NavLink>
-        </div>
-        <div className='me-3'>
-          <Theme2 />
         </div>
       </nav>
-
-      <div className='d-flex mb-1 justify-content-start align-items-center gap-1 flex-grow-1'>
-        <WordCountDisplay />
+      <div className='d-flex align-items-center mb-1'>
+        <div className='flex-grow-1 d-flex justify-content-start align-items-center gap-1'>
+          <WordCountDisplay />
+        </div>
+        <div className='me-4 mt-2 d-flex justify-content-end'>
+          <Theme2 />
+        </div>
       </div>
-      {/* <div className='d-flex mb-1 justify-content-start align-items-center gap-1 flex-grow-1'>
-        <WordCountDisplay />
-      </div> */}
     </>
   );
 }
