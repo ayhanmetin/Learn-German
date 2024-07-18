@@ -1,31 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
+import Footer2 from '../components/Footer2';
 import '../components/wordApp.css';
 import {
   BookIcon,
+  BookmarkedIcon,
   CopyIcon,
   PrintIcon,
   VoiceIcon,
 } from '../components/IconBox';
-import { SpeedInsights } from '@vercel/speed-insights/react';
-import { Analytics } from '@vercel/analytics/react';
-import Footer2 from '../components/Footer2';
-
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
 
 function Basics() {
-  <Analytics />;
-  const [filteredWords, setFilteredWords] = useState(() => {
-    const basicsWords = wordData.filter(word => word.tag === 'basics');
-    return shuffleArray([...basicsWords]);
-  });
+  const [visibleWordsCount, setVisibleWordsCount] = useState(10);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filteredWords, setFilteredWords] = useState([]);
   const [voices, setVoices] = useState([]);
 
   useEffect(() => {
@@ -50,13 +39,40 @@ function Basics() {
 
   const readWordAloud = word => {
     const speech = new SpeechSynthesisUtterance(word.word);
-    const femaleVoices = populateVoices();
-    if (femaleVoices.length > 0) {
-      speech.voice = femaleVoices[0];
+    const germanVoices = populateVoices().filter(
+      voice => voice.lang === 'de-DE'
+    );
+    if (germanVoices.length > 0) {
+      speech.voice = germanVoices[0];
+      console.log(
+        `Using voice: ${speech.voice.name}, Language: ${speech.voice.lang}`
+      );
     } else {
-      console.log('No female voices available.');
+      console.log('No German voices available.');
     }
+    speech.lang = 'de-DE';
     window.speechSynthesis.speak(speech);
+  };
+
+  useEffect(() => {
+    setFilteredWords(wordData.slice(0, visibleWordsCount));
+  }, [visibleWordsCount]);
+
+  const handleSearch = event => {
+    const value = event.target.value.toLowerCase();
+    setSearchTerm(value);
+
+    if (value.trim()) {
+      const newFilteredWords = wordData.filter(
+        word =>
+          word.word.toLowerCase().includes(value) ||
+          word.meaningENG.toLowerCase().includes(value) ||
+          word.meaningTR.toLowerCase().includes(value)
+      );
+      setFilteredWords(newFilteredWords);
+    } else {
+      setFilteredWords(wordData.slice(0, visibleWordsCount));
+    }
   };
 
   const handlePrint = word => {
@@ -116,7 +132,6 @@ function Basics() {
 
     printContent += `
           <p>- "${word.meaningENG}"</p>
-          <p>- "${word.meaningTR}"</p>
         </div>
       </body>
     </html>`;
@@ -133,11 +148,20 @@ function Basics() {
 
   return (
     <div className='col-12'>
-      {filteredWords.map(word => (
-        <div
-          className='border-bottom border-dark-subtle p-4 mb-3'
-          key={word.id}
-        >
+      <div className='container d-flex justify-content-center align-items-center'>
+        <div className='search-bar pb-2 mb-1 col-8'>
+          <input
+            type='text'
+            className='form-control text-start fs-6 text fw-light'
+            placeholder={`Search`}
+            value={searchTerm}
+            onChange={handleSearch}
+          />
+        </div>
+      </div>
+
+      {filteredWords.map((word, index) => (
+        <div className='border-bottom border-dark-subtle p-4 mb-3' key={index}>
           <div className='d-flex justify-content-center mb-3'>
             <div className='d-flex gap-3 text-body-emphasis'>
               <button
@@ -181,10 +205,13 @@ function Basics() {
                 </button>
               </div>
               <div className='d-flex justify-content-start'>
-                <div className='word-container fs-4'>
-                  <p className='fst-italic text-body-emphasis fs-6 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
-                    {word.grammar}
-                  </p>
+                {' '}
+                <div className='word-container fs-4 mainBody'>
+                  {word.grammar && (
+                    <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
+                      {word.grammar}
+                    </p>
+                  )}
                   {word.example1 && (
                     <p className='textWord'>
                       <strong>‣</strong> {word.example1}
@@ -226,7 +253,7 @@ function Basics() {
                       <strong>&nbsp;⇢</strong> {word.tip3}
                     </p>
                   )}
-                  <p className='textWord fst-italic mt-4'>
+                  <p className='textWord meaning fst-italic mt-4'>
                     <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                   </p>
                   {word.meaningTR && (
@@ -240,6 +267,17 @@ function Basics() {
           </div>
         </div>
       ))}
+
+      {visibleWordsCount < wordData.length && searchTerm === '' && (
+        <div className='d-grid col-4 mx-auto'>
+          <button
+            className='loadMore text-body-emphasis'
+            onClick={() => setVisibleWordsCount(prevCount => prevCount + 20)}
+          >
+            +20 weitere
+          </button>
+        </div>
+      )}
       <div className='mt-auto'>
         <Footer2 />
       </div>
