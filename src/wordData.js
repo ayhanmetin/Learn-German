@@ -1,9 +1,10 @@
 const wordData = [
-  
-
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'angenehm',
     grammar: 'adjektiv',
@@ -24,9 +25,12 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
-    article: '',
-    word: 'der',
-    grammar: 'Inhalt',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
+    article: 'der',
+    word: 'Inhalt',
+    grammar: 'nomen',
     image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
     example1: '',
     example2: '',
@@ -44,6 +48,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verändern',
     grammar: 'verb',
@@ -64,6 +71,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Fähigkeit',
     grammar: '',
@@ -84,6 +94,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorbei',
     grammar: 'adverb',
@@ -104,6 +117,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'inbegriffen',
     grammar: 'adjektiv',
@@ -124,6 +140,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'drehen',
     grammar: 'verb',
@@ -144,6 +163,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Ergebnis',
     grammar: 'nomen',
@@ -164,6 +186,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gruselig',
     grammar: 'adjektiv',
@@ -184,6 +209,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'überraschend',
     grammar: 'adjektiv',
@@ -204,6 +232,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bewegend',
     grammar: 'adjektiv',
@@ -224,6 +255,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'aufregend',
     grammar: 'adjektiv',
@@ -244,6 +278,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vervollständigen',
     grammar: 'verb',
@@ -264,6 +301,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ab und zu',
     grammar: 'adverbialphrase',
@@ -284,6 +324,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Vertrag',
     grammar: 'nomen',
@@ -304,6 +347,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ewig',
     grammar: 'adjektiv',
@@ -323,6 +369,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verlieren',
     grammar: 'verb',
@@ -343,6 +392,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Zeile',
     grammar: 'nomen',
@@ -363,6 +415,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Spalte',
     grammar: 'nomen',
@@ -383,6 +438,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'umgekehrt',
     grammar: 'adjektiv',
@@ -403,6 +461,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Bemerkung',
     grammar: 'nomen',
@@ -423,6 +484,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Gebiet',
     grammar: 'nomen',
@@ -443,6 +507,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zahlreich',
     grammar: 'adjektiv',
@@ -463,6 +530,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'riesig',
     grammar: 'adjektiv',
@@ -483,6 +553,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'das',
     grammar: 'Verkehrssystem',
@@ -503,6 +576,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gerecht',
     grammar: 'adjektiv',
@@ -523,6 +599,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verständnisvoll',
     grammar: 'adjektiv',
@@ -543,6 +622,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Eigenschaft',
     grammar: 'nomen',
@@ -563,6 +645,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Ermäßigung',
     grammar: 'nomen',
@@ -583,6 +668,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Veränderung',
     grammar: 'nomen',
@@ -603,6 +691,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'derselbe',
     grammar: 'pronomen',
@@ -623,6 +714,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Unterricht',
     grammar: 'nomen',
@@ -643,6 +737,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gemütlich',
     grammar: 'adjektiv',
@@ -663,6 +760,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'hinfallen',
     grammar: 'verb',
@@ -683,6 +783,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ähnlichen',
     grammar: 'adjektiv',
@@ -703,6 +806,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Gespräch',
     grammar: 'nomen',
@@ -723,6 +829,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bekannt',
     grammar: 'adjektiv',
@@ -743,6 +852,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Reifen',
     grammar: 'nomen',
@@ -763,6 +875,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'hüllen',
     grammar: 'verb',
@@ -783,6 +898,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'liefern',
     grammar: 'verb',
@@ -803,6 +921,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'herunterfallen',
     grammar: 'verb',
@@ -823,6 +944,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Ware',
     grammar: 'substansiv',
@@ -863,6 +987,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vergleichen',
     grammar: 'verb',
@@ -883,6 +1010,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bevorzugen',
     grammar: 'verb',
@@ -903,6 +1033,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'präferieren',
     grammar: 'verb',
@@ -923,6 +1056,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Gewicht',
     grammar: 'nomen',
@@ -963,6 +1099,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verwenden',
     grammar: 'verb',
@@ -983,6 +1122,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ausdrücken',
     grammar: 'verb',
@@ -1003,6 +1145,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Bedürfnis',
     grammar: 'nomen',
@@ -1023,6 +1168,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'umziehen',
     grammar: 'verb',
@@ -1044,6 +1192,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'selbstbewusst',
     grammar: 'adjectiv',
@@ -1064,6 +1215,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Freundeskreis',
     grammar: 'nomen',
@@ -1084,6 +1238,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'füreinander',
     grammar: 'adverb',
@@ -1104,6 +1261,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'hauptsächlich',
     grammar: 'adjectiv',
@@ -1124,6 +1284,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ähnlichen',
     grammar: 'adjektiv',
@@ -1144,6 +1307,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'geduldig',
     grammar: 'adjektiv',
@@ -1164,6 +1330,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'überprüfen',
     grammar: 'verb',
@@ -1184,6 +1353,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'höflich',
     grammar: 'adjektiv',
@@ -1204,6 +1376,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'durchleuchten',
     grammar: 'verb',
@@ -1224,6 +1399,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Anschluss',
     grammar: 'nomen',
@@ -1244,6 +1422,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verzögern',
     grammar: 'verb',
@@ -1264,6 +1445,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'irgendwelche',
     grammar: 'adjektiv',
@@ -1284,6 +1468,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zuletzt',
     grammar: 'adverb',
@@ -1304,6 +1491,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'aktuell',
     grammar: 'adjektiv',
@@ -1324,6 +1514,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verschieden',
     grammar: 'adjektiv',
@@ -1344,6 +1537,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'besiegen',
     grammar: 'verb',
@@ -1364,6 +1560,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Angabe',
     grammar: 'nomen',
@@ -1384,6 +1583,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Häufigkeit',
     grammar: 'nomen',
@@ -1404,6 +1606,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unsichtbar',
     grammar: 'adjektiv',
@@ -1424,6 +1629,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'biegen',
     grammar: 'verb',
@@ -1444,6 +1652,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'begreifen',
     grammar: 'verb',
@@ -1464,6 +1675,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Abstand',
     grammar: 'nomen',
@@ -1484,6 +1698,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorgehen',
     grammar: 'verb',
@@ -1504,6 +1721,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'aufhören',
     grammar: 'verb',
@@ -1524,6 +1744,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verstecken',
     grammar: 'verb',
@@ -1544,6 +1767,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Gefecht',
     grammar: 'nomen',
@@ -1564,6 +1790,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zerstören',
     grammar: 'verb',
@@ -1584,6 +1813,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'sperren',
     grammar: 'verb',
@@ -1604,6 +1836,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vollständig',
     grammar: 'adjektiv',
@@ -1624,6 +1859,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'daneben',
     grammar: 'adverbs',
@@ -1645,6 +1883,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zunehmend',
     grammar: 'adverb',
@@ -1665,6 +1906,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'entspannt',
     grammar: 'adjektiv',
@@ -1685,6 +1929,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bedenken',
     grammar: 'verb',
@@ -1705,6 +1952,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Zeiträume',
     grammar: 'nomen, (plural)',
@@ -1725,6 +1975,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'weglassen',
     grammar: 'verb',
@@ -1745,6 +1998,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verträumt',
     grammar: 'adjektiv',
@@ -1765,6 +2021,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'entdecken',
     grammar: 'verb',
@@ -1785,6 +2044,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ebenso',
     grammar: 'adverb',
@@ -1805,6 +2067,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'geschafft',
     grammar: 'verb',
@@ -1825,6 +2090,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'teilen',
     grammar: 'verb',
@@ -1845,6 +2113,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Ausdruck',
     grammar: 'nomen',
@@ -1865,6 +2136,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'schalten',
     grammar: 'verb',
@@ -1885,6 +2159,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'flüssig',
     grammar: 'adjektiv',
@@ -1905,6 +2182,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Währung',
     grammar: 'nomen',
@@ -1925,6 +2205,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verdanken',
     grammar: 'verb',
@@ -1945,6 +2228,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vermuten',
     grammar: 'verb',
@@ -1965,6 +2251,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'woanders',
     grammar: 'adverb',
@@ -1985,6 +2274,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'wegen',
     grammar: 'präposition',
@@ -2005,6 +2297,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unterhaltsam',
     grammar: 'adjektiv',
@@ -2025,6 +2320,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'nirgendwo',
     grammar: 'adverb',
@@ -2045,6 +2343,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'lassen',
     grammar: 'verb',
@@ -2065,6 +2366,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'irgendwo',
     grammar: 'adverb',
@@ -2085,6 +2389,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'einsteigen',
     grammar: 'verb',
@@ -2105,6 +2412,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'Grundlagen',
     grammar: 'nomen (plural)',
@@ -2125,6 +2435,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'beherrschen',
     grammar: 'verb',
@@ -2145,6 +2458,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'fließend',
     grammar: 'adjektiv',
@@ -2165,6 +2481,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'wohl',
     grammar: 'adverb',
@@ -2185,6 +2504,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'drüben',
     grammar: 'adverb',
@@ -2205,6 +2527,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'dringend',
     grammar: 'adjektiv',
@@ -2225,6 +2550,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Besprechung',
     grammar: 'nomen',
@@ -2245,6 +2573,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verlassen',
     grammar: 'verb',
@@ -2265,6 +2596,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vergewissern',
     grammar: 'verb',
@@ -2285,6 +2619,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Umgebung',
     grammar: 'nomen',
@@ -2305,6 +2642,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'neben',
     grammar: 'präposition',
@@ -2325,6 +2665,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'außerhalb',
     grammar: 'präposition',
@@ -2345,6 +2688,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bei',
     grammar: 'präposition',
@@ -2365,6 +2711,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'außer',
     grammar: 'präposition',
@@ -2385,6 +2734,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'um',
     grammar: 'präposition',
@@ -2405,6 +2757,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unterbrechen',
     grammar: 'verb',
@@ -2425,6 +2780,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'umsteigen',
     grammar: 'verb',
@@ -2445,6 +2803,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'widerrufen',
     grammar: 'verb',
@@ -2465,6 +2826,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'umbauen',
     grammar: 'verb',
@@ -2485,6 +2849,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'auszuschalten',
     grammar: 'verb',
@@ -2506,6 +2873,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'durchbringen',
     grammar: 'verb',
@@ -2526,6 +2896,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vollenden',
     grammar: 'verb',
@@ -2546,6 +2919,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'versprechen',
     grammar: 'verb',
@@ -2566,6 +2942,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'empfinden',
     grammar: '',
@@ -2586,6 +2965,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zusichern',
     grammar: 'verb',
@@ -2606,6 +2988,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'wegbleiben',
     grammar: 'verb',
@@ -2626,6 +3011,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vormachen',
     grammar: 'verb',
@@ -2646,6 +3034,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorlegen',
     grammar: 'verb',
@@ -2666,6 +3057,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorführen',
     grammar: 'verb',
@@ -2686,6 +3080,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'nachfüllen',
     grammar: 'verb',
@@ -2706,6 +3103,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anhaben',
     grammar: 'verb',
@@ -2726,6 +3126,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anbringen',
     grammar: 'verb',
@@ -2746,6 +3149,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gern',
     grammar: 'adverb',
@@ -2766,6 +3172,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ziemlich',
     grammar: 'adverb',
@@ -2787,6 +3196,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'trotzdem',
     grammar: 'adverb',
@@ -2807,6 +3219,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'sonst',
     grammar: 'adverb',
@@ -2827,6 +3242,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'somit',
     grammar: 'adverb',
@@ -2847,6 +3265,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'jedenfalls',
     grammar: 'adverb',
@@ -2867,6 +3288,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'deshalb',
     grammar: 'adverb',
@@ -2888,6 +3312,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'darum',
     grammar: 'adverb',
@@ -2908,6 +3335,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zuverlässig',
     grammar: 'adjektiv',
@@ -2928,6 +3358,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'umsonst',
     grammar: 'adverb',
@@ -2948,6 +3381,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'nachdem',
     grammar: 'conjunction',
@@ -2968,6 +3404,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'seitdem',
     grammar: '',
@@ -2988,6 +3427,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'kürzlich',
     grammar: 'adverb',
@@ -3008,6 +3450,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unglaublich',
     grammar: 'adverb',
@@ -3028,6 +3473,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'eventuell',
     grammar: 'adverb',
@@ -3048,6 +3496,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'nachher',
     grammar: 'adverb',
@@ -3068,6 +3519,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'damals',
     grammar: 'adverb',
@@ -3088,6 +3542,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'jemals',
     grammar: 'adverb',
@@ -3108,6 +3565,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'heutzutage',
     grammar: 'adverb',
@@ -3128,6 +3588,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bisher',
     grammar: 'adverb',
@@ -3148,6 +3611,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'erreichen',
     grammar: 'verb',
@@ -3168,6 +3634,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Ausnahme',
     grammar: 'nomen',
@@ -3188,6 +3657,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'im Grunde genommen',
     grammar: '',
@@ -3209,6 +3681,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'selten',
     grammar: 'adverb',
@@ -3229,6 +3704,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unterrichten',
     grammar: 'verb',
@@ -3249,6 +3727,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'wählen',
     grammar: 'verb',
@@ -3269,6 +3750,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zuhören',
     grammar: 'verb',
@@ -3289,6 +3773,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'raten',
     grammar: 'verb',
@@ -3309,6 +3796,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Amt',
     grammar: 'nomen',
@@ -3329,6 +3819,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bis',
     grammar: 'präposition',
@@ -3349,6 +3842,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'nötig',
     grammar: 'adjektiv',
@@ -3369,6 +3865,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zurzeit',
     grammar: 'currently',
@@ -3389,6 +3888,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'wegwerfen',
     grammar: 'verb',
@@ -3409,6 +3911,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Verwandter',
     grammar: 'nomen',
@@ -3429,6 +3934,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anschalten',
     grammar: 'verb',
@@ -3449,6 +3957,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ausgehen',
     grammar: 'verb',
@@ -3469,6 +3980,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'regeln',
     grammar: 'verb',
@@ -3489,6 +4003,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'reinkommen',
     grammar: 'verb',
@@ -3509,6 +4026,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'aussteigen',
     grammar: 'verb',
@@ -3529,6 +4049,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'umsteigen',
     grammar: 'verb',
@@ -3549,6 +4072,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'hineingehen',
     grammar: 'verb',
@@ -3569,6 +4095,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorschlagen',
     grammar: 'verb',
@@ -3589,6 +4118,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'herstellen',
     grammar: 'verb',
@@ -3609,6 +4141,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bestrafen',
     grammar: 'verb',
@@ -3629,6 +4164,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gewesen',
     grammar: '',
@@ -3649,6 +4187,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'irgendwie',
     grammar: 'adverb',
@@ -3669,6 +4210,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'geheim',
     grammar: 'adjektiv',
@@ -3689,6 +4233,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Ankauf',
     grammar: 'nomen',
@@ -3709,6 +4256,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ablaufen',
     grammar: 'verb',
@@ -3729,6 +4279,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verlängern',
     grammar: 'verb',
@@ -3749,6 +4302,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gültig',
     grammar: 'adjektiv',
@@ -3769,6 +4325,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'beitragen',
     grammar: 'verb',
@@ -3789,6 +4348,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Vorstellung',
     grammar: 'nomen',
@@ -3809,6 +4371,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Übernachtung',
     grammar: 'nomen',
@@ -3829,6 +4394,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'wechseln',
     grammar: 'verb',
@@ -3850,6 +4418,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Seite',
     grammar: 'nomen',
@@ -3870,6 +4441,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Ziel',
     grammar: 'nomen',
@@ -3890,6 +4464,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gegenüber',
     grammar: 'adverb',
@@ -3910,6 +4487,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Bearbeitung',
     grammar: 'nomen',
@@ -3930,6 +4510,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Zusammenhang',
     grammar: 'nomen',
@@ -3950,6 +4533,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bezweifeln',
     grammar: 'verb',
@@ -3970,6 +4556,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'offenbar',
     grammar: 'adverb',
@@ -3990,6 +4579,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Einblick',
     grammar: 'nomen',
@@ -4010,6 +4602,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verbinden',
     grammar: '',
@@ -4030,6 +4625,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'oberste',
     grammar: 'adjektiv',
@@ -4050,6 +4648,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'beliebter',
     grammar: 'adjektiv',
@@ -4070,6 +4671,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ausgezeichnet',
     grammar: 'adjektiv',
@@ -4090,6 +4694,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorne',
     grammar: 'adverb',
@@ -4110,6 +4717,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Speisekarte',
     grammar: 'nomen',
@@ -4130,6 +4740,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'entlang',
     grammar: 'präposition',
@@ -4150,6 +4763,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'übrigens',
     grammar: 'adverb',
@@ -4171,6 +4787,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Fehler',
     grammar: 'nomen',
@@ -4191,6 +4810,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'lässig',
     grammar: 'adjektiv',
@@ -4211,6 +4833,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Abteilung',
     grammar: 'nomen',
@@ -4231,6 +4856,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'dringend',
     grammar: 'adjektiv',
@@ -4251,6 +4879,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anfassen',
     grammar: 'verb',
@@ -4271,6 +4902,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'wobei',
     grammar: '',
@@ -4291,6 +4925,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'während',
     grammar: 'conjunction',
@@ -4311,6 +4948,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'aufgeregt',
     grammar: 'adjektiv',
@@ -4331,6 +4971,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'nützlich',
     grammar: 'adjektiv',
@@ -4351,6 +4994,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'üben',
     grammar: 'verb',
@@ -4371,6 +5017,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'seltsam',
     grammar: 'adjektiv',
@@ -4391,6 +5040,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'dazu',
     grammar: 'adverb',
@@ -4412,6 +5064,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'dafür',
     grammar: 'adverb',
@@ -4433,6 +5088,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'danach',
     grammar: 'adverb',
@@ -4453,6 +5111,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'erwarten',
     grammar: 'verb',
@@ -4473,6 +5134,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ernst',
     grammar: 'adjektiv',
@@ -4493,6 +5157,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bewusst',
     grammar: 'adjektiv',
@@ -4513,6 +5180,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bieten',
     grammar: 'verb',
@@ -4533,6 +5203,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'loswerden',
     grammar: 'verb',
@@ -4553,6 +5226,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'sobald',
     grammar: 'conjunction',
@@ -4573,6 +5249,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bemerken',
     grammar: 'verb',
@@ -4593,6 +5272,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unterlassen',
     grammar: 'verb',
@@ -4613,6 +5295,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorbereiten',
     grammar: 'verb',
@@ -4633,6 +5318,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verschieben',
     grammar: 'verb',
@@ -4653,6 +5341,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'hinterlassen',
     grammar: 'verb',
@@ -4673,6 +5364,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'besetzt',
     grammar: 'adjektiv',
@@ -4693,6 +5387,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'abmachen',
     grammar: '',
@@ -4713,6 +5410,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorhaben',
     grammar: 'verb',
@@ -4733,6 +5433,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Ansatz',
     grammar: 'nomen',
@@ -4753,6 +5456,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'aufstehen',
     grammar: 'verb',
@@ -4773,6 +5479,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'soweit',
     grammar: 'adverb',
@@ -4793,6 +5502,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorstellen',
     grammar: 'verb',
@@ -4813,6 +5525,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Abfahrt',
     grammar: 'nomen',
@@ -4833,6 +5548,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'dabei',
     grammar: 'adverb',
@@ -4854,6 +5572,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verbessern',
     grammar: 'verb',
@@ -4874,6 +5595,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Vorschlag',
     grammar: 'nomen',
@@ -4895,6 +5619,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'davon',
     grammar: 'adverb',
@@ -4916,6 +5643,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Vergleich',
     grammar: 'nomen',
@@ -4937,6 +5667,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'überzeugen',
     grammar: 'verb',
@@ -4957,6 +5690,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'umtauschen',
     grammar: 'verb',
@@ -4978,6 +5714,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gründen',
     grammar: 'verb',
@@ -4999,6 +5738,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'irgendein',
     grammar: 'pronomen',
@@ -5022,6 +5764,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'öfter',
     grammar: 'adverb',
@@ -5043,6 +5788,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'hinfahren',
     grammar: 'verb',
@@ -5063,6 +5811,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Veranstaltung',
     grammar: 'nomen',
@@ -5083,6 +5834,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'erzählen',
     grammar: 'verb',
@@ -5105,6 +5859,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'wenn',
     grammar: 'conjunction',
@@ -5125,6 +5882,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'mehrere',
     grammar: 'adjektiv',
@@ -5146,6 +5906,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'erledigen',
     grammar: 'verb',
@@ -5166,6 +5929,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vereinbaren',
     grammar: 'verb',
@@ -5187,6 +5953,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Erholung',
     grammar: 'nomen',
@@ -5208,6 +5977,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ausrechnen',
     grammar: 'verb',
@@ -5228,6 +6000,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Anfahrt',
     grammar: 'nomen',
@@ -5248,6 +6023,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Unterkunft',
     grammar: 'nomen',
@@ -5268,6 +6046,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unbedingt',
     grammar: 'adverb',
@@ -5288,6 +6069,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gehören',
     grammar: 'verb',
@@ -5310,6 +6094,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'sichern',
     grammar: 'verb',
@@ -5331,6 +6118,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ziehen',
     grammar: 'verb',
@@ -5351,6 +6141,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'trotz',
     grammar: 'präposition',
@@ -5372,6 +6165,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'engagieren',
     grammar: 'verb',
@@ -5393,6 +6189,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Leistung',
     grammar: 'nomen',
@@ -5414,6 +6213,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'gespannt',
     grammar: 'adjektiv',
@@ -5435,6 +6237,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ausfallen',
     grammar: 'verb',
@@ -5456,6 +6261,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'circa',
     grammar: 'adverb',
@@ -5478,6 +6286,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'leihen',
     grammar: 'verb',
@@ -5499,6 +6310,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'stellen',
     grammar: 'verb',
@@ -5522,6 +6336,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verzichten',
     grammar: 'verb',
@@ -5543,6 +6360,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zusammenfassen',
     grammar: 'verb',
@@ -5564,6 +6384,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'besprechen',
     grammar: 'verb',
@@ -5585,6 +6408,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'beenden',
     grammar: 'verb',
@@ -5606,6 +6432,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'Aufrufe',
     grammar: 'nomen, (plural)',
@@ -5627,6 +6456,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'beantworten',
     grammar: 'verb',
@@ -5648,6 +6480,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'erhöhen',
     grammar: 'verb',
@@ -5668,6 +6503,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'das',
     word: 'Einkommens',
     grammar: 'nomen',
@@ -5689,6 +6527,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Unterstützung',
     grammar: 'nomen',
@@ -5710,6 +6551,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unterscheiden',
     grammar: 'verb',
@@ -5732,6 +6576,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unübersichtlich',
     grammar: 'adjektiv',
@@ -5753,6 +6600,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verlängern',
     grammar: 'verb',
@@ -5774,6 +6624,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'höchstens',
     grammar: 'adverb',
@@ -5795,6 +6648,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Beziehung',
     grammar: 'nomen',
@@ -5815,6 +6671,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'drauf',
     grammar: 'adverb',
@@ -5835,6 +6694,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ehrlich',
     grammar: 'adverb',
@@ -5856,6 +6718,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'draußen',
     grammar: 'verb',
@@ -5877,6 +6742,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'genauso',
     grammar: 'adverb',
@@ -5898,6 +6766,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'zufällig',
     grammar: 'adverb',
@@ -5918,6 +6789,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Nachteil',
     grammar: 'nomen',
@@ -5939,6 +6813,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'eher',
     grammar: 'adverb',
@@ -5959,6 +6836,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'liefern',
     grammar: 'verb',
@@ -5980,6 +6860,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'überhaupt',
     grammar: 'adverb',
@@ -6001,6 +6884,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'kaum',
     grammar: 'adverb',
@@ -6022,6 +6908,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bequem',
     grammar: 'adjektiv',
@@ -6043,6 +6932,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Zustand',
     grammar: 'nomen',
@@ -6064,6 +6956,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anbieten',
     grammar: '',
@@ -6086,6 +6981,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'entdecken',
     grammar: 'verb',
@@ -6107,6 +7005,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Vortrag',
     grammar: 'nomen',
@@ -6128,6 +7029,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'teilnehmen',
     grammar: 'verb',
@@ -6149,6 +7053,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'freuen',
     grammar: 'verb',
@@ -6170,6 +7077,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Vorteil',
     grammar: 'nomen',
@@ -6191,6 +7101,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'erinnern',
     grammar: 'verb',
@@ -6213,6 +7126,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'hauptsächlich',
     grammar: 'adverb',
@@ -6234,6 +7150,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'miteinander',
     grammar: 'adverb',
@@ -6255,6 +7174,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verschwinden',
     grammar: 'verb',
@@ -6276,6 +7198,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'einigen',
     grammar: 'adjektiv',
@@ -6298,6 +7223,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'erleben',
     grammar: 'verb',
@@ -6319,6 +7247,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorbeischauen',
     grammar: '',
@@ -6339,6 +7270,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorbeifahren',
     grammar: 'verb',
@@ -6360,6 +7294,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'schon',
     grammar: 'adverb',
@@ -6380,6 +7317,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Vertrag',
     grammar: 'nomen',
@@ -6401,6 +7341,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bekommen',
     grammar: 'verb',
@@ -6422,6 +7365,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'hinterlassen',
     grammar: 'verb',
@@ -6442,6 +7388,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Behörde',
     grammar: 'nomen',
@@ -6463,6 +7412,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bezahlen',
     grammar: 'verb',
@@ -6485,6 +7437,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'klappen',
     grammar: 'verb',
@@ -6505,6 +7460,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'vorher',
     grammar: 'adverb',
@@ -6525,6 +7483,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bewerben',
     grammar: 'verb',
@@ -6546,6 +7507,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'schauen',
     grammar: 'verb',
@@ -6567,6 +7531,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'mehreren',
     grammar: '',
@@ -6587,6 +7554,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'benutzen',
     grammar: 'verb',
@@ -6608,6 +7578,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'überall',
     grammar: 'adverb',
@@ -6628,6 +7601,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unterwegs',
     grammar: 'adverb',
@@ -6650,6 +7626,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'damit',
     grammar: '',
@@ -6673,6 +7652,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'öffentlichen',
     grammar: 'adjektiv',
@@ -6694,6 +7676,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Unfall',
     grammar: 'nomen',
@@ -6715,6 +7700,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'trennen',
     grammar: 'verb',
@@ -6736,6 +7724,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bestätigen',
     grammar: '',
@@ -6756,6 +7747,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'feiern',
     grammar: 'verb',
@@ -6776,6 +7770,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'erkennen',
     grammar: 'verb',
@@ -6797,6 +7794,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bauen',
     grammar: '',
@@ -6818,6 +7818,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verdienen',
     grammar: 'verb',
@@ -6841,6 +7844,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'tragen',
     grammar: 'verb',
@@ -6861,6 +7867,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'unterschiedlich',
     grammar: 'adjektiv',
@@ -6883,6 +7892,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anzeigen',
     grammar: 'verb',
@@ -6904,6 +7916,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Bereich',
     grammar: 'nomen',
@@ -6923,6 +7938,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anstrengen',
     grammar: 'verb',
@@ -6943,6 +7961,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'eigentlich',
     grammar: 'adverb',
@@ -6964,6 +7985,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der,die',
     word: 'Erwachsene',
     grammar: 'nomen',
@@ -6983,6 +8007,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'Nehmen',
     grammar: 'verb',
@@ -7003,6 +8030,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verschreiben',
     grammar: 'verb',
@@ -7024,6 +8054,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Verhandlung',
     grammar: 'nomen',
@@ -7045,6 +8078,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'empfehlen',
     grammar: 'verb',
@@ -7067,6 +8103,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anrufen',
     grammar: '',
@@ -7087,6 +8126,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'entschieden',
     grammar: 'verb',
@@ -7111,6 +8153,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'die',
     word: 'Bewegung',
     grammar: 'nomen',
@@ -7131,6 +8176,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'achten',
     grammar: 'verb',
@@ -7152,6 +8200,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Erfolg',
     grammar: 'nomen',
@@ -7175,6 +8226,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bewegen',
     grammar: 'verb',
@@ -7197,6 +8251,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'veranstalten',
     grammar: 'verb',
@@ -7218,6 +8275,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'Rückenschmerzen',
     grammar: 'nomen (plural)',
@@ -7238,6 +8298,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'ernähren',
     grammar: 'verb',
@@ -7258,6 +8321,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'bestimmt',
     grammar: 'adverb',
@@ -7279,6 +8345,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'obwohl',
     grammar: 'Conjunction',
@@ -7301,6 +8370,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'verletzen',
     grammar: 'verb',
@@ -7321,6 +8393,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: '',
     word: 'anstrengend',
     grammar: 'adjektiv',
@@ -7343,6 +8418,9 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
     article: 'der',
     word: 'Bescheid',
     grammar: 'nomen',

@@ -14,9 +14,30 @@ export default function Nav() {
         style={{ backgroundColor: 'black', height: '50px' }}
       >
         <NavLink to='/home' className='text-light nav1' aria-label='Home'>
-          <i className='fa fa-hat-wizard'></i> Deutsche lernen
+          <i className='me-1 fa fa-chess-knight'></i> Deutsche lernen
         </NavLink>
-        <div className='d-flex justify-content-end align-items-center flex-grow-1 me-2'>
+        <div className='d-flex gap-5 justify-content-end align-items-center flex-grow-1 me-2'>
+          <NavLink
+            to='/b1exam'
+            className='nav1 text-light mt-0'
+            aria-label='b1'
+          >
+            B1 Prüfung
+          </NavLink>
+          <NavLink
+            to='/b2exam'
+            className='nav1 text-light mt-0'
+            aria-label='b1'
+          >
+            B2 Prüfung
+          </NavLink>
+          <NavLink
+            to='/c1exam'
+            className='nav1 text-light mt-0'
+            aria-label='c1'
+          >
+            C1 Prüfung
+          </NavLink>
           <NavLink
             to='/quiz'
             className='nav1 text-light mt-0'

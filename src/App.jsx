@@ -55,7 +55,7 @@ function App() {
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/calendar' element={<Calendar />} />
 
-                <Route path='/basics' element={<Basics />} />
+                <Route path='/basics' element={<WordApp />} />
                 <Route path='/word/:wordName' element={<WordDetail />} />
                 <Route path='/word' element={<WordList />} />
                 <Route path='/quiz' element={<Quiz />} />

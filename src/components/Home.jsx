@@ -208,12 +208,12 @@ function WordApp() {
             <div className='row custom-gutter custom-row-gap'>
               <div className='col-6'>
                 <Link to='/basics' className='p-3 border bg-light d-block'>
-                  B1
+                  B1 Words
                 </Link>
               </div>
               <div className='col-6'>
                 <Link to='/advanced' className='p-3 border bg-light d-block'>
-                  C1
+                  C1 Words
                 </Link>
               </div>
               <div className='col-6'>
@@ -245,7 +245,7 @@ function WordApp() {
                   to='/link-for-item-6'
                   className='p-3 border bg-light d-block'
                 >
-                  Item 6
+                  B1 Prüfung
                 </Link>
               </div>
               <div className='col-6'>
@@ -253,7 +253,7 @@ function WordApp() {
                   to='/link-for-item-7'
                   className='p-3 border bg-light d-block'
                 >
-                  Twitter
+                  C1 Prüfung
                 </Link>
               </div>
               <div className='col-6'>
@@ -261,7 +261,7 @@ function WordApp() {
                   to='/link-for-item-8'
                   className='p-3 border bg-light d-block'
                 >
-                  Item 8
+                  B2 Prüfung
                 </Link>
               </div>
             </div>
