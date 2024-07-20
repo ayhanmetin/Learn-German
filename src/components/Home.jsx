@@ -100,7 +100,7 @@ function WordApp() {
               key={index}
             >
               <div className='d-flex justify-content-center mb-3'>
-                <div className='d-flex gap-3 text-body-emphasis'>
+                <div className='d-flex gatext-body-emphasis'>
                   <button
                     className='btnTop ms-0 text-body-emphasis'
                     onClick={() => handlePrint(word)}
@@ -204,22 +204,22 @@ function WordApp() {
           ))}
         </div>
         <div className='col-12'>
-          <div className='text-center'>
+          <div className='text-center '>
             <div className='row custom-gutter custom-row-gap'>
-              <div className='col-6'>
-                <Link to='/basics' className='p-3 border bg-light d-block'>
+              <div className='col-6 homeCss'>
+                <Link to='/basics' className='border homeCss bg-light d-block'>
                   B1 Words
                 </Link>
               </div>
               <div className='col-6'>
-                <Link to='/advanced' className='p-3 border bg-light d-block'>
+                <Link to='/advanced' className='border homeCss bg-light d-block'>
                   C1 Words
                 </Link>
               </div>
               <div className='col-6'>
                 <Link
                   to='/link-for-item-3'
-                  className='p-3 border bg-light d-block'
+                  className='border homeCss bg-light d-block'
                 >
                   Word of the day
                 </Link>
@@ -227,7 +227,7 @@ function WordApp() {
               <div className='col-6'>
                 <Link
                   to='/link-for-item-4'
-                  className='p-3 border bg-light d-block'
+                  className='border homeCss bg-light d-block'
                 >
                   Quiz
                 </Link>
@@ -235,7 +235,7 @@ function WordApp() {
               <div className='col-6'>
                 <Link
                   to='/link-for-item-5'
-                  className='p-3 border bg-light d-block'
+                  className='border homeCss bg-light d-block'
                 >
                   Total words
                 </Link>
@@ -243,7 +243,7 @@ function WordApp() {
               <div className='col-6'>
                 <Link
                   to='/link-for-item-6'
-                  className='p-3 border bg-light d-block'
+                  className='border homeCss bg-light d-block'
                 >
                   B1 Prüfung
                 </Link>
@@ -251,7 +251,7 @@ function WordApp() {
               <div className='col-6'>
                 <Link
                   to='/link-for-item-7'
-                  className='p-3 border bg-light d-block'
+                  className='border homeCss bg-light d-block'
                 >
                   C1 Prüfung
                 </Link>
@@ -259,7 +259,7 @@ function WordApp() {
               <div className='col-6'>
                 <Link
                   to='/link-for-item-8'
-                  className='p-3 border bg-light d-block'
+                  className='border homeCss bg-light d-block'
                 >
                   B2 Prüfung
                 </Link>

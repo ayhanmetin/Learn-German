@@ -10,5 +10,20 @@
   padding-left: 5px;
 }
 .custom-row-gap {
-  row-gap: 50px;
+  row-gap: 40px;
+}
+.homeCss {
+  background: none !important;
+  border: none !important;
+  text-decoration: none !important;
+  color: inherit;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.homeCss:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  transform: scale(1.15);
 }
