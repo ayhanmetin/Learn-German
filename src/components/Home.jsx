@@ -142,12 +142,45 @@ function WordApp() {
                     </button>
                   </div>
                   <div className='d-flex justify-content-start'>
+                    {' '}
                     <div className='word-container fs-4 mainBody'>
                       {word.grammar && (
                         <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
                           {word.grammar}
                         </p>
                       )}
+                      <p className='textWord meaning fst-italic mt-4'>
+                        <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
+                      </p>
+
+                      {word.meaningTR && (
+                        <p className='textWord fst-italic'>
+                          <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                        </p>
+                      )}
+
+                      <div className='d-flex align-items-center gap-3'>
+                        {word.PartizipII && (
+                          <p className='textWord tense'>
+                            <span className='grammar'>Partizip II:</span>{' '}
+                            {word.PartizipII}
+                          </p>
+                        )}
+                        {word.Präteritum && (
+                          <p className='textWord me-3 tense'>
+                            <span className='grammar'>Präteritum:</span>{' '}
+                            {word.Präteritum}
+                          </p>
+                        )}
+                      </div>
+
+                      {word.plural && (
+                        <p className='textWord  me-3 tense'>
+                          <span className='grammar'>&nbsp;plural</span> &nbsp;
+                          {word.plural}
+                        </p>
+                      )}
+
                       {word.example1 && (
                         <p className='textWord'>
                           <strong>‣</strong> {word.example1}
@@ -173,8 +206,10 @@ function WordApp() {
                           <strong>‣</strong> {word.example5}
                         </p>
                       )}
+
                       {word.tip1 && (
                         <p className='textWord mt-3'>
+                          <p className='tip'>&nbsp;Tips</p>
                           <strong>&nbsp;⇢</strong> {word.tip1}
                         </p>
                       )}
@@ -188,14 +223,6 @@ function WordApp() {
                           <strong>&nbsp;⇢</strong> {word.tip3}
                         </p>
                       )}
-                      <p className='textWord meaning fst-italic mt-4'>
-                        <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
-                      </p>
-                      {word.meaningTR && (
-                        <p className='textWord fst-italic'>
-                          <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
-                        </p>
-                      )}
                     </div>
                   </div>
                 </div>
@@ -203,7 +230,7 @@ function WordApp() {
             </div>
           ))}
         </div>
-        <div className='col-12'>
+        <div className='col-12 mt-5'>
           <div className='text-center '>
             <div className='row custom-gutter custom-row-gap'>
               <div className='col-6 p-1 '>
