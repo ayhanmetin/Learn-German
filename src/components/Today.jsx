@@ -11,7 +11,6 @@ const Today = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Find the word by wordNo or return null if not found
     const filteredWord = wordData.find(word => word.wordNo === wordNo);
     setWordDetails(filteredWord);
   }, [wordNo]);
@@ -75,31 +74,76 @@ const Today = () => {
   };
 
   return (
-    <div className='col-12'>
-      <div className='d-flex justify-content-evenly mb-5'>
-        <button onClick={() => navigateDate('past')}>Previous</button>
+    <div className='col-10'>
+      <div className='d-flex p-5 todayButton justify-content-evenly mb-5'>
+        <button
+          className='btn px-4 btn-dark btn-lg'
+          onClick={() => navigateDate('past')}
+        >
+          Previous
+        </button>
         <div className='mt-1 ms-4'>
           <ShareButton />
         </div>
-        <button onClick={() => navigateDate('future')}>Next</button>
+        <button
+          className='btn px-5 btn-dark btn-lg'
+          onClick={() => navigateDate('future')}
+        >
+          Next
+        </button>
       </div>
-      <div className='d-flex justify-content-start align-items-center border-top'>
-        <div className='col-md-12 mt-5'>
-          <div className='d-flex justify-content-start align-items-center mb-3'>
-            {wordDetails ? (
-              <>
-                <b className='mobileWord wordDay fs-1'>{`${wordDetails.article} ${wordDetails.word}`}</b>
-              </>
-            ) : (
-              <b className='fs-1'>No word for this date</b>
-            )}
-          </div>
-          {wordDetails ? (
+      {wordDetails ? (
+        <div className='d-flex justify-content-start align-items-center border-top'>
+          <div className='col-md-12 mt-5'>
+            <div className='d-flex justify-content-start align-items-center mb-3'>
+              <b className='mobileWord wordDay fs-1'>{`${wordDetails.article} ${wordDetails.word}`}</b>
+              <button
+                className='ms-2 position-relative'
+                onClick={() => readWordAloud(wordDetails)}
+                style={{
+                  border: 'none',
+                  background: 'transparent',
+                  cursor: 'pointer',
+                }}
+              >
+                <VoiceIcon width='22' height='22' />
+              </button>
+            </div>
             <div className='d-flex justify-content-start'>
               <div className='word-container fs-4 mainBody'>
                 {wordDetails.grammar && (
                   <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
                     {wordDetails.grammar}
+                  </p>
+                )}
+                {wordDetails.meaningENG && (
+                  <p className='textWord meaning fst-italic mt-4'>
+                    <strong>&nbsp;-</strong> {wordDetails.meaningENG}
+                  </p>
+                )}
+                {wordDetails.meaningTR && (
+                  <p className='textWord fst-italic'>
+                    <strong>&nbsp;-</strong> {wordDetails.meaningTR}
+                  </p>
+                )}
+                <div className='d-flex align-items-center gap-3'>
+                  {wordDetails.PartizipII && (
+                    <p className='textWord tense'>
+                      <span className='grammar'>Partizip II:</span>{' '}
+                      {wordDetails.PartizipII}
+                    </p>
+                  )}
+                  {wordDetails.Präteritum && (
+                    <p className='textWord tense'>
+                      <span className='grammar'>Präteritum:</span>{' '}
+                      {wordDetails.Präteritum}
+                    </p>
+                  )}
+                </div>
+                {wordDetails.plural && (
+                  <p className='textWord tense'>
+                    <span className='grammar'>Plural:</span>{' '}
+                    {wordDetails.plural}
                   </p>
                 )}
                 {[1, 2, 3, 4, 5].map(
@@ -114,30 +158,20 @@ const Today = () => {
                   i =>
                     wordDetails[`tip${i}`] && (
                       <p className='textWord mt-3' key={`tip${i}`}>
+                        <p className='tip'>&nbsp;Tips</p>
                         <strong>&nbsp;⇢</strong> {wordDetails[`tip${i}`]}
                       </p>
                     )
                 )}
-                <p className='textWord meaning fst-italic mt-4'>
-                  <strong>&nbsp;-</strong> {wordDetails.meaningENG}
-                </p>
-                {wordDetails.meaningTR && (
-                  <p className='textWord fst-italic'>
-                    <strong>&nbsp;-</strong> {wordDetails.meaningTR}
-                  </p>
-                )}
               </div>
             </div>
-          ) : (
-            <div className='text-center fs-4'>
-              <p>
-                No word details available for this date. Try navigating to
-                another day!
-              </p>
-            </div>
-          )}
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className='text-center fs-4'>
+          <p>Try navigating to another day!</p>
+        </div>
+      )}
     </div>
   );
 };
