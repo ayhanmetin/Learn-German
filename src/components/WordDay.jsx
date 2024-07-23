@@ -17,20 +17,25 @@ const WordDay = () => {
 
       const word = wordData.find(w => w.wordNo === formattedDate);
       setTodayWord(word ? `${word.article} ${word.word}` : 'No word for today');
-      setTodayDate(formattedDate); 
+      setTodayDate(formattedDate);
     };
 
     getTodaysWord();
   }, []);
 
   return (
-    <div className='d-flex justify-content-center align-items-center mb-2'>
+    <div className='d-flex flex-column justify-content-center align-items-center mb-2'>
       {todayWord ? (
-        <Link to={`/today/${todayDate}`} className='homeCss border-bottom p-2'>
-          {' '}
-          Wort des Tages:
-          <p className='m-0 p-0 text-center'> ☞ {todayWord}</p>
-        </Link>
+        <>
+          <p className='fs-6'>Wort des Tages:</p>
+          <Link
+            to={`/today/${todayDate}`}
+            className='homeCss border-bottom p-2'
+          >
+            {' '}
+            <p className='m-0 fs-3 p-0 text-center'> ☞ {todayWord}</p>
+          </Link>
+        </>
       ) : (
         <p>Kein Wort für heute!</p>
       )}
