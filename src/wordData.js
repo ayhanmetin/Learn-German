@@ -7949,7 +7949,7 @@ const wordData = [
     example3: '',
     example4: '',
     example5: '',
-    meaningENG: 'to make an effort.',
+    meaningENG: 'to make an effort',
     meaningTR: '',
     tip1: 'The reflexive verb "anstrengen" in the reflexive construction "dich anstrengen" to indicate personal effort.',
     tip2: 'The phrase "dich anstrengen" means "to exert yourself" or "to make an effort."',

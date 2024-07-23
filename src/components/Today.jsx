@@ -85,7 +85,7 @@ const Today = () => {
           <ShareButton />
         </div>
         <button
-          className='btn px-4 homeCss'
+          className='btn px-5 homeCss'
           onClick={() => navigateDate('future')}
         >
           Next

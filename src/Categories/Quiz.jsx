@@ -11,7 +11,7 @@ const Quiz = () => {
   const [gameOver, setGameOver] = useState(false);
   const [shuffledWords, setShuffledWords] = useState([]);
   const [batchIndex, setBatchIndex] = useState(0);
-  const batchSize = 30; 
+  const batchSize = 30;
 
   useEffect(() => {
     const shuffled = shuffle([...wordData]);
@@ -169,9 +169,7 @@ const Quiz = () => {
           </div>
         ) : (
           <div className='cardCss text-body-secondary'>
-            <h1 className='text-body-secondary'>
-              {displayWord()}
-            </h1>
+            <h1 className='text-body-secondary'>{displayWord()}</h1>
             <div className='choices text-body-secondary'>
               {choices.length ? (
                 choices.map((choice, index) => (
