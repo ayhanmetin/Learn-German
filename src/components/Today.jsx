@@ -93,7 +93,7 @@ const Today = () => {
 
   return (
     <div className='col-10'>
-      <div className='d-flex p-5 todayButton justify-content-evenly mb-5'>
+      <div className='d-flex p-5 todayButton justify-content-evenly mb-2'>
         <button
           className='btn fs-6 px-4 btn homeCss'
           onClick={() => navigateDate('past')}

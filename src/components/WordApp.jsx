@@ -214,8 +214,8 @@ function WordApp() {
                   )}
                   <div className='d-flex align-items-center gap-3'>
                     {word.Präteritum && (
-                      <p className='textWord me-3 tense'>
-                        <span className='grammar'>Präteritum:</span>{' '}
+                      <p className='textWord me-2 tense'>
+                        <span className='grammar'>▪︎  Präteritum:</span>{' '}
                         {word.Präteritum}
                       </p>
                     )}

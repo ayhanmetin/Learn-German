@@ -51,7 +51,7 @@ function WordApp() {
       );
       setFilteredWords(newFilteredWords);
     } else {
-      setFilteredWords([]); // Clear the word list if the search is empty
+      setFilteredWords([]); 
     }
   };
 

@@ -1,7 +1,51 @@
 const wordData = [
   {
-    date: 'June 27, 2024',
+    date: '',
+    wordNo: '',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
+    article: '',
+    word: '',
+    grammar: '',
+    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+    example1: '',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: '',
+    meaningTR: '',
+    tip1: '',
+    tip2: '',
+    tip3: '',
+    tag: 'basics',
+  },
+  {
+    date: '',
     wordNo: '230724',
+    plural: '',
+    Präteritum: '',
+    PartizipII: '',
+    article: '',
+    word: 'einige',
+    grammar: 'pronomen',
+    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+    example1: 'Ich habe einige Bücher gelesen.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'some, a few',
+    meaningTR: '',
+    tip1: 'When using "einige," remember it implies plurality, so it should only be used with plural nouns.',
+    tip2: '',
+    tip3: '',
+    tag: 'basics',
+  },
+  {
+    date: '',
+    wordNo: '',
     plural: '',
     Präteritum: 'dauerte',
     PartizipII: 'gedauert',
@@ -23,8 +67,8 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
-    wordNo: '230724',
+    date: '',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -45,7 +89,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -68,7 +112,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: 'die Inhalte',
     Präteritum: '',
@@ -91,7 +135,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: 'veränderte',
@@ -114,7 +158,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -137,7 +181,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -160,7 +204,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -183,7 +227,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -206,7 +250,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -229,7 +273,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -252,7 +296,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -275,7 +319,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -298,7 +342,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -321,7 +365,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -344,7 +388,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -367,7 +411,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -390,7 +434,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -412,7 +456,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -435,7 +479,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -458,7 +502,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -481,7 +525,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -504,7 +548,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -527,7 +571,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -550,7 +594,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -573,7 +617,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -596,7 +640,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -619,7 +663,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -642,7 +686,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -665,7 +709,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -688,7 +732,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -711,7 +755,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -734,7 +778,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -757,7 +801,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -780,7 +824,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -803,7 +847,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -826,7 +870,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -849,7 +893,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -872,7 +916,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -895,7 +939,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -918,7 +962,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -941,7 +985,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -964,7 +1008,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -987,7 +1031,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1010,7 +1054,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '280624',
     article: 'die',
     word: 'Ratenzahlung',
@@ -1030,7 +1074,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1053,7 +1097,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1076,7 +1120,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1099,7 +1143,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1122,7 +1166,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '110925',
     article: 'der',
     word: 'Speicherplatz',
@@ -1142,7 +1186,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1165,7 +1209,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1188,7 +1232,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1211,7 +1255,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1235,7 +1279,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1258,7 +1302,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1281,7 +1325,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1304,7 +1348,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1327,7 +1371,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1350,7 +1394,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1373,7 +1417,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1396,7 +1440,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1419,7 +1463,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1442,7 +1486,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1465,7 +1509,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1488,7 +1532,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1511,7 +1555,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1534,7 +1578,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1557,7 +1601,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1580,7 +1624,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1603,7 +1647,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1626,7 +1670,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1649,7 +1693,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1672,7 +1716,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1695,7 +1739,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1718,7 +1762,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1741,7 +1785,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1764,7 +1808,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1787,7 +1831,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1810,7 +1854,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1833,7 +1877,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1856,7 +1900,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1879,7 +1923,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1902,7 +1946,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1926,7 +1970,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1949,7 +1993,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1972,7 +2016,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -1995,7 +2039,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2018,7 +2062,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2041,7 +2085,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2064,7 +2108,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2087,7 +2131,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2110,7 +2154,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2133,7 +2177,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2156,7 +2200,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2179,7 +2223,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2202,7 +2246,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2225,7 +2269,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2248,7 +2292,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2271,7 +2315,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2294,7 +2338,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2317,7 +2361,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2340,7 +2384,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2363,7 +2407,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2386,7 +2430,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2409,7 +2453,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2432,7 +2476,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2455,7 +2499,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2478,7 +2522,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2501,7 +2545,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2524,7 +2568,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2547,7 +2591,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2570,7 +2614,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2593,7 +2637,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2616,7 +2660,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2639,7 +2683,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2662,7 +2706,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2685,7 +2729,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2708,7 +2752,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2731,7 +2775,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2754,7 +2798,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2777,7 +2821,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2800,7 +2844,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2823,7 +2867,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2846,7 +2890,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2869,7 +2913,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2892,7 +2936,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2916,7 +2960,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2939,7 +2983,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2962,7 +3006,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -2985,7 +3029,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3008,7 +3052,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3031,7 +3075,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3054,7 +3098,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3077,7 +3121,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3100,7 +3144,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3123,7 +3167,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3146,7 +3190,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3169,7 +3213,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3192,7 +3236,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3215,7 +3259,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3239,7 +3283,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3262,7 +3306,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3285,7 +3329,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3308,7 +3352,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3331,7 +3375,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3355,7 +3399,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3378,7 +3422,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3401,7 +3445,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3424,7 +3468,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3447,7 +3491,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3470,7 +3514,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3493,7 +3537,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3516,7 +3560,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3539,7 +3583,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3562,7 +3606,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3585,7 +3629,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3608,7 +3652,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3631,7 +3675,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3654,7 +3698,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3677,7 +3721,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3700,7 +3744,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3723,7 +3767,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3746,7 +3790,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3769,7 +3813,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3792,7 +3836,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3815,7 +3859,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3838,7 +3882,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3861,7 +3905,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3884,7 +3928,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3907,7 +3951,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3930,7 +3974,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3953,7 +3997,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3976,7 +4020,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -3999,7 +4043,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4022,7 +4066,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4045,7 +4089,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4068,7 +4112,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4091,7 +4135,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4114,7 +4158,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4137,7 +4181,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4160,7 +4204,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4183,7 +4227,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4206,7 +4250,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4229,7 +4273,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4252,7 +4296,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4275,7 +4319,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4298,7 +4342,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4321,7 +4365,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4344,7 +4388,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4367,7 +4411,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4390,7 +4434,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4413,7 +4457,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4437,7 +4481,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4460,7 +4504,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4483,7 +4527,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4506,7 +4550,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4529,7 +4573,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4552,7 +4596,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4575,7 +4619,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4598,7 +4642,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4621,7 +4665,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4644,7 +4688,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4667,7 +4711,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4690,7 +4734,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4713,7 +4757,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4736,7 +4780,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4759,7 +4803,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4782,7 +4826,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4806,7 +4850,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4829,7 +4873,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4852,7 +4896,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4875,7 +4919,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4898,7 +4942,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4921,7 +4965,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4944,7 +4988,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4967,7 +5011,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -4990,7 +5034,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5013,7 +5057,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5036,7 +5080,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5059,7 +5103,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5083,7 +5127,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5107,7 +5151,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5130,7 +5174,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5153,7 +5197,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5176,7 +5220,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5199,7 +5243,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5222,7 +5266,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5245,7 +5289,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5268,7 +5312,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5291,7 +5335,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5314,7 +5358,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5337,7 +5381,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5360,7 +5404,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5383,7 +5427,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5406,7 +5450,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5429,7 +5473,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5452,7 +5496,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5475,7 +5519,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5498,7 +5542,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5521,7 +5565,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5544,7 +5588,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5567,7 +5611,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5591,7 +5635,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5614,7 +5658,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5638,7 +5682,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5662,7 +5706,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5686,7 +5730,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5709,7 +5753,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5733,7 +5777,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5757,7 +5801,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5783,7 +5827,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5807,7 +5851,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5830,7 +5874,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5853,7 +5897,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5878,7 +5922,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5901,7 +5945,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5925,7 +5969,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5948,7 +5992,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5972,7 +6016,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -5996,7 +6040,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6019,7 +6063,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6042,7 +6086,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6065,7 +6109,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6088,7 +6132,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6113,7 +6157,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6137,7 +6181,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6160,7 +6204,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6184,7 +6228,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6208,7 +6252,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6232,7 +6276,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6256,7 +6300,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6280,7 +6324,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6305,7 +6349,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6329,7 +6373,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6355,7 +6399,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6379,7 +6423,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6403,7 +6447,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6427,7 +6471,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6451,7 +6495,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6475,7 +6519,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6499,7 +6543,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6522,7 +6566,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6546,7 +6590,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6570,7 +6614,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6595,7 +6639,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6619,7 +6663,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6643,7 +6687,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6667,7 +6711,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6690,7 +6734,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6713,7 +6757,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6737,7 +6781,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6761,7 +6805,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6785,7 +6829,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6808,7 +6852,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6832,7 +6876,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6855,7 +6899,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6879,7 +6923,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6903,7 +6947,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6927,7 +6971,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6951,7 +6995,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -6975,7 +7019,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7000,7 +7044,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7024,7 +7068,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7048,7 +7092,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7072,7 +7116,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7096,7 +7140,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7120,7 +7164,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7145,7 +7189,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7169,7 +7213,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7193,7 +7237,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7217,7 +7261,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7242,7 +7286,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7266,7 +7310,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7289,7 +7333,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7313,7 +7357,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7336,7 +7380,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7360,7 +7404,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7384,7 +7428,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7407,7 +7451,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7431,7 +7475,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7456,7 +7500,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7479,7 +7523,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7502,7 +7546,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7526,7 +7570,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7550,7 +7594,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7573,7 +7617,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7597,7 +7641,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7620,7 +7664,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7645,7 +7689,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7671,7 +7715,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7695,7 +7739,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7719,7 +7763,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7743,7 +7787,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7766,7 +7810,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7789,7 +7833,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7813,7 +7857,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7837,7 +7881,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7863,7 +7907,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7886,7 +7930,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7911,7 +7955,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7935,7 +7979,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7957,7 +8001,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -7980,7 +8024,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8004,7 +8048,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8026,7 +8070,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8049,7 +8093,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8073,7 +8117,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8097,7 +8141,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8122,7 +8166,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8145,7 +8189,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8172,7 +8216,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8195,7 +8239,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8219,7 +8263,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8245,7 +8289,7 @@ const wordData = [
   },
 
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8270,7 +8314,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8294,7 +8338,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8317,7 +8361,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8340,7 +8384,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8364,7 +8408,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8389,7 +8433,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8412,7 +8456,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
@@ -8437,7 +8481,7 @@ const wordData = [
     tag: 'basics',
   },
   {
-    date: 'June 27, 2024',
+    date: '',
     wordNo: '270624',
     plural: '',
     Präteritum: '',
