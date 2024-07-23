@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import wordData from '../wordData';
-import { SIcon, VoiceIcon } from './IconBox'; // Ensure VoiceIcon is properly imported
+import { SIcon, VoiceIcon } from './IconBox';
 import './today.css';
+import Footer2 from './Footer2';
 
 const Today = () => {
   const { wordNo } = useParams();
@@ -66,9 +67,7 @@ const Today = () => {
         title='Copy URL'
       >
         <SIcon />
-        {isActive && (
-          <span className='feedbackText'>Heutige Wörter kopiert!</span>
-        )}
+        {isActive && <span className='feedbackText'>Kopiert!</span>}
       </button>
     );
   };
@@ -97,17 +96,6 @@ const Today = () => {
           <div className='col-md-12 mt-5'>
             <div className='d-flex justify-content-start align-items-center mb-3'>
               <b className='mobileWord wordDay fs-1'>{`${wordDetails.article} ${wordDetails.word}`}</b>
-              <button
-                className='ms-2 position-relative'
-                onClick={() => readWordAloud(wordDetails)}
-                style={{
-                  border: 'none',
-                  background: 'transparent',
-                  cursor: 'pointer',
-                }}
-              >
-                <VoiceIcon width='22' height='22' />
-              </button>
             </div>
             <div className='d-flex justify-content-start'>
               <div className='word-container fs-4 mainBody'>
@@ -172,6 +160,7 @@ const Today = () => {
           <p>Try navigating to another day!</p>
         </div>
       )}
+      <Footer2 />
     </div>
   );
 };

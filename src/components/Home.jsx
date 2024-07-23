@@ -12,6 +12,7 @@ import {
   VoiceIcon,
 } from './IconBox';
 import { Link } from 'react-router-dom';
+import WordDay from './WordDay';
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -82,6 +83,9 @@ function WordApp() {
     <>
       <div className='d-flex flex-column'>
         <div className='col-12'>
+        <div className='d-flex justify-content-center align-items-center mb-3'>
+              <WordDay />
+            </div>
           <div className='d-flex mb-4 justify-content-center align-items-center'>
             <div className='search-bar pb-2 mb-1 col-6 p-1 '>
               <input
@@ -230,8 +234,9 @@ function WordApp() {
             </div>
           ))}
         </div>
-        <div className='col-12 mt-5'>
+        <div className='col-12 mt-4'>
           <div className='text-center '>
+            
             <div className='row custom-gutter custom-row-gap'>
               <div className='col-6 p-1 '>
                 <Link to='/basics' className='border homeCss bg-light d-block'>
