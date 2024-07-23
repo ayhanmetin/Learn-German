@@ -76,7 +76,7 @@ const Today = () => {
     <div className='col-10'>
       <div className='d-flex p-5 todayButton justify-content-evenly mb-5'>
         <button
-          className='btn px-4 btn-dark btn-lg'
+          className='btn px-4 btn homeCss'
           onClick={() => navigateDate('past')}
         >
           Previous
@@ -85,7 +85,7 @@ const Today = () => {
           <ShareButton />
         </div>
         <button
-          className='btn px-5 btn-dark btn-lg'
+          className='btn px-4 homeCss'
           onClick={() => navigateDate('future')}
         >
           Next
