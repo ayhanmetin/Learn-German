@@ -208,37 +208,32 @@ function WordApp() {
                 {' '}
                 <div className='word-container fs-4 mainBody'>
                   {word.grammar && (
-                    <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
+                    <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-2 mt-0 pt-0'>
                       {word.grammar}
                     </p>
                   )}
-                  <div className='d-flex flex-colum align-items-center gap-3'>
-                    <div>
-                      {word.PartizipII && (
-                        <p className='textWord flex-colum tense'>
-                          <span className='grammar'>▪︎ Partizip II:</span>{' '}
-                          {word.PartizipII}
-                        </p>
-                      )}
-                    </div>
-                    <div>
-                      {' '}
-                      {word.Präteritum && (
-                        <p className='textWord flex-colum me-2 tense'>
-                          <span className='grammar'>Präteritum:</span>{' '}
-                          {word.Präteritum}
-                        </p>
-                      )}
-                    </div>
-                  </div>
+
+                  {word.PartizipII && (
+                    <p className='textWord mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 fs-6 tense fst-italic grammar'>
+                      <span className='grammar'>▪︎ Partizip II:</span>{' '}
+                      {word.PartizipII}
+                    </p>
+                  )}
+
+                  {word.Präteritum && (
+                    <p className='textWord ms-0 mt-0 pt-0 fs-6 flex-column tense fst-italic grammar'>
+                      <span className='grammar textWord'>▪︎ Präteritum:</span>{' '}
+                      {word.Präteritum}
+                    </p>
+                  )}
 
                   {word.plural && (
-                    <p className='textWord  me-3 tense'>
+                    <p className='textWord me-3 tense'>
                       <span className='grammar'>&nbsp;◇ plural:</span> &nbsp;
                       {word.plural}
                     </p>
                   )}
-                  <p className='textWord meaning fst-italic mt-4'>
+                  <p className='textWord meaning fst-italic mt-2'>
                     <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                   </p>
 
