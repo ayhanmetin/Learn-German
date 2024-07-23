@@ -270,18 +270,18 @@ function WordApp() {
                   )}
 
                   {word.tip1 && (
-                    <p className='textWord mt-3'>
+                    <p className='textWord mt-3 fs-6'>
                       <p className='tip'>&nbsp;Tips</p>
                       <strong>&nbsp;⇢</strong> {word.tip1}
                     </p>
                   )}
                   {word.tip2 && (
-                    <p className='textWord mt-3'>
+                    <p className='textWord mt-3 fs-6'>
                       <strong>&nbsp;⇢</strong> {word.tip2}
                     </p>
                   )}
                   {word.tip3 && (
-                    <p className='textWord mt-3'>
+                    <p className='textWord mt-3 fs-6'>
                       <strong>&nbsp;⇢</strong> {word.tip3}
                     </p>
                   )}

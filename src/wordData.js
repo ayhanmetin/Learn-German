@@ -4,7 +4,7 @@ const wordData = [
     wordNo: '',
     article: '',
     word: 'überraschen',
-    grammar: '',
+    grammar: 'verb',
     plural: '',
     PartizipII: 'überrascht',
     Präteritum: 'überraschte',
