@@ -63,11 +63,30 @@ const Today = () => {
       <button
         className={`shareButton ${isActive ? 'animate' : ''}`}
         onClick={handleClick}
-        style={{ border: 'none', background: 'none', cursor: 'pointer' }}
+        style={{
+          border: 'none',
+          background: 'none',
+          cursor: 'pointer',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+        }}
         title='Copy URL'
       >
         <SIcon />
-        {isActive && <span className='feedbackText'>Kopiert!</span>}
+        {isActive && (
+          <span
+            className='feedbackText'
+            style={{
+              border: 'none',
+              background: 'none',
+              cursor: 'pointer',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+            }}
+          ></span>
+        )}
       </button>
     );
   };
