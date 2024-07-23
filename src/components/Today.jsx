@@ -79,16 +79,16 @@ const Today = () => {
           className='btn fs-6 px-4 btn homeCss'
           onClick={() => navigateDate('past')}
         >
-          Previous
+          Vorherige
         </button>
-        <div className='mt-1 ms-4'>
+        <div className='mt-1'>
           <ShareButton />
         </div>
         <button
           className='btn fs-6 px-5 homeCss'
           onClick={() => navigateDate('future')}
         >
-          Next
+          Nächste
         </button>
       </div>
       {wordDetails ? (
