@@ -47,7 +47,7 @@ const wordData = [
   {
     date: 'June 27, 2024',
     wordNo: '270624',
-    plural: '',
+    plural: 'die Inhalte',
     Präteritum: '',
     PartizipII: '',
     article: 'der',

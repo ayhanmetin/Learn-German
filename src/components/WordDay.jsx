@@ -17,7 +17,7 @@ const WordDay = () => {
 
       const word = wordData.find(w => w.wordNo === formattedDate);
       setTodayWord(word ? `${word.article} ${word.word}` : 'No word for today');
-      setTodayDate(formattedDate); // Store the formatted date for URL construction
+      setTodayDate(formattedDate); 
     };
 
     getTodaysWord();
