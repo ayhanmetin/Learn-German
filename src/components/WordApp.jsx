@@ -212,27 +212,17 @@ function WordApp() {
                       {word.grammar}
                     </p>
                   )}
-                  <p className='textWord meaning fst-italic mt-4'>
-                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
-                  </p>
-
-                  {word.meaningTR && (
-                    <p className='textWord fst-italic'>
-                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
-                    </p>
-                  )}
-
                   <div className='d-flex align-items-center gap-3'>
-                    {word.PartizipII && (
-                      <p className='textWord tense'>
-                        <span className='grammar'>Partizip II:</span>{' '}
-                        {word.PartizipII}
-                      </p>
-                    )}
                     {word.Präteritum && (
                       <p className='textWord me-3 tense'>
                         <span className='grammar'>Präteritum:</span>{' '}
                         {word.Präteritum}
+                      </p>
+                    )}
+                    {word.PartizipII && (
+                      <p className='textWord tense'>
+                        <span className='grammar'>Partizip II:</span>{' '}
+                        {word.PartizipII}
                       </p>
                     )}
                   </div>
@@ -241,6 +231,15 @@ function WordApp() {
                     <p className='textWord  me-3 tense'>
                       <span className='grammar'>&nbsp;◇ plural:</span> &nbsp;
                       {word.plural}
+                    </p>
+                  )}
+                  <p className='textWord meaning fst-italic mt-4'>
+                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
+                  </p>
+
+                  {word.meaningTR && (
+                    <p className='textWord fst-italic'>
+                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
                     </p>
                   )}
 
