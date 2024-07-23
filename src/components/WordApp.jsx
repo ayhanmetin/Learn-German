@@ -212,19 +212,24 @@ function WordApp() {
                       {word.grammar}
                     </p>
                   )}
-                  <div className='d-flex align-items-center gap-3'>
-                    {word.Präteritum && (
-                      <p className='textWord me-2 tense'>
-                        <span className='grammar'>▪︎  Präteritum:</span>{' '}
-                        {word.Präteritum}
-                      </p>
-                    )}
-                    {word.PartizipII && (
-                      <p className='textWord tense'>
-                        <span className='grammar'>Partizip II:</span>{' '}
-                        {word.PartizipII}
-                      </p>
-                    )}
+                  <div className='d-flex flex-colum align-items-center gap-3'>
+                    <div>
+                      {word.PartizipII && (
+                        <p className='textWord flex-colum tense'>
+                          <span className='grammar'>▪︎ Partizip II:</span>{' '}
+                          {word.PartizipII}
+                        </p>
+                      )}
+                    </div>
+                    <div>
+                      {' '}
+                      {word.Präteritum && (
+                        <p className='textWord flex-colum me-2 tense'>
+                          <span className='grammar'>Präteritum:</span>{' '}
+                          {word.Präteritum}
+                        </p>
+                      )}
+                    </div>
                   </div>
 
                   {word.plural && (

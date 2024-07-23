@@ -2,13 +2,12 @@ const wordData = [
   {
     date: '',
     wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
     article: '',
-    word: '',
+    word: 'überraschen',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+    plural: '',
+    PartizipII: 'überrascht',
+    Präteritum: 'überraschte',
     example1: '',
     example2: '',
     example3: '',
@@ -20,10 +19,11 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
+    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
-    wordNo: '230724',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -45,7 +45,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '',
+    wordNo: '230724',
     plural: '',
     Präteritum: 'dauerte',
     PartizipII: 'gedauert',
@@ -90,7 +90,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -113,7 +113,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: 'die Inhalte',
     Präteritum: '',
     PartizipII: '',
@@ -136,7 +136,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: 'veränderte',
     PartizipII: 'verändert',
@@ -159,7 +159,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -182,7 +182,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -205,7 +205,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -228,7 +228,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -251,7 +251,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -274,7 +274,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -297,7 +297,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -320,7 +320,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -343,7 +343,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -366,7 +366,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -389,7 +389,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -412,7 +412,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -435,7 +435,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -457,7 +457,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -480,7 +480,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -503,7 +503,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -526,7 +526,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -549,7 +549,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -572,7 +572,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -595,7 +595,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -618,7 +618,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -641,7 +641,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -664,7 +664,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -687,7 +687,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -710,7 +710,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -733,7 +733,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -756,7 +756,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -779,7 +779,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -802,7 +802,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -825,7 +825,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -848,7 +848,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -871,7 +871,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -894,7 +894,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -917,7 +917,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -940,7 +940,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -963,7 +963,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -986,7 +986,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1009,7 +1009,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1032,7 +1032,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1075,7 +1075,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1098,7 +1098,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1121,7 +1121,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1144,7 +1144,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1187,7 +1187,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1210,7 +1210,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1233,7 +1233,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1256,7 +1256,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1280,7 +1280,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1303,7 +1303,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1326,7 +1326,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1349,7 +1349,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1372,7 +1372,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1395,7 +1395,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1418,7 +1418,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1441,7 +1441,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1464,7 +1464,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1487,7 +1487,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1510,7 +1510,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1533,7 +1533,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1556,7 +1556,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1579,7 +1579,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1602,7 +1602,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1625,7 +1625,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1648,7 +1648,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1671,7 +1671,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1694,7 +1694,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1717,7 +1717,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1740,7 +1740,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1763,7 +1763,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1786,7 +1786,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1809,7 +1809,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1832,7 +1832,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1855,7 +1855,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1878,7 +1878,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1901,7 +1901,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1924,7 +1924,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1947,7 +1947,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1971,7 +1971,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -1994,7 +1994,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2017,7 +2017,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2040,7 +2040,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2063,7 +2063,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2086,7 +2086,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2109,7 +2109,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2132,7 +2132,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2155,7 +2155,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2178,7 +2178,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2201,7 +2201,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2224,7 +2224,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2247,7 +2247,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2270,7 +2270,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2293,7 +2293,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2316,7 +2316,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2339,7 +2339,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2362,7 +2362,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2385,7 +2385,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2408,7 +2408,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2431,7 +2431,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2454,7 +2454,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2477,7 +2477,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2500,7 +2500,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2523,7 +2523,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2546,7 +2546,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2569,7 +2569,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2592,7 +2592,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2615,7 +2615,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2638,7 +2638,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2661,7 +2661,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2684,7 +2684,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2707,7 +2707,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2730,7 +2730,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2753,7 +2753,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2776,7 +2776,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2799,7 +2799,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2822,7 +2822,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2845,7 +2845,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2868,7 +2868,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2891,7 +2891,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2914,7 +2914,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2937,7 +2937,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2961,7 +2961,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -2984,7 +2984,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3007,7 +3007,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3030,7 +3030,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3053,7 +3053,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3076,7 +3076,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3099,7 +3099,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3122,7 +3122,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3145,7 +3145,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3168,7 +3168,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3191,7 +3191,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3214,7 +3214,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3237,7 +3237,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3260,7 +3260,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3284,7 +3284,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3307,7 +3307,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3330,7 +3330,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3353,7 +3353,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3376,7 +3376,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3400,7 +3400,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3423,7 +3423,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3446,7 +3446,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3469,7 +3469,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3492,7 +3492,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3515,7 +3515,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3538,7 +3538,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3561,7 +3561,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3584,7 +3584,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3607,7 +3607,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3630,7 +3630,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3653,7 +3653,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3676,7 +3676,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3699,7 +3699,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3722,7 +3722,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3745,7 +3745,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3768,7 +3768,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3791,7 +3791,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3814,7 +3814,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3837,7 +3837,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3860,7 +3860,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3883,7 +3883,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3906,7 +3906,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3929,7 +3929,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3952,7 +3952,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3975,7 +3975,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -3998,7 +3998,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4021,7 +4021,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4044,7 +4044,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4067,7 +4067,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4090,7 +4090,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4113,7 +4113,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4136,7 +4136,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4159,7 +4159,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4182,7 +4182,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4205,7 +4205,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4228,7 +4228,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4251,7 +4251,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4274,7 +4274,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4297,7 +4297,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4320,7 +4320,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4343,7 +4343,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4366,7 +4366,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4389,7 +4389,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4412,7 +4412,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4435,7 +4435,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4458,7 +4458,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4482,7 +4482,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4505,7 +4505,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4528,7 +4528,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4551,7 +4551,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4574,7 +4574,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4597,7 +4597,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4620,7 +4620,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4643,7 +4643,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4666,7 +4666,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4689,7 +4689,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4712,7 +4712,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4735,7 +4735,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4758,7 +4758,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4781,7 +4781,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4804,7 +4804,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4827,7 +4827,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4851,7 +4851,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4874,7 +4874,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4897,7 +4897,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4920,7 +4920,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4943,7 +4943,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4966,7 +4966,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -4989,7 +4989,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5012,7 +5012,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5035,7 +5035,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5058,7 +5058,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5081,7 +5081,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5104,7 +5104,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5128,7 +5128,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5152,7 +5152,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5175,7 +5175,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5198,7 +5198,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5221,7 +5221,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5244,7 +5244,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5267,7 +5267,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5290,7 +5290,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5313,7 +5313,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5336,7 +5336,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5359,7 +5359,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5382,7 +5382,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5405,7 +5405,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5428,7 +5428,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5451,7 +5451,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5474,7 +5474,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5497,7 +5497,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5520,7 +5520,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5543,7 +5543,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5566,7 +5566,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5589,7 +5589,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5612,7 +5612,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5636,7 +5636,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5659,7 +5659,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5683,7 +5683,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5707,7 +5707,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5731,7 +5731,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5754,7 +5754,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5778,7 +5778,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5802,7 +5802,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5828,7 +5828,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5852,7 +5852,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5875,7 +5875,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5898,7 +5898,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5923,7 +5923,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5946,7 +5946,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5970,7 +5970,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -5993,7 +5993,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6017,7 +6017,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6041,7 +6041,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6064,7 +6064,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6087,7 +6087,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6110,7 +6110,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6133,7 +6133,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6158,7 +6158,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6182,7 +6182,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6205,7 +6205,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6229,7 +6229,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6253,7 +6253,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6277,7 +6277,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6301,7 +6301,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6325,7 +6325,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6350,7 +6350,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6374,7 +6374,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6400,7 +6400,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6424,7 +6424,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6448,7 +6448,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6472,7 +6472,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6496,7 +6496,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6520,7 +6520,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6544,7 +6544,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6567,7 +6567,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6591,7 +6591,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6615,7 +6615,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6640,7 +6640,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6664,7 +6664,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6688,7 +6688,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6712,7 +6712,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6735,7 +6735,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6758,7 +6758,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6782,7 +6782,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6806,7 +6806,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6830,7 +6830,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6853,7 +6853,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6877,7 +6877,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6900,7 +6900,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6924,7 +6924,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6948,7 +6948,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6972,7 +6972,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -6996,7 +6996,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7020,7 +7020,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7045,7 +7045,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7069,7 +7069,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7093,7 +7093,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7117,7 +7117,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7141,7 +7141,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7165,7 +7165,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7190,7 +7190,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7214,7 +7214,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7238,7 +7238,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7262,7 +7262,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7287,7 +7287,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7311,7 +7311,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7334,7 +7334,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7358,7 +7358,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7381,7 +7381,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7405,7 +7405,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7429,7 +7429,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7452,7 +7452,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7476,7 +7476,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7501,7 +7501,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7524,7 +7524,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7547,7 +7547,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7571,7 +7571,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7595,7 +7595,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7618,7 +7618,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7642,7 +7642,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7665,7 +7665,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7690,7 +7690,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7716,7 +7716,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7740,7 +7740,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7764,7 +7764,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7788,7 +7788,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7811,7 +7811,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7834,7 +7834,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7858,7 +7858,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7882,7 +7882,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7908,7 +7908,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7931,7 +7931,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7956,7 +7956,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -7980,7 +7980,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8002,7 +8002,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8025,7 +8025,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8049,7 +8049,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8071,7 +8071,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8094,7 +8094,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8118,7 +8118,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8142,7 +8142,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8167,7 +8167,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8190,7 +8190,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8217,7 +8217,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8240,7 +8240,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8264,7 +8264,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8290,7 +8290,7 @@ const wordData = [
 
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8315,7 +8315,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8339,7 +8339,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8362,7 +8362,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8385,7 +8385,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8409,7 +8409,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8434,7 +8434,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8457,7 +8457,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
@@ -8482,7 +8482,7 @@ const wordData = [
   },
   {
     date: '',
-    wordNo: '270624',
+    wordNo: '',
     plural: '',
     Präteritum: '',
     PartizipII: '',
