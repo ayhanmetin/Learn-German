@@ -267,7 +267,7 @@ function WordApp() {
               </div>
               <div className='col-6 p-1'>
                 <Link to='/germansayings' className='border homeCss bg-light d-block'>
-                  German Sayings
+                Deutsche Sprichwörter
                 </Link>
               </div>
             </div>

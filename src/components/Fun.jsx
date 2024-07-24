@@ -4,7 +4,7 @@ export default function Fun() {
   return (
     <>
       <div className='d-flex flex-column mb-3'>
-        <h1 className='mb-5'>Deutsche Sprichwörter</h1>
+        <h1 className='mb-5 border-bottom p-2'>Deutsche Sprichwörter</h1>
         <div className='p-2'>‣ Alles hat ein Ende, nur die Wurst hat zwei.</div>
         <div className='p-2'>‣ Der frühe Vogel fängt den Wurm.</div>
       </div>
