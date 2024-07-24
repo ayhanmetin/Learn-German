@@ -21,7 +21,7 @@ const WordDay = () => {
       const word = wordData.find(w => w.wordNo === formattedDate);
       console.log('Word found:', word);
 
-      setTodayWord(word ? `${word.article} ${word.word}` : 'No word for today');
+      setTodayWord(word ? `${word.article} ${word.word}` : 'drehen');
       setTodayDate(formattedDate);
     };
 
@@ -42,7 +42,7 @@ const WordDay = () => {
           </Link>
         </>
       ) : (
-        <p>Kein Wort für heute!</p>
+        <p>*</p>
       )}
     </div>
   );

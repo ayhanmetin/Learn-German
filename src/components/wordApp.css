@@ -1,6 +1,7 @@
-* {
+*{
   margin: 0;
   padding: 0;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 p {
@@ -16,7 +17,7 @@ p {
   font-family: 'Libre Franklin', sans-serif;
   margin-left: 0;
   padding-left: 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .textWord2 {
@@ -195,7 +196,7 @@ p {
 
 .tip {
   color: #2f5a8a;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .wordMain {
