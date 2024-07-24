@@ -190,7 +190,7 @@ function WordApp() {
 
           <div className='d-flex justify-content-start align-items-center'>
             <div className='col-md-12'>
-              <div className='d-flex justify-content-start align-items-center mb-3'>
+              <div className='d-flex justify-content-start align-items-center mb-0'>
                 <b className='mobileWord wordMain wordDay'>{`${word.article} ${word.word}`}</b>
                 <button
                   className='ms-2 position-relative'
@@ -206,7 +206,7 @@ function WordApp() {
               </div>
               <div className='d-flex justify-content-start'>
                 {' '}
-                <div className='word-container fs-4 mainBody'>
+                <div className='word-container fs-4 mainBody mt-0 pt-0'>
                   {word.grammar && (
                     <p className='fst-italic grammar fs-6 ms-1 ps-0 mb-2 mt-0 pt-0'>
                       {word.grammar}
