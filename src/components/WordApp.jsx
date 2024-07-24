@@ -214,15 +214,15 @@ function WordApp() {
                   )}
 
                   {word.PartizipII && (
-                    <p className='textWord mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 fs-6 tense fst-italic grammar'>
+                    <p className=' mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 fs-6 tense fst-italic grammar'>
                       <span className='grammar'>▪︎ Partizip II:</span>{' '}
                       {word.PartizipII}
                     </p>
                   )}
 
                   {word.Präteritum && (
-                    <p className='textWord ms-0 mt-0 pt-0 fs-6 flex-column tense fst-italic grammar'>
-                      <span className='grammar textWord'>▪︎ Präteritum:</span>{' '}
+                    <p className=' ms-0 mt-0 pt-0 fs-6 flex-column tense fst-italic grammar'>
+                      <span className='grammar '>▪︎ Präteritum:</span>{' '}
                       {word.Präteritum}
                     </p>
                   )}

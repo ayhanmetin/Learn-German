@@ -16,6 +16,7 @@ p {
   font-family: 'Libre Franklin', sans-serif;
   margin-left: 0;
   padding-left: 0;
+  font-size: 19px;
 }
 
 .textWord2 {
@@ -198,5 +199,5 @@ p {
 }
 
 .wordMain {
-  font-size: 45px !important;
+  font-size: 38px !important;
 }
