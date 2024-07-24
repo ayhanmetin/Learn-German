@@ -13,6 +13,9 @@ import WordDetail from './Categories/WordDetail';
 import Calendar from './Categories/Calendar';
 import Home from './components/Home';
 import Basics from './Categories/Basics';
+import B1exam from './components/B1exam';
+import B2exam from './components/B2exam';
+import Cexam from './components/Cexam';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -54,7 +57,9 @@ function App() {
                 <Route path='/home' element={<Home />} />
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/calendar' element={<Calendar />} />
-
+                <Route path='/b1exam' element={<B1exam />} />
+                <Route path='/b2exam' element={<B2exam />} />
+                <Route path='/cexam' element={<Cexam />} />
                 <Route path='/basics' element={<WordApp />} />
                 <Route path='/word/:wordName' element={<WordDetail />} />
                 <Route path='/word' element={<WordList />} />

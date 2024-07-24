@@ -51,7 +51,7 @@ function WordApp() {
       );
       setFilteredWords(newFilteredWords);
     } else {
-      setFilteredWords([]); 
+      setFilteredWords([]);
     }
   };
 
@@ -83,9 +83,9 @@ function WordApp() {
     <>
       <div className='d-flex flex-column'>
         <div className='col-12'>
-        <div className='d-flex justify-content-center align-items-center mb-3'>
-              <WordDay />
-            </div>
+          <div className='d-flex justify-content-center align-items-center mb-3'>
+            <WordDay />
+          </div>
           <div className='d-flex mb-4 justify-content-center align-items-center'>
             <div className='search-bar pb-2 mb-1 col-6 p-1 '>
               <input
@@ -236,7 +236,6 @@ function WordApp() {
         </div>
         <div className='col-12 mt-4'>
           <div className='text-center '>
-            
             <div className='row custom-gutter custom-row-gap'>
               <div className='col-6 p-1 '>
                 <Link to='/basics' className='border homeCss bg-light d-block'>
@@ -252,51 +251,23 @@ function WordApp() {
                 </Link>
               </div>
               <div className='col-6 p-1 '>
-                <Link
-                  to='/link-for-item-3'
-                  className='border homeCss bg-light d-block'
-                >
-                  Word of the day
-                </Link>
-              </div>
-              <div className='col-6 p-1 '>
-                <Link
-                  to='/link-for-item-4'
-                  className='border homeCss bg-light d-block'
-                >
-                  Quiz
-                </Link>
-              </div>
-              <div className='col-6 p-1'>
-                <Link
-                  to='/link-for-item-5'
-                  className='border homeCss bg-light d-block'
-                >
-                  Total words
-                </Link>
-              </div>
-              <div className='col-6 p-1 '>
-                <Link
-                  to='/link-for-item-6'
-                  className='border homeCss bg-light d-block'
-                >
+                <Link to='/b1exam' className='border homeCss bg-light d-block'>
                   B1 Prüfung
                 </Link>
               </div>
               <div className='col-6 p-1 '>
-                <Link
-                  to='/link-for-item-7'
-                  className='border homeCss bg-light d-block'
-                >
+                <Link to='/b2exam' className='border homeCss bg-light d-block'>
+                  B2 Prüfung
+                </Link>
+              </div>
+              <div className='col-6 p-1 '>
+                <Link to='/cexam' className='border homeCss bg-light d-block'>
                   C1 Prüfung
                 </Link>
               </div>
               <div className='col-6 p-1 '>
-                <Link
-                  to='/link-for-item-8'
-                  className='border homeCss bg-light d-block'
-                >
-                  B2 Prüfung
+                <Link to='/word' className='border homeCss bg-light d-block'>
+                  Total Words
                 </Link>
               </div>
             </div>
