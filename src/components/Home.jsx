@@ -265,9 +265,9 @@ function WordApp() {
                   C1 Prüfung
                 </Link>
               </div>
-              <div className='col-6 p-1 '>
-                <Link to='/word' className='border homeCss bg-light d-block'>
-                  Total Words
+              <div className='col-6 p-1'>
+                <Link to='/germansayings' className='border homeCss bg-light d-block'>
+                  German Sayings
                 </Link>
               </div>
             </div>
