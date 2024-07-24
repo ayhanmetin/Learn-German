@@ -9,7 +9,7 @@ p {
 
 .wordDay {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 31px;
+  font-size: 36px;
 }
 
 .textWord {
@@ -195,4 +195,8 @@ p {
 .tip {
   color: #2f5a8a;
   font-size: 19px;
+}
+
+.wordMain {
+  font-size: 40px !important;
 }
