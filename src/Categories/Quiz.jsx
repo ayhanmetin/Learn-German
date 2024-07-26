@@ -15,6 +15,7 @@ const Quiz = () => {
 
   useEffect(() => {
     const shuffled = shuffle([...wordData]);
+    console.log("Initial shuffle:", shuffled);
     const batches = createBatches(shuffled, batchSize);
     setShuffledWords(batches);
     setCurrentIndex(Math.floor(Math.random() * batches[0].length));
@@ -140,6 +141,7 @@ const Quiz = () => {
     setCurrentIndex(0);
     setGameOver(false);
     const shuffled = shuffle([...wordData]);
+    console.log("Shuffle on reset:", shuffled);
     const batches = createBatches(shuffled, batchSize);
     setShuffledWords(batches);
     setBatchIndex(0);
