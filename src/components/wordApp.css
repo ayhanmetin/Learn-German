@@ -204,3 +204,15 @@ p {
 .wordMain {
   font-size: 36px !important;
 }
+
+
+@media (max-width: 768px) {
+  .mobileMain {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: justify;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.6;
+  }
+}

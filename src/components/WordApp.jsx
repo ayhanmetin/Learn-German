@@ -188,7 +188,7 @@ function WordApp() {
             </div>
           </div>
 
-          <div className='d-flex justify-content-start align-items-center'>
+          <div className='d-flex mobileMain justify-content-start align-items-center'>
             <div className='col-12'>
               <div className='d-flex justify-content-start align-items-center mb-0'>
                 <b className='mobileWord wordMain wordDay'>{`${word.article} ${word.word}`}</b>

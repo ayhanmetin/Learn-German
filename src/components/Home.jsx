@@ -81,7 +81,7 @@ function WordApp() {
 
   return (
     <>
-      <div className='d-flex flex-column'>
+      <div className='d-flex col-10 flex-column'>
         <div className=''>
           <div className='d-flex justify-content-center align-items-center mb-3'>
             <WordDay />
@@ -100,13 +100,13 @@ function WordApp() {
 
           {filteredWords.map((word, index) => (
             <div
-              className='border-bottom border-dark-subtle col-12 p-4 mb-3'
+              className=' border-dark-subtle col-10 p-4 mb-3'
               key={index}
             >
-              <div className='d-flex justify-content-center mb-3'>
-                <div className='d-flex gatext-body-emphasis'>
+              <div className='d-flex  justify-content-center mb-3'>
+                <div className='d-flex  gatext-body-emphasis'>
                   <button
-                    className='btnTop ms-0 text-body-emphasis'
+                    className='btnTop ms-0  text-body-emphasis'
                     onClick={() => handlePrint(word)}
                   >
                     <PrintIcon />
@@ -129,7 +129,7 @@ function WordApp() {
                 </div>
               </div>
 
-              <div className='d-flex justify-content-start align-items-center'>
+              <div className='d-flex  justify-content-start align-items-center'>
                 <div className=''>
                   <div className='d-flex justify-content-start align-items-center mb-3'>
                     <b className='mobileWord wordDay fs-1'>{`${word.article} ${word.word}`}</b>
@@ -145,7 +145,7 @@ function WordApp() {
                       <VoiceIcon width='22' height='22' />
                     </button>
                   </div>
-                  <div className='d-flex justify-content-start'>
+                  <div className='d-flex  justify-content-start'>
                     {' '}
                     <div className='word-container fs-4 mainBody'>
                       {word.grammar && (
@@ -234,7 +234,7 @@ function WordApp() {
             </div>
           ))}
         </div>
-        <div className='mt-4'>
+        <div className='mt-4 border-top pt-5'>
           <div className='text-center '>
             <div className='row custom-gutter custom-row-gap'>
               <div className='col-6 p-1 '>
