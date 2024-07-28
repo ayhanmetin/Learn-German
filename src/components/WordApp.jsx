@@ -149,7 +149,7 @@ function WordApp() {
   return (
     <div className='col-10'>
       <div className='container d-flex justify-content-center align-items-center'>
-        <div className='search-bar pb-2 mb-1 col-10'>
+        <div className='search-bar pb-2 mb-1 col-8'>
           <input
             type='text'
             className='form-control text-start fs-6 text fw-light'
@@ -162,14 +162,26 @@ function WordApp() {
 
       {filteredWords.map((word, index) => (
         <div className='border-bottom border-dark-subtle p-4 mb-3' key={index}>
-          <div className='d-flex justify-content-center mb-3'>
+          <div className='d-flex justify-content-start mb-3'>
             <div className='d-flex gap-3 text-body-emphasis'>
+              <button
+                className='ms-2 position-relative'
+                onClick={() => readWordAloud(word)}
+                style={{
+                  border: 'none',
+                  background: 'transparent',
+                  cursor: 'pointer',
+                }}
+              >
+                <VoiceIcon width='22' height='22' />
+              </button>
               <button
                 className='btnTop ms-0 text-body-emphasis'
                 onClick={() => handlePrint(word)}
               >
                 <PrintIcon />
               </button>
+
               <button
                 className='ms-2 btnTop ms-0 text-body-emphasis'
                 onClick={() =>
@@ -188,21 +200,10 @@ function WordApp() {
             </div>
           </div>
 
-          <div className='d-flex mobileMain justify-content-start align-items-center'>
+          <div className='margin d-flex mobileMain justify-content-start align-items-center'>
             <div className='col-12'>
               <div className='d-flex justify-content-start align-items-center mb-0'>
                 <b className='mobileWord wordMain wordDay'>{`${word.article} ${word.word}`}</b>
-                <button
-                  className='ms-2 position-relative'
-                  onClick={() => readWordAloud(word)}
-                  style={{
-                    border: 'none',
-                    background: 'transparent',
-                    cursor: 'pointer',
-                  }}
-                >
-                  <VoiceIcon width='22' height='22' />
-                </button>
               </div>
               <div className='d-flex justify-content-start'>
                 {' '}

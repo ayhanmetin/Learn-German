@@ -10,7 +10,7 @@ p {
 
 .wordDay {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 36px;
+  font-size: 31px;
 }
 
 .textWord {
@@ -138,7 +138,7 @@ p {
 
 .wordCount {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   font-style: italic;
 }
@@ -175,8 +175,6 @@ p {
 
 @media (max-width: 768px) {
   .mainBody {
-    width: 100% !important;
-    max-width: 100% !important;
     text-align: justify;
     word-wrap: break-word;
     hyphens: auto;
@@ -202,17 +200,9 @@ p {
 }
 
 .wordMain {
-  font-size: 36px !important;
+  font-size: 30px !important;
 }
 
-
-@media (max-width: 768px) {
-  .mobileMain {
-    width: 100% !important;
-    max-width: 100% !important;
-    text-align: justify;
-    word-wrap: break-word;
-    hyphens: auto;
-    line-height: 1.6;
-  }
+.marginMain {
+  margin-left: 60px  !important;
 }
