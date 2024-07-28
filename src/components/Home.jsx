@@ -82,12 +82,12 @@ function WordApp() {
   return (
     <>
       <div className='d-flex flex-column'>
-        <div className='col-12'>
+        <div className=''>
           <div className='d-flex justify-content-center align-items-center mb-3'>
             <WordDay />
           </div>
           <div className='d-flex mb-4 justify-content-center align-items-center'>
-            <div className='search-bar pb-2 mb-1 col-6 p-1 '>
+            <div className='search-bar pb-2 col-8 mb-1 p-1'>
               <input
                 type='text'
                 className='form-control text-start fs-6 text fw-light'
@@ -100,7 +100,7 @@ function WordApp() {
 
           {filteredWords.map((word, index) => (
             <div
-              className='border-bottom border-dark-subtle p-4 mb-3'
+              className='border-bottom border-dark-subtle col-12 p-4 mb-3'
               key={index}
             >
               <div className='d-flex justify-content-center mb-3'>
@@ -130,7 +130,7 @@ function WordApp() {
               </div>
 
               <div className='d-flex justify-content-start align-items-center'>
-                <div className='col-md-12'>
+                <div className=''>
                   <div className='d-flex justify-content-start align-items-center mb-3'>
                     <b className='mobileWord wordDay fs-1'>{`${word.article} ${word.word}`}</b>
                     <button
@@ -234,7 +234,7 @@ function WordApp() {
             </div>
           ))}
         </div>
-        <div className='col-12 mt-4'>
+        <div className='mt-4'>
           <div className='text-center '>
             <div className='row custom-gutter custom-row-gap'>
               <div className='col-6 p-1 '>
