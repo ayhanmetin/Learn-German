@@ -206,3 +206,22 @@ p {
 .marginMain {
   margin-left: 60px  !important;
 }
+
+@media (max-width: 768px) {
+  .mobileMain {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: justify;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.6;
+  }
+
+  body,
+  html {
+    padding: 0;
+    margin: 0;
+  }
+}
