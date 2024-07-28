@@ -12,7 +12,7 @@ import {
 } from './IconBox';
 
 function WordApp() {
-  const [visibleWordsCount, setVisibleWordsCount] = useState(10);
+  const [visibleWordsCount, setVisibleWordsCount] = useState(50);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
   const [voices, setVoices] = useState([]);
@@ -203,7 +203,7 @@ function WordApp() {
           <div className='margin d-flex mobileMain justify-content-start align-items-center'>
             <div className='col-12'>
               <div className='d-flex justify-content-start align-items-center mb-0'>
-                <b className='mobileWord wordMain wordDay'>{`${word.article} ${word.word}`}</b>
+                <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
               </div>
               <div className='d-flex justify-content-start'>
                 {' '}
@@ -297,9 +297,9 @@ function WordApp() {
         <div className='d-grid col-4 mx-auto'>
           <button
             className='loadMore text-body-emphasis'
-            onClick={() => setVisibleWordsCount(prevCount => prevCount + 20)}
+            onClick={() => setVisibleWordsCount(prevCount => prevCount + 50)}
           >
-            +20 weitere
+            +50 weitere
           </button>
         </div>
       )}
