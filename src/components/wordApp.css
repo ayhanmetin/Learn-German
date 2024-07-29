@@ -211,7 +211,7 @@ p {
   .mobileMain {
     width: 100% !important;
     max-width: 100% !important;
-    padding: 0 !important;
+    padding: 4px !important;
     margin: 0 !important;
     text-align: justify;
     word-wrap: break-word;
