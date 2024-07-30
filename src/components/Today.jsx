@@ -92,95 +92,99 @@ const Today = () => {
   };
 
   return (
-    <div className='col-10'>
-      <div className='d-flex p-5 todayButton justify-content-evenly mb-2'>
-        <button
-          className='btn fs-6 px-4 btn homeCss'
-          onClick={() => navigateDate('past')}
-        >
-          Vorherige
-        </button>
-        <div className='mt-1'>
-          <ShareButton />
+    <>
+      <div className='col-10'>
+        <div className='d-flex p-5 todayButton justify-content-evenly mb-2'>
+          <button
+            className='btn fs-6 px-4 btn homeCss'
+            onClick={() => navigateDate('past')}
+          >
+            Vorherige
+          </button>
+          <div className='mt-1'>
+            <ShareButton />
+          </div>
+          <button
+            className='btn fs-6 px-4 homeCss'
+            onClick={() => navigateDate('future')}
+          >
+            Nächste
+          </button>
         </div>
-        <button
-          className='btn fs-6 px-4 homeCss'
-          onClick={() => navigateDate('future')}
-        >
-          Nächste
-        </button>
-      </div>
-      {wordDetails ? (
-        <div className='d-flex justify-content-start align-items-center border-top'>
-          <div className='col-md-12 mt-5'>
-            <div className='d-flex justify-content-start align-items-center mb-3'>
-              <b className='mobileWord wordDay fs-1'>{`${wordDetails.article} ${wordDetails.word}`}</b>
-            </div>
-            <div className='d-flex justify-content-start'>
-              <div className='word-container fs-4 mainBody'>
-                {wordDetails.grammar && (
-                  <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
-                    {wordDetails.grammar}
-                  </p>
-                )}
-                {wordDetails.meaningENG && (
-                  <p className='textWord meaning fst-italic mt-4'>
-                    <strong>&nbsp;-</strong> {wordDetails.meaningENG}
-                  </p>
-                )}
-                {wordDetails.meaningTR && (
-                  <p className='textWord fst-italic'>
-                    <strong>&nbsp;-</strong> {wordDetails.meaningTR}
-                  </p>
-                )}
-                <div className='d-flex align-items-center gap-3'>
-                  {wordDetails.PartizipII && (
-                    <p className='textWord tense'>
-                      <span className='grammar'>Partizip II:</span>{' '}
-                      {wordDetails.PartizipII}
+        {wordDetails ? (
+          <div className='d-flex justify-content-start align-items-center border-top'>
+            <div className='col-md-12 mt-2'>
+              <div className='d-flex justify-content-start align-items-center mb-3'>
+                <b className='mobileWord wordDay fs-1'>{`${wordDetails.article} ${wordDetails.word}`}</b>
+              </div>
+              <div className='d-flex justify-content-start'>
+                <div className='word-container fs-4 mainBody'>
+                  {wordDetails.grammar && (
+                    <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-4 mt-0 pt-0'>
+                      {wordDetails.grammar}
                     </p>
                   )}
-                  {wordDetails.Präteritum && (
-                    <p className='textWord tense'>
-                      <span className='grammar'>Präteritum:</span>{' '}
-                      {wordDetails.Präteritum}
+                  {wordDetails.meaningENG && (
+                    <p className='textWord meaning fst-italic'>
+                      <strong>&nbsp;-</strong> {wordDetails.meaningENG}
                     </p>
+                  )}
+                  {wordDetails.meaningTR && (
+                    <p className='textWord fst-italic'>
+                      <strong>&nbsp;-</strong> {wordDetails.meaningTR}
+                    </p>
+                  )}
+                  <div className='d-flex align-items-center gap-3'>
+                    {wordDetails.PartizipII && (
+                      <p className='textWord tense'>
+                        <span className='grammar'>Partizip II:</span>{' '}
+                        {wordDetails.PartizipII}
+                      </p>
+                    )}
+                    {wordDetails.Präteritum && (
+                      <p className='textWord tense'>
+                        <span className='grammar'>Präteritum:</span>{' '}
+                        {wordDetails.Präteritum}
+                      </p>
+                    )}
+                  </div>
+                  {wordDetails.plural && (
+                    <p className='textWord tense'>
+                      <span className='grammar'>Plural:</span>{' '}
+                      {wordDetails.plural}
+                    </p>
+                  )}
+                  {[1, 2, 3, 4, 5].map(
+                    i =>
+                      wordDetails[`example${i}`] && (
+                        <p className='textWord' key={`example${i}`}>
+                          <strong>‣</strong> {wordDetails[`example${i}`]}
+                        </p>
+                      )
+                  )}
+                  {[1, 2, 3].map(
+                    i =>
+                      wordDetails[`tip${i}`] && (
+                        <p className='textWord mt-3' key={`tip${i}`}>
+                          <p className='tip'>&nbsp;Tips</p>
+                          <strong>&nbsp;⇢</strong> {wordDetails[`tip${i}`]}
+                        </p>
+                      )
                   )}
                 </div>
-                {wordDetails.plural && (
-                  <p className='textWord tense'>
-                    <span className='grammar'>Plural:</span>{' '}
-                    {wordDetails.plural}
-                  </p>
-                )}
-                {[1, 2, 3, 4, 5].map(
-                  i =>
-                    wordDetails[`example${i}`] && (
-                      <p className='textWord' key={`example${i}`}>
-                        <strong>‣</strong> {wordDetails[`example${i}`]}
-                      </p>
-                    )
-                )}
-                {[1, 2, 3].map(
-                  i =>
-                    wordDetails[`tip${i}`] && (
-                      <p className='textWord mt-3' key={`tip${i}`}>
-                        <p className='tip'>&nbsp;Tips</p>
-                        <strong>&nbsp;⇢</strong> {wordDetails[`tip${i}`]}
-                      </p>
-                    )
-                )}
               </div>
             </div>
           </div>
+        ) : (
+          <div className='text-center fs-4 mb-5 pb-5'>
+            <p></p>
+          </div>
+        )}
+        <div className='mt-5 pt-5'>
+          <Footer2 />
         </div>
-      ) : (
-        <div className='text-center fs-4'>
-          <p>Try navigating to another day!</p>
-        </div>
-      )}
-      <Footer2 />
-    </div>
+      </div>
+    </>
   );
 };
 
