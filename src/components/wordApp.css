@@ -176,7 +176,9 @@ p {
 @media (max-width: 768px) {
   .mainBody {
     text-align: justify;
-    word-wrap: break-word;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    white-space: nowrap;
     hyphens: auto;
     line-height: 1.6;
   }
@@ -204,7 +206,7 @@ p {
 }
 
 .marginMain {
-  margin-left: 60px  !important;
+  margin-left: 60px !important;
 }
 
 @media (max-width: 768px) {
@@ -216,6 +218,9 @@ p {
     text-align: justify;
     word-wrap: break-word;
     hyphens: auto;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    white-space: nowrap;
     line-height: 1.6;
   }
 
