@@ -148,11 +148,8 @@ a {
   align-items: center;
 }
 
-.score-item:hover {
-  transform: scale(1.25);
-}
-
 .fa-chess-knight {
   margin-bottom: 2px !important;
   font-size: 15px;
+  margin-left: 10px;
 }

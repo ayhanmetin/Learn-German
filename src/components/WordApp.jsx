@@ -147,7 +147,7 @@ function WordApp() {
   };
 
   return (
-    <div className='mobileMain col-10'>
+    <div className='mobileMain ms-5 col-10'>
       <div className='container d-flex justify-content-center align-items-center'>
         <div className='search-bar pb-2 mb-1 col-8'>
           <input
@@ -209,21 +209,21 @@ function WordApp() {
                 {' '}
                 <div className='word-container fs-4 mainBody mt-0 pt-0'>
                   {word.grammar && (
-                    <p className='fst-italic grammar fs-6 ms-1 ps-0 mb-2 mt-0 pt-0'>
+                    <p className='fst-italic grammar fs-6 ms-2 ps-0 mb-2 mt-0 pt-0'>
                       {word.grammar}
                     </p>
                   )}
 
                   {word.PartizipII && (
-                    <p className=' mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 fs-6 tense fst-italic grammar'>
-                      <span className='grammar'>▪︎ Partizip II:</span>{' '}
+                    <p className=' mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 fs-6 tense grammar'>
+                      <span className='grammar'>・Partizip II:</span>{' '}
                       {word.PartizipII}
                     </p>
                   )}
 
                   {word.Präteritum && (
-                    <p className=' ms-0 mt-0 pt-0 fs-6 flex-column tense fst-italic grammar'>
-                      <span className='grammar '>▪︎ Präteritum:</span>{' '}
+                    <p className=' ms-0 mt-0 pt-0 fs-6 flex-column tense grammar'>
+                      <span className='grammar '>・Präteritum:</span>{' '}
                       {word.Präteritum}
                     </p>
                   )}

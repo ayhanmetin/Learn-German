@@ -10,11 +10,11 @@ export default function Nav() {
   return (
     <>
       <nav
-        className='d-flex  justify-content-between align-items-center rounded-bottom px-3'
+        className='d-flex justify-content-between align-items-center rounded-bottom px-3'
         style={{ backgroundColor: 'black', height: '50px' }}
       >
         <NavLink to='/home' className='text-light nav1' aria-label='Home'>
-          <i className='me-1 fa fa-chess-knight'></i> Deutsche lernen
+          <i className='me-1 fa fa-chess-knight'></i> Deutsch lernen
         </NavLink>
         <div className='d-flex gap-5 justify-content-end align-items-center flex-grow-1 me-2'>
           <NavLink
