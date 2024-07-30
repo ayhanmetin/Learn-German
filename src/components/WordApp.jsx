@@ -230,7 +230,7 @@ function WordApp() {
 
                   {word.plural && (
                     <p className='textWord me-3 tense'>
-                      <span className='grammar'>&nbsp;◇ plural:</span> &nbsp;
+                      <span className='grammar'>&nbsp;∙ plural:</span> &nbsp;
                       {word.plural}
                     </p>
                   )}
