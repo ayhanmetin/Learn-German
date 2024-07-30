@@ -216,11 +216,10 @@ p {
     padding: 4px !important;
     margin: 0 !important;
     text-align: justify;
-    word-wrap: break-word;
     hyphens: auto;
     word-wrap: normal;
     overflow-wrap: normal;
-    white-space: nowrap;
+    white-space: normal;
     line-height: 1.6;
   }
 
