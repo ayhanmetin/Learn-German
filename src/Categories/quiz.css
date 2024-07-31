@@ -75,6 +75,8 @@
   text-overflow: ellipsis;
 }
 
+
+
 .choices {
   color: black;
   display: grid;
@@ -143,4 +145,47 @@
     font-size: 13px;
     margin-top: 20px;
   }
+}
+
+.choices2 {
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.choices2 button {
+  color: black;
+  border: none;
+  padding: 20px;
+  font-size: 19px;
+  cursor: pointer;
+  transition: none;
+  font-weight: 100;
+  min-height: 100px;
+  background-color: #f8f8f8;
+}
+
+.choices2 button:hover {
+  background-color: #f8f8f8; /* No change on hover */
+  border: none; /* No border on hover */
+  color: black; /* Keep the text color the same */
+  transition: none; 
+}
+
+.cardCss2 {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  min-height: 80px;
+}
+
+.cardCss2 h1 {
+  font-size: 45px;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

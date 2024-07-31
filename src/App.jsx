@@ -17,6 +17,7 @@ import B1exam from './components/B1exam';
 import B2exam from './components/B2exam';
 import Cexam from './components/Cexam';
 import Fun from './components/Fun';
+import TestGame from './components/TestGame';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -65,6 +66,7 @@ function App() {
                 <Route path='/basics' element={<WordApp />} />
                 <Route path='/word/:wordName' element={<WordDetail />} />
                 <Route path='/word' element={<WordList />} />
+                <Route path='/test' element={<TestGame />} />
                 <Route path='/quiz' element={<Quiz />} />
                 <Route path='/today/:wordNo' element={<Today />} />
               </Routes>

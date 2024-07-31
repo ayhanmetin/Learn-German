@@ -18,11 +18,18 @@ export default function Nav() {
         </NavLink>
         <div className='d-flex gap-5 justify-content-end align-items-center flex-grow-1 me-2'>
           <NavLink
+            to='/test'
+            className='nav1 text-light mt-0'
+            aria-label='quiz 1'
+          >
+            Quiz 1{' '}
+          </NavLink>
+          <NavLink
             to='/quiz'
             className='nav1 text-light mt-0'
-            aria-label='Quiz'
+            aria-label='Quiz 2'
           >
-            Quiz{' '}
+            Quiz 2{' '}
           </NavLink>
         </div>
       </nav>
