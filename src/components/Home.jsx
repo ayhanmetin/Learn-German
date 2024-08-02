@@ -207,7 +207,7 @@ function WordApp() {
         </div>
 
         <div className='mt-0 pt-0 d-flex justify-content-center align-items-center'>
-          <div className='col-8 text-center'>
+          <div className='col-10 text-center'>
             <div className='row custom-gutter custom-row-gap'>
               <div className='col-6 p-1'>
                 <Link to='/basics' className='border homeCss bg-light d-block'>
