@@ -13,7 +13,6 @@ import {
 } from './IconBox';
 import { Link } from 'react-router-dom';
 import WordDay from './WordDay';
-import ImageComponent from './ImageComponent';
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -83,7 +82,6 @@ function WordApp() {
   return (
     <>
       <div className='d-flex col-8 flex-column'>
-
         <div className=''>
           <div className='d-flex justify-content-center align-items-center mb-3'>
             <WordDay />
@@ -102,7 +100,6 @@ function WordApp() {
 
           {filteredWords.map((word, index) => (
             <div className=' border-dark-subtle col-10 p-4 mb-3' key={index}>
-
               <div className='d-flex justify-content-start align-items-center'>
                 <div className=''>
                   <div className='d-flex justify-content-start align-items-center mb-3'>
@@ -241,12 +238,6 @@ function WordApp() {
             </div>
           </div>
         </div>
-
-        <div className='startSpace mt-5 border'>
-          {' '}
-          <ImageComponent />{' '}
-        </div>
-
         <div className='col-12'>
           {' '}
           <Footer2 />
