@@ -255,10 +255,10 @@ function WordApp() {
               </div>
               <div className='col-6 p-1'>
                 <Link
-                  to='/germansayings'
+                  to='/sprichwörter'
                   className='border homeCss bg-light d-block'
                 >
-                  Sprichwörter
+                  Mehr...
                 </Link>
               </div>
             </div>

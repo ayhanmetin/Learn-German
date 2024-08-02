@@ -58,7 +58,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='/home' element={<Home />} />
                 <Route path='/advanced' element={<Advanced />} />
-                <Route path='/germansayings' element={<Fun />} />
+                <Route path='/sprichwörter' element={<Fun />} />
                 <Route path='/calendar' element={<Calendar />} />
                 <Route path='/b1exam' element={<B1exam />} />
                 <Route path='/b2exam' element={<B2exam />} />
