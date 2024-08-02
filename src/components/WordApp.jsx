@@ -215,14 +215,14 @@ function WordApp() {
                   )}
 
                   {word.PartizipII && (
-                    <p className=' mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 fs-6 tense grammar'>
+                    <p className=' mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 fs-6 tense'>
                       <span className='grammar'>・Partizip II:</span>{' '}
                       {word.PartizipII}
                     </p>
                   )}
 
                   {word.Präteritum && (
-                    <p className=' ms-0 mt-0 pt-0 fs-6 flex-column tense grammar'>
+                    <p className=' ms-0 mt-0 pt-0 fs-6 flex-column tense'>
                       <span className='grammar '>・Präteritum:</span>{' '}
                       {word.Präteritum}
                     </p>

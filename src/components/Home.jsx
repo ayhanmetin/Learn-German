@@ -13,6 +13,7 @@ import {
 } from './IconBox';
 import { Link } from 'react-router-dom';
 import WordDay from './WordDay';
+import ImageComponent from './ImageComponent';
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -99,10 +100,7 @@ function WordApp() {
           </div>
 
           {filteredWords.map((word, index) => (
-            <div
-              className=' border-dark-subtle col-10 p-4 mb-3'
-              key={index}
-            >
+            <div className=' border-dark-subtle col-10 p-4 mb-3' key={index}>
               <div className='d-flex  justify-content-center mb-3'>
                 <div className='d-flex  gatext-body-emphasis'>
                   <button
@@ -234,33 +232,42 @@ function WordApp() {
             </div>
           ))}
         </div>
-        <div className='mt-4 border-top pt-5'>
-  <div className='text-center'>
-    <div className='row custom-gutter custom-row-gap'>
-      <div className='col-6 p-1'>
-        <Link to='/basics' className='border homeCss bg-light d-block'>
-          B1 Words
-        </Link>
-      </div>
-      <div className='col-6 p-1'>
-        <Link to='/advanced' className='border homeCss bg-light d-block'>
-          C1 Words
-        </Link>
-      </div>
-      <div className='col-6 p-1'>
-        <Link to='/b1exam' className='border homeCss bg-light d-block'>
-          Prüfung
-        </Link>
-      </div>
-      <div className='col-6 p-1'>
-        <Link to='/germansayings' className='border homeCss bg-light d-block'>
-          Sprichwörter
-        </Link>
-      </div>
-    </div>
-  </div>
-</div>
-
+        <div className='mt-0 pt-0 d-flex justify-content-center align-items-center'>
+          <div className='col-8 text-center'>
+            <div className='row custom-gutter custom-row-gap'>
+              <div className='col-6 p-1'>
+                <Link to='/basics' className='border homeCss bg-light d-block'>
+                  B1 Words
+                </Link>
+              </div>
+              <div className='col-6 p-1'>
+                <Link
+                  to='/advanced'
+                  className='border homeCss bg-light d-block'
+                >
+                  C1 Words
+                </Link>
+              </div>
+              <div className='col-6 p-1'>
+                <Link to='/b1exam' className='border homeCss bg-light d-block'>
+                  Prüfung
+                </Link>
+              </div>
+              <div className='col-6 p-1'>
+                <Link
+                  to='/germansayings'
+                  className='border homeCss bg-light d-block'
+                >
+                  Sprichwörter
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='m-0 p-0'>
+          {' '}
+          <ImageComponent />{' '}
+        </div>
         <div className='col-12'>
           {' '}
           <Footer2 />
