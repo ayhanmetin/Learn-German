@@ -124,6 +124,18 @@ function WordApp() {
                           {word.grammar}
                         </p>
                       )}
+                      <div className='d-flex align-items-center gap-3'>
+                        {word.PartizipII && (
+                          <p className='textWord tense'>
+                            <span className='grammar'></span> {word.PartizipII}
+                          </p>
+                        )}
+                        {word.Präteritum && (
+                          <p className='textWord me-3 tense'>
+                            <span className='grammar'></span> {word.Präteritum}
+                          </p>
+                        )}
+                      </div>
                       <p className='textWord meaning fst-italic mt-4'>
                         <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                       </p>
@@ -133,21 +145,6 @@ function WordApp() {
                           <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
                         </p>
                       )}
-
-                      <div className='d-flex align-items-center gap-3'>
-                        {word.PartizipII && (
-                          <p className='textWord tense'>
-                            <span className='grammar'>Partizip II:</span>{' '}
-                            {word.PartizipII}
-                          </p>
-                        )}
-                        {word.Präteritum && (
-                          <p className='textWord me-3 tense'>
-                            <span className='grammar'>Präteritum:</span>{' '}
-                            {word.Präteritum}
-                          </p>
-                        )}
-                      </div>
 
                       {word.plural && (
                         <p className='textWord  me-3 tense'>
