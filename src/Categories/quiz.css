@@ -70,9 +70,7 @@
   color: #333;
   margin-bottom: 40px;
   font-weight: 300;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  
 }
 
 
@@ -147,6 +145,7 @@
   }
 }
 
+
 .choices2 {
   color: black;
   display: grid;
@@ -166,26 +165,11 @@
   background-color: #f8f8f8;
 }
 
-.choices2 button:hover {
-  background-color: #f8f8f8; /* No change on hover */
-  border: none; /* No border on hover */
-  color: black; /* Keep the text color the same */
+choices2:hover {
+  background-color: white;
+  border: 1px solid #007bff;
+  color: #007bff;
   transition: none; 
 }
 
-.cardCss2 {
-  padding: 30px;
-  text-align: center;
-  margin-bottom: 10px;
-  min-height: 80px;
-}
 
-.cardCss2 h1 {
-  font-size: 45px;
-  color: #333;
-  margin-bottom: 40px;
-  font-weight: 300;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}

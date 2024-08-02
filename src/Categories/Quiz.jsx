@@ -15,7 +15,7 @@ const Quiz = () => {
 
   useEffect(() => {
     const shuffled = shuffle([...wordData]);
-    console.log("Initial shuffle:", shuffled);
+    console.log('Initial shuffle:', shuffled);
     const batches = createBatches(shuffled, batchSize);
     setShuffledWords(batches);
     setCurrentIndex(Math.floor(Math.random() * batches[0].length));
@@ -129,9 +129,52 @@ const Quiz = () => {
     if (!shuffledWords[batchIndex]) {
       return 'Loading word...';
     }
+
     const currentBatch = shuffledWords[batchIndex];
-    const { article, word } = currentBatch[currentIndex] || {};
-    return article ? `${article} ${word}` : word;
+    const currentWord = currentBatch[currentIndex] || {};
+    const {
+      article,
+      word,
+      grammar,
+      PartizipII,
+      Präteritum,
+      plural,
+      meaningENG,
+      meaningTR,
+      example1,
+      example2,
+      example3,
+      example4,
+      example5,
+      tip1,
+      tip2,
+      tip3,
+    } = currentWord;
+
+    return (
+      <div className='margin d-flex mobileMain justify-content-start align-items-start'>
+        <div className='col-12'>
+          <div className='d-flex justify-content-center align-items-center mb-0'>
+            <b className='mobileWord mb-3 wordMain wordDay'>
+              {article ? `${article} ${word}` : word}
+            </b>
+          </div>
+          
+          <div className='d-flex justify-content-start'>
+            <div className='fs-4 mt-0 ms-0 pt-0 m-0 p-0 mainBody mt-0 pt-0'>
+              <div className='quizSentence col-12 d-flex flex-column mb-3'>
+                {' '}
+                {example1 && (
+                  <p className='textWord'>
+                    <strong>‣</strong> {example1}
+                  </p>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   };
 
   const resetGame = () => {
@@ -141,7 +184,7 @@ const Quiz = () => {
     setCurrentIndex(0);
     setGameOver(false);
     const shuffled = shuffle([...wordData]);
-    console.log("Shuffle on reset:", shuffled);
+    console.log('Shuffle on reset:', shuffled);
     const batches = createBatches(shuffled, batchSize);
     setShuffledWords(batches);
     setBatchIndex(0);
@@ -171,7 +214,7 @@ const Quiz = () => {
           </div>
         ) : (
           <div className='cardCss text-body-secondary'>
-            <h1 className='text-body-secondary'>{displayWord()}</h1>
+            <h1 className='text-body-secondary mb-0'>{displayWord()}</h1>
             <div className='choices text-body-secondary'>
               {choices.length ? (
                 choices.map((choice, index) => (

@@ -235,47 +235,32 @@ function WordApp() {
           ))}
         </div>
         <div className='mt-4 border-top pt-5'>
-          <div className='text-center '>
-            <div className='row custom-gutter custom-row-gap'>
-              <div className='col-6 p-1 '>
-                <Link to='/basics' className='border homeCss bg-light d-block'>
-                  B1 Words
-                </Link>
-              </div>
-              <div className='col-6 p-1 '>
-                <Link
-                  to='/advanced'
-                  className='border homeCss bg-light d-block'
-                >
-                  C1 Words
-                </Link>
-              </div>
-              <div className='col-6 p-1 '>
-                <Link to='/b1exam' className='border homeCss bg-light d-block'>
-                  B1 Prüfung
-                </Link>
-              </div>
-              <div className='col-6 p-1 '>
-                <Link to='/b2exam' className='border homeCss bg-light d-block'>
-                  B2 Prüfung
-                </Link>
-              </div>
-              <div className='col-6 p-1 '>
-                <Link to='/cexam' className='border homeCss bg-light d-block'>
-                  C1 Prüfung
-                </Link>
-              </div>
-              <div className='col-6 p-1'>
-                <Link
-                  to='/germansayings'
-                  className='border homeCss bg-light d-block'
-                >
-                  Sprichwörter
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div className='text-center'>
+    <div className='row custom-gutter custom-row-gap'>
+      <div className='col-6 p-1'>
+        <Link to='/basics' className='border homeCss bg-light d-block'>
+          B1 Words
+        </Link>
+      </div>
+      <div className='col-6 p-1'>
+        <Link to='/advanced' className='border homeCss bg-light d-block'>
+          C1 Words
+        </Link>
+      </div>
+      <div className='col-6 p-1'>
+        <Link to='/b1exam' className='border homeCss bg-light d-block'>
+          Prüfung
+        </Link>
+      </div>
+      <div className='col-6 p-1'>
+        <Link to='/germansayings' className='border homeCss bg-light d-block'>
+          Sprichwörter
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+
         <div className='col-12'>
           {' '}
           <Footer2 />
