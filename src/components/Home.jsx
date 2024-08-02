@@ -13,6 +13,7 @@ import {
 } from './IconBox';
 import { Link } from 'react-router-dom';
 import WordDay from './WordDay';
+import ImageComponent from './ImageComponent';
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -234,6 +235,9 @@ function WordApp() {
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <ImageComponent />
         </div>
         <div className='col-12'>
           {' '}
