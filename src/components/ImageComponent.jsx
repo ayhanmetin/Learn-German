@@ -16,16 +16,16 @@ const GrammarComponent = () => {
   if (!randomItem) return null; // Ensure there's data to display
 
   return (
-    <div className='margin d-flex mobileMain justify-content-start align-items-center'>
-      <div className='col-10'>
-        <div className='d-flex justify-content-center align-items-center mb-0'>
+    <div className='margin ms-3 d-flex mobileMain justify-content-start align-items-center'>
+      <div className='col-12'>
+        <div className='d-flex justify-content-start align-items-start mb-0'>
           <b className='mobileWord mb-3 wordMain wordDay'>{`${randomItem.level} - ${randomItem.topic}`}</b>
         </div>
         <div className='d-flex justify-content-start'>
           <div className='word-container fs-4 mainBody mt-0 pt-0'>
             {randomItem.multipleChoice && (
               <p className='fs-6 mt-2'>
-                <span className='grammar'>Multiple Choice:</span> {randomItem.multipleChoice}
+                <span className='grammar'></span> {randomItem.multipleChoice}
               </p>
             )}
 
@@ -99,17 +99,6 @@ const GrammarComponent = () => {
             {randomItem.tip3 && (
               <p className='textWord mt-3 fs-6'>
                 <strong>&nbsp;⇢ Tip 3:</strong> {randomItem.tip3}
-              </p>
-            )}
-            {randomItem.grammerTable && (
-              <div className='textWord mt-3'>
-                <p className='tip'>&nbsp;Grammar Table</p>
-                <div dangerouslySetInnerHTML={{ __html: randomItem.grammerTable }} />
-              </div>
-            )}
-            {randomItem.tag && (
-              <p className='textWord mt-3'>
-                <strong>&nbsp;Tag:</strong> {randomItem.tag}
               </p>
             )}
           </div>

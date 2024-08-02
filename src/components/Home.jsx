@@ -82,7 +82,8 @@ function WordApp() {
 
   return (
     <>
-      <div className='d-flex col-10 flex-column'>
+      <div className='d-flex col-8 flex-column'>
+
         <div className=''>
           <div className='d-flex justify-content-center align-items-center mb-3'>
             <WordDay />
@@ -101,31 +102,6 @@ function WordApp() {
 
           {filteredWords.map((word, index) => (
             <div className=' border-dark-subtle col-10 p-4 mb-3' key={index}>
-              <div className='d-flex  justify-content-center mb-3'>
-                <div className='d-flex  gatext-body-emphasis'>
-                  <button
-                    className='btnTop ms-0  text-body-emphasis'
-                    onClick={() => handlePrint(word)}
-                  >
-                    <PrintIcon />
-                  </button>
-                  <button
-                    className='ms-2 btnTop ms-0 text-body-emphasis'
-                    onClick={() =>
-                      navigator.clipboard.writeText(
-                        `https://www.almancakelime.com/word/${word.word}`
-                      )
-                    }
-                    style={{
-                      border: 'none',
-                      background: 'transparent',
-                      cursor: 'pointer',
-                    }}
-                  >
-                    <CopyIcon />
-                  </button>
-                </div>
-              </div>
 
               <div className='d-flex justify-content-start align-items-center'>
                 <div className=''>
@@ -232,6 +208,7 @@ function WordApp() {
             </div>
           ))}
         </div>
+
         <div className='mt-0 pt-0 d-flex justify-content-center align-items-center'>
           <div className='col-8 text-center'>
             <div className='row custom-gutter custom-row-gap'>
@@ -264,10 +241,12 @@ function WordApp() {
             </div>
           </div>
         </div>
-        <div className='startSpace m-0 p-0'>
+
+        <div className='startSpace mt-5 border'>
           {' '}
           <ImageComponent />{' '}
         </div>
+
         <div className='col-12'>
           {' '}
           <Footer2 />
