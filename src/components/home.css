@@ -28,5 +28,6 @@
   background: #b1d5ff;
 }
 
-
-
+.startSpace {
+  margin-left: 120px !important;
+}

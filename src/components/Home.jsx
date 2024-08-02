@@ -127,7 +127,7 @@ function WordApp() {
                 </div>
               </div>
 
-              <div className='d-flex  justify-content-start align-items-center'>
+              <div className='d-flex justify-content-start align-items-center'>
                 <div className=''>
                   <div className='d-flex justify-content-start align-items-center mb-3'>
                     <b className='mobileWord wordDay fs-1'>{`${word.article} ${word.word}`}</b>
@@ -264,7 +264,7 @@ function WordApp() {
             </div>
           </div>
         </div>
-        <div className='m-0 p-0'>
+        <div className='startSpace m-0 p-0'>
           {' '}
           <ImageComponent />{' '}
         </div>
