@@ -205,35 +205,50 @@ function WordApp() {
               <div className='d-flex justify-content-start align-items-center mb-0'>
                 <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
               </div>
+
+              <div className='word-container fs-4 mainBody mt-0 pt-0'>
+                <div className='d-flex grammarMain text-body-secondary flex-row mb-0'>
+                  {word.grammar && (
+                    <div className='pt-2 ps-0 pe-2'>
+                      <p className='fst-italic grammarMain text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
+                        {word.grammar}
+                        <span className='grammarMain text-body-secondary'></span>
+                      </p>
+                    </div>
+                  )}
+                  {word.PartizipII && (
+                    <div className='pt-2 pe-0'>
+                      <p className='mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 grammarMain text-body-secondary'>
+                        <span className='grammarMain text-body-secondary'>
+                          {' '}
+                          &nbsp;&nbsp; ☞ &nbsp;&nbsp; Partizip II:
+                        </span>{' '}
+                        {word.PartizipII} &nbsp;
+                      </p>
+                    </div>
+                  )}
+                  {word.Präteritum && (
+                    <div className='pt-2 pe-0'>
+                      <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
+                        <span className='grammarMain text-body-secondary '> /&nbsp;&nbsp; Präteritum:</span>{' '}
+                        {word.Präteritum}
+                      </p>
+                    </div>
+                  )}
+                  {word.plural && (
+                    <div className='pt-2 pe-0'>
+                      <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
+                        <span className='grammarMain text-body-secondary'>&nbsp;☞ &nbsp;&nbsp;  plural:</span>{' '}
+                        {word.plural}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </div>
+
               <div className='d-flex justify-content-start'>
                 {' '}
                 <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                  {word.grammar && (
-                    <p className='fst-italic grammar fs-6 ms-2 ps-0 mb-2 mt-0 pt-0'>
-                      {word.grammar}
-                    </p>
-                  )}
-
-                  {word.PartizipII && (
-                    <p className=' mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 fs-6 tense'>
-                      <span className='grammar'>・Partizip II:</span>{' '}
-                      {word.PartizipII}
-                    </p>
-                  )}
-
-                  {word.Präteritum && (
-                    <p className=' ms-0 mt-0 pt-0 fs-6 flex-column tense'>
-                      <span className='grammar '>・Präteritum:</span>{' '}
-                      {word.Präteritum}
-                    </p>
-                  )}
-
-                  {word.plural && (
-                    <p className='textWord me-3 tense'>
-                      <span className='grammar'>&nbsp;∙ plural:</span> &nbsp;
-                      {word.plural}
-                    </p>
-                  )}
                   <p className='textWord meaning fst-italic mt-2'>
                     <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                   </p>

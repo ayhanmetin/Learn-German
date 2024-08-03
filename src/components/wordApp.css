@@ -17,7 +17,7 @@ p {
   font-family: 'Libre Franklin', sans-serif;
   margin-left: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .textWord2 {
@@ -186,6 +186,7 @@ p {
 
 .grammar {
   color: #2f5a8a;
+  font-size: 17px;
 }
 
 .wordCount:hover {
