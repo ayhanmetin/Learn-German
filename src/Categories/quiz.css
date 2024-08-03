@@ -68,10 +68,7 @@
   color: #333;
   margin-bottom: 40px;
   font-weight: 300;
-  
 }
-
-
 
 .choices {
   color: black;
@@ -143,7 +140,6 @@
   }
 }
 
-
 .choices2 {
   color: black;
   display: grid;
@@ -167,7 +163,7 @@ choices2:hover {
   background-color: white;
   border: 1px solid #007bff;
   color: #007bff;
-  transition: none; 
+  transition: none;
 }
 
 .textWordQuiz {
@@ -182,4 +178,8 @@ choices2:hover {
   font-size: 51px;
 }
 
-
+@media (max-width: 768px) {
+  .wordDayQuiz {
+    font-size: 35px;
+  }
+}
