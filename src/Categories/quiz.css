@@ -4,8 +4,6 @@
 .app {
   font-family: 'Poppins', sans-serif;
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 0;
 }
 
@@ -60,7 +58,7 @@
 
 .cardCss {
   padding: 30px;
-  text-align: center;
+  text-align: start;
   margin-bottom: 10px;
   min-height: 80px;
 }
@@ -170,6 +168,18 @@ choices2:hover {
   border: 1px solid #007bff;
   color: #007bff;
   transition: none; 
+}
+
+.textWordQuiz {
+  font-family: 'Libre Franklin', sans-serif;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.wordDayQuiz {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 51px;
 }
 
 

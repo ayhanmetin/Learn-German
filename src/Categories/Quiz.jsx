@@ -154,18 +154,19 @@ const Quiz = () => {
     return (
       <div className='margin d-flex mobileMain justify-content-start align-items-start'>
         <div className='col-12'>
-          <div className='d-flex justify-content-center align-items-center mb-0'>
-            <b className='mobileWord mb-3 wordMain wordDay'>
+
+          <div className='d-flex justify-content-center align-items-center mb-3'>
+            <b className='mobileWord mb-3 wordDayQuiz'>
               {article ? `${article} ${word}` : word}
             </b>
           </div>
           
           <div className='d-flex justify-content-start'>
-            <div className='fs-4 mt-0 ms-0 pt-0 m-0 p-0 mainBody mt-0 pt-0'>
+            <div className='fs-4 mt-0 ms-0 pt-0 m-0 p-0 mt-0 pt-0'>
               <div className='quizSentence col-12 d-flex flex-column mb-3'>
                 {' '}
                 {example1 && (
-                  <p className='textWord'>
+                  <p className='textWordQuiz d-flex justify-content-start align-items-start'>
                     <strong>‣</strong> {example1}
                   </p>
                 )}
