@@ -31,7 +31,7 @@ const wordData = [
     grammar: 'verb',
     plural: '',
     PartizipII: 'abgelenkt',
-    Präteritum: '',
+    Präteritum: 'lenkte ab',
     example1: 'Er wurde durch das laute Geräusch abgelenkt.',
     example2: '',
     example3: '',

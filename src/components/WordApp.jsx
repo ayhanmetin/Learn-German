@@ -221,7 +221,7 @@ function WordApp() {
                       <p className='mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 grammarMain text-body-secondary'>
                         <span className='grammarMain text-body-secondary'>
                           {' '}
-                          &nbsp;&nbsp; ☞ &nbsp;&nbsp; Partizip II:
+                          &nbsp;&nbsp; ☞ &nbsp;&nbsp; 
                         </span>{' '}
                         {word.PartizipII} &nbsp;
                       </p>
@@ -230,7 +230,7 @@ function WordApp() {
                   {word.Präteritum && (
                     <div className='pt-2 pe-0'>
                       <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                        <span className='grammarMain text-body-secondary '> /&nbsp;&nbsp; Präteritum:</span>{' '}
+                        <span className='grammarMain text-body-secondary '> /&nbsp;&nbsp;</span>{' '}
                         {word.Präteritum}
                       </p>
                     </div>
@@ -238,7 +238,7 @@ function WordApp() {
                   {word.plural && (
                     <div className='pt-2 pe-0'>
                       <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                        <span className='grammarMain text-body-secondary'>&nbsp;☞ &nbsp;&nbsp;  plural:</span>{' '}
+                        <span className='grammarMain text-body-secondary'>&nbsp;☞ &nbsp;&nbsp; </span>{' '}
                         {word.plural}
                       </p>
                     </div>
