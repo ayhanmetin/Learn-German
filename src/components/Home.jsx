@@ -236,7 +236,7 @@ function WordApp() {
             </div>
           </div>
         </div>
-        <div>
+        <div className='col-12 p-0 m-0'>
           <ImageComponent />
         </div>
         <div className='col-12'>
