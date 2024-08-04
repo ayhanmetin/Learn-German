@@ -8,7 +8,7 @@ export default function Footer2() {
 
   return (
     <>
-      <div className='my-custom-margin mt-5 pt-5'>
+      <div className='my-custom-margin mt-5 pt-5 border-top'>
         <footer className='container d-flex flex-column flex-sm-row justify-content-between align-items-center pt-1 mt-0'>
           <ul className='list-unstyled mb-0 w-100 text-center d-flex flex-column'>
             <li>
