@@ -18,6 +18,7 @@ import B2exam from './components/B2exam';
 import Cexam from './components/Cexam';
 import Fun from './components/Fun';
 import TestGame from './components/TestGame';
+import Grammar from './components/Grammar';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -56,6 +57,7 @@ function App() {
             <div className='d-flex justify-content-center align-items-center'>
               <Routes>
                 <Route path='/' element={<Home />} />
+                <Route path='/grammar' element={<Grammar />} />
                 <Route path='/home' element={<Home />} />
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/sprichwörter' element={<Fun />} />

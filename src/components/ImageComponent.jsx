@@ -1,4 +1,5 @@
 import React from 'react';
+import './ImageComponent.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import modalverben1 from '../image2/modalverben1.png';
 import modalverben3 from '../image2/modalverben3.png';
@@ -7,7 +8,7 @@ import modalverben6 from '../image2/modalverben6.png';
 import prepo1 from '../image2/prepo1.png';
 import prepo2 from '../image2/prepo2.png';
 import prepo3 from '../image2/prepo3.png';
-
+import { Link } from 'react-router-dom';
 
 const Images = [
   modalverben1,
@@ -30,12 +31,14 @@ const ImageComponent = () => {
   return (
     <>
       <div className='col-12'>
-        <p className='card-text text-center fs-6 text-body-emphasis mt-3'>
-          📚 Deutsche Grammatik
-        </p>
+        <Link className='grammatik' to='/grammar'>
+          <p className='card-text mb-2 grammatik text-center text-body-emphasis mt-3'>
+            📚 Deutsche Grammatik
+          </p>
+        </Link>
         <div className='container mb-0 pb-0 d-flex justify-content-center align-items-center mt-1'>
           <div className='card'>
-            <a href={randomImage} target="_blank" rel="noopener noreferrer">
+            <a href={randomImage} target='_blank' rel='noopener noreferrer'>
               <img
                 src={randomImage}
                 className='card-img-top'

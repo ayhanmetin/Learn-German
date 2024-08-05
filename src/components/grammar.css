@@ -1,0 +1,15 @@
+.grammatik1 {
+  width: 100%;
+  height: auto;
+  object-fit: contain; 
+  padding: 10px; 
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px; 
+  overflow: hidden;
+  border: 0;
+}

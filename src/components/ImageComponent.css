@@ -1,0 +1,23 @@
+.card-img-top {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.grammatik {
+  font-weight: 400; 
+  list-style: none;
+  font-size: 19px;
+
+  text-decoration: none; 
+  border: none; 
+  text-decoration: none;
+}
+
