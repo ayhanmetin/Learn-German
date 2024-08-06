@@ -3,23 +3,14 @@ import { Link } from 'react-router-dom';
 import './grammar.css';
 
 // Import your images
-import modalverben1 from '../image2/modalverben1.png';
 import modalverben3 from '../image2/modalverben3.png';
-import modalverben4 from '../image2/modalverben4.png';
 import modalverben6 from '../image2/modalverben6.png';
 import prepo1 from '../image2/prepo1.png';
 import prepo2 from '../image2/prepo2.png';
-import prepo3 from '../image2/prepo3.png';
+import perfekt2 from '../image2/perfekt2.png';
+import perfekt3 from '../image2/perfekt3.png';
 
-const Images = [
-  modalverben1,
-  modalverben3,
-  modalverben4,
-  modalverben6,
-  prepo1,
-  prepo2,
-  prepo3,
-];
+const Images = [modalverben3, modalverben6, prepo1, prepo2, perfekt2, perfekt3];
 
 const Grammar = () => {
   return (

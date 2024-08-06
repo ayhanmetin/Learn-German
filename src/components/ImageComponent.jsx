@@ -3,7 +3,6 @@ import './ImageComponent.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import modalverben1 from '../image2/modalverben1.png';
 import modalverben3 from '../image2/modalverben3.png';
 import modalverben6 from '../image2/modalverben6.png';
 import prepo1 from '../image2/prepo1.png';
@@ -11,15 +10,7 @@ import prepo2 from '../image2/prepo2.png';
 import perfekt2 from '../image2/perfekt2.png';
 import perfekt3 from '../image2/perfekt3.png';
 
-const Images = [
-  modalverben1,
-  modalverben3,
-  modalverben6,
-  prepo1,
-  prepo2,
-  perfekt2,
-  perfekt3,
-];
+const Images = [modalverben3, modalverben6, prepo1, prepo2, perfekt2, perfekt3];
 
 const getRandomImage = () => {
   const randomIndex = Math.floor(Math.random() * Images.length);
