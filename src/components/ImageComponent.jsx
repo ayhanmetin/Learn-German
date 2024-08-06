@@ -9,8 +9,10 @@ import prepo1 from '../image2/prepo1.png';
 import prepo2 from '../image2/prepo2.png';
 import perfekt2 from '../image2/perfekt2.png';
 import perfekt3 from '../image2/perfekt3.png';
+import akk1 from '../image2/akk1.png';
 
-const Images = [modalverben3, modalverben6, prepo1, prepo2, perfekt2, perfekt3];
+
+const Images = [modalverben3, modalverben6, prepo1, prepo2, perfekt2, perfekt3, akk1];
 
 const getRandomImage = () => {
   const randomIndex = Math.floor(Math.random() * Images.length);
