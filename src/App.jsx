@@ -11,7 +11,6 @@ import Quiz from './Categories/Quiz';
 import WordList from './Categories/WordList';
 import WordDetail from './Categories/WordDetail';
 import Calendar from './Categories/Calendar';
-import Home from './components/Home';
 import Basics from './Categories/Basics';
 import B1exam from './components/B1exam';
 import B2exam from './components/B2exam';
@@ -19,6 +18,7 @@ import Cexam from './components/Cexam';
 import Fun from './components/Fun';
 import TestGame from './components/TestGame';
 import Grammar from './components/Grammar';
+import Home2 from './components/Home2';
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -56,9 +56,9 @@ function App() {
             </div>
             <div className='d-flex justify-content-center align-items-center'>
               <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<Home2 />} />
                 <Route path='/grammar' element={<Grammar />} />
-                <Route path='/home' element={<Home />} />
+                <Route path='/home' element={<Home2 />} />
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/sprichwörter' element={<Fun />} />
                 <Route path='/calendar' element={<Calendar />} />
