@@ -220,19 +220,7 @@ function WordApp() {
                   C1 Words
                 </Link>
               </div>
-              <div className='col-6 p-1'>
-                <Link to='/b1exam' className='border homeCss bg-light d-block'>
-                  Prüfung
-                </Link>
-              </div>
-              <div className='col-6 p-1'>
-                <Link
-                  to='/sprichwörter'
-                  className='border homeCss bg-light d-block'
-                >
-                  Mehr...
-                </Link>
-              </div>
+
             </div>
           </div>
         </div>
