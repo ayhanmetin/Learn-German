@@ -1,19 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
-import Footer2 from './Footer2';
 import './wordApp.css';
 import './home.css';
 import {
-  BookIcon,
-  BookmarkedIcon,
-  CopyIcon,
-  PrintIcon,
+ 
   VoiceIcon,
 } from './IconBox';
 import { Link } from 'react-router-dom';
 import WordDay from './WordDay';
-import ImageComponent from './ImageComponent';
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
