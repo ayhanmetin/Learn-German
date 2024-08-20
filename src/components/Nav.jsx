@@ -10,6 +10,9 @@ export default function Nav() {
     <>
       <div className='d-flex flex-column justify-content-center align-items-center'>
         <div className='p-2'>
+          <Theme2 />
+        </div>
+        <div className='pt-1'>
           <NavLink
             to='/home'
             className='text-body-secondary nav1'
@@ -19,8 +22,10 @@ export default function Nav() {
             Deutsch lernen
           </NavLink>
         </div>
-
-        <div className='p-2'>
+        <div className='p-1'>
+          <WordCountDisplay />
+        </div>
+        <div className='p-1'>
           <NavLink
             to='/quiz'
             className='nav1 text-body-secondary'
@@ -28,13 +33,6 @@ export default function Nav() {
           >
             Quiz
           </NavLink>
-        </div>
-
-        <div className='p-2'>
-          <WordCountDisplay />
-        </div>
-        <div className='p-2'>
-          <Theme2 />
         </div>
       </div>
     </>

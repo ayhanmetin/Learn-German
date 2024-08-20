@@ -27,6 +27,7 @@ function WordApp() {
   }, []);
 
   useEffect(() => {
+    // Reset filtered words when search term is cleared
     if (!searchTerm) {
       setFilteredWords([]);
     }
@@ -36,12 +37,10 @@ function WordApp() {
     const value = event.target.value.toLowerCase();
     setSearchTerm(value);
 
+    // Filtering logic
     if (value.trim()) {
-      const newFilteredWords = wordData.filter(
-        word =>
-          word.word.toLowerCase().includes(value) ||
-          word.meaningENG.toLowerCase().includes(value) ||
-          word.meaningTR.toLowerCase().includes(value)
+      const newFilteredWords = wordData.filter(word =>
+        word.word.toLowerCase().includes(value)
       );
       setFilteredWords(newFilteredWords);
     } else {
@@ -76,126 +75,116 @@ function WordApp() {
   return (
     <>
       <div className='d-flex col-8 flex-column'>
-        <div className=''>
-          <div className='d-flex justify-content-center align-items-center mb-3'>
-            <WordDay />
+        <div className='d-flex mb-4 justify-content-center align-items-center'>
+          <div className='search-bar pb-2 col-8 mb-1 p-1'>
+            <input
+              type='text'
+              className='form-control text-start fs-6 text fw-light'
+              placeholder='Search'
+              value={searchTerm}
+              onChange={handleSearch}
+            />
           </div>
-          <div className='d-flex mb-4 justify-content-center align-items-center'>
-            <div className='search-bar pb-2 col-12 mb-1 p-1'>
-              <input
-                type='text'
-                className='form-control text-start fs-6 text fw-light'
-                placeholder='Search'
-                value={searchTerm}
-                onChange={handleSearch}
-              />
-            </div>
-          </div>
+        </div>
 
-          {filteredWords.map((word, index) => (
-            <div className=' border-dark-subtle col-10 p-4 mb-3' key={index}>
-              <div className='d-flex justify-content-start align-items-center'>
-                <div className=''>
-                  <div className='d-flex justify-content-start align-items-center mb-3'>
-                    <b className='mobileWord wordDay fs-1'>{`${word.article} ${word.word}`}</b>
-                    <button
-                      className='ms-2 position-relative'
-                      onClick={() => readWordAloud(word)}
-                      style={{
-                        border: 'none',
-                        background: 'transparent',
-                        cursor: 'pointer',
-                      }}
-                    >
-                      <VoiceIcon width='22' height='22' />
-                    </button>
-                  </div>
-                  <div className='d-flex  justify-content-start'>
-                    {' '}
-                    <div className='word-container fs-4 mainBody'>
-                      {word.grammar && (
-                        <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-4 mt-0 pt-0 mb-4'>
-                          {word.grammar}
-                        </p>
-                      )}
-                      <div className='d-flex align-items-center gap-3'>
-                        {word.PartizipII && (
-                          <p className='textWord tense'>
-                            <span className='grammar'></span> {word.PartizipII}
-                          </p>
-                        )}
-                        {word.Präteritum && (
-                          <p className='textWord me-3 tense'>
-                            <span className='grammar'></span> {word.Präteritum}
-                          </p>
-                        )}
-                      </div>
-                      <p className='textWord meaning fst-italic mt-4'>
-                        <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
+        {filteredWords.length > 0 ? (
+          filteredWords.map((word, index) => (
+            <div className='border-dark-subtle col-10 p-4 mb-3' key={index}>
+              <div className='d-flex flex-column'>
+                <div className='d-flex justify-content-between align-items-center mb-3'>
+                  <b className='mobileWord wordDay fs-1'>{`${word.article} ${word.word}`}</b>
+                  <button
+                    className='ms-2 position-relative'
+                    onClick={() => readWordAloud(word)}
+                    style={{
+                      border: 'none',
+                      background: 'transparent',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    <VoiceIcon width='22' height='22' />
+                  </button>
+                </div>
+                <div className='d-flex flex-column'>
+                  {word.grammar && (
+                    <p className='fst-italic grammar fs-5 ms-0 ps-0 mb-4'>
+                      {word.grammar}
+                    </p>
+                  )}
+                  <div className='d-flex align-items-center gap-3 mb-4'>
+                    {word.PartizipII && (
+                      <p className='textWord tense'>
+                        <span className='grammar'></span> {word.PartizipII}
                       </p>
-
-                      {word.meaningTR && (
-                        <p className='textWord fst-italic'>
-                          <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
-                        </p>
-                      )}
-
-                      {word.plural && (
-                        <p className='textWord  me-3 tense'>
-                          <span className='grammar'>&nbsp;plural</span> &nbsp;
-                          {word.plural}
-                        </p>
-                      )}
-
-                      {word.example1 && (
-                        <p className='textWord'>
-                          <strong>‣</strong> {word.example1}
-                        </p>
-                      )}
-                      {word.example2 && (
-                        <p className='textWord'>
-                          <strong>‣</strong> {word.example2}
-                        </p>
-                      )}
-                      {word.example3 && (
-                        <p className='textWord'>
-                          <strong>‣</strong> {word.example3}
-                        </p>
-                      )}
-                      {word.example4 && (
-                        <p className='textWord'>
-                          <strong>‣</strong> {word.example4}
-                        </p>
-                      )}
-                      {word.example5 && (
-                        <p className='textWord'>
-                          <strong>‣</strong> {word.example5}
-                        </p>
-                      )}
-
-                      {word.tip1 && (
-                        <p className='textWord mt-3'>
-                          <p className='tip'>&nbsp;Tips</p>
-                          <strong>&nbsp;⇢</strong> {word.tip1}
-                        </p>
-                      )}
-                      {word.tip2 && (
-                        <p className='textWord mt-3'>
-                          <strong>&nbsp;⇢</strong> {word.tip2}
-                        </p>
-                      )}
-                      {word.tip3 && (
-                        <p className='textWord mt-3'>
-                          <strong>&nbsp;⇢</strong> {word.tip3}
-                        </p>
-                      )}
-                    </div>
+                    )}
+                    {word.Präteritum && (
+                      <p className='textWord me-3 tense'>
+                        <span className='grammar'></span> {word.Präteritum}
+                      </p>
+                    )}
                   </div>
+                  <p className='textWord meaning fst-italic mt-4'>
+                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
+                  </p>
+                  {word.meaningTR && (
+                    <p className='textWord fst-italic'>
+                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                    </p>
+                  )}
+                  {word.plural && (
+                    <p className='textWord me-3 tense'>
+                      <span className='grammar'>&nbsp;plural</span> &nbsp;
+                      {word.plural}
+                    </p>
+                  )}
+                  {word.example1 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example1}
+                    </p>
+                  )}
+                  {word.example2 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example2}
+                    </p>
+                  )}
+                  {word.example3 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example3}
+                    </p>
+                  )}
+                  {word.example4 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example4}
+                    </p>
+                  )}
+                  {word.example5 && (
+                    <p className='textWord'>
+                      <strong>‣</strong> {word.example5}
+                    </p>
+                  )}
+                  {word.tip1 && (
+                    <p className='textWord mt-3'>
+                      <p className='tip'>&nbsp;Tips</p>
+                      <strong>&nbsp;⇢</strong> {word.tip1}
+                    </p>
+                  )}
+                  {word.tip2 && (
+                    <p className='textWord mt-3'>
+                      <strong>&nbsp;⇢</strong> {word.tip2}
+                    </p>
+                  )}
+                  {word.tip3 && (
+                    <p className='textWord mt-3'>
+                      <strong>&nbsp;⇢</strong> {word.tip3}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+          ))
+        ) : (
+          <p className='text-center'>No words found</p>
+        )}
 
         <div className='mt-0 pt-0 d-flex flex-column justify-content-center align-items-center'>
           <div className='col-12 text-center'>
