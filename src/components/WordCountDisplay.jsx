@@ -1,20 +1,13 @@
 // WordCountDisplay.jsx
 import React from 'react';
 import wordData from '../wordData';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const WordCountDisplay = () => {
   const wordCount = wordData.length;
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'start',
-        alignItems: 'start',
-      }}
-    >
+    <div>
       <h3 className='wordCount ms-3 mt-3 mb-0'>
         <Link
           to='/word'

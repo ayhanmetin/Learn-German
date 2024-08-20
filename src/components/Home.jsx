@@ -7,6 +7,10 @@ import { VoiceIcon } from './IconBox';
 import { Link } from 'react-router-dom';
 import WordDay from './WordDay';
 import Footer2 from './Footer2';
+import WordCountDisplay from './WordCountDisplay';
+import { NavLink } from 'react-router-dom';
+import './nav.css';
+
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -75,8 +79,8 @@ function WordApp() {
   return (
     <>
       <div className='d-flex col-8 flex-column'>
-        <div className='d-flex mb-4 justify-content-center align-items-center'>
-          <div className='search-bar pb-2 col-8 mb-1 p-1'>
+        <div className='d-flex mb-1 justify-content-start align-items-start'>
+          <div className='search-bar pb-2 col-10 mb-1 p-1'>
             <input
               type='text'
               className='form-control text-start fs-6 text fw-light'
@@ -92,7 +96,7 @@ function WordApp() {
             <div className='border-dark-subtle col-10 p-4 mb-3' key={index}>
               <div className='d-flex flex-column'>
                 <div className='d-flex justify-content-between align-items-center mb-3'>
-                  <b className='mobileWord wordDay fs-1'>{`${word.article} ${word.word}`}</b>
+                  <b className='fs-1'>{`${word.article} ${word.word}`}</b>
                   <button
                     className='ms-2 position-relative'
                     onClick={() => readWordAloud(word)}
@@ -183,29 +187,40 @@ function WordApp() {
             </div>
           ))
         ) : (
-          <p className='text-center'>No words found</p>
+          <p className='text-center'></p>
         )}
 
-        <div className='mt-0 pt-0 d-flex flex-column justify-content-center align-items-center'>
-          <div className='col-12 text-center'>
-            <div className='d-flex flex-column justify-content-center align-items-center'>
-              <div className='col-6 p-1'>
-                <Link to='/basics' className='border homeCss bg-light d-block'>
+        <div className='mt-0 pt-0 d-flex flex-column justify-content-start align-items-start'>
+          <div className='col-12 text-center fanav'>
+            <div className='d-flex flex-column justify-content-start align-items-start'>
+              <div className='d-flex flex-column justify-content-start align-items-start'>
+                <div className='p-1'>
+                  <NavLink
+                    to='/quiz'
+                    className='nav1 fanav text-body-secondary'
+                    aria-label='Quiz 2'
+                  >
+                    Quiz
+                  </NavLink>
+                </div>
+              </div>
+              <div className='col-6 p-1 fanav'>
+                <WordCountDisplay />
+              </div>
+              <div className='col-6 p-1 fanav'>
+                <Link to='/basics' className=' homeCss bg-light d-block'>
                   B1 Words
                 </Link>
               </div>
-              <div className='col-6 p-1'>
-                <Link
-                  to='/advanced'
-                  className='border homeCss bg-light d-block'
-                >
+              <div className='col-6 p-1 fanav'>
+                <Link to='/advanced' className=' homeCss bg-light d-block'>
                   C1 Words
                 </Link>
               </div>
+              <p className='col-6 p-1 fanav'>Ayhan Metin</p>
             </div>
           </div>
         </div>
-        <Footer2 />
       </div>
     </>
   );
