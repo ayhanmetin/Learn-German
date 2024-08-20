@@ -54,9 +54,8 @@ function App() {
             <div className='mt-0 mb-4'>
               <Nav />
             </div>
-            <div className='d-flex justify-content-center align-items-center'>
+            <div className=''>
               <Routes>
-                <Route path='/' element={<Home />} />
                 <Route path='/grammar' element={<Grammar />} />
                 <Route path='/home' element={<Home />} />
                 <Route path='/advanced' element={<Advanced />} />

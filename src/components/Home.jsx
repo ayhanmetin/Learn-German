@@ -78,8 +78,8 @@ function WordApp() {
 
   return (
     <>
-      <div className='d-flex col-8 flex-column'>
-        <div className='d-flex mb-1 justify-content-start align-items-start'>
+      <div className='d-flex col-12  flex-column'>
+        <div className='d-flex mb-1 justify-content-center align-items-center'>
           <div className='search-bar pb-2 col-10 mb-1 p-1'>
             <input
               type='text'
@@ -190,10 +190,10 @@ function WordApp() {
           <p className='text-center'></p>
         )}
 
-        <div className='mt-0 pt-0 d-flex flex-column justify-content-start align-items-start'>
+        <div className='mt-0 pt-0 d-flex flex-column justify-content-center align-items-center'>
           <div className='col-12 text-center fanav'>
-            <div className='d-flex flex-column justify-content-start align-items-start'>
-              <div className='d-flex flex-column justify-content-start align-items-start'>
+            <div className='d-flex flex-column justify-content-center align-items-center'>
+              <div className='d-flex flex-column justify-content-center align-items-center'>
                 <div className='p-1'>
                   <NavLink
                     to='/quiz'
@@ -204,9 +204,7 @@ function WordApp() {
                   </NavLink>
                 </div>
               </div>
-              <div className='col-6 p-1 fanav'>
-                <WordCountDisplay />
-              </div>
+             
               <div className='col-6 p-1 fanav'>
                 <Link to='/basics' className=' homeCss bg-light d-block'>
                   B1 Words
@@ -217,7 +215,6 @@ function WordApp() {
                   C1 Words
                 </Link>
               </div>
-              <p className='col-6 p-1 fanav'>Ayhan Metin</p>
             </div>
           </div>
         </div>
