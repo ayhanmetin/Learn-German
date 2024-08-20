@@ -14,7 +14,7 @@ export default function Footer2() {
             <li>
               <p className='mb-1 mt-5'>© 2024 Ayhan Metin</p>
               <div className='d-flex justify-content-center align-items-center'>
-                <p className='mb-5 me-3 mt-1 text-body-secondary'>
+                {/* <p className='mb-5 me-3 mt-1 text-body-secondary'>
                   <a
                     href={xUrl}
                     target='_blank'
@@ -27,7 +27,7 @@ export default function Footer2() {
                   >
                     <XIcon />
                   </a>
-                </p>
+                </p> */}
               </div>
             </li>
           </ul>

@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home2 = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
-      <header className="bg-dark text-white text-center py-3">
-        <h1>My Home2</h1>
+      <header className="text-center py-3">
+        <h3>My Home2</h3>
       </header>
       <main className="flex-grow-1 d-flex justify-content-center align-items-center py-3">
         <section className="container">

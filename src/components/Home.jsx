@@ -3,12 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
 import './home.css';
-import {
- 
-  VoiceIcon,
-} from './IconBox';
+import { VoiceIcon } from './IconBox';
 import { Link } from 'react-router-dom';
 import WordDay from './WordDay';
+import Footer2 from './Footer2';
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -199,9 +197,9 @@ function WordApp() {
           ))}
         </div>
 
-        <div className='mt-0 pt-0 d-flex justify-content-center align-items-center'>
+        <div className='mt-0 pt-0 d-flex flex-column justify-content-center align-items-center'>
           <div className='col-12 text-center'>
-            <div className='row custom-gutter custom-row-gap'>
+            <div className='d-flex flex-column justify-content-center align-items-center'>
               <div className='col-6 p-1'>
                 <Link to='/basics' className='border homeCss bg-light d-block'>
                   B1 Words
@@ -215,12 +213,10 @@ function WordApp() {
                   C1 Words
                 </Link>
               </div>
-
             </div>
           </div>
         </div>
-        
-        
+        <Footer2 />
       </div>
     </>
   );
