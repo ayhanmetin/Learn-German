@@ -5,8 +5,6 @@ import './wordApp.css';
 import './home.css';
 import { VoiceIcon } from './IconBox';
 import { Link } from 'react-router-dom';
-import WordDay from './WordDay';
-import Footer2 from './Footer2';
 import WordCountDisplay from './WordCountDisplay';
 import { NavLink } from 'react-router-dom';
 import './nav.css';
