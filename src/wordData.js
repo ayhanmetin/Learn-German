@@ -1,28 +1,7 @@
 //teilen
 
 const wordData = [
-  {
-    date: '',
-    wordNo: '',
-    article: '',
-    word: '',
-    grammar: '',
-    plural: '',
-    PartizipII: '',
-    Präteritum: '',
-    example1: '',
-    example2: '',
-    example3: '',
-    example4: '',
-    example5: '',
-    meaningENG: '',
-    meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
-  },
+  
   {
     date: '',
     wordNo: '',

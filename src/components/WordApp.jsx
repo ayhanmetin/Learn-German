@@ -147,7 +147,7 @@ function WordApp() {
   };
 
   return (
-    <div className=' mobileMain ms-5 col-8'>
+    <div className=' mobileMain col-12'>
       <div className='container d-flex justify-content-center align-items-center'>
         <div className='search-bar pb-2 mb-1 col-8'>
           <input
