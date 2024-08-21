@@ -64,11 +64,6 @@ a {
   transition: color 0.3s, transform 0.3s;
 }
 
-.nav-item a:hover,
-.nav-item a:focus {
-  transform: scale(1.1); /* Slightly enlarges the text on hover/focus */
-}
-
 .altNav {
   display: flex;
   justify-content: center;
@@ -99,10 +94,6 @@ a {
   border-bottom: 1px solid transparent;
   transition: border-color 0.3s;
   font-size: 19px;
-}
-
-.altNav2:hover {
-  border-bottom: 1px solid #b1d5ff;
 }
 
 .text-white,
@@ -165,4 +156,23 @@ a {
 
 .search-bar input::placeholder {
   text-align: center;
+}
+
+.wordCount {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+  color: inherit;
+}
+
+.wordCount a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wordCount a:hover {
+  text-decoration: none;
+  color: inherit;
 }

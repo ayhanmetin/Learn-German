@@ -8,16 +8,14 @@ const WordCountDisplay = () => {
 
   return (
     <div>
-      <h3 className='wordCount ms-3 mt-3 mb-0'>
+      <h3 className='wordCount'>
         <Link
           to='/word'
           style={{
             textDecoration: 'none',
             color: 'inherit',
-            padding: '0',
             height: 'fit-content',
             display: 'inline',
-            marginRight: '5px',
           }}
         >
           Total words: {wordCount}

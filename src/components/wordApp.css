@@ -141,6 +141,7 @@ p {
   font-size: 14px;
   font-weight: 400;
   font-style: italic;
+  margin-top: 5px;
 }
 
 .search-bar input[type='text'] {
