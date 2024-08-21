@@ -11,7 +11,6 @@ import WordCountDisplay from './WordCountDisplay';
 import { NavLink } from 'react-router-dom';
 import './nav.css';
 
-
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
@@ -80,7 +79,7 @@ function WordApp() {
     <>
       <div className='d-flex col-12  flex-column'>
         <div className='d-flex mb-1 justify-content-center align-items-center'>
-          <div className='search-bar pb-2 col-10 mb-1 p-1'>
+          <div className='search-bar pb-2 col-4 mb-1 p-1'>
             <input
               type='text'
               className='form-control text-start fs-6 text fw-light'
@@ -190,31 +189,22 @@ function WordApp() {
           <p className='text-center'></p>
         )}
 
-        <div className='mt-0 pt-0 d-flex flex-column justify-content-center align-items-center'>
-          <div className='col-12 text-center fanav'>
-            <div className='d-flex flex-column justify-content-center align-items-center'>
-              <div className='d-flex flex-column justify-content-center align-items-center'>
-                <div className='p-1'>
-                  <NavLink
-                    to='/quiz'
-                    className='nav1 fanav text-body-secondary'
-                    aria-label='Quiz 2'
-                  >
-                    Quiz
-                  </NavLink>
-                </div>
-              </div>
-             
-              <div className='col-6 p-1 fanav'>
-                <Link to='/basics' className=' homeCss bg-light d-block'>
-                  B1 Words
-                </Link>
-              </div>
-              <div className='col-6 p-1 fanav'>
-                <Link to='/advanced' className=' homeCss bg-light d-block'>
-                  C1 Words
-                </Link>
-              </div>
+        <div className='container'>
+          <div className='d-flex justify-content-center'>
+            <div className='d-flex flex-row gap-5'>
+              <NavLink
+                to='/quiz'
+                className='p-1 homeCss text-start'
+                aria-label='Quiz 2'
+              >
+                Quiz
+              </NavLink>
+              <Link to='/basics' className='p-1 homeCss bg-light text-start'>
+                B1 Words
+              </Link>
+              <Link to='/advanced' className='p-1 homeCss bg-light text-start'>
+                C1 Words
+              </Link>
             </div>
           </div>
         </div>

@@ -17,16 +17,24 @@
   text-decoration: none;
   color: inherit;
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 19px;
-  margin-bottom: 10px;
 }
 
-.homeCss:hover {
-  color: #0056b3;
-  border-bottom: 1px solid #b1d5ff;
-  transform: scale(1.03);
-  background: #b1d5ff;
+.homeCss {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+  color: inherit;
 }
 
+.homeCss a {
+  text-decoration: none;
+  color: inherit;
+}
 
+.homeCss a:hover {
+  text-decoration: none;
+  color: inherit;
+}
 
