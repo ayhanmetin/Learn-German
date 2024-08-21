@@ -58,6 +58,7 @@ function App() {
               <Routes>
                 <Route path='/grammar' element={<Grammar />} />
                 <Route path='/home' element={<Home />} />
+                <Route path='/' element={<Home />} />
                 <Route path='/advanced' element={<Advanced />} />
                 <Route path='/sprichwörter' element={<Fun />} />
                 <Route path='/calendar' element={<Calendar />} />
