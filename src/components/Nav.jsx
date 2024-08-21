@@ -9,7 +9,7 @@ export default function Nav() {
 
   return (
     <>
-      <div className='p-0 m-0 wordCount d-flex justify-content-center align-items-center'>
+      <div className='pt-0 mt-4 wordCount d-flex justify-content-center align-items-center'>
         <Theme2 />
       </div>
       <div className='d-flex flex-row mb-3 mt-0 justify-content-center align-items-center'>
