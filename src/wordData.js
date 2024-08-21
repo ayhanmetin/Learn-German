@@ -1,7 +1,29 @@
 //teilen
 
 const wordData = [
-  
+  {
+    date: '',
+    wordNo: '',
+    article: '',
+    word: 'aussuchen',
+    grammar: '',
+    plural: '',
+    PartizipII: 'ausgesucht',
+    Präteritum: 'suchte aus',
+    example1: 'Wie sucht man sich den richtigen Arzt aus?',
+    example2: 'Ich bin sehr stolz auf die Arbeit, die ich mir selbst aussuchte.',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'to choose, to select',
+    meaningTR: '',
+    tip1: '',
+    tip2: '',
+    tip3: '',
+    tag: 'basics',
+    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+  },
+
   {
     date: '',
     wordNo: '',
@@ -228,9 +250,9 @@ const wordData = [
     date: '',
     wordNo: '',
     article: '',
-    word: '',
-    grammar: 'umgangssprachlich',
-    plural: 'adjektiv',
+    word: 'umgangssprachlich',
+    grammar: 'adjektiv',
+    plural: '',
     PartizipII: '',
     Präteritum: '',
     example1:

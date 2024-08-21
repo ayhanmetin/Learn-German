@@ -12,8 +12,8 @@ const WordList = () => {
   };
 
   return (
-    <div className='col-11 mb-5 word-list border-top'>
-      <div className='text-start'>
+    <div className='col-12 mb-5 word-list border-top'>
+      <div className='text-center mt-3'>
         {wordData.map((word, index) => (
           <React.Fragment key={index}>
             <span

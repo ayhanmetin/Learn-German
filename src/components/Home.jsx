@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import WordCountDisplay from './WordCountDisplay';
 import { NavLink } from 'react-router-dom';
 import './nav.css';
+import WordList from '../Categories/WordList';
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -205,6 +206,9 @@ function WordApp() {
               </Link>
             </div>
           </div>
+        </div>
+        <div className='mt-2 pt-5'>
+          <WordList />
         </div>
       </div>
     </>
