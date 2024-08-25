@@ -78,7 +78,7 @@ function WordApp() {
     <>
       <div className='d-flex col-12  flex-column'>
         <div className='d-flex mb-1 justify-content-center align-items-center'>
-          <div className='search-bar pb-2 col-4 mb-1 p-1'>
+          <div className='search-bar pb-2 col-8 mb-1 p-1'>
             <input
               type='text'
               className='form-control text-start fs-6 text fw-light'
