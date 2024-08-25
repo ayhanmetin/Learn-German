@@ -5,6 +5,27 @@ const wordData = [
     date: '',
     wordNo: '',
     article: '',
+    word: 'durchsetzen',
+    grammar: 'verb',
+    plural: '',
+    PartizipII: 'durchgesetzt',
+    Präteritum: 'setzte durch',
+    example1: 'Sie setzt immer ihren Willen durch.',
+    example2: 'Ich habe mich mit meinem Vorschlag durchgesetzt.',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'to enforce, to implement',
+    meaningTR: '',
+    tip1: '',
+    tip2: '',
+    tip3: '',
+    tag: 'basics',
+  },
+  {
+    date: '',
+    wordNo: '',
+    article: '',
     word: 'ausreichen',
     grammar: 'verb',
     plural: '',
@@ -21,19 +42,18 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
-    },
+  },
   {
     date: '',
     wordNo: '',
     article: '',
     word: 'annehmen',
-    grammar: 'verbt6',
+    grammar: 'verb',
     plural: '',
     PartizipII: 'angenommen',
     Präteritum: 'nahm an',
     example1: 'Ich nehme an, dass er heute nicht mehr kommt.',
-    example2: 'Er sagt, er denkt, dass ich einverstanden bin.',
+    example2: 'Er sagt, er nimmt an, dass ich einverstanden bin.',
     example3: 'Ich habe die neue Stelle angenommen.',
     example4: '',
     example5: '',
@@ -43,7 +63,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -65,7 +84,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -87,7 +105,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -109,7 +126,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -131,7 +147,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -154,7 +169,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -176,7 +190,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -199,9 +212,7 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
-
   {
     date: '',
     wordNo: '',
@@ -222,14 +233,13 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
     wordNo: '',
     article: '',
     word: 'aussuchen',
-    grammar: '',
+    grammar: 'verb',
     plural: '',
     PartizipII: 'ausgesucht',
     Präteritum: 'suchte aus',
@@ -245,9 +255,7 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
-
   {
     date: '',
     wordNo: '',
@@ -268,7 +276,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -290,7 +297,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -312,7 +318,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -334,7 +339,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -356,7 +360,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -378,7 +381,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -400,7 +402,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -422,7 +423,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -445,7 +445,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -468,7 +467,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -491,7 +489,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -514,7 +511,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -537,7 +533,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -559,7 +554,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -581,7 +575,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -604,7 +597,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -626,7 +618,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -648,7 +639,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -670,7 +660,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -692,7 +681,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -714,7 +702,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -736,7 +723,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -758,7 +744,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -780,7 +765,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -802,7 +786,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -825,7 +808,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -847,7 +829,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -869,7 +850,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -891,7 +871,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -913,7 +892,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -935,7 +913,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -957,7 +934,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -979,7 +955,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1001,7 +976,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1023,7 +997,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1045,7 +1018,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1067,7 +1039,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1089,7 +1060,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1111,7 +1081,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1134,7 +1103,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1156,7 +1124,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
 
   {
@@ -1179,7 +1146,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1201,7 +1167,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1223,7 +1188,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1245,7 +1209,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1267,7 +1230,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1289,7 +1251,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1311,7 +1272,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1334,7 +1294,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1356,7 +1315,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1378,7 +1336,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1400,7 +1357,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
 
   {
@@ -1423,7 +1379,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1445,7 +1400,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
 
   {
@@ -1468,7 +1422,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
 
   {
@@ -1491,7 +1444,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
 
   {
@@ -1514,7 +1466,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
 
   {
@@ -1537,7 +1488,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
 
   {
@@ -1560,7 +1510,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
   {
     date: '',
@@ -1571,7 +1520,7 @@ const wordData = [
     article: '',
     word: 'einige',
     grammar: 'pronomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich habe einige Bücher gelesen.',
     example2: '',
     example3: '',
@@ -1593,7 +1542,7 @@ const wordData = [
     article: '',
     word: 'dauern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Das Konzert dauert drei Stunden.',
     example2: '',
     example3: '',
@@ -1616,7 +1565,7 @@ const wordData = [
     article: '',
     word: 'fleißig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -1638,7 +1587,7 @@ const wordData = [
     article: '',
     word: 'angenehm',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -1661,7 +1610,7 @@ const wordData = [
     article: 'der',
     word: 'Inhalt',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -1684,7 +1633,7 @@ const wordData = [
     article: '',
     word: 'verändern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -1707,7 +1656,7 @@ const wordData = [
     article: 'die',
     word: 'Fähigkeit',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Sie hat die Fähigkeit, schnell zu lernen.',
     example2:
       'Die Fähigkeit, komplexe Probleme zu lösen, ist in der modernen Arbeitswelt sehr gefragt.',
@@ -1731,7 +1680,7 @@ const wordData = [
     article: '',
     word: 'vorbei',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -1754,7 +1703,7 @@ const wordData = [
     article: '',
     word: 'inbegriffen',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -1777,7 +1726,7 @@ const wordData = [
     article: '',
     word: 'drehen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -1800,7 +1749,7 @@ const wordData = [
     article: 'das',
     word: 'Ergebnis',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example2: 'Das Ergebnis des Tests war positiv.',
     example1:
       'Du bist zur Zeit nicht angemeldet. Wenn du das Ergebnis speichern möchtest, melde dich jetzt an.',
@@ -1824,7 +1773,7 @@ const wordData = [
     article: '',
     word: 'gruselig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Der Film war wirklich gruselig.',
     example2: '',
     example3: '',
@@ -1847,7 +1796,7 @@ const wordData = [
     article: '',
     word: 'überraschend',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Das Ergebnis war überraschend.',
     example2: '',
     example3: '',
@@ -1870,7 +1819,7 @@ const wordData = [
     article: '',
     word: 'bewegend',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Rede war sehr bewegend.',
     example2: '',
     example3: '',
@@ -1893,7 +1842,7 @@ const wordData = [
     article: '',
     word: 'aufregend',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Der Film war aufregend.',
     example2: '',
     example3: '',
@@ -1916,7 +1865,7 @@ const wordData = [
     article: '',
     word: 'vervollständigen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir müssen das Formular vervollständigen.',
     example2: '',
     example3: '',
@@ -1939,7 +1888,7 @@ const wordData = [
     article: 'der',
     word: 'Vertrag',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Der Vertrag wurde erfolgreich gekündigt. Eine Bestätigung erhältst du in Kürze hier im Kundencenter und per E-mail.',
     example2: '',
@@ -1962,7 +1911,7 @@ const wordData = [
     article: '',
     word: 'ewig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Das dauert ewig.',
     example2: '',
     example3: '',
@@ -1984,7 +1933,7 @@ const wordData = [
     article: '',
     word: 'verlieren',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Er kann seine Schlüssel nicht finden; er hat sie verloren.',
     example2: '',
     example3: '',
@@ -2007,7 +1956,7 @@ const wordData = [
     article: 'die',
     word: 'Zeile',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2030,7 +1979,7 @@ const wordData = [
     article: 'die',
     word: 'Spalte',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2053,7 +2002,7 @@ const wordData = [
     article: '',
     word: 'umgekehrt',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2076,7 +2025,7 @@ const wordData = [
     article: 'die',
     word: 'Bemerkung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2099,7 +2048,7 @@ const wordData = [
     article: 'das',
     word: 'Gebiet',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2122,7 +2071,7 @@ const wordData = [
     article: '',
     word: 'zahlreich',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2145,7 +2094,7 @@ const wordData = [
     article: '',
     word: 'riesig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2168,7 +2117,7 @@ const wordData = [
     article: 'das',
     word: 'Verkehrssystem',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2191,7 +2140,7 @@ const wordData = [
     article: '',
     word: 'gerecht',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2214,7 +2163,7 @@ const wordData = [
     article: '',
     word: 'verständnisvoll',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2237,7 +2186,7 @@ const wordData = [
     article: 'die',
     word: 'Eigenschaft',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Geduld ist eine wichtige Eigenschaft.',
     example2: '',
     example3: '',
@@ -2260,7 +2209,7 @@ const wordData = [
     article: 'die',
     word: 'Ermäßigung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Studenten erhalten eine Ermäßigung im Museum.',
     example2: '',
     example3: '',
@@ -2283,7 +2232,7 @@ const wordData = [
     article: 'die',
     word: 'Veränderung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2306,7 +2255,7 @@ const wordData = [
     article: '',
     word: 'derselbe',
     grammar: 'pronomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2329,7 +2278,7 @@ const wordData = [
     article: 'der',
     word: 'Unterricht',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2352,7 +2301,7 @@ const wordData = [
     article: '',
     word: 'gemütlich',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2375,7 +2324,7 @@ const wordData = [
     article: '',
     word: 'hinfallen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2398,7 +2347,7 @@ const wordData = [
     article: '',
     word: 'ähnlichen',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2421,7 +2370,7 @@ const wordData = [
     article: 'das',
     word: 'Gespräch',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2444,7 +2393,7 @@ const wordData = [
     article: '',
     word: 'bekannt',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2467,7 +2416,7 @@ const wordData = [
     article: 'der',
     word: 'Reifen',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Der Reifen ist platt.',
     example2: '',
     example3: '',
@@ -2490,7 +2439,7 @@ const wordData = [
     article: '',
     word: 'hüllen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2513,7 +2462,7 @@ const wordData = [
     article: '',
     word: 'liefern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: ' Der Laden liefert die Möbel direkt nach Hause.',
     example2: '',
     example3: '',
@@ -2536,7 +2485,7 @@ const wordData = [
     article: '',
     word: 'herunterfallen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2559,7 +2508,7 @@ const wordData = [
     article: 'die',
     word: 'Ware',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Ware wird morgen geliefert.',
     example2: '',
     example3: '',
@@ -2582,7 +2531,7 @@ const wordData = [
     article: 'die',
     word: 'Ratenzahlung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Sie hat das Sofa per Ratenzahlung gekauft.',
     example2: '',
     example3: '',
@@ -2605,7 +2554,7 @@ const wordData = [
     article: '',
     word: 'vergleichen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Sie vergleichen die Preise, bevor sie kaufen.',
     example2: '',
     example3: '',
@@ -2628,7 +2577,7 @@ const wordData = [
     article: '',
     word: 'bevorzugen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich bevorzuge Tee statt Kaffee.',
     example2: '',
     example3: '',
@@ -2651,7 +2600,7 @@ const wordData = [
     article: '',
     word: 'präferieren',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Sie präferieren öffentliche Verkehrsmittel.',
     example2: '',
     example3: '',
@@ -2674,7 +2623,7 @@ const wordData = [
     article: 'das',
     word: 'Gewicht',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Das Gewicht dieses Pakets beträgt zwei Kilogramm.',
     example2: '',
     example3: '',
@@ -2697,7 +2646,7 @@ const wordData = [
     article: '',
     word: 'verwenden',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir verwenden frische Zutaten für dieses Gericht.',
     example2: '',
     example3: '',
@@ -2720,7 +2669,7 @@ const wordData = [
     article: '',
     word: 'ausdrücken',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Er kann seine Gefühle gut ausdrücken.',
     example2: '',
     example3: '',
@@ -2743,7 +2692,7 @@ const wordData = [
     article: 'das',
     word: 'Bedürfnis',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       ' In der Kälte verspürten alle das Bedürfnis nach warmer Kleidung.',
     example2: '',
@@ -2767,7 +2716,7 @@ const wordData = [
     article: '',
     word: 'umziehen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Heutzutage gehe ich in meiner Freizeit neue Häuser sehen. Ich möchte mein Haus umziehen.',
     example2: 'Wir sind letztes Jahr nach Berlin umgezogen.',
@@ -2791,7 +2740,7 @@ const wordData = [
     article: '',
     word: 'selbstbewusst',
     grammar: 'adjectiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2814,7 +2763,7 @@ const wordData = [
     article: '',
     word: 'füreinander',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2837,7 +2786,7 @@ const wordData = [
     article: '',
     word: 'hauptsächlich',
     grammar: 'adjectiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2860,7 +2809,7 @@ const wordData = [
     article: '',
     word: 'ähnlichen',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2883,7 +2832,7 @@ const wordData = [
     article: '',
     word: 'geduldig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2906,7 +2855,7 @@ const wordData = [
     article: '',
     word: 'überprüfen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2929,7 +2878,7 @@ const wordData = [
     article: '',
     word: 'höflich',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -2952,7 +2901,7 @@ const wordData = [
     article: '',
     word: 'durchleuchten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Der Arzt hat seine Lunge durchleuchtet.',
     example2: '',
     example3: '',
@@ -2975,7 +2924,7 @@ const wordData = [
     article: 'der',
     word: 'Anschluss',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich muss den Anschluss für das Internet einrichten.',
     example2: '',
     example3: '',
@@ -2998,7 +2947,7 @@ const wordData = [
     article: '',
     word: 'verzögern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Der Start der Rakete wurde wegen schlechten Wetters verzögert.',
     example2: '',
     example3: '',
@@ -3021,7 +2970,7 @@ const wordData = [
     article: '',
     word: 'irgendwelche',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3044,7 +2993,7 @@ const wordData = [
     article: '',
     word: 'zuletzt',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3067,7 +3016,7 @@ const wordData = [
     article: '',
     word: 'aktuell',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3090,7 +3039,7 @@ const wordData = [
     article: '',
     word: 'verschieden',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'In unserem Garten wachsen verschieden Arten von Blumen.',
     example2: '',
     example3: '',
@@ -3113,7 +3062,7 @@ const wordData = [
     article: '',
     word: 'besiegen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Der langjährige Meister wurde schließlich besiegt.',
     example2: ' Das Team hat den Gegner leicht besiegt.',
     example3: '',
@@ -3146,7 +3095,6 @@ const wordData = [
     tip2: '',
     tip3: '',
     tag: 'basics',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
   },
 
   {
@@ -3158,7 +3106,7 @@ const wordData = [
     article: 'die',
     word: 'Angabe',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Bitte machen Sie genaue Angaben zu Ihrer Person.',
     example2: '',
     example3: '',
@@ -3181,7 +3129,7 @@ const wordData = [
     article: 'die',
     word: 'Häufigkeit',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3204,7 +3152,7 @@ const wordData = [
     article: '',
     word: 'unsichtbar',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3227,7 +3175,7 @@ const wordData = [
     article: '',
     word: 'biegen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Biegen Sie hier rechts ab.',
     example2: '',
     example3: '',
@@ -3250,7 +3198,7 @@ const wordData = [
     article: '',
     word: 'begreifen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3273,7 +3221,7 @@ const wordData = [
     article: 'der',
     word: 'Abstand',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3296,7 +3244,7 @@ const wordData = [
     article: '',
     word: 'vorgehen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wie sollen wir in dieser Situation vorgehen?',
     example2: '',
     example3: '',
@@ -3319,7 +3267,7 @@ const wordData = [
     article: '',
     word: 'aufhören',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich muss damit aufhören, zu viel Kaffee zu trinken.',
     example2: '',
     example3: '',
@@ -3342,7 +3290,7 @@ const wordData = [
     article: '',
     word: 'verstecken',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3365,7 +3313,7 @@ const wordData = [
     article: 'das',
     word: 'Gefecht',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3388,7 +3336,7 @@ const wordData = [
     article: '',
     word: 'zerstören',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Das Feuer hat das ganze Gebäude zerstört.',
     example2: '',
     example3: '',
@@ -3411,7 +3359,7 @@ const wordData = [
     article: '',
     word: 'sperren',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Polizei hat die Straße gesperrt.',
     example2: '',
     example3: '',
@@ -3434,7 +3382,7 @@ const wordData = [
     article: '',
     word: 'vollständig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3457,7 +3405,7 @@ const wordData = [
     article: '',
     word: 'daneben',
     grammar: 'adverbs',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Du gehst die Straße geradeaus bis zu der Klinik und rechts daneben,  (neben der Klinik).',
     example2: '',
@@ -3481,7 +3429,7 @@ const wordData = [
     article: '',
     word: 'zunehmend',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Nachfrage nach Elektroautos ist zunehmend.',
     example2: '',
     example3: '',
@@ -3504,7 +3452,7 @@ const wordData = [
     article: '',
     word: 'entspannt',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3527,7 +3475,7 @@ const wordData = [
     article: '',
     word: 'bedenken',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Bitte bedenken Sie die Risiken.',
     example2: '',
     example3: '',
@@ -3550,7 +3498,7 @@ const wordData = [
     article: 'die',
     word: 'Zeiträume',
     grammar: 'nomen, (plural)',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3573,7 +3521,7 @@ const wordData = [
     article: '',
     word: 'weglassen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3596,7 +3544,7 @@ const wordData = [
     article: '',
     word: 'verträumt',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3619,7 +3567,7 @@ const wordData = [
     article: '',
     word: 'entdecken',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3642,7 +3590,7 @@ const wordData = [
     article: '',
     word: 'ebenso',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3665,7 +3613,7 @@ const wordData = [
     article: '',
     word: 'geschafft',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich habe es geschafft!',
     example2: '',
     example3: '',
@@ -3688,7 +3636,7 @@ const wordData = [
     article: '',
     word: 'teilen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3711,7 +3659,7 @@ const wordData = [
     article: 'der',
     word: 'Ausdruck',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3734,7 +3682,7 @@ const wordData = [
     article: '',
     word: 'schalten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3757,7 +3705,7 @@ const wordData = [
     article: '',
     word: 'flüssig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3780,7 +3728,7 @@ const wordData = [
     article: 'die',
     word: 'Währung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3803,7 +3751,7 @@ const wordData = [
     article: '',
     word: 'verdanken',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3826,7 +3774,7 @@ const wordData = [
     article: '',
     word: 'vermuten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3849,7 +3797,7 @@ const wordData = [
     article: '',
     word: 'woanders',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3872,7 +3820,7 @@ const wordData = [
     article: '',
     word: 'wegen',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3895,7 +3843,7 @@ const wordData = [
     article: '',
     word: 'unterhaltsam',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3918,7 +3866,7 @@ const wordData = [
     article: '',
     word: 'nirgendwo',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3941,7 +3889,7 @@ const wordData = [
     article: '',
     word: 'lassen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3964,7 +3912,7 @@ const wordData = [
     article: '',
     word: 'irgendwo',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -3987,7 +3935,7 @@ const wordData = [
     article: '',
     word: 'einsteigen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4010,7 +3958,7 @@ const wordData = [
     article: '',
     word: 'Grundlagen',
     grammar: 'nomen (plural)',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4033,7 +3981,7 @@ const wordData = [
     article: '',
     word: 'beherrschen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4056,7 +4004,7 @@ const wordData = [
     article: '',
     word: 'fließend',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4079,7 +4027,7 @@ const wordData = [
     article: '',
     word: 'wohl',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4102,7 +4050,7 @@ const wordData = [
     article: '',
     word: 'drüben',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4125,7 +4073,7 @@ const wordData = [
     article: '',
     word: 'dringend',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4148,7 +4096,7 @@ const wordData = [
     article: 'die',
     word: 'Besprechung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4171,7 +4119,7 @@ const wordData = [
     article: '',
     word: 'verlassen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4194,7 +4142,7 @@ const wordData = [
     article: '',
     word: 'vergewissern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4217,7 +4165,7 @@ const wordData = [
     article: 'die',
     word: 'Umgebung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4240,7 +4188,7 @@ const wordData = [
     article: '',
     word: 'neben',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4263,7 +4211,7 @@ const wordData = [
     article: '',
     word: 'außerhalb',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4286,7 +4234,7 @@ const wordData = [
     article: '',
     word: 'bei',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4309,7 +4257,7 @@ const wordData = [
     article: '',
     word: 'außer',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Außer Anna hat niemand das Buch gelesen.',
     example2: '',
     example3: '',
@@ -4332,7 +4280,7 @@ const wordData = [
     article: '',
     word: 'um',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example2: 'Ich bewerbe mich um die Stelle.',
     example1: 'Die Kinder spielen um den Baum.',
     example3: '',
@@ -4355,7 +4303,7 @@ const wordData = [
     article: '',
     word: 'unterbrechen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4378,7 +4326,7 @@ const wordData = [
     article: '',
     word: 'umsteigen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich steige am nächsten Bahnhof um.',
     example2: '',
     example3: '',
@@ -4401,7 +4349,7 @@ const wordData = [
     article: '',
     word: 'widerrufen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4424,7 +4372,7 @@ const wordData = [
     article: '',
     word: 'umbauen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4447,7 +4395,7 @@ const wordData = [
     article: '',
     word: 'auszuschalten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Viele Fluggäste vergessen, ihre Geräte während der Landung auszuschalten.',
     example2: '',
@@ -4471,7 +4419,7 @@ const wordData = [
     article: '',
     word: 'durchbringen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4494,7 +4442,7 @@ const wordData = [
     article: '',
     word: 'vollenden',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4517,7 +4465,7 @@ const wordData = [
     article: '',
     word: 'versprechen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich verspreche dir, pünktlich zu sein.',
     example2: '',
     example3: '',
@@ -4540,7 +4488,7 @@ const wordData = [
     article: '',
     word: 'empfinden',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4563,7 +4511,7 @@ const wordData = [
     article: '',
     word: 'zusichern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4586,7 +4534,7 @@ const wordData = [
     article: '',
     word: 'wegbleiben',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4609,7 +4557,7 @@ const wordData = [
     article: '',
     word: 'vormachen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4632,7 +4580,7 @@ const wordData = [
     article: '',
     word: 'vorlegen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4655,7 +4603,7 @@ const wordData = [
     article: '',
     word: 'vorführen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4678,7 +4626,7 @@ const wordData = [
     article: '',
     word: 'nachfüllen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4701,7 +4649,7 @@ const wordData = [
     article: '',
     word: 'anhaben',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4724,7 +4672,7 @@ const wordData = [
     article: '',
     word: 'anbringen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4747,7 +4695,7 @@ const wordData = [
     article: '',
     word: 'gern',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'ich spiele gern klavier.',
     example2: '',
     example3: '',
@@ -4770,7 +4718,7 @@ const wordData = [
     article: '',
     word: 'ziemlich',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Ich spreche ziemlich gut Deutsch, trotzdem möchte ich noch viel mehr lernen.',
     example2: '',
@@ -4794,7 +4742,7 @@ const wordData = [
     article: '',
     word: 'trotzdem',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4817,7 +4765,7 @@ const wordData = [
     article: '',
     word: 'sonst',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ziehen Sie eine Winterjacke an, sonst wird es Ihnen kalt.',
     example2: 'Fahren wir jetzt, sonst wird es zu spät.',
     example3: '',
@@ -4840,7 +4788,7 @@ const wordData = [
     article: '',
     word: 'somit',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4863,7 +4811,7 @@ const wordData = [
     article: '',
     word: 'jedenfalls',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4886,7 +4834,7 @@ const wordData = [
     article: '',
     word: 'deshalb',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Das Konzert war sehr schlecht, deshalb sind wir nach der Pause nach Hause gegangen.',
     example2: '',
@@ -4910,7 +4858,7 @@ const wordData = [
     article: '',
     word: 'darum',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4933,7 +4881,7 @@ const wordData = [
     article: '',
     word: 'zuverlässig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Unsere Produkte sind so zuverlässig wie importierte Produkte.',
     example2: '',
     example3: '',
@@ -4956,7 +4904,7 @@ const wordData = [
     article: '',
     word: 'umsonst',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -4979,7 +4927,7 @@ const wordData = [
     article: '',
     word: 'nachdem',
     grammar: 'conjunction',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5002,7 +4950,7 @@ const wordData = [
     article: '',
     word: 'seitdem',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5025,7 +4973,7 @@ const wordData = [
     article: '',
     word: 'kürzlich',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5048,7 +4996,7 @@ const wordData = [
     article: '',
     word: 'unglaublich',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5071,7 +5019,7 @@ const wordData = [
     article: '',
     word: 'eventuell',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5094,7 +5042,7 @@ const wordData = [
     article: '',
     word: 'nachher',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5117,7 +5065,7 @@ const wordData = [
     article: '',
     word: 'damals',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5140,7 +5088,7 @@ const wordData = [
     article: '',
     word: 'jemals',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5163,7 +5111,7 @@ const wordData = [
     article: '',
     word: 'heutzutage',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5186,7 +5134,7 @@ const wordData = [
     article: '',
     word: 'bisher',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Bisher habe ich keine Probleme gehabt.',
     example2: '',
     example3: '',
@@ -5209,7 +5157,7 @@ const wordData = [
     article: '',
     word: 'erreichen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Obwohl ich oft zu spät aufstehe, erreiche ich den Zug.',
     example2: '',
     example3: '',
@@ -5232,7 +5180,7 @@ const wordData = [
     article: 'die',
     word: 'Ausnahme',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Im Grunde genommen, dürfen wir keine Ausnahmen machen.',
     example2: '',
     example3: '',
@@ -5255,7 +5203,7 @@ const wordData = [
     article: '',
     word: 'selten',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Deutsch wird selten an amerikanischen Gymnasien unterrichtet.',
     example2: '',
     example3: '',
@@ -5278,7 +5226,7 @@ const wordData = [
     article: '',
     word: 'unterrichten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5301,7 +5249,7 @@ const wordData = [
     article: '',
     word: 'wählen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Der President wird vom Volk gewält.',
     example2: '',
     example3: '',
@@ -5324,7 +5272,7 @@ const wordData = [
     article: '',
     word: 'zuhören',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Hören Sie dem Piloten zu.',
     example2: '',
     example3: '',
@@ -5347,7 +5295,7 @@ const wordData = [
     article: '',
     word: 'raten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich rate dem Mann.',
     example2: '',
     example3: '',
@@ -5370,7 +5318,7 @@ const wordData = [
     article: 'das',
     word: 'Amt',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5393,7 +5341,7 @@ const wordData = [
     article: '',
     word: 'bis',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5416,7 +5364,7 @@ const wordData = [
     article: '',
     word: 'nötig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5439,7 +5387,7 @@ const wordData = [
     article: '',
     word: 'zurzeit',
     grammar: 'currently',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5462,7 +5410,7 @@ const wordData = [
     article: '',
     word: 'wegwerfen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir werfen viele Sachen weg.',
     example2: '',
     example3: '',
@@ -5485,7 +5433,7 @@ const wordData = [
     article: 'der',
     word: 'Verwandter',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5508,7 +5456,7 @@ const wordData = [
     article: '',
     word: 'anschalten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Um 8 Uhr schalte ich den Computer an.',
     example2: '',
     example3: '',
@@ -5531,7 +5479,7 @@ const wordData = [
     article: '',
     word: 'ausgehen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich möchte heute ausgehen.',
     example2: 'Wir gehen heute Abend aus.',
     example3: '',
@@ -5554,7 +5502,7 @@ const wordData = [
     article: '',
     word: 'regeln',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5577,7 +5525,7 @@ const wordData = [
     article: '',
     word: 'reinkommen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5600,7 +5548,7 @@ const wordData = [
     article: '',
     word: 'aussteigen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5623,7 +5571,7 @@ const wordData = [
     article: '',
     word: 'umsteigen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5646,7 +5594,7 @@ const wordData = [
     article: '',
     word: 'hineingehen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5669,7 +5617,7 @@ const wordData = [
     article: '',
     word: 'vorschlagen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5692,7 +5640,7 @@ const wordData = [
     article: '',
     word: 'herstellen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5715,7 +5663,7 @@ const wordData = [
     article: '',
     word: 'bestrafen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5738,7 +5686,7 @@ const wordData = [
     article: '',
     word: 'gewesen',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich bin in Kanada gewesen.',
     example2: '',
     example3: '',
@@ -5761,7 +5709,7 @@ const wordData = [
     article: '',
     word: 'irgendwie',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5784,7 +5732,7 @@ const wordData = [
     article: '',
     word: 'geheim',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5807,7 +5755,7 @@ const wordData = [
     article: 'der',
     word: 'Ankauf',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5830,7 +5778,7 @@ const wordData = [
     article: '',
     word: 'ablaufen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5853,7 +5801,7 @@ const wordData = [
     article: '',
     word: 'verlängern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5876,7 +5824,7 @@ const wordData = [
     article: '',
     word: 'gültig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5899,7 +5847,7 @@ const wordData = [
     article: '',
     word: 'beitragen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5922,7 +5870,7 @@ const wordData = [
     article: 'die',
     word: 'Vorstellung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5945,7 +5893,7 @@ const wordData = [
     article: 'die',
     word: 'Übernachtung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -5968,7 +5916,7 @@ const wordData = [
     article: '',
     word: 'wechseln',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Er musste die Reifen eines Autos wechseln, weil sie abgenutzt waren.',
     example2: '',
@@ -5992,7 +5940,7 @@ const wordData = [
     article: 'die',
     word: 'Seite',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6015,7 +5963,7 @@ const wordData = [
     article: 'das',
     word: 'Ziel',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6038,7 +5986,7 @@ const wordData = [
     article: '',
     word: 'gegenüber',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6061,7 +6009,7 @@ const wordData = [
     article: 'die',
     word: 'Bearbeitung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6084,7 +6032,7 @@ const wordData = [
     article: 'der',
     word: 'Zusammenhang',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6107,7 +6055,7 @@ const wordData = [
     article: '',
     word: 'bezweifeln',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6130,7 +6078,7 @@ const wordData = [
     article: '',
     word: 'offenbar',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6153,7 +6101,7 @@ const wordData = [
     article: 'die',
     word: 'Einblick',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6176,7 +6124,7 @@ const wordData = [
     article: '',
     word: 'verbinden',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6199,7 +6147,7 @@ const wordData = [
     article: '',
     word: 'oberste',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6222,7 +6170,7 @@ const wordData = [
     article: '',
     word: 'beliebter',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Avocados werden in Deutschland immer beliebter.',
     example2: '',
     example3: '',
@@ -6245,7 +6193,7 @@ const wordData = [
     article: '',
     word: 'ausgezeichnet',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6268,7 +6216,7 @@ const wordData = [
     article: '',
     word: 'vorne',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Darf ich die Speisekarte haben?',
     example2: '',
     example3: '',
@@ -6291,7 +6239,7 @@ const wordData = [
     article: 'die',
     word: 'Speisekarte',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Darf ich die Speisekarte haben?',
     example2: '',
     example3: '',
@@ -6314,7 +6262,7 @@ const wordData = [
     article: '',
     word: 'entlang',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Gegenüber von ihr den Weg entlang.',
     example2: '',
     example3: '',
@@ -6337,7 +6285,7 @@ const wordData = [
     article: '',
     word: 'übrigens',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Übrigens, ich habe gestern dein Buch gelesen und es war sehr interessant.',
     example2: '',
@@ -6361,7 +6309,7 @@ const wordData = [
     article: 'der',
     word: 'Fehler',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6384,7 +6332,7 @@ const wordData = [
     article: '',
     word: 'lässig',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6407,7 +6355,7 @@ const wordData = [
     article: 'die',
     word: 'Abteilung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6430,7 +6378,7 @@ const wordData = [
     article: '',
     word: 'dringend',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6453,7 +6401,7 @@ const wordData = [
     article: '',
     word: 'anfassen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Fass das nicht an!',
     example2: '',
     example3: '',
@@ -6476,7 +6424,7 @@ const wordData = [
     article: '',
     word: 'wobei',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich mag Musik, wobei ich besonders klassische Stücke liebe.',
     example2: '',
     example3: '',
@@ -6499,7 +6447,7 @@ const wordData = [
     article: '',
     word: 'während',
     grammar: 'conjunction',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Während des Films muss ich leise sein.',
     example2: '',
     example3: '',
@@ -6522,7 +6470,7 @@ const wordData = [
     article: '',
     word: 'aufgeregt',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6545,7 +6493,7 @@ const wordData = [
     article: '',
     word: 'nützlich',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Diese App ist sehr nützlich für das Lernen von Sprachen.',
     example2: '',
     example3: '',
@@ -6568,7 +6516,7 @@ const wordData = [
     article: '',
     word: 'üben',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich lese Bücher, um mein Deutsch zu üben.',
     example2: '',
     example3: '',
@@ -6591,7 +6539,7 @@ const wordData = [
     article: '',
     word: 'seltsam',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6614,7 +6562,7 @@ const wordData = [
     article: '',
     word: 'dazu',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Morgen backe ich einen kuchen. Dazu brauche ich Butter und Zucker.',
     example2: '',
@@ -6638,7 +6586,7 @@ const wordData = [
     article: '',
     word: 'dafür',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Ich möchte die B1-Prüfung bestehen. Dafür muss ich jedoch noch viel lernen.',
     example2: 'Dafür müssen Sie eine Sprachprüfung machen.',
@@ -6662,7 +6610,7 @@ const wordData = [
     article: '',
     word: 'danach',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich arbeite noch eine Stunde. Danach gene ich nach Hause.',
     example2: '',
     example3: '',
@@ -6685,7 +6633,7 @@ const wordData = [
     article: '',
     word: 'erwarten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Sie erwartet ein Paket.',
     example2: '',
     example3: '',
@@ -6708,7 +6656,7 @@ const wordData = [
     article: '',
     word: 'ernst',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Lage ist sehr ernst.',
     example2: '',
     example3: '',
@@ -6731,7 +6679,7 @@ const wordData = [
     article: '',
     word: 'bewusst',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Er ist sich der Gefahr bewusst',
     example2: '',
     example3: '',
@@ -6754,13 +6702,13 @@ const wordData = [
     article: '',
     word: 'bieten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Das Restaurant bietet eine große Auswahl an Gerichten.',
     example2: 'Diese Stadt bietet mir nichts',
     example3: 'Er sagt, er biete mir 5000 euro für mein Auto.',
     example4: 'Für das Bild haben sie 2000 Euro geboten.',
     example5: '',
-    meaningENG: 'to offer, to provide',
+    meaningENG: 'to offer',
     meaningTR: '',
     tip1: '',
     tip2: '',
@@ -6777,7 +6725,7 @@ const wordData = [
     article: '',
     word: 'loswerden',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich möchte diese alten Bücher loswerden.',
     example2: '',
     example3: '',
@@ -6800,7 +6748,7 @@ const wordData = [
     article: '',
     word: 'sobald',
     grammar: 'conjunction',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Sobald ich zu Hause bin, rufe ich dich an.',
     example2: '',
     example3: '',
@@ -6823,7 +6771,7 @@ const wordData = [
     article: '',
     word: 'bemerken',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6846,7 +6794,7 @@ const wordData = [
     article: '',
     word: 'unterlassen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Bitte unterlassen Sie das Rauchen in diesem Bereich.',
     example2: '',
     example3: '',
@@ -6869,7 +6817,7 @@ const wordData = [
     article: '',
     word: 'vorbereiten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6892,7 +6840,7 @@ const wordData = [
     article: '',
     word: 'verschieben',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Kann ich meinen Termin verschieben?',
     example2: '',
     example3: '',
@@ -6915,7 +6863,7 @@ const wordData = [
     article: '',
     word: 'hinterlassen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Sie können eine Nachricht hinterlassen.',
     example2: '',
     example3: '',
@@ -6938,7 +6886,7 @@ const wordData = [
     article: '',
     word: 'besetzt',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6961,7 +6909,7 @@ const wordData = [
     article: '',
     word: 'abmachen',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -6984,7 +6932,7 @@ const wordData = [
     article: '',
     word: 'vorhaben',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Etwas vorhaben',
     example2: 'Hast du dieses Wochenende etwas vor?',
     example3: 'Nicht Besonderes. Was hast du vor?',
@@ -7007,7 +6955,7 @@ const wordData = [
     article: 'der',
     word: 'Ansatz',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir brauchen einen neuen Ansatz für dieses Problem.',
     example2: '',
     example3: '',
@@ -7030,7 +6978,7 @@ const wordData = [
     article: '',
     word: 'aufstehen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich stehe um 7 UHR auf.',
     example2: 'Steht sie sonntags spät auf?',
     example3: '',
@@ -7053,7 +7001,7 @@ const wordData = [
     article: '',
     word: 'soweit',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Soweit ich weiß, kommt er morgen.',
     example2: '',
     example3: '',
@@ -7076,7 +7024,7 @@ const wordData = [
     article: '',
     word: 'vorstellen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Darf ich Ihnen meine Frau vorstellen?',
     example2: '',
     example3: '',
@@ -7099,7 +7047,7 @@ const wordData = [
     article: 'die',
     word: 'Abfahrt',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -7122,7 +7070,7 @@ const wordData = [
     article: '',
     word: 'dabei',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Ich bin dabei! ("Im in" or "Count me in" or "I will participate")',
     example2: 'Er war dabei, als der Unfall passierte.',
@@ -7146,7 +7094,7 @@ const wordData = [
     article: '',
     word: 'verbessern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich möchte mein Deutsch verbessern.',
     example2: 'Wir arbeiten daran, unseren Service zu verbessern.',
     example3: '',
@@ -7169,7 +7117,7 @@ const wordData = [
     article: 'der',
     word: 'Vorschlag',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Das ist kein so guter Vorschlag. Ich muss am Montag um 7:30 Uhr wieder arbeiten.',
     example2: '',
@@ -7193,7 +7141,7 @@ const wordData = [
     article: '',
     word: 'davon',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Leider spielt die Mannschaft jetzt seit Jahren in der zweiten Liga. Das ist traurig! Aber ich träume immer noch davon, dass wir bald den Aufstieg in die erste Liga schaffen.',
     example2: 'Wie viel davon brauchen wir?',
@@ -7217,7 +7165,7 @@ const wordData = [
     article: 'der',
     word: 'Vergleich',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Bei uns wohnen im Vergleich zu Deutschland weniger Menschen zur Miete.',
     example2: '',
@@ -7241,7 +7189,7 @@ const wordData = [
     article: '',
     word: 'überzeugen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Alles, was wir gesehen haben , überzeugt uns nicht.',
     example2: '',
     example3: '',
@@ -7264,7 +7212,7 @@ const wordData = [
     article: '',
     word: 'umtauschen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Das Kleid passt nicht. Ich möchte es in einer anderen Größe haben. Kann ich es umtauschen?',
     example2: 'Kann ich meine Schuhe noch umtauschen?',
@@ -7288,7 +7236,7 @@ const wordData = [
     article: '',
     word: 'gründen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Die Europäische Gemeinschaft für Kohle und Stahl wurde gegründet, um wirtschaftlich besser zusammenzuarbeiten und Krieg zwischen den europäischen Ländern zu verhindern.',
     example2: '',
@@ -7312,7 +7260,7 @@ const wordData = [
     article: '',
     word: 'irgendein',
     grammar: 'pronomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Die Person möchte nicht irgendein langweiliges Geschenk kaufen. Sie möchte etwas Besonderes schenken.',
     example2:
@@ -7338,7 +7286,7 @@ const wordData = [
     article: '',
     word: 'öfter',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Menschen sehen ihre Freunde öfter als ihre Verwandten',
     example2:
       'Im Moment gibt es einen Trend zu Mikrohäusern , da habe ich jetzt schon öfter welche gesehen.',
@@ -7362,7 +7310,7 @@ const wordData = [
     article: '',
     word: 'hinfahren',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir können nicht überall hinfahren, wo es ein Festival gibt.',
     example2: '',
     example3: '',
@@ -7385,7 +7333,7 @@ const wordData = [
     article: 'die',
     word: 'Veranstaltung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -7408,7 +7356,7 @@ const wordData = [
     article: '',
     word: 'erzählen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Erzählen Sie nur von Berufserfahrungen, die etwas mit der neuen Stelle zu tun haben.',
     example2:
@@ -7433,7 +7381,7 @@ const wordData = [
     article: '',
     word: 'wenn',
     grammar: 'conjunction',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Das Ticket wird günstiger, wenn man mit dem Zug kommt',
     example2: '',
     example3: '',
@@ -7456,7 +7404,7 @@ const wordData = [
     article: '',
     word: 'mehrere',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich habe mehrere Bücher gekauft',
     example2:
       'Wenn bei einem Projekt mehrere Kollegen zusammenarbeiten müssen, sollten diese Kollegen teamfähig sein.',
@@ -7480,7 +7428,7 @@ const wordData = [
     article: '',
     word: 'erledigen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Man kann selbstständig Aufgaben erledigen.',
     example2: '',
     example3: '',
@@ -7503,7 +7451,7 @@ const wordData = [
     article: '',
     word: 'vereinbaren',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir haben einen Termin vereinbart',
     example2:
       'Die Ärztin vereinbart mit Herrn Riemann einen Kontrolltermin am Mittwoch.',
@@ -7527,7 +7475,7 @@ const wordData = [
     article: 'die',
     word: 'Erholung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Deutschen im Urlaub vor allem Erholung, Entspannung und Ruhe. Viele sind im Urlaub aber auch gern in der Natur aktiv und mögen Wanderurlaub oder Radreisen.',
     example2: '',
@@ -7551,7 +7499,7 @@ const wordData = [
     article: '',
     word: 'ausrechnen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Kosten für die Tour müssen ausgerechnet werden.',
     example2: '',
     example3: '',
@@ -7574,7 +7522,7 @@ const wordData = [
     article: 'die',
     word: 'Anfahrt',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Anfahrt muss selbst organisiert werden.',
     example2: '',
     example3: '',
@@ -7597,7 +7545,7 @@ const wordData = [
     article: 'die',
     word: 'Unterkunft',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir suchen eine Unterkunft für unseren Urlaub',
     example2: 'Die Unterkunft muss gebucht werden.',
     example3: 'Geeignete Unterkünfte müssen gebucht werden.',
@@ -7620,7 +7568,7 @@ const wordData = [
     article: '',
     word: 'unbedingt',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich muss morgen unbedingt einkaufen gehen.',
     example2: '',
     example3: '',
@@ -7643,7 +7591,7 @@ const wordData = [
     article: '',
     word: 'gehören',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Alles, was man für eine Tour braucht, nennt man Ausrüstung. Bei einer Bergwanderung z.B. gehören Bergschuhe, funktionelle Kleidung und ein Rucksack mit Getränken etc. dazu.',
     example2:
@@ -7668,7 +7616,7 @@ const wordData = [
     article: '',
     word: 'sichern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Ein beliebter Sport in den Bergen ist das Klettern. Meistens klettern zwei Personen zusammen. Eine Person sichert die andere mit einem Seil.',
     example2: '',
@@ -7692,7 +7640,7 @@ const wordData = [
     article: '',
     word: 'ziehen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Meine Freundin lebt in Nürnberg. Ich bin zu ihr gezogen',
     example2: '',
     example3: '',
@@ -7715,7 +7663,7 @@ const wordData = [
     article: '',
     word: 'trotz',
     grammar: 'präposition',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Sie vermisst ihre beste Freundin, trotz der vielen Telefongespräche.',
     example2: '',
@@ -7739,7 +7687,7 @@ const wordData = [
     article: '',
     word: 'engagieren',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Ich finde es wichtig, dass berühmte Sportler und Künstler sich sozial engagieren. Sie haben ja einen großen Einfluss auf viele Menschen, die sich dann vielleicht selbst auch engagieren.',
     example2: '',
@@ -7763,7 +7711,7 @@ const wordData = [
     article: 'die',
     word: 'Leistung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Heute haben wir  schlecht gespielt. Das war echt keine gute Leistung. Und wir hatten auch noch einen starken Gegner, deshalb haben wir 0:3 verloren.',
     example2: '',
@@ -7787,7 +7735,7 @@ const wordData = [
     article: '',
     word: 'gespannt',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Heute Abend schaue ich mir die letzten drei Folgen von „Black Mirror“ an. Ich bin schon gespannt, was passiert.',
     example2: '',
@@ -7811,7 +7759,7 @@ const wordData = [
     article: '',
     word: 'ausfallen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Wegen Krankheit muss die Wanderung mit Führung heute leider ausfallen.',
     example2: '',
@@ -7835,7 +7783,7 @@ const wordData = [
     article: '',
     word: 'circa',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Der Flug nach Hamburg verspätet sich wegen eines Gewitters um circa dreißig Minuten.',
     example2:
@@ -7860,7 +7808,7 @@ const wordData = [
     article: '',
     word: 'leihen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Ich habe fast alle gebrauchten Spielsachen auf dem Flohmarkt verkauft. Jetzt lese ich nur noch geliehene Bücher oder auf dem E-Reader.',
     example2: 'Die Ausrüstung kann ausgeliehen werden.',
@@ -7884,7 +7832,7 @@ const wordData = [
     article: '',
     word: 'stellen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Kauft keine gekochten Lebensmittel in Dosen oder anderen Verpackungen. Kocht lieber alles frisch, das ist gesünder. Und übriggebliebenes Essen könnt ihr in Gläsern in den Kühlschrank stellen oder einfrieren und später essen.',
     example2:
@@ -7910,7 +7858,7 @@ const wordData = [
     article: '',
     word: 'verzichten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Familie Dahlmann verzichtet auf Lebensmittel in Plastikverpackungen.',
     example2: '',
@@ -7934,7 +7882,7 @@ const wordData = [
     article: '',
     word: 'zusammenfassen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Da braucht man keine Texte zusammenzufassen. Da analysiert man Inhalte.',
     example2: '',
@@ -7958,7 +7906,7 @@ const wordData = [
     article: '',
     word: 'besprechen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Diese Aufgabe verstehe ich nicht. Das haben wir im Seminar gar nicht besprochen.',
     example2: '',
@@ -7982,7 +7930,7 @@ const wordData = [
     article: '',
     word: 'beenden',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Lutz wollte nicht gleich eine Ausbildung machen, nachdem er die Schule beendet hatte.',
     example2: '',
@@ -8006,7 +7954,7 @@ const wordData = [
     article: '',
     word: 'Aufrufe',
     grammar: 'nomen, (plural)',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Das Video wurde oft geklickt und angesehen. Es hat viele Aufrufe.',
     example2: '',
@@ -8030,7 +7978,7 @@ const wordData = [
     article: '',
     word: 'beantworten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Natürlich ist das Handy ein praktischer Wecker, und man hat immer die genaue Uhrzeit. Leider machen die meisten beim Blick auf die Uhrzeit auch gleich noch ein paar andere Dinge. Schnell vor dem Schlafengehen chatten, Nachrichten lesen oder E-Mails beantworten am frühen Morgen reduzieren Ihre Erholungszeit.',
     example2: '',
@@ -8054,7 +8002,7 @@ const wordData = [
     article: '',
     word: 'erhöhen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir bekommen neue Fenster und schon kann er die Miete erhöhen.',
     example2: '',
     example3: '',
@@ -8077,7 +8025,7 @@ const wordData = [
     article: 'das',
     word: 'Einkommens',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Die Deutschen bezahlen ca. 25 %–35 % des Einkommens für die Mietkosten',
     example2: '',
@@ -8101,7 +8049,7 @@ const wordData = [
     article: 'die',
     word: 'Unterstützung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Business Angels geben jungen Gründern finanzielle Unterstützung und praktische Tipps.',
     example2: 'Alle Erasmus-Studierenden bekommen finanzielle Unterstützung.',
@@ -8125,7 +8073,7 @@ const wordData = [
     article: '',
     word: 'unterscheiden',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Die Geschäftsidee muss sich von anderen Anbietern unterscheiden.',
     example2:
@@ -8150,7 +8098,7 @@ const wordData = [
     article: '',
     word: 'unübersichtlich',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Seit dem Umbau ist der Bioladen total unübersichtlich. Alles ist an einem anderen Platz. Nichts findet man.',
     example2: '',
@@ -8174,7 +8122,7 @@ const wordData = [
     article: '',
     word: 'verlängern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Eine angenehme Temperatur und ruhige Musik sollen den Einkauf verlängern.',
     example2: '',
@@ -8198,7 +8146,7 @@ const wordData = [
     article: '',
     word: 'höchstens',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Die Fernbeziehung von Julia und Mark dauert höchstens zwei Jahre.',
     example2: '',
@@ -8222,7 +8170,7 @@ const wordData = [
     article: 'die',
     word: 'Beziehung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -8245,7 +8193,7 @@ const wordData = [
     article: '',
     word: 'drauf',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Es ist hellblau mit weißen Sternen drauf.',
     example2: '',
     example3: '',
@@ -8268,7 +8216,7 @@ const wordData = [
     article: '',
     word: 'ehrlich',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Hm, ehrlich gesagt habe ich keine Lust stundenlang durch die vollen Geschäfte zu laufen.',
     example2: '',
@@ -8292,7 +8240,7 @@ const wordData = [
     article: '',
     word: 'draußen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Es ist eiskalt draußen.',
     example2: 'Einige Kinder wollen bei schlechtem Wetter nicht draußen sein.',
     example3:
@@ -8316,7 +8264,7 @@ const wordData = [
     article: '',
     word: 'genauso',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Geht mir genauso. Man hat online viel Ärger. Da nehme ich mir lieber Zeit und gehe einkaufen. Ich kaufe dann etwas, weil ich es angesehen habe und es mir wirklich gefällt.',
     example2: 'Mein Auto fährt genauso schnell wie sein Motorrad.',
@@ -8340,7 +8288,7 @@ const wordData = [
     article: '',
     word: 'zufällig',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Man findet zufällig etwas Tolles oder ein Schnäppchen.',
     example2: '',
     example3: '',
@@ -8363,7 +8311,7 @@ const wordData = [
     article: 'der',
     word: 'Nachteil',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Weil viele Menschen online einkaufen, haben die Geschäfte in der Stadt einen Nachteil.',
     example2: '',
@@ -8387,7 +8335,7 @@ const wordData = [
     article: '',
     word: 'eher',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Eher junge Menschen, vor allem Frauen, bestellen online.',
     example2: '',
     example3: '',
@@ -8410,7 +8358,7 @@ const wordData = [
     article: '',
     word: 'liefern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Gabi sucht ein günstiges Sofa, das geliefert wird.',
     example2:
       'Das Handy wurde gestern geliefert, aber es funktioniert nicht. Ich muss es leider zurückschicken.',
@@ -8434,7 +8382,7 @@ const wordData = [
     article: '',
     word: 'überhaupt',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Nein, überhaupt nicht. Es war ein absolutes Schnäppchen. Er hat nur $100 gekostet. - Sieh mal dieses Angebot: Der Tisch ist gebraucht, aber fast wie neu.',
     example2: 'Nein, überhaupt nicht.',
@@ -8458,7 +8406,7 @@ const wordData = [
     article: '',
     word: 'kaum',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Sieh mal hier, die Skisachen, sie sind kaum getragen, passen die vielleicht Nele? -Ja, die Größe stimmt und günstig sind sie auch. Die nehmen wir.',
     example2: '',
@@ -8482,7 +8430,7 @@ const wordData = [
     article: '',
     word: 'bequem',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Online Shopping ist günstiger und bequemer',
     example2:
       ' Ein Klick. Und schon hat man wieder etwas gekauft und ein bis zwei Tage später kommt s nach Hause. Das ist so einfach und bequem – für mich der beste Weg.',
@@ -8506,7 +8454,7 @@ const wordData = [
     article: 'der',
     word: 'Zustand',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Das Sofa sieht noch sehr gut aus, fast wie neu. Es ist in einem guten Zustand.',
     example2: '',
@@ -8530,7 +8478,7 @@ const wordData = [
     article: '',
     word: 'anbieten',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Tanja möchte über die Internetseite vielleicht Babysachen verkaufen. Tanja will Babysachen auf Ebay anbieten.',
     example2:
@@ -8555,7 +8503,7 @@ const wordData = [
     article: '',
     word: 'entdecken',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Magdalena hat das Sofa bei Ebay online gefunden. Sie hat es im Internet auf Ebay entdeckt.',
     example2: '',
@@ -8579,7 +8527,7 @@ const wordData = [
     article: 'der',
     word: 'Vortrag',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Wenn Sie nach dem Vortrag noch Lust auf Gespräche mit anderen Eltern haben, können Sie gerne noch bleiben und im Café weiterreden.',
     example2: '',
@@ -8603,7 +8551,7 @@ const wordData = [
     article: '',
     word: 'teilnehmen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Woran hat Jana am Anfang teilgenommen? An einem Französischkurs an der Uni.',
     example2: '',
@@ -8627,7 +8575,7 @@ const wordData = [
     article: '',
     word: 'freuen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Schön, dass du da warst. Ich habe mich sehr über deinen Besuch gefreut.',
     example2: '',
@@ -8651,7 +8599,7 @@ const wordData = [
     article: 'der',
     word: 'Vorteil',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Vor allem die jüngere Generation zweifelt nicht an den Vorteilen ihrer Zweisprachigkeit.',
     example2: '',
@@ -8675,7 +8623,7 @@ const wordData = [
     article: '',
     word: 'erinnern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Ich gehöre zur deutschsprachigen Minderheit in Freiburg und ich erinnere mich gut an den Unterricht in Französisch.',
     example2:
@@ -8700,7 +8648,7 @@ const wordData = [
     article: '',
     word: 'hauptsächlich',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Im deutschsprachigen Teil werden Schweizer Dialekte gesprochen. Schweizer Hochdeutsch ist hauptsächlich Schriftsprache. Das gesprochene Schweizer Hochdeutsch unterscheidet sich deutlich vom deutschen Hochdeutsch.',
     example2: '',
@@ -8724,7 +8672,7 @@ const wordData = [
     article: '',
     word: 'miteinander',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Die Schweiz ist in 26 Kantone eingeteilt und es gibt vier Amtssprachen: Deutsch Französisch, Italienisch und Rätoromanisch. In den Amtssprachen kommunizieren Ämter und Regierungen miteinander und mit den Bürgern.',
     example2: '',
@@ -8748,7 +8696,7 @@ const wordData = [
     article: '',
     word: 'verschwinden',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Wenn es einen Dialekt nicht mehr gibt, das heißt, wenn niemand mehr einen bestimmten Dialekt spricht, dann ist er verschwunden.',
     example2: '',
@@ -8772,7 +8720,7 @@ const wordData = [
     article: '',
     word: 'einigen',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'In einigen Regionen haben Kinder die Möglichkeit, auch in der Schule Dialekt zu lernen.',
     example2:
@@ -8797,7 +8745,7 @@ const wordData = [
     article: '',
     word: 'erleben',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Hawaii ist wunderschön. Sven und ich haben schon so viele tolle Momente erlebt.',
     example2: '',
@@ -8821,7 +8769,7 @@ const wordData = [
     article: '',
     word: 'vorbeischauen',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich bin später in der Nähe und kann kurz vorbeischauen.',
     example2: '',
     example3: '',
@@ -8844,7 +8792,7 @@ const wordData = [
     article: '',
     word: 'vorbeifahren',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Tut mir wirklich leid. Ich bin an der falschen Haltestelle ausgestiegen und am Rathausplatz vorbeigefahren.',
     example2: '',
@@ -8868,7 +8816,7 @@ const wordData = [
     article: '',
     word: 'schon',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Warum kommst du denn so spät? Wir warten schon so lange.',
     example2: '',
     example3: '',
@@ -8891,7 +8839,7 @@ const wordData = [
     article: 'der',
     word: 'Vertrag',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Man muss einen Mietvertrag mitbringen, um seine Adresse anzumelden.',
     example2: '',
@@ -8915,7 +8863,7 @@ const wordData = [
     article: '',
     word: 'bekommen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Wenn man keinen deutschen Pass hat und nicht aus der EU kommt, braucht man eine Erlaubnis, um länger in Deutschland bleiben zu können. Das Dokument heißt Aufenthaltserlaubnis und man bekommt sie in der Ausländerbehörde.',
     example2: '',
@@ -8939,7 +8887,7 @@ const wordData = [
     article: '',
     word: 'hinterlassen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Bitte hinterlassen Sie eine Nachricht nach dem Signalton.',
     example2: '',
     example3: '',
@@ -8962,7 +8910,7 @@ const wordData = [
     article: 'die',
     word: 'Behörde',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'In Deutschland gibt es viele Behörden. Dort bekommt man Pässe, Führerscheine, Geld und Hilfe, wenn man arbeitslos ist. Und vieles mehr. Für Menschen aus anderen Ländern gibt es auch eine Behörde, die Ausländerbehörde. Dort müssen sie hingehen, wenn sie länger in Deutschland bleiben möchten, z.B. für ein Studium.',
     example2: '',
@@ -8986,7 +8934,7 @@ const wordData = [
     article: '',
     word: 'bezahlen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Martina fragt ihren Freund Sebastian, wie viel er für das Zimmer im Studentenwohnheim bezahlt.',
     example2:
@@ -9011,7 +8959,7 @@ const wordData = [
     article: '',
     word: 'klappen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ja, das möchte ich, aber ich weiß nicht, ob das klappt',
     example2: '',
     example3: '',
@@ -9034,7 +8982,7 @@ const wordData = [
     article: '',
     word: 'vorher',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ungefähr sechs Monate vorher.',
     example2: '',
     example3: '',
@@ -9057,7 +9005,7 @@ const wordData = [
     article: '',
     word: 'bewerben',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Sagen Sie mir bitte auch, wann ich mich für ein Studium bewerben muss?',
     example2: '',
@@ -9081,7 +9029,7 @@ const wordData = [
     article: '',
     word: 'schauen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Tatjana soll auf der Webseite der Uni schauen, welche Deutschprüfung sie braucht.',
     example2: '',
@@ -9105,7 +9053,7 @@ const wordData = [
     article: '',
     word: 'mehreren',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'In Frankfurt kann man Fahrräder von mehreren Firmen mieten.',
     example2: '',
     example3: '',
@@ -9128,7 +9076,7 @@ const wordData = [
     article: '',
     word: 'benutzen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'In Hamburg werden viele Fahrräder gestohlen, deshalb benutzt der Mann sein neues Fahrrad nicht so oft.',
     example2: '',
@@ -9152,7 +9100,7 @@ const wordData = [
     article: '',
     word: 'überall',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'In Hannover gibt es überall in der Stadt Radwege.',
     example2: '',
     example3: '',
@@ -9175,7 +9123,7 @@ const wordData = [
     article: '',
     word: 'unterwegs',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'In Hannover sind ungefähr 25 % der Menschen mit dem Fahrrad in der Stadt unterwegs.',
     example2: '',
@@ -9200,7 +9148,7 @@ const wordData = [
     article: '',
     word: 'damit',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Man braucht ein gutes Schloss, damit das Fahrrad nicht gestohlen wird.',
     example2:
@@ -9226,7 +9174,7 @@ const wordData = [
     article: 'die',
     word: 'öffentlichen',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'In Deutschland kann man gut mit den öffentlichen Verkehrsmitteln wie U-Bahn, S-Bahn, Straßenbahn oder mit dem Bus durch die Stadt fahren. Oft ist man so schneller als mit dem Auto',
     example2: '',
@@ -9250,7 +9198,7 @@ const wordData = [
     article: 'der',
     word: 'Unfall',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Für Radfahrer sind Kreuzungen am gefährlichsten. Dort gibt es die meisten Unfälle mit Radfahrern, weil Autofahrer sie oft zu spät sehen.',
     example2: '',
@@ -9274,7 +9222,7 @@ const wordData = [
     article: '',
     word: 'trennen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'In vielen Städten gibt es oft keine getrennten Radwege. Die Radwege sind ein Teil der Straße. Autos dürfen dort nicht anhalten oder parken.',
     example2: '',
@@ -9298,7 +9246,7 @@ const wordData = [
     article: '',
     word: 'bestätigen',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: '',
     example3: '',
@@ -9321,7 +9269,7 @@ const wordData = [
     article: '',
     word: 'feiern',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Anja hat mit Freunden eine Party gefeiert.',
     example2: '',
     example3: '',
@@ -9344,7 +9292,7 @@ const wordData = [
     article: '',
     word: 'erkennen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Um 1900 wurde das Automobil dann in der ganzen Welt zu einem Erfolg und zum Symbol einer neuen Zeit, weil die Menschen den großen Vorteil erkannten.',
     example2: '',
@@ -9368,7 +9316,7 @@ const wordData = [
     article: '',
     word: 'bauen',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Oskar Barnack hatte die Idee und hat die erste kleine Kamera gebaut, er ist der Erfinder der Leica.',
     example2: '',
@@ -9392,7 +9340,7 @@ const wordData = [
     article: '',
     word: 'verdienen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Sie hat etwas entwickelt und hofft jetzt, dass viele die Idee gut finden und sie damit Geld verdienen kann.',
     example2: 'Sie verdient ein gutes Gehalt.',
@@ -9418,7 +9366,7 @@ const wordData = [
     article: '',
     word: 'tragen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Der Mann trägt eine Waffe.',
     example2: '',
     example3: '',
@@ -9441,7 +9389,7 @@ const wordData = [
     article: '',
     word: 'unterschiedlich',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Die Ergebnisse der Experimente waren unterschiedlich.',
     example2:
       'Herrn Seidls Dialekt und der Dialekt aus München sind unterschiedlich.',
@@ -9466,7 +9414,7 @@ const wordData = [
     article: '',
     word: 'anzeigen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Wenn das Video bei Ihnen nicht angezeigt wird, klicken Sie bitte hier.',
     example2: '',
@@ -9490,7 +9438,7 @@ const wordData = [
     article: 'der',
     word: 'Bereich',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'CrossFit ist für alle möglichen Bereiche des Körpers gut.',
     example2: '',
     example3: '',
@@ -9512,7 +9460,7 @@ const wordData = [
     article: '',
     word: 'anstrengen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Du möchtest topfit sein, auch wenn du dich dafür richtig anstrengen musst. Dann ist CrossFit genau richtig. Der Sport kommt aus den USA und wird weltweit immer beliebter. Nur etwas für Verrückte?',
     example2: '',
@@ -9535,7 +9483,7 @@ const wordData = [
     article: '',
     word: 'eigentlich',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'CrossFit ist eigentlich nicht so neu. Diese spezielle Art des Fitnesstrainings kommt aus den USA und entstand bereits in den 80er Jahren. In der letzten Zeit ist CrossFit aber überall auf der Welt bekannt und sehr populär. Regelmäßig finden internationale Wettbewerbe im CrossFit statt. Auch die großen Städte in Deutschland haben Trainingszentren für CrossFit. Daneben finden sich viele Leute einfach über die sozialen Netzwerke und trainieren gemeinsam.',
     example2:
@@ -9559,7 +9507,7 @@ const wordData = [
     article: 'der',
     word: 'Erwachsener',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       ' Ich habe als Kind davon geträumt, als Erwachsener Feuerwehrmann zu werden.',
     example2: '',
@@ -9582,7 +9530,7 @@ const wordData = [
     article: '',
     word: 'Nehmen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Wenn man die Tablette an einem Tag nicht genommen hat, soll man am nächsten Tag zwei Tabletten nehmen.',
     example2: '',
@@ -9605,7 +9553,7 @@ const wordData = [
     article: '',
     word: 'verschreiben',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Die Ärztin verschreibt Herrn Riemann ein Medikament gegen die Schmerzen.',
     example2: '',
@@ -9648,22 +9596,22 @@ const wordData = [
     date: '',
     wordNo: '',
     plural: '',
-    Präteritum: '',
-    PartizipII: '',
+    Präteritum: 'empfahl',
+    PartizipII: 'empfohlen',
     article: '',
     word: 'empfehlen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
-    example1: 'Ich empfehle euch, Zwiebelkuchen zu probieren',
-    example2: 'Ich empfehle dieses Buch.',
+
+    example1: 'Was empfiehlst du mir zu tun?',
+    example2: 'Sie empfahl uns, eine Diät zu machen.',
     example3:
       'Das Ding ist super, ich kann es überallhin mitnehmen, es ist klein, leicht und so praktisch. Ich kann es nur jedem empfehlen.',
     example4:
       'Wir möchten gerne im Urlaub wandern.Könnten Sie mir bitte ein Buch mit Wanderkarten für die Region empfehlen?',
-    example5: '',
+    example5: 'Man hat uns empfohlen, nach Ägypten zu reisen.',
     meaningENG: 'to recommend',
     meaningTR: '',
-    tip1: '',
+    tip1: 'ich empfehle, du empfiehlst, er/sie/es empfiehlt, wir empfehlen, ihr empfehlt, sie/Sie empfehlen.',
     tip2: '',
     tip3: '',
     tag: 'basics',
@@ -9678,7 +9626,7 @@ const wordData = [
     article: '',
     word: 'anrufen',
     grammar: '',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich versuche mal, dort anzurufen',
     example2: '',
     example3: '',
@@ -9701,7 +9649,7 @@ const wordData = [
     article: '',
     word: 'entschieden',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Wir haben uns entschieden, einen Wurstteller zu essen.',
     example2:
       'Ich habe mich für die Jahreskarte im Fitnessstudio entschieden, weil ich gerne Sport mache und es auch am Abend viele verschiedene Kurse gibt.',
@@ -9728,7 +9676,7 @@ const wordData = [
     article: 'die',
     word: 'Bewegung',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: '',
     example2: 'So gesund ist tägliche Bewegung.',
     example3:
@@ -9751,7 +9699,7 @@ const wordData = [
     article: '',
     word: 'achten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Sie passt auf, was sie isst und will nicht dick werden, sie achtet auf ihr Gewicht.',
     example2: 'Er achtet auf die Details.',
@@ -9775,7 +9723,7 @@ const wordData = [
     article: 'der',
     word: 'Erfolg',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Kein Schmerz, kein Erfolg',
     example2:
       'Regelmäßiges Training, etwa dreimal pro Woche, ist wichtig, wenn man Erfolg haben will. Aber Achtung: Gerade als Anfänger muss man sehr vorsichtig sein. Das Training ist sehr hart und der Körper braucht zwischen den Trainingseinheiten genug Ruhe. Viele CrossFit-Übungen sind schwierig und die Technik ist sehr wichtig. Experten raten deshalb, mit einem professionellen Trainer zu trainieren. Dieser kontrolliert, ob die Workouts zum Können und zur Fitness der Sportler passen.',
@@ -9801,7 +9749,7 @@ const wordData = [
     article: '',
     word: 'bewegen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Wer möchte sich regelmäßig bewegen? Wir treffen uns jeden Montag, Mittwoch und Freitag um 19 Uhr beim Stadtparkeingang. Im September bereiten wir uns außerdem intensiv auf den Firmenlauf am 5. Oktober vor!',
     example2:
@@ -9826,7 +9774,7 @@ const wordData = [
     article: '',
     word: 'veranstalten',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Am 7.9. veranstalten wir zusammen mit Ernährungsexpertin Susanna Laue einen Workshop zum Thema „Smartes Essen am Arbeitsplatz“. Nach einem spannenden Vortrag kochen wir gemeinsam einfache und schnelle Gerichte.',
     example2: '',
@@ -9850,7 +9798,7 @@ const wordData = [
     article: '',
     word: 'Rückenschmerzen',
     grammar: 'nomen (plural)',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Daniel möchte etwas gegen seine Rückenschmerzen machen.',
     example2: '',
     example3: '',
@@ -9873,7 +9821,7 @@ const wordData = [
     article: '',
     word: 'ernähren',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ayhan findet, dass sie sich zu wenig gesund ernährt.',
     example2: '',
     example3: '',
@@ -9896,7 +9844,7 @@ const wordData = [
     article: '',
     word: 'bestimmt',
     grammar: 'adverb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Ich würde gern nach der Arbeit Qigong ausprobieren. Das ist bestimmt entspannend. Hast du nach der Arbeit auch Zeit?',
     example2: '',
@@ -9920,7 +9868,7 @@ const wordData = [
     article: '',
     word: 'obwohl',
     grammar: 'Conjunction',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Obwohl der Workshop am Samstag ist, haben sich über 20 Personen angemeldet.',
     example2: 'Er läuft beim Firmenlauf mit, obwohl er kaum trainiert hat.',
@@ -9945,7 +9893,7 @@ const wordData = [
     article: '',
     word: 'verletzen',
     grammar: 'verb',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: ' Max hat sich den Arm gebrochen und das Bein verletzt.',
     example2: '',
     example3: '',
@@ -9968,7 +9916,7 @@ const wordData = [
     article: '',
     word: 'anstrengend',
     grammar: 'adjektiv',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1: 'Ich bin ein bisschen müde. Die Nachtschicht war anstrengend.',
     example2:
       'Es ist so schwierig und anstrengend. Warum hat nicht jemand eine Idee und erfindet etwas, damit es leichter geht?',
@@ -9993,7 +9941,7 @@ const wordData = [
     article: 'der',
     word: 'Bescheid',
     grammar: 'nomen',
-    image: 'https://raw.githubusercontent.com/ayhanmetin/wordimage/main/1/.png',
+
     example1:
       'Wenn man noch andere Medikamente nimmt, muss man seinem Arzt Bescheid geben.',
     example2: 'Du brauchst nur Bescheid zu sagen. Dann helfe ich dir.',

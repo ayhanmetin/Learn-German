@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
 a {
   font-family: 'Libre Franklin', sans-serif;
+  text-decoration: none; /* Ensure all links have no underline by default */
 }
 
 .emailText {
@@ -10,13 +11,9 @@ a {
   border-radius: 3px;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 12px;
-  margin-right: 4px;
-  margin-left: 0 1px;
-  margin-top: 0px;
-  margin-bottom: 3px;
-  padding: 0px;
-  padding-left: 3px;
-  color: var(--bs-secondary-color); /* Using Bootstrap's secondary color */
+  margin: 0 1px 3px 4px;
+  padding: 0 3px;
+  color: var(--bs-secondary-color);
 }
 
 .svgBtn {
@@ -54,12 +51,12 @@ a {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 20px; /* Adds space between list items */
+  gap: 20px;
 }
 
 .nav-item a {
   text-decoration: none;
-  color: var(--bs-secondary-color); /* Applying Bootstrap's secondary text color */
+  color: var(--bs-secondary-color);
   font-size: 17px;
   transition: color 0.3s, transform 0.3s;
 }
@@ -70,8 +67,7 @@ a {
   padding-bottom: 1px;
   align-items: center;
   font-family: 'Libre Franklin', sans-serif;
-  font-weight: 400;
-  color: var(--bs-secondary-color); /* Applying secondary text color */
+  color: var(--bs-secondary-color);
   width: 50%;
   margin: 0 auto;
   list-style: none;
@@ -86,7 +82,7 @@ a {
 }
 
 .altNav2 {
-  color: var(--bs-secondary-color); /* Applying secondary text color */
+  color: var(--bs-secondary-color);
   text-decoration: none;
   display: inline-block;
   padding-bottom: 4px;
@@ -113,7 +109,6 @@ a {
   justify-content: flex-end;
 }
 
-
 .score-item {
   margin-top: 2px;
   font-size: 24px !important;
@@ -128,7 +123,7 @@ a {
 }
 
 .search-bar input {
-  text-align: center; 
+  text-align: center;
 }
 
 .search-bar input::placeholder {
@@ -140,6 +135,40 @@ a {
   font-size: 14px;
   font-weight: 400;
   font-style: italic;
-  text-decoration: none;
-  color: inherit;
+  text-align: center;
+}
+
+.navMain1 .flag {
+  font-size: 28px;
+  text-decoration: none !important;
+}
+
+.p-2 .navMain1 .flag {
+  font-size: 28px;
+  text-decoration: none !important;
+}
+
+.p-2 .navMain1 .flag a {
+  text-decoration: none !important;
+}
+
+.p-2 .navMain1 .flag a:hover,
+.p-2 .navMain1 .flag a:focus,
+.p-2 .navMain1 .flag a:active {
+  text-decoration: none !important;
+}
+
+.p-2 .navLinkClass {
+  text-decoration: none !important;
+}
+
+.p-2 .navLinkClass:hover,
+.p-2 .navLinkClass:focus,
+.p-2 .navLinkClass:active {
+  text-decoration: none !important;
+}
+
+.p-2 .navLinkClass i.flag {
+  font-size: 28px;
+  text-decoration: none !important;
 }
