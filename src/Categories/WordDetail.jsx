@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import wordData from '../wordData';
 import WordList from './WordList';
@@ -7,6 +7,11 @@ const WordDetail = () => {
   const { wordName } = useParams();
   const decodedWord = decodeURIComponent(wordName);
   const word = wordData.find(w => w.word === decodedWord);
+
+  // Scroll to top when the component mounts
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [decodedWord]);
 
   if (!word) {
     return <div>Word not found.</div>;
