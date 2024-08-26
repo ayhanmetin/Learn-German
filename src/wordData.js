@@ -3,6 +3,28 @@ const wordData = [
     date: '',
     wordNo: '',
     article: '',
+    word: 'messen',
+    grammar: 'verb',
+    plural: '',
+    PartizipII: 'gemessen',
+    Präteritum: 'maß',
+    example1: 'Ich messe 1,90 Meter.',
+    example2: 'Er sagt, dieses Instrument messe die Temperatur.',
+    example3: 'Der Arzt hat meinen Blutdruck gemessen.',
+    example4:
+      'Während ich lief, maß er die Zeit.',
+    example5: 'Wir werden unsere Kräfte mit ihnen messen.',
+    meaningENG: 'to measure',
+    meaningTR: '',
+    tip1: "",
+    tip2: "",
+    tip3: "",
+    tag: 'basics',
+  },
+  {
+    date: '',
+    wordNo: '',
+    article: '',
     word: 'handeln',
     grammar: 'verb',
     plural: '',
@@ -9740,7 +9762,7 @@ const wordData = [
     tip3: '',
     tag: 'basics',
   },
-  
+
   {
     date: '',
     wordNo: '',
