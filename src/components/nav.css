@@ -172,3 +172,11 @@ a {
   font-size: 28px;
   text-decoration: none !important;
 }
+
+.totalWords {
+  transition: transform 0.3s ease !important;
+}
+
+.totalWords:hover {
+  transform: scale(1.1);
+}

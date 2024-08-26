@@ -107,36 +107,58 @@ function WordApp() {
             font-weight: bold;
             margin-top: 30px;
           }
+          .meaning {
+            font-style: italic;
+          }
+          .tip {
+            font-size: 16px;
+            margin-top: 20px;
+            font-weight: bold;
+          }
         </style>
       </head>
       <body>
-        <div className="content">
+        <div class="content">
           <h1>${word.word}</h1>
-          <p>・${word.grammar}</p>`;
+          <p>・${word.grammar}</p>
+          <p class="meaning"><strong>&nbsp;-</strong> &nbsp;${word.meaningENG}</p>`;
+
+    if (word.meaningTR) {
+      printContent += `<p class="meaning"><strong>&nbsp;-</strong> &nbsp;${word.meaningTR}</p>`;
+    }
 
     if (word.example1) {
-      printContent += `<p>‣ ${word.example1}</p>`;
+      printContent += `<p><strong>‣</strong> ${word.example1}</p>`;
     }
     if (word.example2) {
-      printContent += `<p>‣ ${word.example2}</p>`;
+      printContent += `<p><strong>‣</strong> ${word.example2}</p>`;
     }
     if (word.example3) {
-      printContent += `<p>‣ ${word.example3}</p>`;
+      printContent += `<p><strong>‣</strong> ${word.example3}</p>`;
     }
     if (word.example4) {
-      printContent += `<p>‣ ${word.example4}</p>`;
+      printContent += `<p><strong>‣</strong> ${word.example4}</p>`;
     }
     if (word.example5) {
-      printContent += `<p>‣ ${word.example5}</p>`;
+      printContent += `<p><strong>‣</strong> ${word.example5}</p>`;
+    }
+
+    if (word.tip1) {
+      printContent += `<p class="tip">&nbsp;Tips</p><p><strong>&nbsp;⇢</strong> ${word.tip1}</p>`;
+    }
+    if (word.tip2) {
+      printContent += `<p><strong>&nbsp;⇢</strong> ${word.tip2}</p>`;
+    }
+    if (word.tip3) {
+      printContent += `<p><strong>&nbsp;⇢</strong> ${word.tip3}</p>`;
     }
 
     printContent += `
-          <p>- "${word.meaningENG}"</p>
         </div>
       </body>
     </html>`;
 
-    const printWindow = window.open('', '_blank');
+    const printWindow = window.open('', '');
     printWindow.document.open();
     printWindow.document.write(printContent);
     printWindow.document.close();
@@ -221,7 +243,7 @@ function WordApp() {
                       <p className='mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 grammarMain text-body-secondary'>
                         <span className='grammarMain text-body-secondary'>
                           {' '}
-                          &nbsp;&nbsp; ☞ &nbsp;&nbsp; 
+                          &nbsp;&nbsp; ☞ &nbsp;&nbsp;
                         </span>{' '}
                         {word.PartizipII} &nbsp;
                       </p>
@@ -230,7 +252,10 @@ function WordApp() {
                   {word.Präteritum && (
                     <div className='pt-2 pe-0'>
                       <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                        <span className='grammarMain text-body-secondary '> /&nbsp;&nbsp;</span>{' '}
+                        <span className='grammarMain text-body-secondary '>
+                          {' '}
+                          /&nbsp;&nbsp;
+                        </span>{' '}
                         {word.Präteritum}
                       </p>
                     </div>
@@ -238,7 +263,9 @@ function WordApp() {
                   {word.plural && (
                     <div className='pt-2 pe-0'>
                       <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                        <span className='grammarMain text-body-secondary'>&nbsp;☞ &nbsp;&nbsp; </span>{' '}
+                        <span className='grammarMain text-body-secondary'>
+                          &nbsp;☞ &nbsp;&nbsp;{' '}
+                        </span>{' '}
                         {word.plural}
                       </p>
                     </div>

@@ -22,8 +22,8 @@ export default function Nav() {
             <i className='flag'>📚</i>
           </NavLink>
         </div>
-        <div className='px-2'>
-          <Link to='/word' className='wordCount text-body-secondary p-0 m-0 navMain1 text-end'>
+        <div className='px-2 totalWords'>
+          <Link to='/word' className='text-body-secondary totalWords p-0 m-0 text-end'>
             Total words: {wordCount}
           </Link>
         </div>
