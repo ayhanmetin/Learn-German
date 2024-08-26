@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div
-      className='d-flex flex-column min-vh-100'
+      className='d-flex flex-column p-3 min-vh-100'
       style={{
         paddingLeft: isMobile ? 0 : '',
         paddingRight: isMobile ? 0 : '',
