@@ -193,16 +193,22 @@ function WordApp() {
             <div className='d-flex flex-row gap-5'>
               <NavLink
                 to='/quiz'
-                className='p-1 homeCss text-start'
+                className='p-1 home2 homeCss text-start'
                 aria-label='Quiz 2'
               >
-                Quiz
+                <i className='me-1 fa fa-ghost'></i> Quiz
               </NavLink>
-              <Link to='/basics' className='p-1 homeCss bg-light text-start'>
-                B1 Words
+              <Link
+                to='/basics'
+                className='p-1 home2 homeCss bg-light text-start'
+              >
+                <i class='fa fa-b'>&nbsp;1</i> Wörter
               </Link>
-              <Link to='/advanced' className='p-1 homeCss bg-light text-start'>
-                C1 Words
+              <Link
+                to='/advanced'
+                className='p-1 home2 homeCss bg-light text-start'
+              >
+                <i class='fa fa-c'>&nbsp;1</i> Wörter
               </Link>
             </div>
           </div>

@@ -37,3 +37,31 @@
   color: inherit;
 }
 
+.home2 {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.home2::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+  
+}
+
+.home2:hover::after {
+  width: 100% !important;
+}
+
+.home2:hover {
+  transform: scale(1.1);
+  text-decoration: none !important;
+}
+
