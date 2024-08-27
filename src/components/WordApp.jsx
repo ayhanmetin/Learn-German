@@ -175,7 +175,7 @@ function WordApp() {
           <input
             type='text'
             className='form-control text-start fs-6 text fw-light'
-            placeholder={`Search`}
+            placeholder={`Suche deutsches Wort`}
             value={searchTerm}
             onChange={handleSearch}
           />

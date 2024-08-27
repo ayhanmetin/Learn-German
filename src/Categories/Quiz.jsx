@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './quiz.css';
 import wordData from '../wordData';
+import Footer2 from '../components/Footer2';
 
 const Quiz = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -154,13 +155,12 @@ const Quiz = () => {
     return (
       <div className='margin d-flex mobileMain justify-content-start align-items-start'>
         <div className='col-12'>
-
           <div className='d-flex justify-content-center align-items-center mb-3'>
             <b className='mobileWord mb-3 wordDayQuiz'>
               {article ? `${article} ${word}` : word}
             </b>
           </div>
-          
+
           <div className='d-flex justify-content-start'>
             <div className='fs-4 mt-0 ms-0 pt-0 m-0 p-0 mt-0 pt-0'>
               <div className='quizSentence col-12 d-flex flex-column mb-3'>
@@ -192,70 +192,73 @@ const Quiz = () => {
   };
 
   return (
-    <div className='col-12 app mt-3 pt-0'>
-      <div className='col-12'>
-        <div className='scoreboard text-body-secondary'>
-          <div className='score-item'>
-            <i className='fas fa-ghost'></i>
-            <span className='text-body-secondary'>{lives}</span>
-          </div>
-          <div className='score-item'>
-            <i className='fas fa-check'></i>
-            <span className='text-body-secondary'>{score}</span>
-          </div>
-        </div>
-        {gameOver ? (
-          <div className='mb-2'>
-            <h1 className='d-flex justify-content-center align-items-center'>
-              🎯 {score}{' '}
-            </h1>
-            <button className='start-again-btn mt-4 mb-5' onClick={resetGame}>
-              Noch einmal?
-            </button>
-          </div>
-        ) : (
-          <div className='cardCss text-body-secondary'>
-            <h1 className='text-body-secondary mb-0'>{displayWord()}</h1>
-            <div className='choices text-body-secondary'>
-              {choices.length ? (
-                choices.map((choice, index) => (
-                  <button key={index} onClick={() => handleChoice(choice)}>
-                    {choice}
-                  </button>
-                ))
-              ) : (
-                <div>Loading choices...</div>
-              )}
+    <>
+      <div className='col-12 app mt-3 pt-0'>
+        <div className='col-12'>
+          <div className='scoreboard text-body-secondary'>
+            <div className='score-item'>
+              <i className='fas fa-ghost'></i>
+              <span className='text-body-secondary'>{lives}</span>
+            </div>
+            <div className='score-item'>
+              <i className='fas fa-check'></i>
+              <span className='text-body-secondary'>{score}</span>
             </div>
           </div>
-        )}
-        {wrongWords.length > 0 && (
-          <div className='wrong-words text-body-secondary ms-4 mb-5 pb-5'>
-            <p className='wrong-words'>
-              🏴‍☠️
-              {wrongWords.map((word, index) => (
-                <a
-                  key={index}
-                  href={`https://www.almancakelime.com/word/${word}`}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  style={{
-                    textDecoration: 'none',
-                    color: 'inherit',
-                    cursor: 'pointer',
-                    padding: '0',
-                    margin: '0 5px',
-                  }}
-                >
-                  {word}
-                  {index < wrongWords.length - 1 ? ', ' : ''}
-                </a>
-              ))}
-            </p>
-          </div>
-        )}
+          {gameOver ? (
+            <div className='mb-2'>
+              <h1 className='d-flex justify-content-center align-items-center'>
+                🎯 {score}{' '}
+              </h1>
+              <button className='start-again-btn mt-4 mb-5' onClick={resetGame}>
+                Noch einmal?
+              </button>
+            </div>
+          ) : (
+            <div className='cardCss text-body-secondary'>
+              <h1 className='text-body-secondary mb-0'>{displayWord()}</h1>
+              <div className='choices text-body-secondary'>
+                {choices.length ? (
+                  choices.map((choice, index) => (
+                    <button key={index} onClick={() => handleChoice(choice)}>
+                      {choice}
+                    </button>
+                  ))
+                ) : (
+                  <div>Loading choices...</div>
+                )}
+              </div>
+            </div>
+          )}
+          {wrongWords.length > 0 && (
+            <div className='wrong-words text-body-secondary ms-4 mb-5 pb-5'>
+              <p className='wrong-words'>
+                🏴‍☠️
+                {wrongWords.map((word, index) => (
+                  <a
+                    key={index}
+                    href={`https://www.almancakelime.com/word/${word}`}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    style={{
+                      textDecoration: 'none',
+                      color: 'inherit',
+                      cursor: 'pointer',
+                      padding: '0',
+                      margin: '0 5px',
+                    }}
+                  >
+                    {word}
+                    {index < wrongWords.length - 1 ? ', ' : ''}
+                  </a>
+                ))}
+              </p>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+      <Footer2 />
+    </>
   );
 };
 

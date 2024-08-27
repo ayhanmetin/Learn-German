@@ -20,6 +20,7 @@ const wordData = [
     tip3: "The phrase 'Kommt darauf an' (It depends) is a common usage of this verb.",
     tag: 'basics',
   },
+
   {
     date: '',
     wordNo: '',
