@@ -187,3 +187,7 @@ choices2:hover {
 .footer {
   padding-top: 300px !important;
 }
+
+.choicesFont {
+  font-size: 22px !important;
+}
