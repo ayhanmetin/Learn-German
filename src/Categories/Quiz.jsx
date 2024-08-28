@@ -167,7 +167,33 @@ const Quiz = () => {
                 {' '}
                 {example1 && (
                   <p className='textWordQuiz d-flex justify-content-start align-items-start'>
-                    <strong>‣</strong> {example1}
+                    <div className='d-flex flex-column'>
+                      {example1 && (
+                        <div className='d-flex'>
+                          <strong>‣</strong> {example1}
+                        </div>
+                      )}
+                      {example2 && (
+                        <div className='d-flex'>
+                          <strong>‣</strong> {example2}
+                        </div>
+                      )}
+                      {example3 && (
+                        <div className='d-flex'>
+                          <strong>‣</strong> {example3}
+                        </div>
+                      )}
+                      {example4 && (
+                        <div className='d-flex'>
+                          <strong>‣</strong> {example4}
+                        </div>
+                      )}
+                      {example5 && (
+                        <div className='d-flex'>
+                          <strong>‣</strong> {example5}
+                        </div>
+                      )}
+                    </div>
                   </p>
                 )}
               </div>
@@ -263,7 +289,7 @@ const Quiz = () => {
           )}
         </div>
       </div>
-      <div className='mt-5 pt-5'>
+      <div className='mt-5 pt-5 footer'>
         <Footer2 />
       </div>
     </>
