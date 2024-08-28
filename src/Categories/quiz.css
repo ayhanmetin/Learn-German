@@ -89,7 +89,6 @@
 }
 
 .choices button:hover {
-  color: #ffce18;
 }
 
 .wrong-words {
@@ -103,10 +102,12 @@
 }
 
 @media (max-width: 768px) {
+  
   .choices {
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
     margin: 0;
+    color: black;
   }
 
   .cardCss,
@@ -129,26 +130,8 @@
     padding: 2px;
   }
 
-  .choices {
-    font-family: 'Libre Franklin', sans-serif;
-    color: black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .choices button {
-    border: none;
-    padding: 20px;
-    font-size: 19px;
-    cursor: pointer;
-    transition: none;
-    font-weight: 100;
-    min-height: 100px;
-  }
-
-  .choices button:hover {
-    color: #ffce18;
+  .choices button:active {
+    background-color: #f8f8f8;
   }
 
   .wrong-words {
@@ -199,6 +182,7 @@ choices2:hover {
     font-size: 35px;
   }
 }
+
 
 .footer {
   padding-top: 300px !important;
