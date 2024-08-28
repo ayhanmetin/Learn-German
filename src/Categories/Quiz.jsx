@@ -249,7 +249,7 @@ const Quiz = () => {
                 {choices.length ? (
                   choices.map((choice, index) => (
                     <button
-                      className='rounded-pill choicesFont fw-medium btn btn-light'
+                      className='rounded-pill choicesFont fw-medium '
                       key={index}
                       onClick={() => handleChoice(choice)}
                     >
