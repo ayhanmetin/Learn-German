@@ -215,12 +215,18 @@ const Quiz = () => {
               </button>
             </div>
           ) : (
-            <div className='cardCss text-body-secondary'>
-              <h1 className='text-body-secondary mb-0'>{displayWord()}</h1>
+            <div className='cardCss fs-2 text text-body-secondary'>
+              <h1 className='text-body-secondary fs-2 text fw-medium mb-0'>
+                {displayWord()}
+              </h1>
               <div className='choices text-body-secondary'>
                 {choices.length ? (
                   choices.map((choice, index) => (
-                    <button key={index} onClick={() => handleChoice(choice)}>
+                    <button
+                      className='rounded-pill fw-medium btn btn-light'
+                      key={index}
+                      onClick={() => handleChoice(choice)}
+                    >
                       {choice}
                     </button>
                   ))
@@ -257,7 +263,9 @@ const Quiz = () => {
           )}
         </div>
       </div>
-      <Footer2 />
+      <div className='mt-5 pt-5'>
+        <Footer2 />
+      </div>
     </>
   );
 };
