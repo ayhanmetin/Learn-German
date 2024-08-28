@@ -166,7 +166,7 @@ const Quiz = () => {
               <div className='quizSentence col-12 d-flex flex-column mb-3'>
                 {' '}
                 {example1 && (
-                  <p className='textWordQuiz d-flex justify-content-start align-items-start'>
+                  <p className='textWordQuiz d-flex justify-content-start align-items-start fw-normal'>
                     <div className='d-flex flex-column'>
                       {example1 && (
                         <div className='d-flex'>
@@ -249,7 +249,7 @@ const Quiz = () => {
                 {choices.length ? (
                   choices.map((choice, index) => (
                     <button
-                      className='choicesFont fw-medium'
+                      className='choicesFont fw-normal'
                       key={index}
                       onClick={() => handleChoice(choice)}
                     >
