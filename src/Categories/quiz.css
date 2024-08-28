@@ -19,8 +19,7 @@
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
   font-weight: 600;
   display: block;
   margin: 20px auto;
@@ -72,7 +71,7 @@
 
 .choices {
   font-family: 'Libre Franklin', sans-serif;
-  color: black;
+  color: black; /* Ensures text color is black */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -83,31 +82,21 @@
   padding: 20px;
   font-size: 19px;
   cursor: pointer;
-  transition: none;
   font-weight: 100;
   min-height: 100px;
+  background-color: #f8f8f8; /* Ensures background color is neutral */
+  color: black; /* Ensures text color is black */
 }
 
 .choices button:hover {
-}
-
-.wrong-words {
-  font-size: 18px;
-  padding: 5px;
-}
-
-.wrong-words h3 {
-  font-size: 17px;
-  margin-bottom: 2px;
+  /* Optional: Define hover state if needed */
 }
 
 @media (max-width: 768px) {
-  
   .choices {
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
     margin: 0;
-    color: black;
   }
 
   .cardCss,
@@ -147,22 +136,20 @@
 }
 
 .choices2 button {
-  color: black;
+  color: black; /* Ensures text color is black */
   border: none;
   padding: 20px;
   font-size: 19px;
   cursor: pointer;
-  transition: none;
   font-weight: 100;
   min-height: 100px;
-  background-color: #f8f8f8;
+  background-color: #f8f8f8; /* Ensures background color is neutral */
 }
 
-choices2:hover {
+.choices2:hover {
   background-color: white;
-  border: 1px solid #007bff;
-  color: #007bff;
-  transition: none;
+  border: 1px solid #007bff; /* Define border color if needed */
+  color: black; /* Ensures text color is black */
 }
 
 .textWordQuiz {
@@ -183,11 +170,11 @@ choices2:hover {
   }
 }
 
-
 .footer {
   padding-top: 300px !important;
 }
 
 .choicesFont {
   font-size: 22px !important;
+  color: black; /* Ensures text color is black */
 }
