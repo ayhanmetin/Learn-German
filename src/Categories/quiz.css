@@ -19,7 +19,8 @@
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
   font-weight: 600;
   display: block;
   margin: 20px auto;
@@ -69,9 +70,14 @@
   font-weight: 300;
 }
 
+.choicesFont {
+  font-size: 22px !important;
+  color: black;
+}
+
 .choices {
   font-family: 'Libre Franklin', sans-serif;
-  color: black; /* Ensures text color is black */
+  color: black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -84,12 +90,8 @@
   cursor: pointer;
   font-weight: 100;
   min-height: 100px;
-  background-color: #f8f8f8; /* Ensures background color is neutral */
-  color: black; /* Ensures text color is black */
-}
-
-.choices button:hover {
-  /* Optional: Define hover state if needed */
+  background-color: #f8f8f8;
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -127,29 +129,11 @@
     font-size: 13px;
     margin-top: 20px;
   }
-}
 
-.choices2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-.choices2 button {
-  color: black; /* Ensures text color is black */
-  border: none;
-  padding: 20px;
-  font-size: 19px;
-  cursor: pointer;
-  font-weight: 100;
-  min-height: 100px;
-  background-color: #f8f8f8; /* Ensures background color is neutral */
-}
-
-.choices2:hover {
-  background-color: white;
-  border: 1px solid #007bff; /* Define border color if needed */
-  color: black; /* Ensures text color is black */
+  .choicesFont {
+    font-size: 15px !important;
+    color: black;
+  }
 }
 
 .textWordQuiz {
@@ -170,11 +154,11 @@
   }
 }
 
-.footer {
-  padding-top: 300px !important;
+.choicesFont {
+  font-size: 15px !important;
+  color: black;
 }
 
-.choicesFont {
-  font-size: 22px !important;
-  color: black; /* Ensures text color is black */
+.footer {
+  padding-top: 300px !important;
 }
