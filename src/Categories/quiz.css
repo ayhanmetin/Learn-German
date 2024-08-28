@@ -89,7 +89,8 @@
 }
 
 .choices button:hover {
-  
+  background-color: #198753;
+  color: white;
 }
 
 .wrong-words {
@@ -188,5 +189,5 @@ choices2:hover {
 }
 
 .choicesFont {
-  font-size: 18px !important;
+  font-size: 22px !important;
 }
