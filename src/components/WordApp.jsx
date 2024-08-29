@@ -287,9 +287,12 @@ function WordApp() {
                   )}
 
                   {word.example1 && (
-                    <p className='textWord'>
-                      <strong>‣</strong> {word.example1}
-                    </p>
+                    <>
+                      <p className='tip'>&nbsp;Beispielsätze</p>
+                      <p className='textWord'>
+                        <strong>‣</strong> {word.example1}
+                      </p>
+                    </>
                   )}
                   {word.example2 && (
                     <p className='textWord'>
@@ -314,7 +317,7 @@ function WordApp() {
 
                   {word.tip1 && (
                     <p className='textWord mt-3 fs-6'>
-                      <p className='tip'>&nbsp;Tips</p>
+                      <p className='tip'>&nbsp;Tipps</p>
                       <strong>&nbsp;⇢</strong> {word.tip1}
                     </p>
                   )}

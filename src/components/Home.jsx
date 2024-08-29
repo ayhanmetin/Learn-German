@@ -209,7 +209,7 @@ function WordApp() {
           <p className='text-center'></p>
         )}
 
-        <div className='container'>
+        <div className='container mt-3'>
           <div className='d-flex justify-content-center'>
             <div className='d-flex flex-row gap-5'>
               <NavLink
