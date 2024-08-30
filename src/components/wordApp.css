@@ -221,11 +221,11 @@ p {
     overflow-wrap: normal;
     white-space: normal;
     line-height: 1.6;
+    padding: 10px;
   }
+}
 
-  body,
-  html {
-    padding: 0;
-    margin: 0;
-  }
+.frameMAin {
+  padding-left: 90px;
+  padding-right: 90px;
 }
