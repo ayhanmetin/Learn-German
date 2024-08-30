@@ -77,11 +77,11 @@ function WordApp() {
   return (
     <>
       <div className='d-flex col-12 flex-column'>
-        <div className='d-flex mb-1 justify-content-center align-items-center'>
-          <div className='search-bar pb-2 col-7 mb-1 p-1'>
+        <div className='container d-flex justify-content-center align-items-center'>
+          <div className='search-bar pb-2 mb-1 col-12'>
             <input
               type='text'
-              className='form-control text-start fs-6 text fw-light'
+              className='form-control text-center fs-6 text fw-light'
               placeholder={`Suche deutsches Wort`}
               value={searchTerm}
               onChange={handleSearch}
@@ -92,7 +92,7 @@ function WordApp() {
         {filteredWords.length > 0 ? (
           filteredWords.map((word, index) => (
             <div
-              className='border-dark-subtle homeBorder mb-2'
+              className='border-dark-subtle homeBorder px-4 mb-2'
               key={index}
             >
               <div className='d-flex flex-column frameMAin'>

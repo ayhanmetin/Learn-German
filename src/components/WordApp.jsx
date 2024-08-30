@@ -174,7 +174,7 @@ function WordApp() {
         <div className='search-bar pb-2 mb-1 col-12'>
           <input
             type='text'
-            className='form-control text-start fs-6 text fw-light'
+            className='form-control text-center fs-6 text fw-light'
             placeholder={`Suche deutsches Wort`}
             value={searchTerm}
             onChange={handleSearch}
