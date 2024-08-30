@@ -233,7 +233,7 @@ const Quiz = () => {
           </div>
           {gameOver ? (
             <div className='mb-2'>
-              <h1 className='d-flex justify-content-center align-items-center'>
+              <h1 className='d-flex scoreQuiz justify-content-center align-items-center'>
                 🎯 {score}{' '}
               </h1>
               <button className='start-again-btn mt-4 mb-5' onClick={resetGame}>
@@ -264,7 +264,7 @@ const Quiz = () => {
           )}
           {wrongWords.length > 0 && (
             <div className='wrong-words text-body-secondary ms-4 mb-5 pb-5'>
-              <p className='wrong-words'>
+              <p className='wrong-words d-flex fs-4 justify-content-center align-items-center'>
                 🏴‍☠️
                 {wrongWords.map((word, index) => (
                   <a

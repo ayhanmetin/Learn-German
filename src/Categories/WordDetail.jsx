@@ -8,7 +8,6 @@ const WordDetail = () => {
   const decodedWord = decodeURIComponent(wordName);
   const word = wordData.find(w => w.word === decodedWord);
 
-  // Scroll to top when the component mounts
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [decodedWord]);
@@ -24,7 +23,7 @@ const WordDetail = () => {
 
   return (
     <>
-      <div className='col-12 ps-1 d-flex flex-column mb-5 mt-0 pt-3'>
+      <div className='col-12  ps-1 d-flex flex-column mb-5 mt-0 pt-3'>
         <div className='margin d-flex mobileMain justify-content-start mx-5 align-items-center'>
           <div className='col-12 '>
             <div className='d-flex justify-content-start align-items-center mb-0'>

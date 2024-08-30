@@ -53,7 +53,6 @@
   left: 0;
   background-color: currentColor;
   transition: width 0.3s ease;
-  
 }
 
 .home2:hover::after {
@@ -65,3 +64,6 @@
   text-decoration: none !important;
 }
 
+.textMain {
+  font-size: 26px !important;
+}

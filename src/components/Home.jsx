@@ -91,12 +91,12 @@ function WordApp() {
 
         {filteredWords.length > 0 ? (
           filteredWords.map((word, index) => (
-            <div className='border-dark-subtle col-10 p-4 mb-3' key={index}>
+            <div className='border-dark-subtle col-10 px-4 mb-2' key={index}>
               <div className='d-flex flex-column'>
                 <div className='d-flex justify-content-between align-items-center mb-3'>
                   <b className='fs-1'>{`${word.article} ${word.word}`}</b>
                 </div>
-                <div className='margin d-flex mobileMain justify-content-start align-items-center'>
+                <div className='margin d-flex border-bottom mobileMain justify-content-start align-items-center'>
                   <div className='col-12'>
                     <div className='word-container fs-4 mainBody mt-0 pt-0'>
                       <div className='d-flex grammarMain text-body-secondary flex-row mb-0'>
@@ -211,25 +211,25 @@ function WordApp() {
           <p className='text-center'></p>
         )}
 
-        <div className='container mt-3'>
-          <div className='d-flex justify-content-center'>
-            <div className='d-flex flex-row gap-5'>
+        <div className='container  mt-3'>
+          <div className='d-flex  justify-content-center'>
+            <div className='d-flex  flex-row gap-5'>
               <NavLink
                 to='/quiz'
-                className='p-1 home2 homeCss text-start'
+                className='p-1 home2 textMain homeCss text-start'
                 aria-label='Quiz 2'
               >
-                <i className='me-1 fa fa-ghost'></i> Quiz
+                <i className='me-1  fa fa-ghost'></i> Quiz
               </NavLink>
               <Link
                 to='/basics'
-                className='p-1 home2 homeCss bg-light text-start'
+                className='p-1 textMain home2 homeCss bg-light text-start'
               >
                 <i class='fa fa-b'>&nbsp;1</i> Wörter
               </Link>
               <Link
                 to='/advanced'
-                className='p-1 home2 homeCss bg-light text-start'
+                className='p-1 textMain home2 homeCss bg-light text-start'
               >
                 <i class='fa fa-c'>&nbsp;1</i> Wörter
               </Link>
