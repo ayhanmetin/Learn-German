@@ -18,3 +18,8 @@
   text-decoration: none !important;
   transform: scale(1.1);
 }
+
+.frameMAin {
+  padding-left: 190px;
+  padding-right: 190px;
+}

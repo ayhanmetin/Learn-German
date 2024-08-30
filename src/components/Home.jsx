@@ -76,9 +76,9 @@ function WordApp() {
 
   return (
     <>
-      <div className='d-flex col-12  flex-column'>
+      <div className='d-flex col-12 flex-column'>
         <div className='d-flex mb-1 justify-content-center align-items-center'>
-          <div className='search-bar pb-2 col-8 mb-1 p-1'>
+          <div className='search-bar pb-2 col-7 mb-1 p-1'>
             <input
               type='text'
               className='form-control text-start fs-6 text fw-light'
@@ -92,10 +92,10 @@ function WordApp() {
         {filteredWords.length > 0 ? (
           filteredWords.map((word, index) => (
             <div
-              className='border-dark-subtle homeBorder col-10 px-4 mb-2'
+              className='border-dark-subtle homeBorder mb-2'
               key={index}
             >
-              <div className='d-flex flex-column'>
+              <div className='d-flex flex-column frameMAin'>
                 <div className='d-flex justify-content-between align-items-center mb-3'>
                   <b className='fs-1'>{`${word.article} ${word.word}`}</b>
                 </div>
