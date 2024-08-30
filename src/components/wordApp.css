@@ -230,9 +230,9 @@ p {
 }
 
 @media (max-width: 768px) {
-  .frameMAinMobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .frameMainMobile {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 }
