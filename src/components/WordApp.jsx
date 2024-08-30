@@ -10,9 +10,10 @@ import {
   PrintIcon,
   VoiceIcon,
 } from './IconBox';
+import WordList from '../Categories/WordList';
 
 function WordApp() {
-  const [visibleWordsCount, setVisibleWordsCount] = useState(50);
+  const [visibleWordsCount, setVisibleWordsCount] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
   const [voices, setVoices] = useState([]);
@@ -342,12 +343,15 @@ function WordApp() {
         <div className='d-grid col-4 mx-auto'>
           <button
             className='loadMore text-body-emphasis'
-            onClick={() => setVisibleWordsCount(prevCount => prevCount + 50)}
+            onClick={() => setVisibleWordsCount(prevCount => prevCount + 20)}
           >
             +50 weitere
           </button>
         </div>
       )}
+      <div className='mt-1 pt-1'>
+        <WordList />
+      </div>
       <div className='mt-auto'>
         <Footer2 />
       </div>
