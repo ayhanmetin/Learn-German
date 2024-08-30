@@ -1,41 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
-.custom-gutter {
-  margin-right: -1px;
-  margin-left: -1px;
-}
-.custom-gutter > [class^='col-'] {
-  padding-right: 1px;
-  padding-left: 1px;
-}
-.custom-row-gap {
-  row-gap: 20px;
-}
-
-.homeCss, .home2 {
+.lastHome {
+  font-size: 26px !important;
   background: none !important;
   text-decoration: none;
   color: inherit;
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.homeCss a, .homeCss a:hover, .home2, .home2:hover, .home2 a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.home2 {
-  position: relative;
-}
-
-.home2:hover {
+.lastHome:hover {
   text-decoration: none !important;
   transform: scale(1.1);
-}
-
-.textMain {
-  font-size: 26px !important;
 }

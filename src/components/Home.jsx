@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
-import './wordApp.css';
 import './home.css';
 import { VoiceIcon } from './IconBox';
 import { Link } from 'react-router-dom';
@@ -9,6 +8,7 @@ import WordCountDisplay from './WordCountDisplay';
 import { NavLink } from 'react-router-dom';
 import './nav.css';
 import WordList from '../Categories/WordList';
+import Nav from './Nav';
 
 function WordApp() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -76,31 +76,6 @@ function WordApp() {
 
   return (
     <>
-      <div className='container mb-5'>
-        <div className='d-flex align-items-center justify-content-center'>
-          <div className='d-flex navFlex flex-row gap-5'>
-            <NavLink
-              to='/quiz'
-              className='p-1 home2 textMain homeCss text-start'
-              aria-label='Quiz 2'
-            >
-              <i className='me-1  fa fa-ghost'></i> Quiz
-            </NavLink>
-            <Link
-              to='/basics'
-              className='p-1 textMain home2 homeCss bg-light text-start'
-            >
-              <i class='fa fa-b'>&nbsp;1</i> Wörter
-            </Link>
-            <Link
-              to='/advanced'
-              className='p-1 textMain home2 homeCss bg-light text-start'
-            >
-              <i class='fa fa-c'>&nbsp;1</i> Wörter
-            </Link>
-          </div>
-        </div>
-      </div>
       <div className='d-flex col-12  flex-column'>
         <div className='d-flex mb-1 justify-content-center align-items-center'>
           <div className='search-bar pb-2 col-8 mb-1 p-1'>
@@ -116,7 +91,10 @@ function WordApp() {
 
         {filteredWords.length > 0 ? (
           filteredWords.map((word, index) => (
-            <div className='border-dark-subtle homeBorder col-10 px-4 mb-2' key={index}>
+            <div
+              className='border-dark-subtle homeBorder col-10 px-4 mb-2'
+              key={index}
+            >
               <div className='d-flex flex-column'>
                 <div className='d-flex justify-content-between align-items-center mb-3'>
                   <b className='fs-1'>{`${word.article} ${word.word}`}</b>
