@@ -155,11 +155,13 @@ function WordApp() {
                             <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
                           </p>
                         )}
-
                         {word.example1 && (
-                          <p className='textWord'>
-                            <strong>‣</strong> {word.example1}
-                          </p>
+                          <>
+                            <p className='tip'>&nbsp;Beispielsätze</p>
+                            <p className='textWord'>
+                              <strong>‣</strong> {word.example1}
+                            </p>
+                          </>
                         )}
                         {word.example2 && (
                           <p className='textWord'>
