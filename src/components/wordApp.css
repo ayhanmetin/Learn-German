@@ -228,3 +228,11 @@ p {
   padding-left: 90px;
   padding-right: 90px;
 }
+
+@media (max-width: 768px) {
+  .frameMAinMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

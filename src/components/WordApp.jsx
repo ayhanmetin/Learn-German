@@ -184,7 +184,7 @@ function WordApp() {
 
       {filteredWords.map((word, index) => (
         <div className='border-dark-subtle mainFrame mt-3 mb-3' key={index}>
-          <div className='d-flex frameMAin justify-content-start mb-3'>
+          <div className='d-flex frameMAin frameMAinMobile justify-content-start mb-3'>
             <div className='d-flex gap-3 text-body-emphasis'>
               <button
                 className='ms-2 position-relative'
