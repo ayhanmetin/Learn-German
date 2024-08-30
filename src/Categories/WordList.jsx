@@ -4,6 +4,7 @@ import wordData from '../wordData';
 import './wordList.css';
 import Footer2 from '../components/Footer2';
 
+
 const WordList = () => {
   const navigate = useNavigate();
 
@@ -12,7 +13,7 @@ const WordList = () => {
   };
 
   return (
-    <div className='col-12 mb-5 word-list border-top'>
+    <div className='col-12 mb-5 word-list'>
       <div className='text-center mt-3'>
         {wordData.map((word, index) => (
           <React.Fragment key={index}>
