@@ -106,7 +106,6 @@ a {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .score-item {
@@ -119,7 +118,6 @@ a {
 .fanav {
   margin-bottom: 2px !important;
   font-size: 15px;
-  margin-left: 10px;
 }
 
 .search-bar input {

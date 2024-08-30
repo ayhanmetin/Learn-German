@@ -23,8 +23,8 @@ const WordDetail = () => {
 
   return (
     <>
-      <div className='col-12  ps-1 d-flex flex-column mb-5 mt-0 pt-3'>
-        <div className='margin d-flex mobileMain justify-content-start mx-5 align-items-center'>
+      <div className='d-flex flex-column mb-5 mt-0 pt-3'>
+        <div className='margin d-flex mobileMain justify-content-start ms-3 border-bottom align-items-center'>
           <div className='col-12 '>
             <div className='d-flex justify-content-start align-items-center mb-0'>
               <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>

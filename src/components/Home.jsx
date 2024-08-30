@@ -78,7 +78,7 @@ function WordApp() {
     <>
       <div className='container mb-5'>
         <div className='d-flex align-items-center justify-content-center'>
-          <div className='d-flex ms-5 flex-row gap-5'>
+          <div className='d-flex navFlex flex-row gap-5'>
             <NavLink
               to='/quiz'
               className='p-1 home2 textMain homeCss text-start'

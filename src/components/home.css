@@ -36,23 +36,6 @@
   transform: scale(1.1);
 }
 
-/* Removed ::after pseudo-element to eliminate the line on hover */
-
-/* .home2::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: currentColor;
-  transition: width 0.3s ease;
-}
-
-.home2:hover::after {
-  width: 100% !important;
-} */
-
 .textMain {
   font-size: 26px !important;
 }

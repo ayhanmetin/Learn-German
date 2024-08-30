@@ -14,16 +14,13 @@ export default function Nav() {
         <Theme2 />
       </div>
       <div className='d-flex flex-column mb-3 mt-0 justify-content-center align-items-center navMain1'>
-        <div className='p-2'>
-          <NavLink
-            to='/home'
-            aria-label='Home'
-          >
+        <div className='pt-3'>
+          <NavLink to='/home' aria-label='Home'>
             <i className='flag'>📚</i>
           </NavLink>
         </div>
-        <div className='px-2 totalWords'>
-          <Link to='/word' className='text-body-secondary totalWords p-0 m-0 text-end'>
+        <div className='totalWords'>
+          <Link to='/word' className='text-body-secondary totalWords p-0 m-0'>
             Total words: {wordCount}
           </Link>
         </div>
