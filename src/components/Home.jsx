@@ -92,7 +92,7 @@ function WordApp() {
         {filteredWords.length > 0 ? (
           filteredWords.map((word, index) => (
             <div
-              className='border-dark-subtle homeBorder px-4 mb-2'
+              className='border-dark-subtle homeBorder mb-2'
               key={index}
             >
               <div className='d-flex flex-column frameMAin'>
