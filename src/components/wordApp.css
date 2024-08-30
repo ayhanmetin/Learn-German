@@ -145,7 +145,6 @@ p {
 }
 
 .search-bar input[type='text'] {
-  
   background-repeat: no-repeat;
   background-position: 10px center;
   background-size: 16px 16px;
@@ -229,9 +228,4 @@ p {
     padding: 0;
     margin: 0;
   }
-}
-
-.mainFrame {
-  padding-left: 150px !important;
-  padding-right: 150px !important;
 }
