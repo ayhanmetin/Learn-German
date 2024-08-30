@@ -35,13 +35,13 @@ a {
   font-size: 20px;
   display: flex;
   align-items: center;
-  gap: 8px; /* Space between icon and text */
+  gap: 8px; 
   text-decoration: none;
 }
 
 .navMain2 a:hover {
   transform: scale(1.1);
-  color: var(--bs-primary-color); /* Optional: add hover color */
+  color: var(--bs-primary-color);
 }
 
 .navMain2 .fa-house {
