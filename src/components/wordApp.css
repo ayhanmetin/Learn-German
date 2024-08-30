@@ -225,8 +225,8 @@ p {
 }
 
 .frameMAin {
-  padding-left: 190px;
-  padding-right: 190px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 @media (max-width: 768px) {
