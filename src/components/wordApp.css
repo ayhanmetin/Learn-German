@@ -213,7 +213,7 @@ p {
   .mobileMain {
     width: 100% !important;
     max-width: 100% !important;
-    padding: 4px !important;
+    padding: 10px !important;
     margin: 0 !important;
     text-align: justify;
     hyphens: auto;
@@ -221,7 +221,6 @@ p {
     overflow-wrap: normal;
     white-space: normal;
     line-height: 1.6;
-    padding: 10px;
   }
 }
 
