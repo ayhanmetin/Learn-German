@@ -19,12 +19,9 @@ export default function Nav() {
         </div>
 
         <div className='navMain2 border-bottom p-2'>
-          <NavLink className='text-body-secondary' to='/home' aria-label='Home'>
-            <i class='fa fa-house'></i>
-          </NavLink>
-          <NavLink to='/word' aria-label='Home'>
+          <NavLink to='/home' aria-label='Home'>
             <i className='flag'>📚</i>
-            <Link to='/word' className='text-body-secondary ms-2 count p-0 m-0'>
+            <Link to='/home' className='text-body-secondary ms-2 count p-0 m-0'>
               {wordCount}
             </Link>
           </NavLink>
