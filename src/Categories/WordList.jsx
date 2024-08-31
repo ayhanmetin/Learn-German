@@ -13,8 +13,8 @@ const WordList = () => {
 
   return (
     <>
-      <div className='d-flex px-2 align-items-center justify-content-center mb-5 word-list'>
-        <div className='text-center p-1 mt-3'>
+      <div className='d-flex px-0 m-0 align-items-center justify-content-center mb-5 word-list'>
+        <div className='text-center p-0 mt-3'>
           {wordData.map((word, index) => (
             <React.Fragment key={index}>
               <span
