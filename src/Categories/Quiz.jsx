@@ -153,7 +153,7 @@ const Quiz = () => {
     } = currentWord;
 
     return (
-      <div className='margin d-flex mobileMain justify-content-start align-items-start'>
+      <div className=' d-flex justify-content-start align-items-start'>
         <div className='col-12'>
           <div className='d-flex justify-content-center align-items-center mb-3'>
             <b className='mobileWord mb-3 wordDayQuiz'>
@@ -219,7 +219,7 @@ const Quiz = () => {
 
   return (
     <>
-      <div className='col-12 border-top pt-3 app mt-1 pt-0'>
+      <div className='border-top pt-3 app mt-1 pt-0'>
         <div className='col-12'>
           <div className='scoreboard text-body-secondary'>
             <div className='score-item'>

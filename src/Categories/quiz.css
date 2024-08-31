@@ -74,7 +74,6 @@
   font-size: 45px;
   color: #333;
   margin-bottom: 40px;
-  font-weight: 300;
 }
 
 .choices {
@@ -90,7 +89,6 @@
   padding: 20px;
   font-size: 19px;
   cursor: pointer;
-  font-weight: 100;
   min-height: 100px;
   background-color: #f8f8f8;
   color: black;
@@ -134,7 +132,6 @@
 
   .choicesFont {
     font-size: 15px !important;
-    color: black;
   }
 }
 
