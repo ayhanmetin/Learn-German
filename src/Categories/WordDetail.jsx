@@ -152,12 +152,12 @@ const WordDetail = () => {
   return (
     <>
       <div className='d-flex flex-column mb-5 mt-0 pt-3'>
-        <div className='margin frameMAin d-flex mobileMain justify-content-start ms-3 align-items-center'>
+        <div className='margin frameMAin d-flex mobileMain justify-content-start align-items-center'>
           <div className='col-12 border-bottom border-top pt-3'>
             <div className='d-flex frameMAinMobile justify-content-start mb-3'>
               <div className='d-flex gap-3 margin d-flex justify-content-start align-items-start text-body-emphasis'>
                 <button
-                  className='ms-2 position-relative'
+                  className='position-relative'
                   onClick={() => readWordAloud(word)}
                   style={{
                     border: 'none',

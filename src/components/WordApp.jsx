@@ -10,7 +10,6 @@ import {
   PrintIcon,
   VoiceIcon,
 } from './IconBox';
-import WordList from '../Categories/WordList';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(1);
@@ -347,9 +346,7 @@ function WordApp() {
           </button>
         </div>
       )}
-      <div className='mt-1 pt-1'>
-        <WordList />
-      </div>
+
       <div className='mt-auto'></div>
     </div>
   );

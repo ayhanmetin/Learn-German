@@ -30,6 +30,9 @@ function App() {
           </div>
         </div>
       </div>
+      <div className='mt-1 pt-1'>
+        <WordList />
+      </div>
     </>
   );
 }
