@@ -353,7 +353,6 @@ function WordApp() {
         <WordList />
       </div>
       <div className='mt-auto'>
-        <Footer2 />
       </div>
     </div>
   );

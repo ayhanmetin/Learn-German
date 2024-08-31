@@ -18,18 +18,12 @@ export default function Nav() {
           <div className='pt-0'></div>
         </div>
 
-        <div className='navMain2  p-2'>
-          <NavLink to='/basics' aria-label='Home'>
-            <i className='flag'>📚</i>
-            <Link
-              to='/basics'
-              className='text-body-secondary ms-2 count p-0 m-0'
-            >
-              {wordCount}
-            </Link>
-          </NavLink>
+        <div className='navMain2  p-1'>
+          <Link to='/basics' className='text-body-secondary ms-2 count p-0 m-0'>
+            <i className='flag'>📚</i> {wordCount}
+          </Link>
           <Link to='/quiz' className='text-body-secondary totalWords p-0 m-0'>
-            Quiz
+            🎯 Quiz
           </Link>
         </div>
       </div>
