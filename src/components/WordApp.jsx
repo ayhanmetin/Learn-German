@@ -10,6 +10,7 @@ import {
   PrintIcon,
   VoiceIcon,
 } from './IconBox';
+import WordList from '../Categories/WordList';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(1);
@@ -220,7 +221,7 @@ function WordApp() {
             </button>
           </div>
 
-          <div className='margin d-flex frameMAin mobileMain justify-content-start align-items-center'>
+          <div className='margin d-flex  frameMAin mobileMain justify-content-start align-items-center'>
             <div className='col-12 border-bottom'>
               <div className='d-flex justify-content-start align-items-center mb-0'>
                 <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
@@ -346,7 +347,9 @@ function WordApp() {
           </button>
         </div>
       )}
-
+      <div className='mt-1 pt-1'>
+        <WordList />
+      </div>
       <div className='mt-auto'></div>
     </div>
   );
