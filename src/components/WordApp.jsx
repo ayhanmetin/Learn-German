@@ -170,9 +170,9 @@ function WordApp() {
   };
 
   return (
-    <div className=' mobileMain'>
+    <div className='mobileMain'>
       <div className='d-flex justify-content-center align-items-center'>
-        <div className='search-bar pb-2 mb-1'>
+        <div className='search-bar  col-12 pb-2 mb-1'>
           <input
             type='text'
             className='form-control text-center fs-6 text fw-light'
@@ -185,42 +185,40 @@ function WordApp() {
 
       {filteredWords.map((word, index) => (
         <div className='border-dark-subtle mainFrame mt-3 mb-3' key={index}>
-          <div className='d-flex frameMAin frameMAinMobile justify-content-start mb-3'>
-            <div className='d-flex gap-3 text-body-emphasis'>
-              <button
-                className='ms-2 position-relative'
-                onClick={() => readWordAloud(word)}
-                style={{
-                  border: 'none',
-                  background: 'transparent',
-                  cursor: 'pointer',
-                }}
-              >
-                <VoiceIcon width='22' height='22' />
-              </button>
-              <button
-                className='btnTop ms-0 text-body-emphasis'
-                onClick={() => handlePrint(word)}
-              >
-                <PrintIcon />
-              </button>
+          <div className='gap-3 frameMAin frameMAinMobile d-flex justify-content-start align-items-start mb-3'>
+            <button
+              className=''
+              onClick={() => readWordAloud(word)}
+              style={{
+                border: 'none',
+                background: 'transparent',
+                cursor: 'pointer',
+              }}
+            >
+              <VoiceIcon width='22' height='22' />
+            </button>
+            <button
+              className='btnTop text-body-emphasis'
+              onClick={() => handlePrint(word)}
+            >
+              <PrintIcon />
+            </button>
 
-              <button
-                className='ms-2 btnTop ms-0 text-body-emphasis'
-                onClick={() =>
-                  navigator.clipboard.writeText(
-                    `https://www.almancakelime.com/word/${word.word}`
-                  )
-                }
-                style={{
-                  border: 'none',
-                  background: 'transparent',
-                  cursor: 'pointer',
-                }}
-              >
-                <CopyIcon />
-              </button>
-            </div>
+            <button
+              className='btnTop text-body-emphasis'
+              onClick={() =>
+                navigator.clipboard.writeText(
+                  `https://www.almancakelime.com/word/${word.word}`
+                )
+              }
+              style={{
+                border: 'none',
+                background: 'transparent',
+                cursor: 'pointer',
+              }}
+            >
+              <CopyIcon />
+            </button>
           </div>
 
           <div className='margin d-flex frameMAin mobileMain justify-content-start align-items-center'>
@@ -352,8 +350,7 @@ function WordApp() {
       <div className='mt-1 pt-1'>
         <WordList />
       </div>
-      <div className='mt-auto'>
-      </div>
+      <div className='mt-auto'></div>
     </div>
   );
 }
