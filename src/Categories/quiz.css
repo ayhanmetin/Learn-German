@@ -7,6 +7,11 @@
   padding: 0;
 }
 
+.choicesFont {
+  font-size: 22px !important;
+  color: black;
+}
+
 .container {
   width: 100%;
   max-width: 600px;
@@ -143,17 +148,6 @@
 .wordDayQuiz {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 51px;
-}
-
-@media (max-width: 768px) {
-  .wordDayQuiz {
-    font-size: 35px;
-  }
-}
-
-.choicesFont {
-  font-size: 22px !important;
-  color: black;
 }
 
 .footer {
