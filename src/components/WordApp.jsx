@@ -170,188 +170,190 @@ function WordApp() {
   };
 
   return (
-    <div className='mobileMain'>
-      <div className='d-flex justify-content-center align-items-center'>
-        <div className='search-bar  col-12 pb-2 mb-1'>
-          <input
-            type='text'
-            className='form-control text-center fs-6 text fw-light'
-            placeholder={`Suche deutsches Wort`}
-            value={searchTerm}
-            onChange={handleSearch}
-          />
-        </div>
-      </div>
-
-      {filteredWords.map((word, index) => (
-        <div className='border-dark-subtle mainFrame mt-3 mb-3' key={index}>
-          <div className='gap-3 frameMAin frameMAinMobile d-flex justify-content-start align-items-start mb-3'>
-            <button
-              className=''
-              onClick={() => readWordAloud(word)}
-              style={{
-                border: 'none',
-                background: 'transparent',
-                cursor: 'pointer',
-              }}
-            >
-              <VoiceIcon width='22' height='22' />
-            </button>
-            <button
-              className='btnTop text-body-emphasis'
-              onClick={() => handlePrint(word)}
-            >
-              <PrintIcon />
-            </button>
-
-            <button
-              className='btnTop text-body-emphasis'
-              onClick={() =>
-                navigator.clipboard.writeText(
-                  `https://www.almancakelime.com/word/${word.word}`
-                )
-              }
-              style={{
-                border: 'none',
-                background: 'transparent',
-                cursor: 'pointer',
-              }}
-            >
-              <CopyIcon />
-            </button>
+    <>
+      <div className='mobileMain'>
+        <div className='d-flex justify-content-center align-items-center'>
+          <div className='search-bar  col-12 pb-2 mb-1'>
+            <input
+              type='text'
+              className='form-control text-center fs-6 text fw-light'
+              placeholder={`Suche deutsches Wort`}
+              value={searchTerm}
+              onChange={handleSearch}
+            />
           </div>
+        </div>
 
-          <div className='margin d-flex  frameMAin mobileMain justify-content-start align-items-center'>
-            <div className='col-12 border-bottom'>
-              <div className='d-flex justify-content-start align-items-center mb-0'>
-                <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
-              </div>
+        {filteredWords.map((word, index) => (
+          <div className='border-dark-subtle mainFrame mt-3 mb-3' key={index}>
+            <div className='gap-3 frameMAin frameMAinMobile d-flex justify-content-start align-items-start mb-3'>
+              <button
+                className=''
+                onClick={() => readWordAloud(word)}
+                style={{
+                  border: 'none',
+                  background: 'transparent',
+                  cursor: 'pointer',
+                }}
+              >
+                <VoiceIcon width='22' height='22' />
+              </button>
+              <button
+                className='btnTop text-body-emphasis'
+                onClick={() => handlePrint(word)}
+              >
+                <PrintIcon />
+              </button>
 
-              <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                <div className='d-flex grammarMain text-body-secondary flex-row mb-0'>
-                  {word.grammar && (
-                    <div className='pt-2 ps-0 pe-2'>
-                      <p className='fst-italic grammarMain text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
-                        {word.grammar}
-                        <span className='grammarMain text-body-secondary'></span>
-                      </p>
-                    </div>
-                  )}
-                  {word.PartizipII && (
-                    <div className='pt-2 pe-0'>
-                      <p className='mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 grammarMain text-body-secondary'>
-                        <span className='grammarMain text-body-secondary'>
-                          {' '}
-                          &nbsp;&nbsp; ☞ &nbsp;&nbsp;
-                        </span>{' '}
-                        {word.PartizipII} &nbsp;
-                      </p>
-                    </div>
-                  )}
-                  {word.Präteritum && (
-                    <div className='pt-2 pe-0'>
-                      <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                        <span className='grammarMain text-body-secondary '>
-                          {' '}
-                          /&nbsp;&nbsp;
-                        </span>{' '}
-                        {word.Präteritum}
-                      </p>
-                    </div>
-                  )}
-                  {word.plural && (
-                    <div className='pt-2 pe-0'>
-                      <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                        <span className='grammarMain text-body-secondary'>
-                          &nbsp;☞ &nbsp;&nbsp;{' '}
-                        </span>{' '}
-                        {word.plural}
-                      </p>
-                    </div>
-                  )}
+              <button
+                className='btnTop text-body-emphasis'
+                onClick={() =>
+                  navigator.clipboard.writeText(
+                    `https://www.almancakelime.com/word/${word.word}`
+                  )
+                }
+                style={{
+                  border: 'none',
+                  background: 'transparent',
+                  cursor: 'pointer',
+                }}
+              >
+                <CopyIcon />
+              </button>
+            </div>
+
+            <div className='margin d-flex frameMAin mobileMain justify-content-start align-items-center'>
+              <div className='col-12 border-bottom'>
+                <div className='d-flex justify-content-start align-items-center mb-0'>
+                  <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
                 </div>
-              </div>
 
-              <div className='d-flex justify-content-start'>
-                {' '}
                 <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                  <p className='textWord meaning fst-italic mt-2'>
-                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
-                  </p>
+                  <div className='d-flex grammarMain text-body-secondary flex-row mb-0'>
+                    {word.grammar && (
+                      <div className='pt-2 ps-0 pe-2'>
+                        <p className='fst-italic grammarMain text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
+                          {word.grammar}
+                          <span className='grammarMain text-body-secondary'></span>
+                        </p>
+                      </div>
+                    )}
+                    {word.PartizipII && (
+                      <div className='pt-2 pe-0'>
+                        <p className='mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 grammarMain text-body-secondary'>
+                          <span className='grammarMain text-body-secondary'>
+                            {' '}
+                            &nbsp;&nbsp; ☞ &nbsp;&nbsp;
+                          </span>{' '}
+                          {word.PartizipII} &nbsp;
+                        </p>
+                      </div>
+                    )}
+                    {word.Präteritum && (
+                      <div className='pt-2 pe-0'>
+                        <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
+                          <span className='grammarMain text-body-secondary '>
+                            {' '}
+                            /&nbsp;&nbsp;
+                          </span>{' '}
+                          {word.Präteritum}
+                        </p>
+                      </div>
+                    )}
+                    {word.plural && (
+                      <div className='pt-2 pe-0'>
+                        <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
+                          <span className='grammarMain text-body-secondary'>
+                            &nbsp;☞ &nbsp;&nbsp;{' '}
+                          </span>{' '}
+                          {word.plural}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </div>
 
-                  {word.meaningTR && (
-                    <p className='textWord fst-italic'>
-                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                <div className='d-flex justify-content-start'>
+                  {' '}
+                  <div className='word-container fs-4 mainBody mt-0 pt-0'>
+                    <p className='textWord meaning fst-italic mt-2'>
+                      <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                     </p>
-                  )}
 
-                  {word.example1 && (
-                    <>
-                      <p className='tip'>&nbsp;Beispielsätze</p>
-                      <p className='textWord'>
-                        <strong>‣</strong> {word.example1}
+                    {word.meaningTR && (
+                      <p className='textWord fst-italic'>
+                        <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
                       </p>
-                    </>
-                  )}
-                  {word.example2 && (
-                    <p className='textWord'>
-                      <strong>‣</strong> {word.example2}
-                    </p>
-                  )}
-                  {word.example3 && (
-                    <p className='textWord'>
-                      <strong>‣</strong> {word.example3}
-                    </p>
-                  )}
-                  {word.example4 && (
-                    <p className='textWord'>
-                      <strong>‣</strong> {word.example4}
-                    </p>
-                  )}
-                  {word.example5 && (
-                    <p className='textWord'>
-                      <strong>‣</strong> {word.example5}
-                    </p>
-                  )}
+                    )}
 
-                  {word.tip1 && (
-                    <p className='textWord mt-3 fs-6'>
-                      <p className='tip'>&nbsp;Tipps</p>
-                      <strong>&nbsp;⇢</strong> {word.tip1}
-                    </p>
-                  )}
-                  {word.tip2 && (
-                    <p className='textWord mt-3 fs-6'>
-                      <strong>&nbsp;⇢</strong> {word.tip2}
-                    </p>
-                  )}
-                  {word.tip3 && (
-                    <p className='textWord mt-3 fs-6'>
-                      <strong>&nbsp;⇢</strong> {word.tip3}
-                    </p>
-                  )}
+                    {word.example1 && (
+                      <>
+                        <p className='tip'>&nbsp;Beispielsätze</p>
+                        <p className='textWord'>
+                          <strong>‣</strong> {word.example1}
+                        </p>
+                      </>
+                    )}
+                    {word.example2 && (
+                      <p className='textWord'>
+                        <strong>‣</strong> {word.example2}
+                      </p>
+                    )}
+                    {word.example3 && (
+                      <p className='textWord'>
+                        <strong>‣</strong> {word.example3}
+                      </p>
+                    )}
+                    {word.example4 && (
+                      <p className='textWord'>
+                        <strong>‣</strong> {word.example4}
+                      </p>
+                    )}
+                    {word.example5 && (
+                      <p className='textWord'>
+                        <strong>‣</strong> {word.example5}
+                      </p>
+                    )}
+
+                    {word.tip1 && (
+                      <p className='textWord mt-3 fs-6'>
+                        <p className='tip'>&nbsp;Tipps</p>
+                        <strong>&nbsp;⇢</strong> {word.tip1}
+                      </p>
+                    )}
+                    {word.tip2 && (
+                      <p className='textWord mt-3 fs-6'>
+                        <strong>&nbsp;⇢</strong> {word.tip2}
+                      </p>
+                    )}
+                    {word.tip3 && (
+                      <p className='textWord mt-3 fs-6'>
+                        <strong>&nbsp;⇢</strong> {word.tip3}
+                      </p>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
 
-      {visibleWordsCount < wordData.length && searchTerm === '' && (
-        <div className='d-grid col-4 mx-auto'>
-          <button
-            className='loadMore text-body-emphasis'
-            onClick={() => setVisibleWordsCount(prevCount => prevCount + 20)}
-          >
-            +50 weitere
-          </button>
-        </div>
-      )}
+        {visibleWordsCount < wordData.length && searchTerm === '' && (
+          <div className='d-grid col-4 mx-auto'>
+            <button
+              className='loadMore text-body-emphasis'
+              onClick={() => setVisibleWordsCount(prevCount => prevCount + 20)}
+            >
+              +50 weitere
+            </button>
+          </div>
+        )}
+      </div>
+
       <div className='mt-1 pt-1'>
         <WordList />
       </div>
-      <div className='mt-auto'></div>
-    </div>
+    </>
   );
 }
 

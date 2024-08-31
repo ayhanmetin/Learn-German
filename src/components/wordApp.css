@@ -200,8 +200,8 @@ p {
   .mobileMain {
     width: 100% !important;
     max-width: 100% !important;
-    padding: 10px !important;
-    margin: 0 !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
     text-align: justify;
     hyphens: auto;
     word-wrap: normal;
@@ -209,9 +209,6 @@ p {
     white-space: normal;
     line-height: 1.6;
   }
-}
-
-@media (max-width: 768px) {
   .frameMAinMobile {
     display: flex !important;
     justify-content: center !important;
@@ -219,14 +216,15 @@ p {
   }
 }
 
+
 .search-bar input.form-control {
   width: 100% !important;
   border-radius: 4px !important;
 }
 
 .mobileMain {
-  margin: 0 !important;
-  padding: 0 !important;
+  padding-left: 150px !important;
+  padding-right: 150px !important;
 }
 
 .frameMAin {
