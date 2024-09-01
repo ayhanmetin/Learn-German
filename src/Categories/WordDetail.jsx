@@ -151,7 +151,7 @@ const WordDetail = () => {
 
   return (
     <>
-      <div className='d-flex flex-column mb-5 mt-0 pt-3'>
+      <div className='d-flex mobileMain flex-column mb-5 mt-0 pt-3'>
         <div className='margin frameMAin d-flex mobileMain justify-content-start align-items-center'>
           <div className='col-12 border-bottom border-top pt-3'>
             <div className='d-flex frameMAinMobile justify-content-start mb-3'>
@@ -302,10 +302,9 @@ const WordDetail = () => {
             </div>
           </div>
         </div>
-        <div>
-          {' '}
-          <WordList />
-        </div>
+      </div>
+      <div className='mt-1 pt-1'>
+        <WordList />
       </div>
     </>
   );
