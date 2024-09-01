@@ -126,7 +126,7 @@
   }
 
   .wrong-words {
-    font-size: 13px;
+    font-size: 8px;
     margin-top: 20px;
   }
 
@@ -154,3 +154,5 @@
 .scoreQuiz {
   font-size: 45px !important;
 }
+
+

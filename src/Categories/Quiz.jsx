@@ -263,8 +263,8 @@ const Quiz = () => {
             </div>
           )}
           {wrongWords.length > 0 && (
-            <div className='wrong-words text-body-secondary ms-4 mb-5 pb-5'>
-              <p className='wrong-words d-flex fs-4 justify-content-center align-items-center'>
+            <div className='wrong-words text-body-secondary col-8 ms-4 mb-5 pb-5'>
+              <p className='wrong-words d-flex fs-4 justify-content-start align-items-start'>
                 🏴‍☠️
                 {wrongWords.map((word, index) => (
                   <a
