@@ -273,6 +273,6 @@ p {
 /* Show example sentences on mobile devices */
 @media (max-width: 768px) {
   .only-mobile {
-    display: block;
+    display: block !important;
   }
 }
