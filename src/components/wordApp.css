@@ -1,3 +1,4 @@
+/* Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -20,10 +21,6 @@ p {
   font-size: 17px;
 }
 
-.textWord2 {
-  font-size: 18px;
-}
-
 .loadMore {
   border: 0.3px solid #ccc;
   font-family: 'Libre Franklin', sans-serif;
@@ -31,7 +28,6 @@ p {
   background-color: transparent;
   padding: 1px 1px;
   margin: 13px;
-  padding: 1.2px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -85,11 +81,6 @@ p {
   }
 }
 
-.btnTop {
-  background-color: transparent;
-  border: none;
-  color: #333;
-}
 .btnTop {
   background-color: transparent;
   border: none;
@@ -163,7 +154,6 @@ p {
   .mainBody {
     text-align: justify;
     word-wrap: normal;
-    word-wrap: normal;
     overflow-wrap: normal;
     hyphens: auto;
     line-height: 1.6;
@@ -209,6 +199,7 @@ p {
     white-space: normal;
     line-height: 1.6;
   }
+
   .frameMAinMobile {
     display: flex !important;
     justify-content: center !important;
@@ -235,8 +226,8 @@ p {
   margin-bottom: 15px !important;
 }
 
+/* Media Query for Larger Screens */
 @media (min-width: 768px) {
-  /* For larger screens, use flexbox with two columns */
   .frameMAin {
     display: flex;
     flex-direction: row;
@@ -251,14 +242,23 @@ p {
   }
 }
 
+/* Media Query for Mobile Devices - Old Stacked Layout */
 @media (max-width: 767px) {
-  /* For mobile devices, stack the elements vertically */
   .frameMAin {
     display: block;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   .frameMAin .col-6 {
     width: 100%;
+  }
+
+  .mobileMain {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 
   .frameMAin .border-end {

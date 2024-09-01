@@ -185,7 +185,7 @@ function WordApp() {
         </div>
 
         {filteredWords.map((word, index) => (
-          <div className='border-dark-subtle mainFrame mt-3 mb-3' key={index}>
+          <div className='border-dark-subtle mainFrame mt-3 mb-3 border-bottom p-2' key={index}>
             <div className='gap-3 frameMAin frameMAinMobile d-flex justify-content-start align-items-start mb-3'>
               <button
                 className=''
@@ -224,7 +224,7 @@ function WordApp() {
 
             <div className='margin d-flex frameMAin mobileMain flex-row'>
               {/* Left Side: Word Details */}
-              <div className='col-6 border-end'>
+              <div className='col-6'>
                 <div className='d-flex justify-content-start align-items-center mb-0'>
                   <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
                 </div>
