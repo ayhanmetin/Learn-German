@@ -11187,7 +11187,7 @@ const wordData = [
       'Tanja findet einkaufen im Internet nicht so praktisch, sie findet es eher anstrengend.',
     example4: '',
     example5: '',
-    meaningENG: 'exhausting',
+    meaningENG: 'exhausting, stressful',
     meaningTR: 'yorucu',
     id: '',
     tip1: 'eher anstrengend - "rather exhausting," indicating that the activity is more tiring than beneficial for her.',
