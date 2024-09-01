@@ -263,3 +263,24 @@ p {
   margin-bottom: 15px !important;
 }
 
+@media (max-width: 768px) {
+  .only-mobile {
+    display: block !important;
+  }
+}
+
+/* Masaüstü (Geniş ekranlar) için */
+.mobileBelow {
+  display: flex;
+  flex-direction: row; /* Yan yana */
+}
+
+/* Mobil (Küçük ekranlar) için */
+@media (max-width: 768px) {
+  .mobileBelow {
+    flex-direction: column !important;
+  }
+  .verbText {
+    font-size: 13px !important;
+  }
+}

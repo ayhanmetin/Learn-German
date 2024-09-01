@@ -191,68 +191,75 @@ const WordDetail = () => {
                 </button>
               </div>
             </div>
-            <div className='d-flex justify-content-start align-items-center mb-0'>
-              <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
-            </div>
 
-            <div className='word-container fs-4 mainBody mt-0 pt-0'>
-              <div className='d-flex grammarMain text-body-secondary flex-row mb-0'>
-                {word.grammar && (
-                  <div className='pt-2 ps-0 pe-2'>
-                    <p className='fst-italic grammarMain text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
-                      {word.grammar}
-                      <span className='grammarMain text-body-secondary'></span>
-                    </p>
-                  </div>
-                )}
-                {word.PartizipII && (
-                  <div className='pt-2 pe-0'>
-                    <p className='mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 grammarMain text-body-secondary'>
-                      <span className='grammarMain text-body-secondary'>
-                        {' '}
-                        &nbsp;&nbsp; ☞ &nbsp;&nbsp;
-                      </span>{' '}
-                      {word.PartizipII} &nbsp;
-                    </p>
-                  </div>
-                )}
-                {word.Präteritum && (
-                  <div className='pt-2 pe-0'>
-                    <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                      <span className='grammarMain text-body-secondary '>
-                        {' '}
-                        /&nbsp;&nbsp;
-                      </span>{' '}
-                      {word.Präteritum}
-                    </p>
-                  </div>
-                )}
-                {word.plural && (
-                  <div className='pt-2 pe-0'>
-                    <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                      <span className='grammarMain text-body-secondary'>
-                        &nbsp;☞ &nbsp;&nbsp;{' '}
-                      </span>{' '}
-                      {word.plural}
-                    </p>
-                  </div>
-                )}
-              </div>
-            </div>
+            <div className='margin d-flex frameMAin mobileMain mobileBelow flex-row'>
+              {/* Sol Taraf: Kelime Detayları */}
+              <div className='col-6'>
+                <div className='d-flex justify-content-start align-items-center mb-0'>
+                  <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
+                </div>
 
-            <div className='d-flex justify-content-start'>
-              {' '}
-              <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                <p className='textWord meaning fst-italic mt-2'>
-                  <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
-                </p>
+                <div className='word-container fs-4 mainBody mt-0 pt-0'>
+                  <div className='d-flex  verbText text-body-secondary flex-row mb-0'>
+                    {/* Kelime Gramer Bilgileri */}
+                    {word.grammar && (
+                      <div className='pt-2 ps-0 pe-2'>
+                        <p className='fst-italic  verbText text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
+                          {word.grammar}
+                        </p>
+                      </div>
+                    )}
+                    {word.PartizipII && (
+                      <div className='pt-2 pe-0'>
+                        <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6  text-body-secondary'>
+                          <span className=' verbText text-body-secondary'>
+                            {' '}
+                            &nbsp;&nbsp; ☞ &nbsp;&nbsp;
+                          </span>{' '}
+                          {word.PartizipII} &nbsp;
+                        </p>
+                      </div>
+                    )}
+                    {word.Präteritum && (
+                      <div className='pt-2 pe-0'>
+                        <p className='ms-0 mt-0 verbText pt-0 fs-6 flex-column  text-body-secondary'>
+                          <span className=' verbText text-body-secondary '>
+                            {' '}
+                            /&nbsp;&nbsp;
+                          </span>{' '}
+                          {word.Präteritum}
+                        </p>
+                      </div>
+                    )}
+                    {word.plural && (
+                      <div className='pt-2 pe-0'>
+                        <p className='ms-0 mt-0 pt-0 fs-6 flex-column  text-body-secondary'>
+                          <span className=' text-body-secondary'>
+                            &nbsp;☞ &nbsp;&nbsp;{' '}
+                          </span>{' '}
+                          {word.plural}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </div>
 
-                {word.meaningTR && (
-                  <p className='textWord fst-italic'>
-                    <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                <div className='word-container fs-4 mainBody mt-0 pt-0'>
+                  <p className='textWord meaning fst-italic mt-2'>
+                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
                   </p>
-                )}
 
+                  {word.meaningTR && (
+                    <p className='textWord fst-italic'>
+                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                    </p>
+                  )}
+                </div>
+              </div>
+
+              {/* Sağ Taraf: Örnek Cümleler */}
+              <div className='exampleSentence only-mobile'>
+                {/* Örnek Cümleler */}
                 {word.example1 && (
                   <>
                     <p className='tip'>&nbsp;Beispielsätze</p>
@@ -279,23 +286,6 @@ const WordDetail = () => {
                 {word.example5 && (
                   <p className='textWord'>
                     <strong>‣</strong> {word.example5}
-                  </p>
-                )}
-
-                {word.tip1 && (
-                  <p className='textWord mt-3 fs-6'>
-                    <p className='tip'>&nbsp;Tipps</p>
-                    <strong>&nbsp;⇢</strong> {word.tip1}
-                  </p>
-                )}
-                {word.tip2 && (
-                  <p className='textWord mt-3 fs-6'>
-                    <strong>&nbsp;⇢</strong> {word.tip2}
-                  </p>
-                )}
-                {word.tip3 && (
-                  <p className='textWord mt-3 fs-6'>
-                    <strong>&nbsp;⇢</strong> {word.tip3}
                   </p>
                 )}
               </div>
