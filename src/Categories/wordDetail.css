@@ -240,11 +240,12 @@ p {
     white-space: normal;
     line-height: 1.6;
     padding-left: 30px !important;
+    padding-right: 30px !important;
   }
   .frameMAinMobile {
     display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    justify-content: start !important;
+    align-items: start !important;
   }
 }
 
