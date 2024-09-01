@@ -19,9 +19,14 @@ export default function Nav() {
         </div>
 
         <div className='navMain2  p-1'>
-          <Link to='/basics' className='text-body-secondary ms-2 count p-0 m-0'>
+          <Link
+            to='/'
+            className='text-body-secondary ms-2 count p-0 m-0'
+            onClick={() => window.location.reload()}
+          >
             <i className='flag'>📚</i> {wordCount}
           </Link>
+
           <Link to='/quiz' className='text-body-secondary totalWords p-0 m-0'>
             🎯 Quiz
           </Link>

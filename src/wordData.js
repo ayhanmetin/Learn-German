@@ -4305,7 +4305,7 @@ const wordData = [
     word: 'überprüfen',
     grammar: 'verb',
 
-    example1: '',
+    example1: 'Vertraue nicht, überprüfe!',
     example2: '',
     example3: '',
     example4: '',
