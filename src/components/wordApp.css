@@ -270,11 +270,6 @@ p {
   }
 }
 
-/* Default: Hide example sentences */
-.only-mobile {
-  display: none;
-}
-
 /* Show example sentences on mobile devices */
 @media (max-width: 768px) {
   .only-mobile {
