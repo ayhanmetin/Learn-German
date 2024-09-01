@@ -7,6 +7,25 @@
   padding: 0;
 }
 
+.footer {
+  padding-top: 300px !important;
+}
+
+.scoreQuiz {
+  font-size: 45px !important;
+}
+
+.wrong-words {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  word-break: break-word;
+}
+
+.wrong-words a {
+  white-space: nowrap;
+}
+
 .choicesFont {
   font-size: 22px !important;
   color: black;
@@ -126,7 +145,7 @@
   }
 
   .wrong-words {
-    font-size: 8px;
+    font-size: 8px !important;
     margin-top: 20px;
   }
 
@@ -147,23 +166,4 @@
   font-size: 40px;
   font-weight: 700;
   color: black;
-}
-
-.footer {
-  padding-top: 300px !important;
-}
-
-.scoreQuiz {
-  font-size: 45px !important;
-}
-
-.wrong-words {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
-  word-break: break-word;
-}
-
-.wrong-words a {
-  white-space: nowrap;
 }
