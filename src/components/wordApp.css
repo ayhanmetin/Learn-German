@@ -240,15 +240,12 @@ p {
   .frameMAin .col-6 {
     width: 50%;
   }
-
-  .frameMAin .border-end {
-    border-right: 1px solid #dee2e6; /* Optional: Adds a border between the two columns */
-  }
 }
 
 /* Media Query for Mobile Devices - Old Stacked Layout */
 @media (max-width: 767px) {
-  .frameMAin {
+  .frameMAin,
+  .exampleSentence {
     display: block;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -264,15 +261,24 @@ p {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
-
-  .frameMAin .border-end {
-    border-right: none; /* Remove the border for mobile view */
-  }
 }
 
 /* Show example sentences on mobile devices */
 @media (max-width: 768px) {
   .only-mobile {
     display: block !important;
+  }
+}
+
+/* Masaüstü (Geniş ekranlar) için */
+.mobileBelow {
+  display: flex;
+  flex-direction: row; /* Yan yana */
+}
+
+/* Mobil (Küçük ekranlar) için */
+@media (max-width: 768px) {
+  .mobileBelow {
+    flex-direction: column !important; /* Üst üste */
   }
 }

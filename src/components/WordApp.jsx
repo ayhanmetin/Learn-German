@@ -225,8 +225,8 @@ function WordApp() {
               </button>
             </div>
 
-            <div className='margin d-flex frameMAin mobileMain flex-row'>
-              {/* Left Side: Word Details */}
+            <div className='margin d-flex frameMAin mobileMain mobileBelow flex-row'>
+              {/* Sol Taraf: Kelime Detayları */}
               <div className='col-6'>
                 <div className='d-flex justify-content-start align-items-center mb-0'>
                   <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
@@ -234,6 +234,7 @@ function WordApp() {
 
                 <div className='word-container fs-4 mainBody mt-0 pt-0'>
                   <div className='d-flex grammarMain text-body-secondary flex-row mb-0'>
+                    {/* Kelime Gramer Bilgileri */}
                     {word.grammar && (
                       <div className='pt-2 ps-0 pe-2'>
                         <p className='fst-italic grammarMain text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
@@ -289,9 +290,9 @@ function WordApp() {
                 </div>
               </div>
 
-              {/* Right Side: Example Sentences */}
+              {/* Sağ Taraf: Örnek Cümleler */}
               <div className='exampleSentence only-mobile'>
-                {/* Example Sentences */}
+                {/* Örnek Cümleler */}
                 {word.example1 && (
                   <>
                     <p className='tip'>&nbsp;Beispielsätze</p>
