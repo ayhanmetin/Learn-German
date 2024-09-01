@@ -216,15 +216,14 @@ p {
   }
 }
 
-
 .search-bar input.form-control {
   width: 100% !important;
   border-radius: 4px !important;
 }
 
 .mobileMain {
-  padding-left: 170px !important;
-  padding-right: 170px !important;
+  padding-left: 90px !important;
+  padding-right: 90px !important;
 }
 
 .frameMAin {
@@ -234,4 +233,35 @@ p {
   margin: 0 !important;
   padding: 0 !important;
   margin-bottom: 15px !important;
+}
+
+@media (min-width: 768px) {
+  /* For larger screens, use flexbox with two columns */
+  .frameMAin {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .frameMAin .col-6 {
+    width: 50%;
+  }
+
+  .frameMAin .border-end {
+    border-right: 1px solid #dee2e6; /* Optional: Adds a border between the two columns */
+  }
+}
+
+@media (max-width: 767px) {
+  /* For mobile devices, stack the elements vertically */
+  .frameMAin {
+    display: block;
+  }
+
+  .frameMAin .col-6 {
+    width: 100%;
+  }
+
+  .frameMAin .border-end {
+    border-right: none; /* Remove the border for mobile view */
+  }
 }
