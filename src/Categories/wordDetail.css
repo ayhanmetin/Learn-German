@@ -214,22 +214,6 @@ p {
   margin-left: 60px !important;
 }
 
-@media (max-width: 768px) {
-  .mobileMain {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    text-align: justify;
-    hyphens: auto;
-    word-wrap: normal;
-    overflow-wrap: normal;
-    white-space: normal;
-    line-height: 1.6;
-    padding-left: 30px !important;
-  }
-}
-
 .frameMAin {
   padding-left: 90px;
   padding-right: 90px;
@@ -255,6 +239,7 @@ p {
     overflow-wrap: normal;
     white-space: normal;
     line-height: 1.6;
+    padding-left: 30px !important;
   }
   .frameMAinMobile {
     display: flex !important;
