@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
+.choicesFont1 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 .app {
   font-family: 'Libre Franklin', sans-serif;
   display: flex;
@@ -152,6 +156,13 @@
   .choicesFont {
     font-size: 15px !important;
   }
+
+  .wordDayQuiz {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+  }
 }
 
 .textWordQuiz {
@@ -163,7 +174,7 @@
 
 .wordDayQuiz {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 55px;
+  font-weight: 500;
   color: black;
 }

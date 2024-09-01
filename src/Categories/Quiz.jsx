@@ -7,7 +7,7 @@ const Quiz = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [choices, setChoices] = useState([]);
   const [score, setScore] = useState(0);
-  const [lives, setLives] = useState(5);
+  const [lives, setLives] = useState(3);
   const [wrongWords, setWrongWords] = useState([]);
   const [gameOver, setGameOver] = useState(false);
   const [shuffledWords, setShuffledWords] = useState([]);
@@ -206,7 +206,7 @@ const Quiz = () => {
 
   const resetGame = () => {
     setScore(0);
-    setLives(5);
+    setLives(3);
     setWrongWords([]);
     setCurrentIndex(0);
     setGameOver(false);
@@ -242,7 +242,7 @@ const Quiz = () => {
             </div>
           ) : (
             <div className='cardCss fs-1 textchoicesFont1 text-body-secondary'>
-              <h1 className='text-body-secondary choicesFont1 fs-1 text fw-medium mb-0'>
+              <h1 className='text-body-secondary choicesFont1 fs-1 text mb-0'>
                 {displayWord()}
               </h1>
               <div className='choices text-body-secondary'>
