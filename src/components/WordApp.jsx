@@ -233,19 +233,19 @@ function WordApp() {
                 </div>
 
                 <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                  <div className='d-flex grammarMain text-body-secondary flex-row mb-0'>
+                  <div className='d-flex grammarMain verbText text-body-secondary flex-row mb-0'>
                     {/* Kelime Gramer Bilgileri */}
                     {word.grammar && (
                       <div className='pt-2 ps-0 pe-2'>
-                        <p className='fst-italic grammarMain text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
+                        <p className='fst-italic grammarMain verbText text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
                           {word.grammar}
                         </p>
                       </div>
                     )}
                     {word.PartizipII && (
                       <div className='pt-2 pe-0'>
-                        <p className='mt-0 ms-0 pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 grammarMain text-body-secondary'>
-                          <span className='grammarMain text-body-secondary'>
+                        <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 grammarMain text-body-secondary'>
+                          <span className='grammarMain verbText text-body-secondary'>
                             {' '}
                             &nbsp;&nbsp; ☞ &nbsp;&nbsp;
                           </span>{' '}
@@ -255,8 +255,8 @@ function WordApp() {
                     )}
                     {word.Präteritum && (
                       <div className='pt-2 pe-0'>
-                        <p className='ms-0 mt-0 pt-0 fs-6 flex-column grammarMain text-body-secondary'>
-                          <span className='grammarMain text-body-secondary '>
+                        <p className='ms-0 mt-0 verbText pt-0 fs-6 flex-column grammarMain text-body-secondary'>
+                          <span className='grammarMain verbText text-body-secondary '>
                             {' '}
                             /&nbsp;&nbsp;
                           </span>{' '}

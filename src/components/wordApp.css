@@ -279,6 +279,9 @@ p {
 /* Mobil (Küçük ekranlar) için */
 @media (max-width: 768px) {
   .mobileBelow {
-    flex-direction: column !important; /* Üst üste */
+    flex-direction: column !important;
+  }
+  .verbText {
+    font-size: 13px !important;
   }
 }
