@@ -14,7 +14,7 @@ import './app.css';
 function App() {
   return (
     <>
-      <div className='d-flex p-2 justify-content-center align-items-center '>
+      <div className='d-flex px-1 justify-content-center align-items-center '>
         <div className='col-12 col-md-8'>
           <Nav />
           <Analytics />
