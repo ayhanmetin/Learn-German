@@ -290,7 +290,7 @@ function WordApp() {
               </div>
 
               {/* Right Side: Example Sentences */}
-              <div className='col-6 exampleSentence only-mobile'>
+              <div className='exampleSentence only-mobile'>
                 {/* Example Sentences */}
                 {word.example1 && (
                   <>
