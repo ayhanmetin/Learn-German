@@ -157,4 +157,13 @@
   font-size: 45px !important;
 }
 
+.wrong-words {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  word-break: break-word;
+}
 
+.wrong-words a {
+  white-space: nowrap;
+}
