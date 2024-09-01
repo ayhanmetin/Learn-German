@@ -144,7 +144,9 @@
 
 .wordDayQuiz {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 51px;
+  font-size: 59px;
+  font-weight: 400;
+  color: black;
 }
 
 .footer {
