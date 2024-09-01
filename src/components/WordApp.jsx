@@ -185,7 +185,10 @@ function WordApp() {
         </div>
 
         {filteredWords.map((word, index) => (
-          <div className='border-dark-subtle mainFrame mt-3 mb-3 border-bottom p-2' key={index}>
+          <div
+            className='border-dark-subtle mainFrame mt-3 mb-3 border-bottom p-2'
+            key={index}
+          >
             <div className='gap-3 frameMAin frameMAinMobile d-flex justify-content-start align-items-start mb-3'>
               <button
                 className=''
@@ -287,7 +290,8 @@ function WordApp() {
               </div>
 
               {/* Right Side: Example Sentences */}
-              <div className='col-6'>
+              <div className='col-6 exampleSentence only-mobile'>
+                {/* Example Sentences */}
                 {word.example1 && (
                   <>
                     <p className='tip'>&nbsp;Beispielsätze</p>
