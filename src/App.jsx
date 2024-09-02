@@ -21,7 +21,6 @@ function App() {
           <Routes>
             <Route path='/home' element={<WordApp />} />
             <Route path='/' element={<WordApp />} />
-            <Route path='/basics' element={<WordApp />} />
             <Route path='/word/:wordName' element={<WordDetail />} />
             <Route path='/word' element={<WordList />} />
             <Route path='/quiz' element={<Quiz />} />
