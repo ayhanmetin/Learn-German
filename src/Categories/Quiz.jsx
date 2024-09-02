@@ -223,16 +223,15 @@ const Quiz = () => {
         <div className='col-12'>
           <div className='scoreboard text-body-secondary'>
             <div className='score-item'>
-              <i className='fas fa-ghost'></i>
-              <span className='text-body-secondary'>{lives}</span>
+              <span className='text-body-secondary score'>👾 {lives}</span>
             </div>
             <div className='score-item'>
-              <i className='fas fa-check'></i>
-              <span className='text-body-secondary'>{score}</span>
+              <span className='text-body-secondary score'>✓ {score}</span>
             </div>
           </div>
           {gameOver ? (
             <div className='mb-2'>
+             
               <h1 className='d-flex scoreQuiz justify-content-center align-items-center'>
                 🎯 {score}{' '}
               </h1>
@@ -278,8 +277,7 @@ const Quiz = () => {
                       cursor: 'pointer',
                       padding: '0',
                       margin: '0 5px',
-                      whiteSpace:
-                        'nowrap',
+                      whiteSpace: 'nowrap',
                     }}
                   >
                     {word}

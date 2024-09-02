@@ -74,12 +74,12 @@
   font-size: 30px !important;
   display: flex;
   align-items: center;
+  color: #ffce18;
 }
 
 .score-item i {
   font-size: 30px !important;
   margin-right: 10px;
-  color: #ffce18;
 }
 
 .cardCss {
@@ -113,6 +113,20 @@
   color: black;
 }
 
+.textWordQuiz {
+  font-family: 'Libre Franklin', sans-serif;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 18px;
+}
+
+.wordDayQuiz {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 55px;
+  font-weight: 500;
+  color: black;
+}
+
 @media (max-width: 768px) {
   .choices {
     grid-template-columns: repeat(2, 1fr);
@@ -131,13 +145,9 @@
     font-size: 35px;
   }
 
-  .score-item {
-    font-size: 18px;
-  }
-
   .start-again-btn,
   .choices button {
-    padding: 2px;
+    padding: 1px;
   }
 
   .choices button:active {
@@ -155,22 +165,13 @@
 
   .wordDayQuiz {
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 12px;
+    font-size: 29px !important;
     font-weight: 500;
     color: black;
   }
-}
 
-.textWordQuiz {
-  font-family: 'Libre Franklin', sans-serif;
-  margin-left: 0;
-  padding-left: 0;
-  font-size: 18px;
-}
-
-.wordDayQuiz {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 55px;
-  font-weight: 500;
-  color: black;
+  .score-item, .score, .scoreboard {
+    font-size: 25px !important;
+  
+  }
 }
