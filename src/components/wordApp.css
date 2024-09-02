@@ -217,8 +217,8 @@ p {
 }
 
 .mobileMain {
-  padding-left: 90px !important;
-  padding-right: 90px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
 }
 
 .frameMAin {
@@ -257,9 +257,9 @@ p {
     width: 100%;
   }
 
-  .mobileMain {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+  .pMain {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
   }
 }
 
