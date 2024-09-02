@@ -235,7 +235,7 @@ const WordDetail = () => {
                       <div className='pt-2 pe-0'>
                         <p className='ms-0 mt-0 pt-0 fs-6 flex-column  text-body-secondary'>
                           <span className=' text-body-secondary'>
-                            &nbsp;☞ &nbsp;&nbsp;{' '}
+                          
                           </span>{' '}
                           {word.plural}
                         </p>

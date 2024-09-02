@@ -234,7 +234,7 @@ function WordApp() {
                 {word.grammar && (
                   <div className='pt-2 ps-0 pe-2'>
                     <p className='verbText text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
-                    ✏︎ &nbsp;&nbsp; {word.grammar}
+                      ✏︎ &nbsp;&nbsp; {word.grammar}
                     </p>
                   </div>
                 )}
@@ -266,9 +266,7 @@ function WordApp() {
                     {word.plural && (
                       <div className='pt-2 pe-0'>
                         <p className='ms-0 mt-0 pt-0 fs-6 flex-column  text-body-secondary'>
-                          <span className=' text-body-secondary'>
-                            &nbsp;☞ &nbsp;&nbsp;{' '}
-                          </span>{' '}
+                          <span className=' text-body-secondary'></span>{' '}
                           {word.plural}
                         </p>
                       </div>
