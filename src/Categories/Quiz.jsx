@@ -223,7 +223,7 @@ const Quiz = () => {
         <div className='col-12'>
           <div className='scoreboard text-body-secondary'>
             <div className='score-item'>
-              <span className='text-body-secondary score'>👾 {lives}</span>
+              <span className='text-body-secondary score'>🕹️ {lives}</span>
             </div>
             <div className='score-item'>
               <span className='text-body-secondary score'>✓ {score}</span>
