@@ -292,7 +292,6 @@ function WordApp() {
                 {/* Örnek Cümleler */}
                 {word.example1 && (
                   <>
-                    <p className='tip'>&nbsp;Beispielsätze</p>
                     <p className='textWord'>
                       <strong>‣</strong> {word.example1}
                     </p>
