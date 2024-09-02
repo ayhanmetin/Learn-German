@@ -222,12 +222,12 @@ const Quiz = () => {
       <div className='border-top pt-3 app mt-1 pt-0'>
         <div className='col-12'>
           <div className='scoreboard text-body-secondary'>
-            <div className='score-item'>
-              <span className='text-body-secondary score'>🕹️ {lives}</span>
-            </div>
-            <div className='score-item'>
+            {/* <div className='score-item'>
+              <span className='text-body-secondary score'>👾 {lives}</span>
+            </div> */}
+            {/* <div className='score-item'>
               <span className='text-body-secondary score'>✓ {score}</span>
-            </div>
+            </div> */}
           </div>
           {gameOver ? (
             <div className='mb-2'>
