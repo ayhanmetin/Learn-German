@@ -240,8 +240,8 @@ const Quiz = () => {
               </button>
             </div>
           ) : (
-            <div className='cardCss fs-1 textchoicesFont1 text-body-secondary'>
-              <h1 className='text-body-secondary choicesFon2 fs-1 text mb-0'>
+            <div className='cardCss textchoicesFont1 text-body-secondary'>
+              <h1 className='text-body-secondary choicesFon2 text mb-0'>
                 {displayWord()}
               </h1>
               <div className='choices choicesFont1 text-body-secondary'>
