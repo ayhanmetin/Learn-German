@@ -185,7 +185,10 @@ function WordApp() {
         </div>
 
         {filteredWords.map((word, index) => (
-          <div className='mainFrame pMain mt-3 mb-3 border-bottom p-2' key={index}>
+          <div
+            className='mainFrame pMain mt-3 mb-3 border-bottom p-2'
+            key={index}
+          >
             <div className='gap-3 frameMAin frameMAinMobile d-flex justify-content-start align-items-start mb-3'>
               <button
                 className=''
@@ -228,23 +231,22 @@ function WordApp() {
                 <div className='d-flex justify-content-start align-items-center mb-0'>
                   <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
                 </div>
-
+                {word.grammar && (
+                  <div className='pt-2 ps-0 pe-2'>
+                    <p className='verbText text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
+                    ✏︎ &nbsp;&nbsp; {word.grammar}
+                    </p>
+                  </div>
+                )}
                 <div className='word-container fs-4 mainBody mt-0 pt-0'>
                   <div className='d-flex  verbText text-body-secondary flex-row mb-0'>
                     {/* Kelime Gramer Bilgileri */}
-                    {word.grammar && (
-                      <div className='pt-2 ps-0 pe-2'>
-                        <p className='fst-italic  verbText text-body-secondary fs-6 ms-0 ps-0 mb-2 mt-0 pt-0'>
-                          {word.grammar}
-                        </p>
-                      </div>
-                    )}
+
                     {word.PartizipII && (
                       <div className='pt-2 pe-0'>
                         <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6  text-body-secondary'>
                           <span className=' verbText text-body-secondary'>
                             {' '}
-                            &nbsp;&nbsp; ☞ &nbsp;&nbsp;
                           </span>{' '}
                           {word.PartizipII} &nbsp;
                         </p>
