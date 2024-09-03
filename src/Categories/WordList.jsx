@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import wordData from '../wordData';
 import './wordList.css';
-import Footer2 from '../components/Footer2';
+import Footer3 from '../components/Footer3';
 
 const WordList = () => {
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ const WordList = () => {
           ))}
         </div>
       </div>
-      <Footer2 />
+      <Footer3 />
     </>
   );
 };
