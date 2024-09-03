@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { InstaIcon, XIcon } from './IconBox';
 import './footer2.css';
 import yourImage from '../image/ayhan.png';
 
@@ -13,11 +11,17 @@ export default function Footer3() {
             <li>
               <p className='mb-1 mt-5'>© 2024 Ayhan Metin</p>
               <div className='d-flex justify-content-center align-items-center'>
-                <img
-                  src={yourImage}
-                  className='small-rounded-image mx-auto d-block mt-3'
-                  alt='Ayhan Metin'
-                />
+                <a
+                  href='https://www.instagram.com/ayhanmetinde'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    src={yourImage}
+                    className='small-rounded-image mx-auto d-block mt-3'
+                    alt='Ayhan Metin'
+                  />
+                </a>
               </div>
             </li>
           </ul>
