@@ -11,6 +11,6 @@
 
 @media (max-width: 768px) {
   .small-rounded-image {
-    display: none;
+    display: none !important;
   }
 }
