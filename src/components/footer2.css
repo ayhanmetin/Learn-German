@@ -6,5 +6,11 @@
 .small-rounded-image {
   width: 100px; 
   height: auto; 
-  border-radius:50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .small-rounded-image {
+    display: none;
+  }
 }
