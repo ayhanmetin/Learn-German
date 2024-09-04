@@ -18,10 +18,19 @@ export default function Nav() {
           <div className='pt-0'></div>
         </div>
 
-        <div className='navMain2  p-1'>
-          <Link to='/' className='text-body-secondary count p-0 m-0'>
-            <i className='flag'>📚</i> {wordCount}
-          </Link>
+        <div className='navMain2'>
+          <span className='navMain3'>
+            <Link
+              to='/'
+              className='text-body-secondary count m-0 p-0'
+              onClick={() => window.location.reload()}
+            >
+              <i className='flag'>📚</i>
+            </Link>
+            <Link to='/' className='text-body-secondary count m-0 p-0'>
+              <i className='flag'></i> {wordCount}
+            </Link>
+          </span>
           <Link to='/quiz' className='text-body-secondary totalWords p-0 m-0'>
             🎯 Quiz
           </Link>
