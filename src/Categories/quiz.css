@@ -122,6 +122,11 @@
   font-weight: 400;
 }
 
+.sentence {
+  margin-bottom: 5px !important;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 @media (max-width: 768px) {
   .cardCss {
     padding: 7px !important;
