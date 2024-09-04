@@ -111,7 +111,7 @@ a {
   margin: 0 !important;
   padding: 0 !important;
   white-space: nowrap; /* Prevent wrapping */
-  padding-top: 5px !important;
+  margin-top: 4px !important;
 }
 
 .text-body-secondary.count i.flag {
@@ -126,7 +126,6 @@ a {
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  margin: 0 !important; /* Ensure no margin is added */
-  padding: 0 !important; /* Ensure no padding is added */
-  line-height: 1; /* Normalize line height */
+  margin: 0 !important; 
+  padding: 0 !important; 
 }
