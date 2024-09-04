@@ -29,6 +29,14 @@
 .choicesFont {
   font-size: 22px !important;
   color: black;
+  padding: 15px;
+  min-height: 100px;
+  background-color: #f8f8f8;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -43,8 +51,7 @@
   padding: 12px 20px;
   font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
   font-weight: 600;
   display: block;
   margin: 20px auto;
@@ -102,15 +109,6 @@
   gap: 20px;
 }
 
-.choices button {
-  border: none;
-  padding: 15px;
-  font-size: 19px;
-  cursor: pointer;
-  min-height: 100px;
-  background-color: #f8f8f8;
-}
-
 .textWordQuiz {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin-left: 0;
@@ -125,31 +123,48 @@
 }
 
 @media (max-width: 768px) {
+  .cardCss {
+    padding: 7px !important;
+    margin: 0 !important;
+  }
   .choices {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0 !important;
+    width: 100%;
     margin: 0;
   }
 
+  .sentence {
+    margin-bottom: 5px !important;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 13px;
+  }
+
+  .choicesFont {
+    font-size: 14px !important;
+    padding: 20px !important;
+    min-height: 80px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .cardCss,
-  .scoreboard,
-  .choices button {
+  .scoreboard {
     font-size: 15px;
-    padding: 5px;
   }
 
   .cardCss h1 {
     font-size: 35px;
   }
 
-  .start-again-btn,
-  .choices button {
-    padding: 1px;
-    font-size: 5px !important;
-  }
-
-  .choices button:active {
-    background-color: #f8f8f8;
+  .start-again-btn {
+    font-size: 14px;
+    padding: 10px 15px;
   }
 
   .wrong-words {
@@ -157,19 +172,15 @@
     margin-top: 20px;
   }
 
-  .choicesFont {
-    font-size: 15px !important;
-  }
-
   .wordDayQuiz {
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 29px !important;
+    font-size: 40px !important;
     font-weight: 500;
   }
 
   .score-item,
-  .score,
   .scoreboard {
     font-size: 25px !important;
   }
 }
+

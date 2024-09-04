@@ -153,7 +153,7 @@ const Quiz = () => {
     } = currentWord;
 
     return (
-      <div className='d-flex justify-content-start px-1 align-items-start'>
+      <div className='d-flex justify-content-start quizApp px-1 align-items-start'>
         <div className='col-12'>
           <div className='d-flex justify-content-center align-items-center mb-3'>
             <b className='mobileWord mb-3 wordDayQuiz'>
@@ -163,33 +163,33 @@ const Quiz = () => {
 
           <div className='d-flex justify-content-start'>
             <div className='fs-4 mt-0 ms-0 pt-0 m-0 p-0 mt-0 pt-0'>
-              <div className='quizSentence col-12 d-flex flex-column mb-3'>
+              <div className='quizSentence col-12 d-flex flex-column mb-3 '>
                 {' '}
                 {example1 && (
-                  <p className='textWordQuiz d-flex justify-content-start align-items-start fw-normal'>
+                  <p className='textWordQuiz d-flex justify-content-start align-items-start fw-normal '>
                     <div className='d-flex flex-column'>
                       {example1 && (
-                        <div className='d-flex'>
+                        <div className='d-flex sentence'>
                           <strong>‣</strong> {example1}
                         </div>
                       )}
                       {example2 && (
-                        <div className='d-flex'>
+                        <div className='d-flex sentence'>
                           <strong>‣</strong> {example2}
                         </div>
                       )}
                       {example3 && (
-                        <div className='d-flex'>
+                        <div className='d-flex sentence'>
                           <strong>‣</strong> {example3}
                         </div>
                       )}
                       {example4 && (
-                        <div className='d-flex'>
+                        <div className='d-flex sentence'>
                           <strong>‣</strong> {example4}
                         </div>
                       )}
                       {example5 && (
-                        <div className='d-flex'>
+                        <div className='d-flex sentence'>
                           <strong>‣</strong> {example5}
                         </div>
                       )}
@@ -231,7 +231,6 @@ const Quiz = () => {
           </div>
           {gameOver ? (
             <div className='mb-2'>
-             
               <h1 className='d-flex scoreQuiz justify-content-center align-items-center'>
                 🎯 {score}{' '}
               </h1>
@@ -240,7 +239,7 @@ const Quiz = () => {
               </button>
             </div>
           ) : (
-            <div className='cardCss textchoicesFont1 text-body-secondary fs-1'>
+            <div className='cardCss text-body-secondary fs-1'>
               <h1 className='text-body-secondary choicesFon2 text mb-0'>
                 {displayWord()}
               </h1>
