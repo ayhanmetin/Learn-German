@@ -235,12 +235,12 @@ const Quiz = () => {
               <h1 className='d-flex scoreQuiz justify-content-center align-items-center'>
                 🎯 {score}{' '}
               </h1>
-              <button className='start-again-btn mt-4 mb-5' onClick={resetGame}>
+              <button className='start-again-btn mt-5 mb-5' onClick={resetGame}>
                 Noch einmal?
               </button>
             </div>
           ) : (
-            <div className='cardCss textchoicesFont1 text-body-secondary'>
+            <div className='cardCss textchoicesFont1 text-body-secondary fs-1'>
               <h1 className='text-body-secondary choicesFon2 text mb-0'>
                 {displayWord()}
               </h1>

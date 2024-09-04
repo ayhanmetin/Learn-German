@@ -145,6 +145,7 @@
   .start-again-btn,
   .choices button {
     padding: 1px;
+    font-size: 5px !important;
   }
 
   .choices button:active {
@@ -164,11 +165,11 @@
     font-family: 'Libre Franklin', sans-serif;
     font-size: 29px !important;
     font-weight: 500;
-    color: black;
   }
 
-  .score-item, .score, .scoreboard {
+  .score-item,
+  .score,
+  .scoreboard {
     font-size: 25px !important;
-  
   }
 }
