@@ -31,8 +31,6 @@ a {
   white-space: nowrap; /* Prevent wrapping */
 }
 
-
-
 .navMain2 a:hover {
   transform: scale(1.1);
   color: var(--bs-primary-color);
@@ -95,6 +93,9 @@ a {
   .navMain2 .flag {
     font-size: 18px;
   }
+  .navMain3 {
+    padding-top: 4px !important;
+  }
 }
 
 .navMain3 {
@@ -120,11 +121,9 @@ a {
   font-size: 20px;
   display: flex;
   align-items: center;
-  gap: 8px; 
+  gap: 8px;
   text-decoration: none;
   margin: 0 !important; /* Ensure no margin is added */
   padding: 0 !important; /* Ensure no padding is added */
   line-height: 1; /* Normalize line height */
-  
-
 }
