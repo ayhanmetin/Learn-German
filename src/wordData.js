@@ -2555,7 +2555,7 @@ const wordData = [
     PartizipII: '',
     Präteritum: '',
     example1: 'Die Ursache des Problems ist unbekannt.',
-    example2: '',
+    example2: 'Ich möchte keine anderen zusätlichen Kosten verursachen. (verb)',
     example3: '',
     example4: '',
     example5: '',
