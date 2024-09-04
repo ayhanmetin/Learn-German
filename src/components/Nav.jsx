@@ -23,10 +23,14 @@ export default function Nav() {
             <Link
               to='/'
               className='text-body-secondary count m-0 p-0'
-              onClick={() => window.location.reload()}
+              onClick={e => {
+                e.preventDefault();
+                window.location.href = '/';
+              }}
             >
               <i className='flag'>📚</i>
             </Link>
+
             <Link to='/' className='text-body-secondary count m-0 p-0'>
               <i className='flag'></i> {wordCount}
             </Link>
