@@ -232,7 +232,7 @@ function WordApp() {
                   <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
                 </div>
                 {word.grammar && (
-                  <div className='pt-1 ps-0 pe-2'>
+                  <div className='pt-0 ps-0 pe-2'>
                     <p className='verbText text-body-secondary fs-6 ms-0 ps-0 mb-3 mt-0 pt-0'>
                       ✏︎ &nbsp;&nbsp; {word.grammar}
                     </p>
