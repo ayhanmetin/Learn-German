@@ -226,7 +226,6 @@ function WordApp() {
             </div>
 
             <div className='margin d-flex frameMAin mobileMain mobileBelow flex-row'>
-              {/* Sol Taraf: Kelime Detayları */}
               <div className='col-6'>
                 <div className='d-flex justify-content-start align-items-center mb-0'>
                   <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
@@ -240,7 +239,6 @@ function WordApp() {
                 )}
                 <div className='word-container fs-4 mainBody mt-0 pt-0'>
                   <div className='d-flex  verbText text-body-secondary flex-row mb-0'>
-                    {/* Kelime Gramer Bilgileri */}
 
                     {word.PartizipII && (
                       <div className='pt-2 pe-0'>
