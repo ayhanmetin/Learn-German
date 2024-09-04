@@ -8700,7 +8700,7 @@ const wordData = [
 
     example1: 'Während des Films muss ich leise sein.',
     example2: 'Während des Sturms gab es einen Stromausfall.',
-    example3: '',
+    example3: 'Während ich ein Eis esse, isst meine Schwester etwas Brokkoli.',
     example4: '',
     example5: '',
     meaningENG: 'during',
