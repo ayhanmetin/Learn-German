@@ -92,6 +92,9 @@ a {
   .navMain2 .fa-house,
   .navMain2 .flag {
     font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
   }
   .navMain3 {
     padding-top: 4px !important;
@@ -108,7 +111,7 @@ a {
   margin: 0 !important;
   padding: 0 !important;
   white-space: nowrap; /* Prevent wrapping */
-  padding-top: 4px !important;
+  padding-top: 5px !important;
 }
 
 .text-body-secondary.count i.flag {
