@@ -14,7 +14,7 @@ const wordData = [
     example3: '',
     example4: '',
     example5: '',
-    meaningENG: 'if, in any case',
+    meaningENG: 'if, in case',
     meaningTR: 'eğer, durumunda',
     tag: 'basics',
     'Type (auf Deutsch)': 'Konjunktion',
