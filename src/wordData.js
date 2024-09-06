@@ -1,5 +1,23 @@
 const wordData = [
   {
+    date: '2024-09-06',
+    wordNo: '1',
+    article: '',
+    word: 'lauten',
+    grammar: 'verb',
+    plural: '',
+    PartizipII: 'gelautet',
+    Präteritum: 'lautete',
+    example1: 'Der Satz sollte richtig lauten.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'to sound, to say, to read',
+    meaningTR: 'şöyle yazmak, şeklinde olmak',
+    tag: 'basics',
+  },
+  {
     date: '',
     wordNo: '',
     article: '',
