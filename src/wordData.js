@@ -720,10 +720,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to contain',
     meaningTR: 'içermek',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -743,10 +739,6 @@ const wordData = [
     example5: '',
     meaningENG: 'either',
     meaningTR: 'ya, ya da',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -766,10 +758,6 @@ const wordData = [
     example5: '',
     meaningENG: 'peace of mind',
     meaningTR: 'gönül rahatlığı',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -842,10 +830,6 @@ const wordData = [
     example5: '',
     meaningENG: 'rather',
     meaningTR: 'fakat',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -864,10 +848,6 @@ const wordData = [
     example5: '',
     meaningENG: 'at least, at the lowest',
     meaningTR: 'en azından',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -886,10 +866,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to cancel',
     meaningTR: 'iptal etmek',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -907,10 +883,6 @@ const wordData = [
     example5: 'Du ärgerst mich!',
     meaningENG: 'to annoy',
     meaningTR: 'kızdırmak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -929,10 +901,6 @@ const wordData = [
     example5: '',
     meaningENG: 'affordable',
     meaningTR: 'uygun fiyatlı',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -951,10 +919,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to be worth it',
     meaningTR: 'değmek',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -973,10 +937,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to limit',
     meaningTR: 'sınırlamak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -995,10 +955,6 @@ const wordData = [
     example5: '',
     meaningENG: 'admission fee',
     meaningTR: 'giriş ücreti',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1018,10 +974,6 @@ const wordData = [
     example5: '',
     meaningENG: 'valid',
     meaningTR: 'geçerli',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1041,10 +993,6 @@ const wordData = [
     example5: '',
     meaningENG: 'initiate',
     meaningTR: 'başlatmak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1063,10 +1011,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to prepare, to cause',
     meaningTR: 'hazırlamak, sebep olmak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1086,10 +1030,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to save',
     meaningTR: 'tasarruf etmek',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -1108,10 +1048,6 @@ const wordData = [
     example5: '',
     meaningENG: 'provable',
     meaningTR: 'kanıtlanmış',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1130,10 +1066,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to afford',
     meaningTR: 'karşılayabilmek',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1152,10 +1084,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to sue',
     meaningTR: 'dava açmak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1174,10 +1102,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to contradict, to oppose',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1197,10 +1121,6 @@ const wordData = [
     example5: '',
     meaningENG: 'on time',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1219,10 +1139,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to fit, to suit',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1241,10 +1157,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to succeed',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1264,9 +1176,6 @@ const wordData = [
     meaningENG: 'to be sufficient',
     meaningTR: '',
     tip1: '"Genug is used to describe the adequacy of an amount or degree (adverb). Genügt is used to indicate that something meets requirements or is sufficient (verb form).',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1285,10 +1194,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to succeed',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1307,10 +1212,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to appear',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1330,10 +1231,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to reply, to counter',
     meaningTR: 'karşılık vermek, itiraz etmek',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1352,10 +1249,6 @@ const wordData = [
     example5: '',
     meaningENG: 'o occur, to come to mind',
     meaningTR: 'aklına gelmek',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1374,10 +1267,6 @@ const wordData = [
     example5: '',
     meaningENG: 'back up, help, support',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1396,10 +1285,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to command',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1418,10 +1303,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to avoid',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1440,10 +1321,6 @@ const wordData = [
     example5: 'Die Woche geht von Montag bis Sonntag.',
     meaningENG: 'of, from',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1462,10 +1339,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to practice',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1484,10 +1357,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to look away',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1506,10 +1375,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to turn around',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1528,10 +1393,6 @@ const wordData = [
     example5: '',
     meaningENG: 'Richtung',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1551,9 +1412,6 @@ const wordData = [
     meaningENG: 'to encounter, to meet',
     meaningTR: 'karşılaşmak, rastlamak',
     tip1: "'Begegnen' is commonly used with the dative case to indicate meeting or encountering someone or something.",
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1573,9 +1431,6 @@ const wordData = [
     meaningENG: 'to resemble, be similar (to)',
     meaningTR: 'benzemek',
     tip1: "'Ähneln' is often used with the dative case to indicate similarity or resemblance between two things.",
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1595,9 +1450,6 @@ const wordData = [
     meaningENG: 'to look, to appear',
     meaningTR: '',
     tip1: "'Aussehen' is used to describe how something or someone appears or looks.",
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1616,10 +1468,6 @@ const wordData = [
     example5: '',
     meaningENG: 'line',
     meaningTR: 'çizgi',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1638,10 +1486,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to agree',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1660,10 +1504,6 @@ const wordData = [
     example5: '',
     meaningENG: 'meantime',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1682,10 +1522,6 @@ const wordData = [
     example5: '',
     meaningENG: 'unusual',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1704,10 +1540,6 @@ const wordData = [
     example5: '',
     meaningENG: 'nice, pretty',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1726,10 +1558,6 @@ const wordData = [
     example5: '',
     meaningENG: 'forgiveness',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1749,10 +1577,6 @@ const wordData = [
     example5: '',
     meaningENG: 'in that respect',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1771,10 +1595,6 @@ const wordData = [
     example5: '',
     meaningENG: 'absolutely, quite, definitely',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1793,10 +1613,6 @@ const wordData = [
     example5: '',
     meaningENG: 'talented, gifted',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1815,10 +1631,6 @@ const wordData = [
     example5: '',
     meaningENG: 'brilliant',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1838,9 +1650,6 @@ const wordData = [
     meaningENG: 'to miss',
     meaningTR: '',
     tip1: "'Verpassen' is used when you fail to catch or attend something, such as a bus, an event, or a deadline.",
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1859,10 +1668,6 @@ const wordData = [
     example5: '',
     meaningENG: 'such, those kind of',
     meaningTR: 'böyle, o tür',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1881,10 +1686,6 @@ const wordData = [
     example5: '',
     meaningENG: 'opening',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1903,10 +1704,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to contribute',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1926,9 +1723,6 @@ const wordData = [
     meaningENG: 'to maintain, to keep',
     meaningTR: 'korumak, sürdürmek',
     tip1: 'Behaltet den Mut. (behalten)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1947,10 +1741,6 @@ const wordData = [
     example5: '',
     meaningENG: 'join',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1969,10 +1759,6 @@ const wordData = [
     example5: '',
     meaningENG: 'except, apart from, excluding',
     meaningTR: 'hariç, dışında',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2036,9 +1822,6 @@ const wordData = [
     meaningENG: 'disassemble',
     meaningTR: '',
     tip1: 'Dieses Buch fallt auseinander. (auseinanderfallen)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2058,9 +1841,6 @@ const wordData = [
     meaningENG: 'afterwards',
     meaningTR: 'ardından, peşinden',
     tip1: 'hinterherkommen - happen afterwards, follow',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2079,10 +1859,6 @@ const wordData = [
     example5: '',
     meaningENG: 'angry',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2101,10 +1877,6 @@ const wordData = [
     example5: '',
     meaningENG: 'watch out, look out, take care (of)',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2123,10 +1895,6 @@ const wordData = [
     example5: 'Die Frist ist vorbei.',
     meaningENG: 'over',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2145,10 +1913,6 @@ const wordData = [
     example5: '',
     meaningENG: 'satisfied',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2167,10 +1931,6 @@ const wordData = [
     example5: '',
     meaningENG: 'purpose',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2189,10 +1949,6 @@ const wordData = [
     example5: '',
     meaningENG: 'cut, take off, withdraw',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2211,10 +1967,6 @@ const wordData = [
     example5: '',
     meaningENG: 'take out',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2233,10 +1985,6 @@ const wordData = [
     example5: 'Tom analysierte die Ergebnisse.',
     meaningENG: 'result',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2255,10 +2003,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to refund',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2298,10 +2042,6 @@ const wordData = [
     example5: '',
     meaningENG: 'debit, withdrawal',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2320,10 +2060,6 @@ const wordData = [
     example5: '',
     meaningENG: 'receipt, sales slip',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2342,10 +2078,6 @@ const wordData = [
     example5: '',
     meaningENG: 'view, prospect',
     meaningTR: 'manzara, olasılık',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2364,10 +2096,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to investigate',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2386,10 +2114,6 @@ const wordData = [
     example5: '',
     meaningENG: 'decency',
     meaningTR: 'terbiye, nezaket',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2408,10 +2132,6 @@ const wordData = [
     example5: 'Ihr Vorbild in der Kunst war Picasso.',
     meaningENG: 'role model',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2430,10 +2150,6 @@ const wordData = [
     example5: '',
     meaningENG: 'especially, particularly',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2452,10 +2168,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to dry',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2474,10 +2186,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to name, to call',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2497,9 +2205,6 @@ const wordData = [
     meaningENG: 'to remove',
     meaningTR: '',
     tip1: 'This verb is used for physical removal as well as abstract contexts like removing obstacles or problems.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2519,9 +2224,6 @@ const wordData = [
     meaningENG: 'to take place',
     meaningTR: 'gerçekleşmek',
     tip1: "Remember that 'stattfinden' is a separable verb. In sentences, 'statt' is placed at the end, while 'finden' is conjugated.",
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2562,10 +2264,6 @@ const wordData = [
     example5: 'Wir werden ihn zum Handeln zwingen.',
     meaningENG: 'to force',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2584,10 +2282,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to demand, to require',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2606,10 +2300,6 @@ const wordData = [
     example5: 'Die Inflation hatte die Preise in die Höhe getrieben.',
     meaningENG: 'to drive, to push',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2628,10 +2318,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to push',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2650,10 +2336,6 @@ const wordData = [
     example5: 'Das würde endlich Klarheit schaffen.',
     meaningENG: 'to create, to manage',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2672,10 +2354,6 @@ const wordData = [
     example5: 'Wir werden unsere Kräfte mit ihnen messen.',
     meaningENG: 'to measure',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2693,10 +2371,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to trade, to act',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2715,10 +2389,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to enforce, to implement',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2736,10 +2406,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to be enough',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2757,10 +2423,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to accept, to assume',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2778,10 +2440,6 @@ const wordData = [
     example5: '',
     meaningENG: 'constant',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2799,10 +2457,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to happen, to occur',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2820,10 +2474,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to enter, to get in (a vehicle)',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2842,9 +2492,6 @@ const wordData = [
     meaningENG: 'feasible',
     meaningTR: '',
     tip1: 'Synonyme: möglich',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2863,10 +2510,6 @@ const wordData = [
     example5: '',
     meaningENG: 'area, region',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2885,10 +2528,6 @@ const wordData = [
     example5: '',
     meaningENG: 'so-called',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2906,10 +2545,6 @@ const wordData = [
     example5: '',
     meaningENG: 'at least',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2928,10 +2563,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to choose, to select',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2949,10 +2580,6 @@ const wordData = [
     example5: '',
     meaningENG: 'news, updates',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2970,10 +2597,6 @@ const wordData = [
     example5: '',
     meaningENG: 'curious',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -2991,10 +2614,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to collect',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3012,10 +2631,6 @@ const wordData = [
     example5: '',
     meaningENG: 'majority',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3033,10 +2648,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to receive',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3055,9 +2666,6 @@ const wordData = [
     meaningENG: 'own',
     meaningTR: '',
     tip1: 'eigenes is the adjective form used with a neuter (das Fahrradgeschäft) singular noun in the nominative case.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3075,10 +2683,6 @@ const wordData = [
     example5: '',
     meaningENG: 'level',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3097,9 +2701,6 @@ const wordData = [
     meaningENG: 'strength',
     meaningTR: '',
     tip1: 'Was sind Ihre Schwächen?',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3118,10 +2719,6 @@ const wordData = [
     example5: '',
     meaningENG: 'advisor, consultant',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3140,10 +2737,6 @@ const wordData = [
     example5: '',
     meaningENG: 'support',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3162,10 +2755,6 @@ const wordData = [
     example5: '',
     meaningENG: 'colloquial, informal',
     meaningTR: 'günlük dilde, halk arasında kullanılan',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3184,10 +2773,6 @@ const wordData = [
     example5: '',
     meaningENG: 'entrance exam',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3206,10 +2791,6 @@ const wordData = [
     example5: '',
     meaningENG: 'business',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3227,10 +2808,6 @@ const wordData = [
     example5: '',
     meaningENG: 'cause, reason',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3248,10 +2825,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to be eliminated',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3270,10 +2843,6 @@ const wordData = [
     example5: '',
     meaningENG: 'besides, in addition',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3291,10 +2860,6 @@ const wordData = [
     example5: '',
     meaningENG: 'respond',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3312,10 +2877,6 @@ const wordData = [
     example5: '',
     meaningENG: 'instead of',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3334,9 +2895,6 @@ const wordData = [
     meaningENG: 'extent, degree',
     meaningTR: '',
     tip1: '"Ausmaß" often denotes something quantifiable or measurable, so it is frequently used in contexts where size, damage, or scope is discussed.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3354,10 +2912,6 @@ const wordData = [
     example5: '',
     meaningENG: 'trouble, annoyance, anger',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3375,10 +2929,6 @@ const wordData = [
     example5: '',
     meaningENG: 'mandatory, obligatory',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3396,10 +2946,6 @@ const wordData = [
     example5: '',
     meaningENG: 'dependent',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3417,10 +2963,6 @@ const wordData = [
     example5: '',
     meaningENG: 'more frequent, more often',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3438,10 +2980,6 @@ const wordData = [
     example5: '',
     meaningENG: 'service',
     meaningTR: 'hizmet',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3459,10 +2997,6 @@ const wordData = [
     example5: '',
     meaningENG: 'distract',
     meaningTR: 'dikkatini dağıtmak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3481,10 +3015,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to differ',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3502,10 +3032,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to descend',
     meaningTR: 'inmek',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3523,10 +3049,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to build (etwas bauen)',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3544,10 +3066,6 @@ const wordData = [
     example5: '',
     meaningENG: 'consist',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3565,10 +3083,6 @@ const wordData = [
     example5: '',
     meaningENG: 'exaggerate',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3587,9 +3101,6 @@ const wordData = [
     meaningENG: 'because of that',
     meaningTR: '',
     tip1: 'deshalb = deswegen = darum',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3607,10 +3118,6 @@ const wordData = [
     example5: '',
     meaningENG: 'fate, destiny',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3629,9 +3136,6 @@ const wordData = [
     meaningENG: 'even',
     meaningTR: 'bile, hatta',
     tip1: 'Think of "sogar" as a way to say "believe it or not" or to emphasize something surprising or beyond expectations.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3649,10 +3153,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to handle',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3670,10 +3170,6 @@ const wordData = [
     example5: '',
     meaningENG: 'impression',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3691,10 +3187,6 @@ const wordData = [
     example5: '',
     meaningENG: 'receiver, recipient',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3712,10 +3204,6 @@ const wordData = [
     example5: '',
     meaningENG: 'available',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3734,9 +3222,6 @@ const wordData = [
     meaningENG: 'to turn',
     meaningTR: '',
     tip1: '"Abbiegen" means to change direction.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3754,10 +3239,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to expect',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3776,10 +3257,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to scold',
     meaningTR: 'azarlamak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3797,10 +3274,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to allow',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -3820,9 +3293,6 @@ const wordData = [
     meaningENG: 'to cancel',
     meaningTR: '',
     tip1: 'Think of "stornieren" whenever you need to cancel a booking or reservation',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3840,10 +3310,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to spend',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3861,10 +3327,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to memorize',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3882,10 +3344,6 @@ const wordData = [
     example5: '',
     meaningENG: 'increase',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3903,10 +3361,6 @@ const wordData = [
     example5: '',
     meaningENG: 'conversation, entertainment',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3924,10 +3378,6 @@ const wordData = [
     example5: '',
     meaningENG: 'really',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3945,10 +3395,6 @@ const wordData = [
     example5: '',
     meaningENG: 'based on, by means of',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3968,9 +3414,6 @@ const wordData = [
     meaningENG: 'that is to say',
     meaningTR: '',
     tip1: '"Nämlich" is often used to provide a clarification or explanation.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -3988,10 +3431,6 @@ const wordData = [
     example5: '',
     meaningENG: 'common',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -4009,10 +3448,6 @@ const wordData = [
     example5: '',
     meaningENG: 'extraordinary, exceptional',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -4030,10 +3465,6 @@ const wordData = [
     example5: '',
     meaningENG: 'essential, significant',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4052,10 +3483,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to take care of, to look after',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -4073,10 +3500,6 @@ const wordData = [
     example5: '',
     meaningENG: 'pleasant',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4095,10 +3518,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to educate, to form',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4117,10 +3536,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to break',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4140,9 +3555,6 @@ const wordData = [
     meaningENG: ' to consider, to think about',
     meaningTR: '',
     tip1: 'sich überlegen (reflexive)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4161,10 +3573,6 @@ const wordData = [
     example5: '',
     meaningENG: 'currently, at present',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4183,10 +3591,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to surprise',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -4206,9 +3610,6 @@ const wordData = [
     meaningENG: 'some, a few',
     meaningTR: '',
     tip1: 'When using "einige," remember it implies plurality, so it should only be used with plural nouns.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -4228,9 +3629,6 @@ const wordData = [
     meaningENG: 'to last',
     meaningTR: '',
     tip1: 'It is used to express the duration of an event or action in time.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4250,10 +3648,6 @@ const wordData = [
     example5: '',
     meaningENG: 'hardworking',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -4272,10 +3666,6 @@ const wordData = [
     example5: '',
     meaningENG: 'pleasant',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4295,10 +3685,6 @@ const wordData = [
     example5: '',
     meaningENG: 'content',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4318,10 +3704,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to change, to alter',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4342,10 +3724,6 @@ const wordData = [
     example5: '',
     meaningENG: 'skill, ability',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4365,10 +3743,6 @@ const wordData = [
     example5: '',
     meaningENG: 'past, over',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4388,10 +3762,6 @@ const wordData = [
     example5: '',
     meaningENG: 'included',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4411,10 +3781,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to turn, to spin',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4435,10 +3801,6 @@ const wordData = [
     example5: '',
     meaningENG: 'result, outcome',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4458,10 +3820,6 @@ const wordData = [
     example5: '',
     meaningENG: 'scary, spooky',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4481,10 +3839,6 @@ const wordData = [
     example5: '',
     meaningENG: 'surprising',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4505,9 +3859,6 @@ const wordData = [
     meaningENG: 'moving, touching',
     meaningTR: '',
     tip1: 'use "bewegend" when something evokes a strong emotional response.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4527,10 +3878,6 @@ const wordData = [
     example5: '',
     meaningENG: 'exciting',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4550,10 +3897,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to complete',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4575,9 +3918,6 @@ const wordData = [
     meaningENG: 'contract',
     meaningTR: '',
     tip1: 'erfolgreich - successful',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -4596,10 +3936,6 @@ const wordData = [
     example5: '',
     meaningENG: 'eternal',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -4618,10 +3954,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to lose',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4641,10 +3973,6 @@ const wordData = [
     example5: '',
     meaningENG: 'row',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4664,10 +3992,6 @@ const wordData = [
     example5: '',
     meaningENG: 'column',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4687,10 +4011,6 @@ const wordData = [
     example5: '',
     meaningENG: 'reversed, the opposite way',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4710,10 +4030,6 @@ const wordData = [
     example5: '',
     meaningENG: 'notice, comment',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4733,10 +4049,6 @@ const wordData = [
     example5: '',
     meaningENG: 'area, region',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4756,10 +4068,6 @@ const wordData = [
     example5: '',
     meaningENG: 'numerous',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4779,10 +4087,6 @@ const wordData = [
     example5: '',
     meaningENG: 'huge, gigantic',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4802,10 +4106,6 @@ const wordData = [
     example5: '',
     meaningENG: 'fair, just, conforming',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4825,10 +4125,6 @@ const wordData = [
     example5: '',
     meaningENG: 'sympathetic, understanding',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4848,10 +4144,6 @@ const wordData = [
     example5: '',
     meaningENG: 'characteristic',
     meaningTR: 'özellik, nitelik',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4871,10 +4163,6 @@ const wordData = [
     example5: '',
     meaningENG: 'discount',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4894,10 +4182,6 @@ const wordData = [
     example5: '',
     meaningENG: 'change, alteration',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4918,9 +4202,6 @@ const wordData = [
     meaningENG: 'the same',
     meaningTR: '',
     tip1: 'derselbe (masc.), dieselbe (fem.), dasselbe (neut.)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4940,10 +4221,6 @@ const wordData = [
     example5: '',
     meaningENG: 'instruction',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4963,10 +4240,6 @@ const wordData = [
     example5: '',
     meaningENG: 'cozy',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -4986,10 +4259,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to fall down',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5009,10 +4278,6 @@ const wordData = [
     example5: '',
     meaningENG: 'similar',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5032,10 +4297,6 @@ const wordData = [
     example5: '',
     meaningENG: 'conversation',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5055,10 +4316,6 @@ const wordData = [
     example5: '',
     meaningENG: 'known, famous',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5078,10 +4335,6 @@ const wordData = [
     example5: '',
     meaningENG: 'tire',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5101,10 +4354,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to wrap, to envelop',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5124,10 +4373,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to fall down, to fall off',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5147,10 +4392,6 @@ const wordData = [
     example5: '',
     meaningENG: 'goods, product',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5170,10 +4411,6 @@ const wordData = [
     example5: '',
     meaningENG: 'payment by instalments',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5193,10 +4430,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to prefer',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5216,10 +4449,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to prefer',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5239,10 +4468,6 @@ const wordData = [
     example5: '',
     meaningENG: 'weight',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5262,10 +4487,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to use, to utilize',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5285,10 +4506,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to express',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5309,10 +4526,6 @@ const wordData = [
     example5: '',
     meaningENG: 'need, necessity',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5334,9 +4547,6 @@ const wordData = [
     meaningENG: 'to move',
     meaningTR: '',
     tip1: '"Umzug" is the noun for a move or relocation, while "umziehen" is the verb meaning to move or relocate, both referring to the process of changing ones residence or location.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5356,10 +4566,6 @@ const wordData = [
     example5: '',
     meaningENG: 'self-confident',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5379,10 +4585,6 @@ const wordData = [
     example5: '',
     meaningENG: 'for each other',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5402,10 +4604,6 @@ const wordData = [
     example5: '',
     meaningENG: 'primarily',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5425,10 +4623,6 @@ const wordData = [
     example5: '',
     meaningENG: 'similar',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5448,10 +4642,6 @@ const wordData = [
     example5: '',
     meaningENG: 'patient',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5471,10 +4661,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to check, to verify',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5494,10 +4680,6 @@ const wordData = [
     example5: '',
     meaningENG: 'polite',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5517,10 +4699,6 @@ const wordData = [
     example5: '',
     meaningENG: 'connection',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5540,10 +4718,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to delay',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5563,10 +4737,6 @@ const wordData = [
     example5: '',
     meaningENG: 'any',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5586,10 +4756,6 @@ const wordData = [
     example5: '',
     meaningENG: 'last, most recently',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5609,10 +4775,6 @@ const wordData = [
     example5: '',
     meaningENG: 'current',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5632,10 +4794,6 @@ const wordData = [
     example5: '',
     meaningENG: 'different, various',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5655,10 +4813,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to defeat',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -5676,10 +4830,6 @@ const wordData = [
     example5: '',
     meaningENG: 'finally',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5699,10 +4849,6 @@ const wordData = [
     example5: '',
     meaningENG: 'statement, declaration, specification',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5722,10 +4868,6 @@ const wordData = [
     example5: '',
     meaningENG: 'frequency',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5745,10 +4887,6 @@ const wordData = [
     example5: '',
     meaningENG: 'invisible',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5768,10 +4906,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to turn',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5791,10 +4925,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to grasp, to understand',
     meaningTR: 'anlamak, kavramak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5814,10 +4944,6 @@ const wordData = [
     example5: '',
     meaningENG: 'distance',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5837,10 +4963,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to proceed',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5861,9 +4983,6 @@ const wordData = [
     meaningENG: 'to stop, to cease',
     meaningTR: '',
     tip1: 'Old version aufhören: stop what you are doing and listen up - hören -> listen and auf hören -> listen up',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5882,10 +5001,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to hide',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5905,10 +5020,6 @@ const wordData = [
     example5: '',
     meaningENG: 'battle',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5928,10 +5039,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to destroy',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5951,10 +5058,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to block',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5974,10 +5077,6 @@ const wordData = [
     example5: '',
     meaningENG: 'complete, full',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5998,10 +5097,6 @@ const wordData = [
     example5: '',
     meaningENG: 'beside, next to',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6021,10 +5116,6 @@ const wordData = [
     example5: '',
     meaningENG: 'increasingly',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6044,10 +5135,6 @@ const wordData = [
     example5: '',
     meaningENG: 'relaxed',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6067,10 +5154,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to consider',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6090,10 +5173,6 @@ const wordData = [
     example5: '',
     meaningENG: 'period of time',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6113,10 +5192,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to omit, to leave out',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6136,10 +5211,6 @@ const wordData = [
     example5: '',
     meaningENG: 'dreamy, daydreaming',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6160,10 +5231,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to discover',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6183,10 +5250,6 @@ const wordData = [
     example5: '',
     meaningENG: 'as well, likewise',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6206,10 +5269,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to accomplish, (schaffen)',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6229,10 +5288,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to share',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6252,10 +5307,6 @@ const wordData = [
     example5: '',
     meaningENG: 'expression',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6298,10 +5349,6 @@ const wordData = [
     example5: '',
     meaningENG: 'liquid',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6321,10 +5368,6 @@ const wordData = [
     example5: '',
     meaningENG: 'currency',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6344,10 +5387,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to owe',
     meaningTR: 'sahip olmak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6367,10 +5406,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to suspect, to assume',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6390,10 +5425,6 @@ const wordData = [
     example5: '',
     meaningENG: 'elsewhere',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6414,10 +5445,6 @@ const wordData = [
     example5: '',
     meaningENG: 'because of',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6456,10 +5483,6 @@ const wordData = [
     example5: '',
     meaningENG: 'entertaining',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6480,10 +5503,6 @@ const wordData = [
     example5: '',
     meaningENG: 'nowhere',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6503,10 +5522,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to let, to allow, to leave',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6526,10 +5541,6 @@ const wordData = [
     example5: '',
     meaningENG: 'somewhere',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6549,10 +5560,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to get in',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6572,10 +5579,6 @@ const wordData = [
     example5: '',
     meaningENG: 'fundamentals, basics',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6595,10 +5598,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to master, to control',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6618,10 +5617,6 @@ const wordData = [
     example5: '',
     meaningENG: 'fluent',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6641,10 +5636,6 @@ const wordData = [
     example5: '',
     meaningENG: 'probably',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6664,10 +5655,6 @@ const wordData = [
     example5: '',
     meaningENG: 'over there',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6687,10 +5674,6 @@ const wordData = [
     example5: '',
     meaningENG: 'urgent',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6710,10 +5693,6 @@ const wordData = [
     example5: '',
     meaningENG: 'meeting',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6734,9 +5713,6 @@ const wordData = [
     meaningENG: 'to leave',
     meaningTR: '',
     tip1: 'sich verlassen auf - to rely on',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6756,10 +5732,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to make sure, to verify',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6779,10 +5751,6 @@ const wordData = [
     example5: '',
     meaningENG: 'surroundings',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6802,10 +5770,6 @@ const wordData = [
     example5: '',
     meaningENG: 'next to, beside',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6825,10 +5789,6 @@ const wordData = [
     example5: '',
     meaningENG: 'outside of',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6848,10 +5808,6 @@ const wordData = [
     example5: '',
     meaningENG: 'at, by, near, with',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6871,10 +5827,6 @@ const wordData = [
     example5: '',
     meaningENG: 'except, besides',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6894,10 +5846,6 @@ const wordData = [
     example5: '',
     meaningENG: 'around, at, for',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6917,10 +5865,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to interrupt',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6940,10 +5884,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to change (trains, planes...)',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6963,10 +5903,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to withdraw',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -6986,10 +5922,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to renovate',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7010,10 +5942,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to turn off',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7033,10 +5961,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to get through',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7056,10 +5980,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to complete',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7079,10 +5999,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to promise',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7102,10 +6018,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to feel',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7125,10 +6037,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to assure, to guarantee',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7148,10 +6056,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to stay away',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7171,10 +6075,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to show someone how to do',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7194,10 +6094,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to submit',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7217,10 +6113,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to present, to perform',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7240,10 +6132,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to refill',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7263,10 +6151,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to have on, to wear',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7286,10 +6170,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to install',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7309,10 +6189,6 @@ const wordData = [
     example5: '',
     meaningENG: 'like',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7333,10 +6209,6 @@ const wordData = [
     example5: '',
     meaningENG: 'quite, pretty (wirklich)',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7356,10 +6228,6 @@ const wordData = [
     example5: '',
     meaningENG: 'nevertheless',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7380,9 +6248,6 @@ const wordData = [
     meaningENG: 'otherwise',
     meaningTR: '',
     tip1: 'Ihnen - you (formal, dative case)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7403,10 +6268,6 @@ const wordData = [
     example5: '',
     meaningENG: 'thus, therefore',
     meaningTR: 'böylece, bu yüzden',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7426,10 +6287,6 @@ const wordData = [
     example5: '',
     meaningENG: 'anyway, in any case',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7450,10 +6307,6 @@ const wordData = [
     example5: '',
     meaningENG: 'thats why',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7474,10 +6327,6 @@ const wordData = [
     example5: '',
     meaningENG: "therefore, that's why",
     meaningTR: 'bu yüzden, bu nedenle',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7497,10 +6346,6 @@ const wordData = [
     example5: '',
     meaningENG: 'reliable',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7520,10 +6365,6 @@ const wordData = [
     example5: '',
     meaningENG: 'for nothing',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7534,7 +6375,7 @@ const wordData = [
     PartizipII: '',
     article: '',
     word: 'nachdem',
-    grammar: 'conjunction',
+    grammar: 'konjunktion',
 
     example1: '',
     example2: '',
@@ -7543,10 +6384,6 @@ const wordData = [
     example5: '',
     meaningENG: 'after',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7566,10 +6403,6 @@ const wordData = [
     example5: '',
     meaningENG: 'since then',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7589,10 +6422,6 @@ const wordData = [
     example5: '',
     meaningENG: 'recently',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7612,10 +6441,6 @@ const wordData = [
     example5: '',
     meaningENG: 'incredible',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7635,10 +6460,6 @@ const wordData = [
     example5: '',
     meaningENG: 'possibly',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7658,10 +6479,6 @@ const wordData = [
     example5: '',
     meaningENG: 'afterwards',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7681,10 +6498,6 @@ const wordData = [
     example5: '',
     meaningENG: 'at that time',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7704,10 +6517,6 @@ const wordData = [
     example5: '',
     meaningENG: 'ever',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7728,9 +6537,6 @@ const wordData = [
     meaningENG: 'nowadays',
     meaningTR: '',
     tip1: '"heute" (today) + "zu" (to) + "Tage" (days)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7750,10 +6556,6 @@ const wordData = [
     example5: '',
     meaningENG: 'until now',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7773,10 +6575,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to reach',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7796,10 +6594,6 @@ const wordData = [
     example5: '',
     meaningENG: 'exception',
     meaningTR: 'istisna',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7819,10 +6613,6 @@ const wordData = [
     example5: '',
     meaningENG: 'rarely, seldom',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7842,10 +6632,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to teach',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7866,9 +6652,6 @@ const wordData = [
     meaningENG: 'to choose',
     meaningTR: '',
     tip1: 'Vom" is "von dem" in German "from the"',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7888,10 +6671,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to listen',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7911,10 +6690,6 @@ const wordData = [
     example5: 'Das wirst du nie raten!',
     meaningENG: 'to advise, to guess',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7934,10 +6709,6 @@ const wordData = [
     example5: '',
     meaningENG: 'Government office',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7957,10 +6728,6 @@ const wordData = [
     example5: '',
     meaningENG: 'until',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7980,10 +6747,6 @@ const wordData = [
     example5: '',
     meaningENG: 'necessary',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8003,10 +6766,6 @@ const wordData = [
     example5: '',
     meaningENG: 'currently',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8026,10 +6785,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to throw away',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8049,10 +6804,6 @@ const wordData = [
     example5: '',
     meaningENG: 'relative',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8072,10 +6823,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to turn on',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8095,10 +6842,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to go out',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8118,10 +6861,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to regulate',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8141,10 +6880,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to come in, to enter',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8164,10 +6899,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to get off, to exit',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8187,10 +6918,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to transfer,',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8210,10 +6937,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to go in, to enter',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8233,10 +6956,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to suggest',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8256,10 +6975,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to produce, to manufacture',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8279,10 +6994,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to punish',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8325,10 +7036,6 @@ const wordData = [
     example5: '',
     meaningENG: 'in some way',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8348,10 +7055,6 @@ const wordData = [
     example5: '',
     meaningENG: 'secret',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8371,10 +7074,6 @@ const wordData = [
     example5: '',
     meaningENG: 'purchase',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8394,10 +7093,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to expire',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8417,10 +7112,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to extend, to renew',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8440,10 +7131,6 @@ const wordData = [
     example5: '',
     meaningENG: 'valid',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8463,10 +7150,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to contribute',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8486,10 +7169,6 @@ const wordData = [
     example5: '',
     meaningENG: 'performance, introduction',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8509,10 +7188,6 @@ const wordData = [
     example5: '',
     meaningENG: 'overnight stay, accommodation',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8533,10 +7208,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to change',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8556,10 +7227,6 @@ const wordData = [
     example5: '',
     meaningENG: 'side',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8579,10 +7246,6 @@ const wordData = [
     example5: '',
     meaningENG: 'goal',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8602,10 +7265,6 @@ const wordData = [
     example5: '',
     meaningENG: 'opposite',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8625,10 +7284,6 @@ const wordData = [
     example5: '',
     meaningENG: 'processing',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8648,10 +7303,6 @@ const wordData = [
     example5: '',
     meaningENG: 'connection',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8671,10 +7322,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to doubt',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8694,10 +7341,6 @@ const wordData = [
     example5: '',
     meaningENG: 'apparently',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8717,10 +7360,6 @@ const wordData = [
     example5: '',
     meaningENG: 'insights',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8740,10 +7379,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to connect',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8763,10 +7398,6 @@ const wordData = [
     example5: '',
     meaningENG: 'top, highest, supreme',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8809,10 +7440,6 @@ const wordData = [
     example5: '',
     meaningENG: 'excellent',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8832,10 +7459,6 @@ const wordData = [
     example5: '',
     meaningENG: 'in front, ahead',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8855,10 +7478,6 @@ const wordData = [
     example5: '',
     meaningENG: 'menu',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8878,10 +7497,6 @@ const wordData = [
     example5: '',
     meaningENG: 'along',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8902,10 +7517,6 @@ const wordData = [
     example5: '',
     meaningENG: 'by the way',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8925,10 +7536,6 @@ const wordData = [
     example5: '',
     meaningENG: 'mistake',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8948,10 +7555,6 @@ const wordData = [
     example5: '',
     meaningENG: 'casual',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8971,10 +7574,6 @@ const wordData = [
     example5: '',
     meaningENG: 'department',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8994,10 +7593,6 @@ const wordData = [
     example5: '',
     meaningENG: 'urgent',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9017,10 +7612,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to touch',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9040,10 +7631,6 @@ const wordData = [
     example5: '',
     meaningENG: 'whereby, while',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9063,10 +7650,6 @@ const wordData = [
     example5: '',
     meaningENG: 'during',
     meaningTR: 'sırasında',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9086,10 +7669,6 @@ const wordData = [
     example5: '',
     meaningENG: 'excited',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9109,10 +7688,6 @@ const wordData = [
     example5: '',
     meaningENG: 'useful',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9132,10 +7707,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to practice',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9155,10 +7726,6 @@ const wordData = [
     example5: '',
     meaningENG: 'strange, odd, weird',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9179,10 +7746,6 @@ const wordData = [
     example5: '',
     meaningENG: 'for it, to it',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9203,10 +7766,6 @@ const wordData = [
     example5: '',
     meaningENG: 'for that',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9226,10 +7785,6 @@ const wordData = [
     example5: '',
     meaningENG: 'thereafter, after that',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9249,10 +7804,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to expect',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9272,10 +7823,6 @@ const wordData = [
     example5: '',
     meaningENG: 'serious',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9296,9 +7843,6 @@ const wordData = [
     meaningENG: 'aware, conscious',
     meaningTR: '',
     tip1: '"der Gefahr" - of the danger (genitive case)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9318,10 +7862,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to offer',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9341,10 +7881,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to get rid of',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9364,10 +7900,6 @@ const wordData = [
     example5: '',
     meaningENG: 'as soon as',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9387,10 +7919,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to notice, to observe',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9410,10 +7938,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to refrain from, to omit',
     meaningTR: 'yapmamak, kaçınmak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9433,10 +7957,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to prepare',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9456,10 +7976,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to postpone, to reschedule',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9479,10 +7995,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to leave behind',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9503,9 +8015,6 @@ const wordData = [
     meaningENG: 'occuppied, busy',
     meaningTR: '',
     tip1: 'Die Leitung ist besetzt.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9525,10 +8034,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to agree, to arrange',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9548,10 +8053,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to plan',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9571,10 +8072,6 @@ const wordData = [
     example5: '',
     meaningENG: 'approach',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9594,10 +8091,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to get up',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9617,10 +8110,6 @@ const wordData = [
     example5: '',
     meaningENG: 'as far as, so far',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9640,10 +8129,6 @@ const wordData = [
     example5: '',
     meaningENG: 'departure',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9664,10 +8149,6 @@ const wordData = [
     example5: '',
     meaningENG: 'with it, thereby, at that',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9687,10 +8168,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to improve',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9711,10 +8188,6 @@ const wordData = [
     example5: '',
     meaningENG: 'suggestion',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9736,9 +8209,6 @@ const wordData = [
     meaningENG: 'of that, from that',
     meaningTR: '',
     tip1: 'den Aufstieg - the promotion (nomen, masculine)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9759,10 +8229,6 @@ const wordData = [
     example5: '',
     meaningENG: 'comparison',
     meaningTR: 'karşılaştırma',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9782,10 +8248,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to convince',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9806,10 +8268,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to exchange, to change',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9831,9 +8289,6 @@ const wordData = [
     meaningENG: 'to found, to establish',
     meaningTR: '',
     tip1: 'gegründet is often used in a historical or organizational context to refer to the establishment of institutions, companies, or similar entities.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9856,10 +8311,6 @@ const wordData = [
     example5: '',
     meaningENG: 'any',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9880,10 +8331,6 @@ const wordData = [
     example5: '',
     meaningENG: 'more often',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9904,9 +8351,6 @@ const wordData = [
     meaningENG: 'to go there',
     meaningTR: '',
     tip1: 'hinfahren to indicate traveling towards a specific location',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9926,10 +8370,6 @@ const wordData = [
     example5: '',
     meaningENG: 'event',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9951,10 +8391,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to tell',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9965,7 +8401,7 @@ const wordData = [
     PartizipII: '',
     article: '',
     word: 'wenn',
-    grammar: 'conjunction',
+    grammar: 'konjunktion',
 
     example1: 'Das Ticket wird günstiger, wenn man mit dem Zug kommt',
     example2: '',
@@ -9974,10 +8410,6 @@ const wordData = [
     example5: '',
     meaningENG: 'if, when',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9998,10 +8430,6 @@ const wordData = [
     example5: '',
     meaningENG: 'several',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10021,10 +8449,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to complete',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10045,10 +8469,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to agree upon, to arrange',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10069,10 +8489,6 @@ const wordData = [
     example5: '',
     meaningENG: 'recovery',
     meaningTR: 'dinlenme',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10093,9 +8509,6 @@ const wordData = [
     meaningENG: 'to calculate ',
     meaningTR: '',
     tip1: '"ausrechnen" means to calculate or compute something in detail.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10116,9 +8529,6 @@ const wordData = [
     meaningENG: 'The journey to a place',
     meaningTR: '',
     tip1: '"organisiert werden" - passive voice of "to be organized"',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10138,10 +8548,6 @@ const wordData = [
     example5: '',
     meaningENG: 'the accommodation',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10162,9 +8568,6 @@ const wordData = [
     meaningENG: 'absolutely',
     meaningTR: '',
     tip1: 'eingeplant - planned (past participle of "einplanen" – to schedule, to plan)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10234,9 +8637,6 @@ const wordData = [
     meaningENG: 'to move',
     meaningTR: '',
     tip1: 'gezogen - moved (past participle of "ziehen")',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10257,10 +8657,6 @@ const wordData = [
     example5: '',
     meaningENG: 'despite, in spite of',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10403,9 +8799,6 @@ const wordData = [
     meaningENG: 'to borrow',
     meaningTR: '',
     tip1: "'Leihen' can mean both 'to lend' and 'to borrow', depending on the context.",
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10453,9 +8846,6 @@ const wordData = [
     meaningENG: 'to avoid',
     meaningTR: '',
     tip1: 'to refrain from, not to partake in or use something',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10476,10 +8866,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to summarize',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10596,9 +8982,6 @@ const wordData = [
     meaningENG: 'to increase, to raise',
     meaningTR: '',
     tip1: 'und schon kann er die Miete erhöhen - "and already he can raise the rent" - Here, "schon" is used to express immediacy or promptness',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10644,10 +9027,6 @@ const wordData = [
     example5: '',
     meaningENG: 'support',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10670,9 +9049,6 @@ const wordData = [
     meaningENG: 'to distinguish, to differentiate',
     meaningTR: 'farklılaştırmak',
     tip1: 'von anderen Anbietern - "from other providers"',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10741,7 +9117,7 @@ const wordData = [
     example5: '',
     meaningENG: 'at most',
     meaningTR: '',
-    tip1: '',
+
     tip2: 'dauert - "lasts" - (dauern)',
     tip3: 'Die Fernbeziehung - "The long-distance relationship" - This is the subject of the sentence. "Fernbeziehung" is a compound nomen consisting of "fern" (long-distance) and "Beziehung" (relationship).',
     tag: 'basics',
@@ -10765,9 +9141,6 @@ const wordData = [
     meaningENG: 'relationship',
     meaningTR: '',
     tip1: 'ihre Beziehung - "her relationship" ',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10787,10 +9160,6 @@ const wordData = [
     example5: '',
     meaningENG: 'on it',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10858,10 +9227,6 @@ const wordData = [
     example5: '',
     meaningENG: 'randomly, by chance',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10905,10 +9270,6 @@ const wordData = [
     example5: '',
     meaningENG: 'rather, sooner',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11098,10 +9459,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to participate',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11171,10 +9528,6 @@ const wordData = [
     example5: '',
     meaningENG: 'primarily',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11195,10 +9548,6 @@ const wordData = [
     example5: '',
     meaningENG: 'with each other',
     meaningTR: 'birbirleriyle',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11219,10 +9568,6 @@ const wordData = [
       'Wenn es einen Dialekt nicht mehr gibt, das heißt, wenn niemand mehr einen bestimmten Dialekt spricht, dann ist er verschwunden.',
     meaningENG: 'to disappear',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11244,10 +9589,6 @@ const wordData = [
     example5: '',
     meaningENG: 'some, a few',
     meaningTR: 'bazı',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11268,10 +9609,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to experience',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11291,10 +9628,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to drop by, to stop by',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11315,10 +9648,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to drive past, to pass by',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11338,10 +9667,6 @@ const wordData = [
     example5: '',
     meaningENG: 'already',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11362,10 +9687,6 @@ const wordData = [
     example5: '',
     meaningENG: 'contract',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11386,10 +9707,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to get, to receive.',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11409,10 +9726,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to leave (behind)',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11457,10 +9770,7 @@ const wordData = [
     example5: '',
     meaningENG: 'to work out, to go well',
     meaningTR: '',
-    tip1: '"ob das klappt" - Means "if it will work out." "Ob" is a conjunction meaning "if" or "whether," and "klappt" is the third person singular present tense of "klappen," meaning "to work out" or "to succeed."',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
+    tip1: '"ob das klappt" - Means "if it will work out." "Ob" is a konjunktion meaning "if" or "whether," and "klappt" is the third person singular present tense of "klappen," meaning "to work out" or "to succeed."',
   },
 
   {
@@ -11480,10 +9790,6 @@ const wordData = [
     example5: '',
     meaningENG: 'before, beforehand',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11505,9 +9811,6 @@ const wordData = [
     meaningENG: 'to apply ',
     meaningTR: '',
     tip1: '"bewerben muss" uses the modal verb "müssen" (must) indicating necessity.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11528,10 +9831,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to look',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11551,10 +9850,6 @@ const wordData = [
     example5: '',
     meaningENG: 'several',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11574,10 +9869,6 @@ const wordData = [
     example5: '',
     meaningENG: 'everywhere',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11625,9 +9916,6 @@ const wordData = [
     meaningENG: 'in order to, so that',
     meaningTR: '',
     tip1: 'Vorstellungsgespräch - job interview, steigen - rise, increase, Tätigkeiten - activities, angeben - specify, indicate',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11649,9 +9937,6 @@ const wordData = [
     meaningENG: 'public',
     meaningTR: '',
     tip1: '"den öffentlichen Verkehrsmitteln" - This phrase uses the definite article "den", indicating the dative plural case',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11672,10 +9957,6 @@ const wordData = [
     example5: '',
     meaningENG: 'accident',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11696,10 +9977,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to separate',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11719,10 +9996,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to confirm',
     meaningTR: 'doğrulamak, onaylamak',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11743,10 +10016,6 @@ const wordData = [
     example5: '',
     meaningENG: ' to recognize',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11767,10 +10036,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to build',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11794,9 +10059,6 @@ const wordData = [
     meaningENG: 'to earn',
     meaningTR: '',
     tip1: 'und wenig zu verdienen - "and earn little"',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11816,10 +10078,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to carry',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11841,10 +10099,6 @@ const wordData = [
     example5: '',
     meaningENG: 'different, various',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11866,9 +10120,6 @@ const wordData = [
     meaningENG: 'to display, to show',
     meaningTR: '',
     tip1: 'nicht angezeigt wird - "is not displayed," which is the passive voice of "anzeigen" (to display), indicating that the action of displaying is not happening.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -11888,10 +10139,6 @@ const wordData = [
     example5: '',
     meaningENG: 'area',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -11959,9 +10206,6 @@ const wordData = [
     meaningENG: 'adult',
     meaningTR: '',
     tip1: '"davon geträumt" means "dreamed of it"',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -11981,10 +10225,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to take',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -12004,10 +10244,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to prescribe',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -12054,9 +10290,6 @@ const wordData = [
     meaningENG: 'to recommend',
     meaningTR: '',
     tip1: 'ich empfehle, du empfiehlst, er/sie/es empfiehlt, wir empfehlen, ihr empfehlt, sie/Sie empfehlen.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -12077,10 +10310,6 @@ const wordData = [
     meaningENG: 'to call',
     meaningTR: '',
     id: '4',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -12103,11 +10332,6 @@ const wordData = [
       'Was wurde denn gestern beim Meeting entschieden- Ach, gar nichts. Es wurde nur gestritten. Es gibt ein neues Meeting morgen um 10 Uhr.',
     meaningENG: ' to decide',
     meaningTR: '',
-
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -12127,10 +10351,6 @@ const wordData = [
     example5: '',
     meaningENG: 'the movement',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -12150,48 +10370,37 @@ const wordData = [
     example5: '',
     meaningENG: 'to pay attention to',
     meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
 
   {
-    date: '',
-    wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
+    date: '2024-09-06',
+    wordNo: '17',
     article: 'der',
     word: 'Erfolg',
     grammar: 'nomen',
-
-    example1: 'Kein Schmerz, kein Erfolg',
+    plural: 'die Erfolge',
+    Präteritum: '',
+    PartizipII: '',
+    example1: 'Kein Schmerz, kein Erfolg.',
     example2:
       'Regelmäßiges Training, etwa dreimal pro Woche, ist wichtig, wenn man Erfolg haben will. Aber Achtung: Gerade als Anfänger muss man sehr vorsichtig sein. Das Training ist sehr hart und der Körper braucht zwischen den Trainingseinheiten genug Ruhe. Viele CrossFit-Übungen sind schwierig und die Technik ist sehr wichtig. Experten raten deshalb, mit einem professionellen Trainer zu trainieren. Dieser kontrolliert, ob die Workouts zum Können und zur Fitness der Sportler passen.',
     example3:
-      'Die beiden Schweizer Näf und Ulda wurden mit ihrem Online Terminplaner sehr erfolgreich, denn viele Millionen Menschen nutzen heute Doodle.',
+      'Die beiden Schweizer Näf und Ulda wurden mit ihrem Online-Terminplaner sehr erfolgreich, denn viele Millionen Menschen nutzen heute Doodle.',
     example4:
-      'Nähmaschine brachte ihm zuerst keinen Erfolg, weil niemand sich für die …',
+      'Nähmaschine brachte ihm zuerst keinen Erfolg, weil niemand sich für die ...',
     example5: '',
     meaningENG: 'success',
-    meaningTR: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
+    meaningTR: 'başarı',
   },
-
   {
-    date: '',
-    wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
+    date: '2024-09-06',
+    wordNo: '16',
     article: '',
     word: 'bewegen',
     grammar: 'verb',
-
+    plural: '',
+    Präteritum: 'bewegte',
+    PartizipII: 'bewegt',
     example1:
       'Wer möchte sich regelmäßig bewegen? Wir treffen uns jeden Montag, Mittwoch und Freitag um 19 Uhr beim Stadtparkeingang. Im September bereiten wir uns außerdem intensiv auf den Firmenlauf am 5. Oktober vor!',
     example2:
@@ -12202,21 +10411,16 @@ const wordData = [
     meaningENG: 'to move',
     meaningTR: 'Hareket etmek',
     id: '6',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
-    date: '',
-    wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
+    date: '2024-09-06',
+    wordNo: '15',
     article: '',
     word: 'veranstalten',
     grammar: 'verb',
-
+    plural: '',
+    Präteritum: 'veranstaltete',
+    PartizipII: 'veranstaltet',
     example1:
       'Am 7.9. veranstalten wir zusammen mit Ernährungsexpertin Susanna Laue einen Workshop zum Thema „Smartes Essen am Arbeitsplatz“. Nach einem spannenden Vortrag kochen wir gemeinsam einfache und schnelle Gerichte.',
     example2: '',
@@ -12224,23 +10428,19 @@ const wordData = [
     example4: '',
     example5: '',
     meaningENG: 'to organize',
-    meaningTR: 'Düzenlemek, organize etmek',
+    meaningTR: 'düzenlemek, organize etmek',
     id: '7',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
+
   {
-    date: '',
-    wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
+    date: '2024-09-06',
+    wordNo: '14',
     article: '',
     word: 'ernähren',
     grammar: 'verb',
-
+    plural: '',
+    Präteritum: 'ernährte',
+    PartizipII: 'ernährt',
     example1: 'Ayhan findet, dass sie sich zu wenig gesund ernährt.',
     example2: '',
     example3: '',
@@ -12249,22 +10449,16 @@ const wordData = [
     meaningENG: 'to nourish, to feed',
     meaningTR: 'beslemek',
     id: '9',
-    tip1: '"nähren" (to nourish) → "ernähren" (to feed, implying sustaining or supporting life through nourishment)',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
-
   {
-    date: '',
-    wordNo: '',
+    date: '2024-09-06',
+    wordNo: '13',
+    article: '',
+    word: 'obwohl',
+    grammar: 'konjunktion',
     plural: '',
     Präteritum: '',
     PartizipII: '',
-    article: '',
-    word: 'obwohl',
-    grammar: 'Conjunction',
-
     example1:
       'Obwohl der Workshop am Samstag ist, haben sich über 20 Personen angemeldet.',
     example2: 'Er läuft beim Firmenlauf mit, obwohl er kaum trainiert hat.',
@@ -12273,35 +10467,27 @@ const wordData = [
     example4: '',
     example5: '',
     meaningENG: 'although, even though',
-    meaningTR: '',
+    meaningTR: 'rağmen',
     id: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
+
   {
-    date: '',
-    wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
+    date: '2024-09-06',
+    wordNo: '12',
     article: '',
     word: 'verletzen',
     grammar: 'verb',
-
-    example1: ' Max hat sich den Arm gebrochen und das Bein verletzt.',
+    plural: '',
+    Präteritum: 'verletzte',
+    PartizipII: 'verletzt',
+    example1: 'Max hat sich den Arm gebrochen und das Bein verletzt.',
     example2: '',
     example3: '',
     example4: '',
     example5: '',
     meaningENG: 'to injure, to hurt',
-    meaningTR: '',
+    meaningTR: 'yaralamak, incitmek',
     id: '',
-    tip1: '',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -12312,7 +10498,6 @@ const wordData = [
     article: '',
     word: 'anstrengend',
     grammar: 'adjektiv',
-
     example1: 'Ich bin ein bisschen müde. Die Nachtschicht war anstrengend.',
     example2:
       'Es ist so schwierig und anstrengend. Warum hat nicht jemand eine Idee und erfindet etwas, damit es leichter geht?',
@@ -12323,21 +10508,16 @@ const wordData = [
     meaningENG: 'exhausting, stressful',
     meaningTR: 'yorucu',
     id: '',
-    tip1: 'eher anstrengend - "rather exhausting," indicating that the activity is more tiring than beneficial for her.',
-    tip2: '',
-    tip3: '',
-    tag: 'basics',
   },
   {
-    date: '',
-    wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
+    date: '2024-09-06',
+    wordNo: '10',
     article: 'der',
     word: 'Bescheid',
     grammar: 'nomen',
-
+    plural: 'die Bescheide',
+    Präteritum: '',
+    PartizipII: '',
     example1:
       'Wenn man noch andere Medikamente nimmt, muss man seinem Arzt Bescheid geben.',
     example2: 'Du brauchst nur Bescheid zu sagen. Dann helfe ich dir.',
@@ -12345,11 +10525,7 @@ const wordData = [
     example4: '',
     example5: '',
     meaningENG: 'information',
-    meaningTR: '',
-    id: '',
-    tip1: 'Bescheid zu sagen - "to let know, to inform"',
-    tip2: 'Dann - "Then"',
-    tip3: '',
+    meaningTR: 'bilgi',
     tag: 'basics',
   },
 ];
