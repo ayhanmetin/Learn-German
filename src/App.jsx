@@ -11,23 +11,29 @@ import WordList from './Categories/WordList';
 import WordDetail from './Categories/WordDetail';
 
 import './app.css';
+import Flashcards from './components/FlashCard';
 
 function App() {
   return (
-    <div className='d-flex justify-content-center align-items-center '>
-      <div className='col-12 col-md-8'>
-        <Nav />
-        <Analytics />
-        <SpeedInsights />
-        <Routes>
-          <Route path='/home' element={<WordApp />} />
-          <Route path='/' element={<WordApp />} />
-          <Route path='/word/:wordName' element={<WordDetail />} />
-          <Route path='/word' element={<WordList />} />
-          <Route path='/quiz' element={<Quiz />} />
-        </Routes>
+    <>
+    
+
+      <div className='d-flex justify-content-center align-items-center '>
+        <div className='col-12 col-md-8'>
+          <Nav />
+          <Analytics />
+          <SpeedInsights />
+          <Routes>
+            <Route path='/home' element={<WordApp />} />
+            <Route path='/' element={<WordApp />} />
+            <Route path='/word/:wordName' element={<WordDetail />} />
+            <Route path='/word' element={<WordList />} />
+            <Route path='/quiz' element={<Quiz />} />
+            <Route path='/flashcard' element={<Flashcards />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
