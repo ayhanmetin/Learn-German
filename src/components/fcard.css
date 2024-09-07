@@ -12,14 +12,14 @@
   font-size: 1.2rem; /* Adjust title size for readability */
 }
 
-.word-container {
+.word-container5 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.verbText {
+.verbText5 {
   font-size: 0.9rem; /* Adjust font size for better fit */
 }
 

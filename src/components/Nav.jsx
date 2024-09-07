@@ -37,7 +37,7 @@ export default function Nav() {
           </Link>
           <Link
             to='/flashcard'
-            className='text-body-secondary totalWords p-0 m-0'
+            className='text-body-secondary printIconNav totalWords p-0 m-0'
           >
             🖨️
           </Link>

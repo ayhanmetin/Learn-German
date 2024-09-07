@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
-import Footer2 from './Footer2';
 import './wordApp.css';
 import {
   BookIcon,
@@ -225,9 +224,9 @@ function WordApp() {
               </button>
             </div>
 
-            <div className='margin d-flex frameMAin mobileMain mobileBelow flex-row'>
-              <div className='col-6'>
-                <div className='d-flex justify-content-start align-items-center mb-0'>
+            <div className='margin d-flex text-start frameMAin mobileMain mobileBelow flex-row'>
+              <div className='col-6 text-start word-containerMain2'>
+                <div className='text-start mb-0'>
                   <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
                 </div>
                 {word.grammar && (
@@ -237,55 +236,59 @@ function WordApp() {
                     </p>
                   </div>
                 )}
-                <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                  <div className='d-flex  verbText text-body-secondary flex-row mb-0'>
 
-                    {word.PartizipII && (
-                      <div className='pt-2 pe-0'>
-                        <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6  text-body-secondary'>
-                          <span className=' verbText text-body-secondary'>
-                            {' '}
-                          </span>{' '}
-                          {word.PartizipII} &nbsp;
-                        </p>
-                      </div>
-                    )}
-                    {word.Präteritum && (
-                      <div className='pt-2 pe-0'>
-                        <p className='ms-0 mt-0 verbText pt-0 fs-6 flex-column  text-body-secondary'>
-                          <span className=' verbText text-body-secondary '>
-                            {' '}
-                            /&nbsp;&nbsp;
-                          </span>{' '}
-                          {word.Präteritum}
-                        </p>
-                      </div>
-                    )}
-                    {word.plural && (
-                      <div className='pt-2 pe-0'>
-                        <p className='ms-0 mt-0 pt-0 fs-6 flex-column  text-body-secondary'>
-                          <span className=' text-body-secondary'></span>{' '}
-                          {word.plural}
-                        </p>
-                      </div>
+                <div className='word-containerMain2'>
+                  {' '}
+                  <div className='word-container fs-4 mainBody mt-0 pt-0'>
+                    <div className='d-flex  verbText text-body-secondary flex-row mb-0'>
+                      {word.PartizipII && (
+                        <div className='pt-2 pe-0'>
+                          <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6  text-body-secondary'>
+                            <span className=' verbText text-body-secondary'>
+                              {' '}
+                            </span>{' '}
+                            {word.PartizipII} &nbsp;
+                          </p>
+                        </div>
+                      )}
+                      {word.Präteritum && (
+                        <div className='pt-2 pe-0'>
+                          <p className='ms-0 mt-0 verbText pt-0 fs-6 flex-column  text-body-secondary'>
+                            <span className=' verbText text-body-secondary '>
+                              {' '}
+                              /&nbsp;&nbsp;
+                            </span>{' '}
+                            {word.Präteritum}
+                          </p>
+                        </div>
+                      )}
+                      {word.plural && (
+                        <div className='pt-2 pe-0'>
+                          <p className='ms-0 mt-0 pt-0 fs-6 flex-column  text-body-secondary'>
+                            <span className=' text-body-secondary'></span>{' '}
+                            {word.plural}
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                  <div className='word-container fs-4 mainBody mt-0 pt-0'>
+                    <p className='textWord meaning fst-italic mt-3 mb-3'>
+                      <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
+                    </p>
+
+                    {word.meaningTR && (
+                      <p className='textWord fst-italic'>
+                        <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
+                      </p>
                     )}
                   </div>
                 </div>
-
-                <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                  <p className='textWord meaning fst-italic mt-2'>
-                    <strong>&nbsp;-</strong> &nbsp;{word.meaningENG}
-                  </p>
-
-                  {word.meaningTR && (
-                    <p className='textWord fst-italic'>
-                      <strong>&nbsp;-</strong> &nbsp;{word.meaningTR}
-                    </p>
-                  )}
-                </div>
               </div>
 
+              {/* Sağ Taraf: Örnek Cümleler */}
               <div className='exampleSentence only-mobile'>
+                {/* Örnek Cümleler */}
                 {word.example1 && (
                   <>
                     <p className='textWord'>
