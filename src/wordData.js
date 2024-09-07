@@ -79,7 +79,7 @@ const wordData = [
     date: '2024-09-06',
     wordNo: '3',
     article: '',
-    word: 'wenden (sich wenden an)',
+    word: 'wenden',
     grammar: 'verb',
     plural: '',
     PartizipII: 'gewandt',

@@ -11,7 +11,6 @@ import WordList from './Categories/WordList';
 import WordDetail from './Categories/WordDetail';
 
 import './app.css';
-import Fcards from './components/Fcard';
 
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
             <Route path='/word/:wordName' element={<WordDetail />} />
             <Route path='/word' element={<WordList />} />
             <Route path='/quiz' element={<Quiz />} />
-            <Route path='/flashcard' element={<Fcards />} />
           </Routes>
         </div>
       </div>
