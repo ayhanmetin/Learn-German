@@ -285,9 +285,7 @@ function WordApp() {
                 </div>
               </div>
 
-              {/* Sağ Taraf: Örnek Cümleler */}
               <div className='exampleSentence only-mobile'>
-                {/* Örnek Cümleler */}
                 {word.example1 && (
                   <>
                     <p className='textWord'>

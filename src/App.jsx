@@ -11,13 +11,11 @@ import WordList from './Categories/WordList';
 import WordDetail from './Categories/WordDetail';
 
 import './app.css';
-import Flashcards from './components/FlashCard';
+import Fcards from './components/Fcard';
 
 function App() {
   return (
     <>
-    
-
       <div className='d-flex justify-content-center align-items-center '>
         <div className='col-12 col-md-8'>
           <Nav />
@@ -29,7 +27,7 @@ function App() {
             <Route path='/word/:wordName' element={<WordDetail />} />
             <Route path='/word' element={<WordList />} />
             <Route path='/quiz' element={<Quiz />} />
-            <Route path='/flashcard' element={<Flashcards />} />
+            <Route path='/flashcard' element={<Fcards />} />
           </Routes>
         </div>
       </div>
