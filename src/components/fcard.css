@@ -59,7 +59,8 @@
     visibility: hidden; /* Hide all content */
   }
 
-  .parent, .parent * {
+  .parent,
+  .parent * {
     visibility: visible; /* Show only the parent container and its children */
   }
 
@@ -110,6 +111,9 @@
   transition: color 0.3s; /* Smooth transition for color change */
 }
 
-.printF:hover {
-  color: #0056b3; /* Change color on hover for better visual feedback */
+.print-container {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  
 }

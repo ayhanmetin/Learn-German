@@ -10,9 +10,6 @@ export default function Nav() {
 
   return (
     <>
-      <div className='pt-0 mt-1 d-flex justify-content-center align-items-center navMain1'>
-        <Theme2 />
-      </div>
       <div className='d-flex  flex-column justify-content-center align-items-center'>
         <div className='d-flex flex-column mb-1 mt-0 justify-content-center align-items-center navMain1'>
           <div className='pt-0'></div>
@@ -37,6 +34,15 @@ export default function Nav() {
           </span>
           <Link to='/quiz' className='text-body-secondary totalWords p-0 m-0'>
             🎯 Quiz
+          </Link>
+          <Link
+            to='/flashcard'
+            className='text-body-secondary totalWords p-0 m-0'
+          >
+            🖨️
+          </Link>
+          <Link to='/' className='text-body-secondary totalWords p-0 m-0'>
+            <Theme2 />
           </Link>
         </div>
       </div>

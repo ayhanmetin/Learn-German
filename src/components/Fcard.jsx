@@ -9,9 +9,12 @@ const Fcards = () => {
 
   return (
     <>
-      <div className='printF' onClick={handlePrint}>
-        🖨️ Print
+      <div className='print-container'>
+        <span className='printF' onClick={handlePrint}>
+          🖨️
+        </span>
       </div>
+
       <div className='parent'>
         {wordData.map((word, index) => (
           <div className='card' key={index}>
