@@ -1,5 +1,127 @@
 const wordData = [
   {
+    article: '',
+    word: 'immerhin',
+    grammar: 'adverb',
+    plural: '',
+    PartizipII: '',
+    Präteritum: '',
+    example1: 'Ist er nicht immerhin ganze zehn Jahre in der Firma?',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'at least, anyhow, even so',
+    meaningTR: 'en azından, her nasılsa, öyle olsa bile',
+  },
+  {
+    article: 'der',
+    word: 'Streit',
+    grammar: 'nomen',
+    plural: 'die Streite',
+    PartizipII: '',
+    Präteritum: '',
+    example1:
+      'Es war unser erster Streit. Ein Stich in meinem Herz, dann war sie weg. Diesmal ging ich viel zu weit. Ohne sie dachte ich, es würde gehen.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'argument, dispute',
+    meaningTR: 'tartışma, kavga',
+  },
+
+  {
+    date: '2024-09-10',
+    wordNo: '002',
+    article: '',
+    word: 'enttäuschen',
+    grammar: 'verb',
+    plural: '',
+    PartizipII: 'enttäuscht',
+    Präteritum: 'enttäuschte',
+    example1: 'Ich wollte dich nicht enttäuschen.',
+    example2: 'Du enttäuschst mich.',
+    example3: 'Ich bin enttäuscht.',
+    example4: 'Ich war bitter enttäuscht.',
+    example5: '',
+    meaningENG: 'to disappoint',
+    meaningTR: 'hayal kırıklığına uğramak',
+  },
+  {
+    date: '2024-09-10',
+    wordNo: '001',
+    article: '',
+    word: 'fortgehen',
+    grammar: 'verb',
+    plural: '',
+    PartizipII: 'fortgegangen',
+    Präteritum: 'ging fort',
+    example1: 'Ich muss jetzt fortgehen.',
+    example2: 'Du wirst uns allen fehlen, wenn du fortgehst.',
+    example3:
+      'Sie liegt in meinen Armen. Ich kann es nicht ertragen. Es war ihr allerletztes Wort. "Ich liebe dich", dann ging sie fort.',
+    example4: '',
+    example5: '',
+    meaningENG: 'to leave, to go away',
+    meaningTR: 'ayrılmak, gitmek',
+  },
+  {
+    date: '2024-09-10',
+    wordNo: '003',
+    article: '',
+    word: 'entlasten',
+    grammar: 'verb',
+    plural: '',
+    PartizipII: 'entlastet',
+    Präteritum: 'entlastete',
+    example1:
+      'Basenfasten soll den Körper entlasten und zu seiner Entsäuerung beitragen.',
+    example2: 'Die neue Brücke entlastet den Verkehr in der Innenstadt.',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'to relieve',
+    meaningTR: 'rahatlatmak, yükünü hafifletmek',
+  },
+
+  {
+    date: '2024-09-10',
+    wordNo: '002',
+    article: '',
+    word: 'aufdecken',
+    grammar: 'verb',
+    plural: '',
+    PartizipII: 'aufgedeckt',
+    Präteritum: 'deckte auf',
+    example1: 'Der Journalist konnte den Skandal aufdecken.',
+    example2: 'Immerhin ist er gekommen, obwohl er beschäftigt war.',
+    example3: 'Das haben die Reporterinnen aufgedeckt.',
+    example4: '',
+    example5: '',
+    meaningENG: 'to uncover',
+    meaningTR: 'ortaya çıkarmak',
+  },
+
+  {
+    date: '2024-09-10',
+    wordNo: '001',
+    article: '',
+    word: 'immerhin',
+    grammar: 'adverb',
+    plural: '',
+    PartizipII: '',
+    Präteritum: '',
+    example1: 'Immerhin haben wir das Spiel gewonnen.',
+    example2: 'Immerhin ist er gekommen, obwohl er beschäftigt war.',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'After all',
+    meaningTR: 'En azından',
+  },
+
+  {
     date: '2024-09-06',
     wordNo: '9',
     article: 'die',
@@ -16,7 +138,6 @@ const wordData = [
     example5: '',
     meaningENG: 'burden, strain, stress',
     meaningTR: 'yük, baskı, stres',
-    tag: 'basics',
   },
   {
     date: '2024-09-06',
@@ -35,7 +156,6 @@ const wordData = [
     example5: '',
     meaningENG: 'requirements, demands',
     meaningTR: 'gereksinimler, talepler',
-    tag: 'basics',
   },
   {
     date: '2024-09-06',
@@ -54,7 +174,6 @@ const wordData = [
     example5: '',
     meaningENG: 'enriching, rewarding',
     meaningTR: 'zenginleştirici, ödüllendirici',
-    tag: 'basics',
   },
   {
     date: '2024-09-06',
@@ -73,7 +192,6 @@ const wordData = [
     example5: '',
     meaningENG: 'concern, request, matter',
     meaningTR: 'istek, talep, mesele',
-    tag: 'basics',
   },
   {
     date: '2024-09-06',
@@ -92,7 +210,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to turn (to), to address (someone with a concern), to contact',
     meaningTR: 'başvurmak, yönelmek',
-    tag: 'basics',
   },
   {
     date: '2024-09-06',
@@ -111,7 +228,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to evaluate, to assess',
     meaningTR: 'değerlendirmek',
-    tag: 'basics',
   },
   {
     date: '2024-09-06',
@@ -129,7 +245,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to sound, to say, to read',
     meaningTR: 'şöyle yazmak, şeklinde olmak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -147,7 +262,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to appreciate',
     meaningTR: 'takdir etmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -167,7 +281,6 @@ const wordData = [
     example5: '',
     meaningENG: 'prosperity, economic success',
     meaningTR: 'refah, ekonomik başarı',
-    tag: 'basics',
   },
   {
     date: '',
@@ -185,7 +298,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to cover, to overlay',
     meaningTR: 'üstünü kaplamak, örtmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -203,7 +315,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to occupy (a place), to achieve (a rank), to prove',
     meaningTR: 'bir yeri almak, bir derece elde etmek, kanıtlamak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -222,7 +333,6 @@ const wordData = [
     example5: '',
     meaningENG: 'located, situated, conveniently located',
     meaningTR: 'konumlanmış, yerleşmiş, uygun konumda',
-    tag: 'basics',
   },
   {
     date: '',
@@ -241,7 +351,6 @@ const wordData = [
     example5: '',
     meaningENG: 'each time',
     meaningTR: 'her defasında',
-    tag: 'basics',
   },
   {
     date: '',
@@ -259,7 +368,6 @@ const wordData = [
     example5: '',
     meaningENG: 'unbelievable, incredible',
     meaningTR: 'inanılmaz, akıl almaz',
-    tag: 'basics',
   },
   {
     date: '',
@@ -277,7 +385,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to joke, to kid',
     meaningTR: 'şaka yapmak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -295,7 +402,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to conquer, capture',
     meaningTR: 'fethetmek, ele geçirmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -314,7 +420,6 @@ const wordData = [
     example5: '',
     meaningENG: 'as long as',
     meaningTR: 'sürece, müddetçe',
-    tag: 'basics',
   },
   {
     date: '',
@@ -333,7 +438,6 @@ const wordData = [
     example5: '',
     meaningENG: 'if, in case',
     meaningTR: 'eğer, durumunda',
-    tag: 'basics',
   },
   {
     date: '',
@@ -352,7 +456,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to exhaust',
     meaningTR: 'yormak, bitkin düşürmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -370,7 +473,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to recover',
     meaningTR: 'iyileşmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -388,7 +490,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to rest, to relax',
     meaningTR: 'dinlenmek, rahatlamak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -406,7 +507,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to get upset',
     meaningTR: 'sinirlenmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -424,7 +524,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to stretch',
     meaningTR: 'gerilmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -442,7 +541,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to fit into, to fit in',
     meaningTR: 'sığmak, uyum sağlamak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -460,7 +558,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to fail',
     meaningTR: 'başarısız olmak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -479,7 +576,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to protect',
     meaningTR: 'korumak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -498,7 +594,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to download',
     meaningTR: 'indirmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -516,7 +611,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to fear, to be afraid of',
     meaningTR: 'korkmak',
-    tag: 'basics',
   },
 
   {
@@ -535,7 +629,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to apply, to be valid',
     meaningTR: 'geçerli olmak, uygulanmak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -553,7 +646,6 @@ const wordData = [
     example5: '',
     meaningENG: 'final, permanent',
     meaningTR: 'kesin, nihai',
-    tag: 'basics',
   },
   {
     date: '',
@@ -571,7 +663,6 @@ const wordData = [
     example5: '',
     meaningENG: 'overall, in total',
     meaningTR: 'genel olarak, toplamda',
-    tag: 'basics',
   },
   {
     date: '',
@@ -589,7 +680,6 @@ const wordData = [
     example5: '',
     meaningENG: 'a while',
     meaningTR: 'kısa bir süre',
-    tag: 'basics',
   },
   {
     date: '',
@@ -607,7 +697,6 @@ const wordData = [
     example5: '',
     meaningENG: 'face',
     meaningTR: 'yüz',
-    tag: 'basics',
   },
   {
     date: '',
@@ -625,7 +714,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to quit',
     meaningTR: 'bırakmak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -644,7 +732,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to assume',
     meaningTR: 'varsaymak',
-    tag: 'basics',
   },
   {
     date: '',
@@ -662,7 +749,6 @@ const wordData = [
     example5: '',
     meaningENG: 'insightful, enlightening',
     meaningTR: 'açıklayıcı, bilgilendirici',
-    tag: 'basics',
   },
 
   {
@@ -682,7 +768,6 @@ const wordData = [
     example5: '',
     meaningENG: 'additional fee',
     meaningTR: 'ilave ücret',
-    tag: 'basics',
   },
   {
     date: '',
@@ -701,7 +786,6 @@ const wordData = [
     example5: '',
     meaningENG: 'additional',
     meaningTR: 'ekstra, ilave',
-    tag: 'basics',
   },
   {
     date: '',
@@ -776,7 +860,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to emphasize',
     meaningTR: 'vurgulamak',
-    tag: 'basics',
   },
   {
     date: '2024-09-03',
@@ -794,7 +877,6 @@ const wordData = [
     example5: '',
     meaningENG: 'brain',
     meaningTR: 'beyin',
-    tag: 'basics',
   },
   {
     date: '2024-09-03',
@@ -812,7 +894,6 @@ const wordData = [
     example5: '',
     meaningENG: 'to notice, to remember',
     meaningTR: 'fark etmek',
-    tag: 'basics',
   },
   {
     date: '',
@@ -1780,7 +1861,6 @@ const wordData = [
     tip1: '"To continue" in German can be translated as "fortsetzen" or "weitermachen," depending on the context. - Fortsetzen is more formal and often used in written or official contexts. Weitermachen is more colloquial and can be used in everyday speech.',
     tip2: 'You can continue now -> Du kannst jetzt weitermachen.',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -1802,7 +1882,6 @@ const wordData = [
     tip1: 'Bitte machen Sie den Weg frei, damit der Krankenwagen durchfahren kann. (freimachen)',
     tip2: 'Ayhan gibt am Samstag ein neues Album bei SoundCloud frei. (reigeben)',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -2023,7 +2102,6 @@ const wordData = [
     meaningTR: 'kararlaştırmak, çıkarmak',
     tip1: "The verb 'abmachen' is separable, so in sentences, it often splits into 'macht ... ab' in the present tense.",
     tip2: "In one sense, 'abmachen' means 'to agree on' something, often used when making arrangements or decisions.",
-    tag: 'basics',
   },
   {
     date: '',
@@ -2245,7 +2323,6 @@ const wordData = [
     tip1: '"Abhängen" is a separable verb, so in sentences, the prefix \'ab\' is separated from the verb.',
     tip2: "Use 'abhängen von' to express dependency on something or someone.",
     tip3: "The phrase 'Kommt darauf an' (It depends) is a common usage of this verb.",
-    tag: 'basics',
   },
 
   {
@@ -5329,7 +5406,6 @@ const wordData = [
     tip1: 'anschalten',
     tip2: 'einschalten',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -5464,7 +5540,6 @@ const wordData = [
     example5: '',
     meaningENG: 'inside of',
     meaningTR: 'içinde',
-    tag: 'basics',
   },
   {
     date: '',
@@ -7016,7 +7091,6 @@ const wordData = [
     tip1: 'Infinitive form: sein',
     tip2: 'I have been to Canada.',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -7411,7 +7485,7 @@ const wordData = [
     grammar: 'adjektiv',
 
     example1: 'Avocados werden in Deutschland immer beliebter.',
-    example2: '',
+    example2: 'Basenfasten wird immer beliebter.',
     example3: '',
     example4: '',
     example5: '',
@@ -7420,7 +7494,6 @@ const wordData = [
     tip1: 'immer beliebter - more and more popular',
     tip2: 'werden - are becoming',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8592,7 +8665,6 @@ const wordData = [
     tip1: 'Bergwanderung - mountain hike',
     tip2: 'Ausrüstung - equipment',
     tip3: 'nennt - calls, "nennen" (to call). "nennt man Ausrüstung" "one calls (it) equipment."',
-    tag: 'basics',
   },
 
   {
@@ -8616,7 +8688,6 @@ const wordData = [
     tip1: 'beliebter - popular',
     tip2: 'Bergen - mountains',
     tip3: 'Klettern - climbing',
-    tag: 'basics',
   },
 
   {
@@ -8680,7 +8751,6 @@ const wordData = [
     tip1: 'Einfluss - "influence"',
     tip2: 'berühmte - "famous" - adjektiv, plural',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8704,7 +8774,6 @@ const wordData = [
     tip1: 'Gegner - "opponent"',
     tip2: 'echt - "really" - adverb used for emphasis.',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8728,7 +8797,6 @@ const wordData = [
     tip1: 'Ich bin schon gespannt - "I am very curious already" - "Ich bin" is the first person singular present tense of "sein" (to be), "schon" means "already," and "gespannt" means "excited" or "curious."',
     tip2: 'was passiert - "what happens"',
     tip3: 'die letzten drei Folgen - "the last three episodes" ',
-    tag: 'basics',
   },
 
   {
@@ -8752,7 +8820,6 @@ const wordData = [
     tip1: 'Krankheit - "Illness"',
     tip2: 'mit Führung - "with a guide"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8777,7 +8844,6 @@ const wordData = [
     tip1: 'wegen - "because of"',
     tip2: 'Gewitters - "thunderstorm"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8824,7 +8890,6 @@ const wordData = [
     tip1: ' "stellen" is part of the phrase "einstellen," which means "to hire."',
     tip2: 'übriggebliebenes - "leftover", einfrieren - "freeze", gesünder. - "healthier."',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8889,7 +8954,6 @@ const wordData = [
     tip1: 'Aufgabe - "task"',
     tip2: 'gar nicht - "not at all"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8913,7 +8977,6 @@ const wordData = [
     tip1: '"beendet" to indicate that an action has been finished',
     tip2: 'gleich - immediately (in this context; can also mean "same" in other contexts)',
     tip3: 'nachdem - after',
-    tag: 'basics',
   },
 
   {
@@ -8937,7 +9000,6 @@ const wordData = [
     tip1: 'wurde - "was" - This is the auxiliary verb used to form the passive voice. It is the past tense (preterite) form of "werden." In English, this corresponds to "was" or "were" in passive constructions.',
     tip2: 'Use "Aufrufe" when discussing the number of times content has been viewed, always in the plural form.',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -8961,7 +9023,6 @@ const wordData = [
     tip1: '"Beantworten" is used for specific, direct responses to something (e.g., a question or email)',
     tip2: 'Erholungszeit - recovery time',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9005,7 +9066,6 @@ const wordData = [
     tip1: 'des Einkommens - "of the income" - This is the genitive case of "das Einkommen,"',
     tip2: 'für die Mietkosten - "for the rent costs"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9072,7 +9132,6 @@ const wordData = [
     tip1: 'Seit dem Umbau - "Since the renovation"',
     tip2: 'ist der Bioladen total unübersichtlich - "the organic store is totally disorganized"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9096,7 +9155,6 @@ const wordData = [
     tip1: 'Eine angenehme Temperatur - "A pleasant temperature"',
     tip2: 'sollen den Einkauf verlängern - "are supposed to prolong the shopping" - "Sollen" is used here to express intention or purpose, indicating that these elements (temperature and music) are strategically used to extend the duration of shopping activities.',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9120,7 +9178,6 @@ const wordData = [
 
     tip2: 'dauert - "lasts" - (dauern)',
     tip3: 'Die Fernbeziehung - "The long-distance relationship" - This is the subject of the sentence. "Fernbeziehung" is a compound nomen consisting of "fern" (long-distance) and "Beziehung" (relationship).',
-    tag: 'basics',
   },
 
   {
@@ -9183,7 +9240,6 @@ const wordData = [
     tip1: 'Einige - "Some", froh - glad, happy, entspannter - more relaxed, an manchen Tagen - on some days',
     tip2: '"wollen sein" (want to be) in this context.',
     tip3: 'bei - "in"',
-    tag: 'basics',
   },
 
   {
@@ -9207,7 +9263,6 @@ const wordData = [
     tip1: 'viel Ärger - "a lot of hassle,"',
     tip2: 'Da nehme ich mir lieber Zeit und gehe einkaufen. - "I d rather take my time and go shopping."',
     tip3: 'weil ich es angesehen habe - "because I have seen it,"',
-    tag: 'basics',
   },
 
   {
@@ -9250,7 +9305,6 @@ const wordData = [
     tip1: 'einen Nachteil - "a disadvantage,"',
     tip2: 'haben die Geschäfte in der Stadt einen Nachteil - "the stores in the city are at a disadvantage." ',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9293,7 +9347,6 @@ const wordData = [
     tip1: 'ein günstiges Sofa - "an affordable sofa,"',
     tip2: 'geliefert wird - "will be delivered,"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9317,7 +9370,6 @@ const wordData = [
     tip1: 'überhaupt nicht - "not at all,"',
     tip2: 'ein absolutes Schnäppchen - "an absolute bargain,"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9341,7 +9393,6 @@ const wordData = [
     tip1: 'Sieh mal hier - "Look here,"',
     tip2: 'sie sind kaum getragen - "they are hardly worn."',
     tip3: 'Ja, die Größe stimmt - "Yes, the size is right."',
-    tag: 'basics',
   },
 
   {
@@ -9365,7 +9416,6 @@ const wordData = [
     tip1: '"Bequemer" is the comparative form of "bequem,"',
     tip2: 'Und schon - "And just like that,"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9389,7 +9439,6 @@ const wordData = [
     tip1: 'ist in einem guten Zustand - "is in a good condition,"',
     tip2: 'fast wie neu - "almost like new,"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9414,7 +9463,6 @@ const wordData = [
     tip1: 'Werbung - advertising',
     tip2: 'Ihnen - to you (formal)',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9438,7 +9486,6 @@ const wordData = [
     tip1: 'nach dem Vortrag - "after the lecture," where "dem Vortrag" is the dative case of "der Vortrag" (the lecture).',
     tip2: 'noch Lust auf - "still feel like,"',
     tip3: 'Gespräche mit anderen Eltern - "conversations with other parents,"',
-    tag: 'basics',
   },
 
   {
@@ -9482,7 +9529,6 @@ const wordData = [
     tip1: 'Vor allem - "especially," setting the emphasis on the importance of what follows in the sentence.',
     tip2: 'zweifelt nicht an (anzweifeln = "doubts") - "Does not doubt.", "Zweisprachigkeit" (bilingualism)',
     tip3: 'den Vorteilen - "The advantages." "Vorteile" is the plural form of "Vorteil" (advantage), and "den" is the plural dative article used here because of the präposition "an."',
-    tag: 'basics',
   },
 
   {
@@ -9507,7 +9553,6 @@ const wordData = [
     tip1: 'ich erinnere mich gut - "I remember well." "Erinnere mich" is a reflexive verb form of "erinnern," meaning "to remember."',
     tip2: 'Ich gehöre (I belong) - First person singular of the verb "gehören."',
     tip3: 'an dieser Stelle - "at this point,", an unseren Newsletter erinnern - "remind you about our newsletter,"',
-    tag: 'basics',
   },
 
   {
@@ -9750,7 +9795,6 @@ const wordData = [
     tip1: '"bezahlt is primarily used as the past participle of "bezahlen."',
     tip2: 'und die Auswahl ist nicht so groß wie im Netz - "and the selection is not as large as on the internet,"',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -9893,7 +9937,6 @@ const wordData = [
     tip1: '"in der Stadt unterwegs" - "unterwegs" in this context means "on the move" or "traveling around," and "in der Stadt" specifies that this movement is happening within the city.',
     tip2: '"unterwegs" translates to "on the move" or "traveling around."',
     tip3: '',
-    tag: 'basics',
   },
 
   {
@@ -10161,7 +10204,6 @@ const wordData = [
     tip1: 'The reflexive verb "anstrengen" in the reflexive construction "dich anstrengen" to indicate personal effort.',
     tip2: 'The phrase "dich anstrengen" means "to exert yourself" or "to make an effort."',
     tip3: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -10185,7 +10227,6 @@ const wordData = [
     tip1: 'furchtbar - terribly',
     tip2: 'gewöhnen - get used to',
     tip3: 'daran - to it',
-    tag: 'basics',
   },
   {
     date: '',
@@ -10268,7 +10309,6 @@ const wordData = [
     meaningENG: 'negotiation',
     meaningTR: 'müzakere',
     tip: '',
-    tag: 'basics',
   },
   {
     date: '',
@@ -10526,7 +10566,6 @@ const wordData = [
     example5: '',
     meaningENG: 'information',
     meaningTR: 'bilgi',
-    tag: 'basics',
   },
 ];
 
