@@ -325,7 +325,7 @@ function WordApp() {
           <div className='d-grid col-4 mx-auto'>
             <button
               className='loadMore text-body-emphasis'
-              onClick={() => setVisibleWordsCount(prevCount => prevCount + 20)}
+              onClick={() => setVisibleWordsCount(prevCount => prevCount + 50)}
             >
               +50 weitere
             </button>
