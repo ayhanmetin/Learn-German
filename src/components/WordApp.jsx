@@ -67,7 +67,9 @@ function WordApp() {
         word =>
           word.word.toLowerCase().includes(value) ||
           word.meaningENG.toLowerCase().includes(value) ||
-          word.meaningTR.toLowerCase().includes(value)
+          word.meaningTR.toLowerCase().includes(value) ||
+          word.Präteritum.toLowerCase().includes(value) ||
+          word.PartizipII.toLowerCase().includes(value)
       );
       setFilteredWords(newFilteredWords);
     } else {
@@ -141,16 +143,6 @@ function WordApp() {
     }
     if (word.example5) {
       printContent += `<p><strong>‣</strong> ${word.example5}</p>`;
-    }
-
-    if (word.tip1) {
-      printContent += `<p class="tip">&nbsp;Tips</p><p><strong>&nbsp;⇢</strong> ${word.tip1}</p>`;
-    }
-    if (word.tip2) {
-      printContent += `<p><strong>&nbsp;⇢</strong> ${word.tip2}</p>`;
-    }
-    if (word.tip3) {
-      printContent += `<p><strong>&nbsp;⇢</strong> ${word.tip3}</p>`;
     }
 
     printContent += `
