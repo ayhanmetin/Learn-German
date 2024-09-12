@@ -223,7 +223,7 @@ function WordApp() {
                 </div>
                 {word.grammar && (
                   <div className='pt-0 ps-0 pe-2'>
-                    <p className='verbText text-body-secondary fs-6 ms-0 ps-0 mb-3 mt-0 pt-0'>
+                    <p className='verbText text-body-secondary fs-6 ms-0 ps-0 mb-0 mt-2 pt-0'>
                       ✏︎ &nbsp;&nbsp; {word.grammar}
                     </p>
                   </div>

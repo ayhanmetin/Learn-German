@@ -1319,7 +1319,7 @@ const wordData = [
     PartizipII: 'enthalten',
     Präteritum: '',
     example1:
-      '  "example1": "Gibt es eigentlich irgendetwas in diesem Hotel, das keine zusätzlichen Kosten enthält?"',
+      'Gibt es eigentlich irgendetwas in diesem Hotel, das keine zusätzlichen Kosten enthält?',
     example2: '',
     example3: '',
     example4: '',
