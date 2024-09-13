@@ -11051,7 +11051,7 @@ const wordData = [
     PartizipII: '',
     example1: 'Kein Schmerz, kein Erfolg.',
     example2:
-      'Regelmäßiges Training, etwa dreimal pro Woche, ist wichtig, wenn man Erfolg haben will. Aber Achtung: Gerade als Anfänger muss man sehr vorsichtig sein. Das Training ist sehr hart und der Körper braucht zwischen den Trainingseinheiten genug Ruhe. Viele CrossFit-Übungen sind schwierig und die Technik ist sehr wichtig. Experten raten deshalb, mit einem professionellen Trainer zu trainieren. Dieser kontrolliert, ob die Workouts zum Können und zur Fitness der Sportler passen.',
+      'Regelmäßiges Training, etwa dreimal pro Woche, ist wichtig, wenn man Erfolg haben will.',
     example3:
       'Die beiden Schweizer Näf und Ulda wurden mit ihrem Online-Terminplaner sehr erfolgreich, denn viele Millionen Menschen nutzen heute Doodle.',
     example4:
