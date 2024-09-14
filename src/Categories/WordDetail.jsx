@@ -292,7 +292,7 @@ const WordDetail = () => {
           </div>
         </div>
       </div>
-      <div className='mt-1 p-0 m-0 pt-1'>
+      <div className='mt-1 text-center p-0 m-0 pt-1'>
         <WordList />
       </div>
     </>

@@ -11036,7 +11036,7 @@ const wordData = [
     example3: '',
     example4: '',
     example5: '',
-    meaningENG: 'to pay attention to',
+    meaningENG: 'to pay attention',
     meaningTR: '',
   },
 
