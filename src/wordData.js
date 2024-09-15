@@ -1,6 +1,21 @@
 const wordData = [
   {
     article: '',
+    word: 'bitten',
+    grammar: 'berb',
+    plural: '',
+    PartizipII: 'gebeten',
+    Präteritum: 'bat',
+    example1: 'Er bat ihn um ein Stück Kuchen.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'to ask, to request',
+    meaningTR: 'rica etmek, istemek',
+  },
+  {
+    article: '',
     word: 'verspotten',
     grammar: 'verb',
     plural: '',
