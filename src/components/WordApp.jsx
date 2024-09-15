@@ -325,7 +325,7 @@ function WordApp() {
         )}
       </div>
 
-      <div className='mt-1 pt-1'>
+      <div className='mt-1 text-center pt-1'>
         <WordList />
       </div>
     </>

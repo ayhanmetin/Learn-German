@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './quiz.css';
 import wordData from '../wordData';
-import Footer2 from '../components/Footer2';
+import Footer3 from '../components/Footer3';
 
 const Quiz = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -289,7 +289,7 @@ const Quiz = () => {
         </div>
       </div>
       <div className='mt-5 pt-5 footer'>
-        <Footer2 />
+        <Footer3 />
       </div>
     </>
   );

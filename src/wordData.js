@@ -6548,7 +6548,7 @@ const wordData = [
     example3: '',
     example4: '',
     example5: '',
-    meaningENG: 'around, at, for',
+    meaningENG: 'around, at, for, in order to(conjunction)',
     meaningTR: '',
   },
 
@@ -8748,8 +8748,8 @@ const wordData = [
     word: 'vorhaben',
     grammar: 'verb',
 
-    example1: 'Etwas vorhaben',
-    example2: 'Hast du dieses Wochenende etwas vor?',
+    example1: 'Hast du dieses Wochenende etwas vor?',
+    example2: '',
     example3: 'Nicht Besonderes. Was hast du vor?',
     example4: '',
     example5: '',
@@ -10435,8 +10435,8 @@ const wordData = [
     word: 'klappen',
     grammar: 'verb',
 
-    example1: 'Ja, das möchte ich, aber ich weiß nicht, ob das klappt',
-    example2: '',
+    example1: 'Ja, das möchte ich, aber ich weiß nicht, ob das klappt.',
+    example2: 'Klappt das wirklich?',
     example3: '',
     example4: '',
     example5: '',
@@ -10641,7 +10641,7 @@ const wordData = [
     grammar: 'verb',
 
     example1:
-      'In vielen Städten gibt es oft keine getrennten Radwege. Die Radwege sind ein Teil der Straße. Autos dürfen dort nicht anhalten oder parken.',
+      'In vielen Städten gibt es oft keine getrennten Radwege.',
     example2: '',
     example3: '',
     example4: '',
@@ -10660,7 +10660,7 @@ const wordData = [
     word: 'bestätigen',
     grammar: '',
 
-    example1: '',
+    example1: 'Bitte bestätigen Sie.',
     example2: '',
     example3: '',
     example4: '',
@@ -10844,7 +10844,7 @@ const wordData = [
     grammar: 'adverb',
 
     example1:
-      'CrossFit ist eigentlich nicht so neu. Diese spezielle Art des Fitnesstrainings kommt aus den USA und entstand bereits in den 80er Jahren. In der letzten Zeit ist CrossFit aber überall auf der Welt bekannt und sehr populär. Regelmäßig finden internationale Wettbewerbe im CrossFit statt. Auch die großen Städte in Deutschland haben Trainingszentren für CrossFit. Daneben finden sich viele Leute einfach über die sozialen Netzwerke und trainieren gemeinsam.',
+      'CrossFit ist eigentlich nicht so neu.',
     example2:
       'Eigentlich ganz gut. Aber ich muss furchtbar früh aufstehen. Ich glaube, dass ich mich nie daran gewöhnen werde.',
     example3: '',
@@ -10852,9 +10852,6 @@ const wordData = [
     example5: '',
     meaningENG: 'actually, really',
     meaningTR: '',
-    tip1: 'furchtbar - terribly',
-    tip2: 'gewöhnen - get used to',
-    tip3: 'daran - to it',
   },
   {
     date: '',
@@ -10875,25 +10872,6 @@ const wordData = [
     meaningENG: 'adult',
     meaningTR: '',
     tip1: '"davon geträumt" means "dreamed of it"',
-  },
-  {
-    date: '',
-    wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
-    article: '',
-    word: 'Nehmen',
-    grammar: 'verb',
-
-    example1:
-      'Wenn man die Tablette an einem Tag nicht genommen hat, soll man am nächsten Tag zwei Tabletten nehmen.',
-    example2: '',
-    example3: '',
-    example4: '',
-    example5: '',
-    meaningENG: 'to take',
-    meaningTR: '',
   },
   {
     date: '',
