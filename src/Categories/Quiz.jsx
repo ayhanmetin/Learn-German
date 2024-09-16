@@ -206,7 +206,7 @@ const Quiz = () => {
 
   const resetGame = () => {
     setScore(0);
-    setLives(1);
+    setLives(2);
     setWrongWords([]);
     setCurrentIndex(0);
     setGameOver(false);
