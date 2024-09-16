@@ -1032,8 +1032,7 @@ const wordData = [
     PartizipII: 'gelegen',
     Präteritum: 'lag',
     example1: 'Das Hotel ist schön am Strand gelegen.',
-    example2:
-      'Der ehemalige Bullenstall in Lützellinden ist ein in der Ortsmitte gelegenes, leerstehendes städtisches Gebäude.',
+    example2: '',
     example3: '',
     example4: '',
     example5: '',
