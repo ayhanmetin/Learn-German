@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './quiz.css';
 import wordData from '../wordData';
-import Footer2 from '../components/Footer2';
 import Footer3 from '../components/Footer3';
 
 const Quiz = () => {
@@ -207,7 +206,7 @@ const Quiz = () => {
 
   const resetGame = () => {
     setScore(0);
-    setLives(3);
+    setLives(1);
     setWrongWords([]);
     setCurrentIndex(0);
     setGameOver(false);
