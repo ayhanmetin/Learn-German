@@ -1037,8 +1037,8 @@ const wordData = [
     example3: '',
     example4: '',
     example5: '',
-    meaningENG: 'located, situated, conveniently located',
-    meaningTR: 'konumlanmış, yerleşmiş, uygun konumda',
+    meaningENG: 'located, situated',
+    meaningTR: 'konumlanmış, yerleşmiş',
   },
   {
     date: '',
