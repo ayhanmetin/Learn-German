@@ -1,5 +1,21 @@
 const wordData = [
   {
+    article: 'der',
+    word: 'Händler',
+    grammar: 'nomen',
+    plural: 'die Händler',
+    PartizipII: '',
+    Präteritum: '',
+    example1:
+      'Solltest du einen Fehler in deiner Bestellung entdeckt haben, setze dich bitte direkt mit dem Händler in Verbindung.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'merchant, dealer',
+    meaningTR: 'satıcı, tüccar',
+  },
+  {
     article: '',
     word: 'peinlich',
     grammar: 'adjektiv',
@@ -975,7 +991,7 @@ const wordData = [
     Präteritum: 'bedrohte',
     example1: 'Er bedrohte den Zeugen mit einer Waffe.',
     example2: 'Denn die Tunnel bedrohen unsere Sicherheit.',
-    example3: '',
+    example3: 'Ich fühle es, hier droht uns Gefahr.',
     example4: '',
     example5: '',
     meaningENG: 'to threaten',
