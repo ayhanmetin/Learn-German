@@ -230,7 +230,6 @@ p {
   margin-bottom: 15px !important;
 }
 
-/* Media Query for Larger Screens */
 @media (min-width: 768px) {
   .frameMAin {
     display: flex;
@@ -242,10 +241,13 @@ p {
   }
 }
 
-/* Media Query for Mobile Devices - Old Stacked Layout */
 @media (max-width: 767px) {
   .frameMAin,
   .exampleSentence {
+    width: 100%;
+    word-wrap: break-word;
+    text-align: justify;
+    box-sizing: border-box;
     display: block;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -289,4 +291,14 @@ p {
 .mobileMain {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+.exampleSentence {
+  display: block;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: justify;
+  margin: 5px 0;
+  padding: 10px;
+  box-sizing: border-box;
 }
