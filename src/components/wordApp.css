@@ -265,17 +265,15 @@ p {
   }
 }
 
-/* Show example sentences on mobile devices */
 @media (max-width: 768px) {
   .only-mobile {
     display: block !important;
   }
 }
 
-/* Masaüstü (Geniş ekranlar) için */
 .mobileBelow {
   display: flex;
-  flex-direction: row; /* Yan yana */
+  flex-direction: row; 
 }
 
 @media (max-width: 768px) {
@@ -305,6 +303,7 @@ p {
 .mainFrame,
 .frameMAin,
 .only-mobile {
-  margin: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   padding: 0 !important;
 }

@@ -1,5 +1,20 @@
 const wordData = [
   {
+    article: '',
+    word: 'einfallen',
+    grammar: 'verb',
+    plural: '',
+    PartizipII: 'eingefallen',
+    Präteritum: 'fiel ein',
+    example1: 'Hast du schon eine Idee? Ist dir schon etwas eingefallen?',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'to come to mind, to occur',
+    meaningTR: 'aklına gelmek',
+  },
+  {
     article: 'der',
     word: 'Händler',
     grammar: 'nomen',
