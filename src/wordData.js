@@ -1,5 +1,21 @@
 const wordData = [
   {
+    article: 'der',
+    word: 'Verlauf',
+    grammar: 'nomen',
+    plural: 'die Verläufe',
+    PartizipII: '',
+    Präteritum: '',
+    example1:
+      'Ich schaue mir einmal den Chat-Verlauf an, bitte geben Sie mir einen kleinen Moment.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'course, progress, history (in this context: chat history)',
+    meaningTR: 'seyir, gelişim, geçmiş',
+  },
+  {
     article: 'die',
     word: 'Durchsuchung',
     grammar: 'nomen',
@@ -899,7 +915,7 @@ const wordData = [
     example2: 'Mach das bloß nicht noch einmal!',
     example3: 'Ich habe bloß eine Frage.',
     example4: 'Warum hast du bloß nichts gesagt?',
-    example5: '',
+    example5: 'Ab 16 Uhr könnt ihr bereits zum zweiten Mal nicht bloß im Audio-, sondern auch im Video-Livestream mit dabei sein.',
     meaningENG: 'just, only',
     meaningTR: 'sakın, sadece (uyarı ya da vurgu için kullanılır)',
   },
