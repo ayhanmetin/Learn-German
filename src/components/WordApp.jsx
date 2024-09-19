@@ -324,10 +324,6 @@ function WordApp() {
           </div>
         )}
       </div>
-
-      <div className='mt-1 text-center pt-1'>
-        <WordList />
-      </div>
     </>
   );
 }

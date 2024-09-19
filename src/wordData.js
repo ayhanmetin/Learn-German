@@ -6687,7 +6687,7 @@ const wordData = [
     word: 'flüssig',
     grammar: 'adjektiv',
 
-    example1: '',
+    example1: 'Wasser ist flüssig.',
     example2: '',
     example3: '',
     example4: '',
