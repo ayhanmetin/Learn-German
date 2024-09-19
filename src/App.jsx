@@ -13,8 +13,7 @@ import './app.css';
 function App() {
   return (
     <>
-      <div className='d-flex flex-column justify-content-center align-items-center mobileMainApp'>
-        
+      <div className='d-flex justify-content-center align-items-center mobileMainApp'>
         <div className='col-12 col-md-8'>
           <Nav />
           <Routes>
@@ -25,10 +24,7 @@ function App() {
             <Route path='/quiz' element={<Quiz />} />
           </Routes>
         </div>
-
-        <div className='mt-1 text-center pt-1 wordListMain'>
-          <WordList />
-        </div>
+        
       </div>
     </>
   );
