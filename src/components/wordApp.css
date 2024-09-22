@@ -206,8 +206,8 @@ p {
 
   .frameMAinMobile {
     display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    justify-content: start !important;
+    align-items: start !important;
   }
 }
 
@@ -314,10 +314,15 @@ p {
   .verbText {
     font-size: 13px !important;
   }
-  .mobileMain,
-  .mainFrame,
-  .frameMAin {
+  
+  .mainFrame{
+
     padding-left: 18px !important;
     padding-right: 18px !important;
+  }
+
+  .frameMAin, .frameMAinMobile {
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }

@@ -222,8 +222,8 @@ p {
 @media (max-width: 768px) {
   .frameMAinMobile {
     display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    justify-content: start !important;
+    align-items: start !important;
   }
 }
 

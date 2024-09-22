@@ -153,7 +153,7 @@ const WordDetail = () => {
     <>
       <div className='d-flex px-2 mobileMain flex-column mb-5 mt-0 pt-3'>
         <div className='margin frameMAin d-flex mobileMain justify-content-start align-items-center'>
-          <div className='col-12 border-bottom border-top pt-3'>
+          <div className='col-12 border-bottom border-top px-3 pt-2'>
             <div className='d-flex frameMAinMobile justify-content-start mb-3'>
               <div className='d-flex gap-3 margin d-flex justify-content-start align-items-start text-body-emphasis'>
                 <button
@@ -234,9 +234,7 @@ const WordDetail = () => {
                     {word.plural && (
                       <div className='pt-2 pe-0'>
                         <p className='ms-0 mt-0 pt-0 fs-6 flex-column  text-body-secondary'>
-                          <span className=' text-body-secondary'>
-                          
-                          </span>{' '}
+                          <span className=' text-body-secondary'></span>{' '}
                           {word.plural}
                         </p>
                       </div>
