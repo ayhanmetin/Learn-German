@@ -273,17 +273,10 @@ p {
 
 .mobileBelow {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
 }
 
-@media (max-width: 768px) {
-  .mobileBelow {
-    flex-direction: column !important;
-  }
-  .verbText {
-    font-size: 13px !important;
-  }
-}
+
 
 .mobileMain {
   margin: 0 !important;
@@ -312,4 +305,19 @@ p {
   margin-left: 0 !important;
   margin-right: 0 !important;
   padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .mobileBelow {
+    flex-direction: column !important;
+  }
+  .verbText {
+    font-size: 13px !important;
+  }
+  .mobileMain,
+  .mainFrame,
+  .frameMAin {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
 }
