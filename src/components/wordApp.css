@@ -276,9 +276,8 @@ p {
   flex-direction: row;
 }
 
-
-
 .mobileMain {
+  font-size: 37px !important;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -314,15 +313,19 @@ p {
   .verbText {
     font-size: 13px !important;
   }
-  
-  .mainFrame{
 
+  .mainFrame {
     padding-left: 18px !important;
     padding-right: 18px !important;
   }
 
-  .frameMAin, .frameMAinMobile {
+  .frameMAin,
+  .frameMAinMobile {
     margin: 0 !important;
     padding: 0 !important;
   }
+}
+
+.textWord {
+  font-size: 23px !important;
 }
