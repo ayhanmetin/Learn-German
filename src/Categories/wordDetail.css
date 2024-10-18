@@ -1,26 +1,25 @@
+/* Global reset and font setup */
 * {
   margin: 0;
   padding: 0;
   font-family: 'Libre Franklin', sans-serif;
+  box-sizing: border-box;
 }
 
-p,
-.wordDay,
-.textWord,
-.wordCount {
+p, .wordDay, .textWord, .wordCount {
   font-family: 'Libre Franklin', sans-serif;
 }
 
+/* Styling for the main word */
 .wordDay {
   font-size: 31px;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
 
 .textWord {
   font-size: 17px;
-}
-
-.textWord2 {
-  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .wordCount {
@@ -35,14 +34,15 @@ p,
   transform: scale(1.1);
 }
 
+/* Load More Button */
 .loadMore {
   border: 0.3px solid #ccc;
   font-size: 13px;
   background-color: transparent;
-  padding: 1.2px;
+  padding: 5px 10px;
   margin: 13px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .loadMore:hover {
@@ -50,9 +50,11 @@ p,
   border-color: #132732;
 }
 
+/* Search bar */
 .search-bar input.form-control {
   width: 100%;
   border-radius: 4px;
+  padding: 10px;
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 
@@ -63,26 +65,7 @@ p,
   outline: none;
 }
 
-.custom-image-container {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-
-.custom-image {
-  width: 320px;
-  height: 300px;
-  border-radius: 20px;
-  border: 5px solid #ccc;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.custom-image:hover {
-  transform: scale(1.75);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
+/* Button styling */
 .btnTop {
   background-color: transparent;
   border: none;
@@ -93,11 +76,6 @@ p,
 .btnTop:hover {
   color: #132732;
   fill: #ffce01;
-}
-
-.btnTop1 svg {
-  width: 14px;
-  height: 14px;
 }
 
 .grammar {
@@ -114,26 +92,47 @@ p,
   font-size: 15px;
 }
 
+/* Main word styling */
 .wordMain {
   font-size: 30px;
+  margin-bottom: 15px;
 }
 
+/* Margin adjustments */
 .marginMain {
   margin-left: 60px;
 }
 
+/* Main container adjustments */
 .frameMAin {
   padding-left: 90px;
   padding-right: 90px;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
 }
 
+/* Example sentence alignment and spacing */
+.exampleSentence {
+  margin-top: 20px;
+}
+
 .mobileBelow {
   display: flex;
   flex-direction: row;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  .mobileBelow {
+    flex-direction: column;
+  }
+
+  .frameMAin {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
