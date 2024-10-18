@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
+/* Base link styles */
 a {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
@@ -8,6 +9,7 @@ a {
   transition: color 0.3s, transform 0.3s;
 }
 
+/* Main container for navigation */
 .navMain1 {
   display: flex;
   justify-content: center;
@@ -18,6 +20,7 @@ a {
   text-align: center;
 }
 
+/* Secondary container for navigation links */
 .navMain2 {
   display: flex;
   justify-content: center;
@@ -36,90 +39,42 @@ a {
   color: var(--bs-primary-color);
 }
 
-.navMain2 .fa-house {
-  font-size: 24px;
-}
-
+/* Icon sizes */
 .navMain2 .flag {
   font-size: 24px;
 }
 
+/* Word count styling */
 .count {
   font-size: 20px;
   font-weight: 400;
 }
 
+/* Total words hover effect */
 .totalWords {
   transition: transform 0.3s ease;
   font-size: 20px;
-  margin: 0; /* Ensure no margin is added */
-  padding: 0; /* Ensure no padding is added */
-  line-height: 1; /* Normalize line height */
+  margin: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 .totalWords:hover {
   transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
-  .printIconNav {
-    display: none !important; /* Hide print icon on screens smaller than 768px */
-  }
-
-  .navMain2 {
-    font-size: 18px;
-    gap: 30px;
-    margin-bottom: 25px;
-  }
-
-  .navMain2 a {
-    font-size: 18px;
-  }
-
-  .navMain2 .fa-house,
-  .navMain2 .flag {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .printIconNav {
-    display: none !important; /* Hide print icon on screens smaller than 480px */
-  }
-
-  .navMain2 {
-    font-size: 16px;
-    gap: 20px;
-    margin-bottom: 15px;
-  }
-
-  .navMain2 a {
-    font-size: 16px;
-  }
-
-  .navMain2 .fa-house,
-  .navMain2 .flag {
-    font-size: 18px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-
-  .navMain3 {
-    padding-top: 4px !important;
-  }
-}
-
+/* Spacing and alignment for nav items */
 .navMain3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1px; /* Adjusted gap for better spacing */
+  gap: 1px; /* Adjust gap for better spacing */
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
   white-space: nowrap; /* Prevent wrapping */
-  margin-top: 4px !important;
+  margin-top: 4px;
 }
 
 .text-body-secondary.count i.flag {
@@ -127,13 +82,10 @@ a {
   margin-right: 4px; /* Consistent spacing between icon and text */
 }
 
+/* Link styling */
 .navMain2 a {
   color: var(--bs-secondary-color);
-  font-size: 20px;
   display: flex;
   align-items: center;
   gap: 8px;
-  text-decoration: none;
-  margin: 0 !important;
-  padding: 0 !important;
 }

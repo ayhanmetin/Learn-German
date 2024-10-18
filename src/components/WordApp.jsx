@@ -2,63 +2,18 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import wordData from '../wordData';
 import './wordApp.css';
-import {
-  BookIcon,
-  BookmarkedIcon,
-  CopyIcon,
-  PrintIcon,
-  VoiceIcon,
-} from './IconBox';
 import WordList from '../Categories/WordList';
 
 function WordApp() {
   const [visibleWordsCount, setVisibleWordsCount] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredWords, setFilteredWords] = useState([]);
-  const [voices, setVoices] = useState([]);
-
-  useEffect(() => {
-    const loadVoices = () => {
-      setVoices(window.speechSynthesis.getVoices());
-    };
-
-    loadVoices();
-    window.speechSynthesis.onvoiceschanged = loadVoices;
-
-    return () => {
-      window.speechSynthesis.onvoiceschanged = null;
-    };
-  }, []);
-
-  const populateVoices = () => {
-    return voices.filter(
-      voice =>
-        voice.gender === 'female' || voice.name.toLowerCase().includes('female')
-    );
-  };
-
-  const readWordAloud = word => {
-    const speech = new SpeechSynthesisUtterance(word.word);
-    const germanVoices = populateVoices().filter(
-      voice => voice.lang === 'de-DE'
-    );
-    if (germanVoices.length > 0) {
-      speech.voice = germanVoices[0];
-      console.log(
-        `Using voice: ${speech.voice.name}, Language: ${speech.voice.lang}`
-      );
-    } else {
-      console.log('No German voices available.');
-    }
-    speech.lang = 'de-DE';
-    window.speechSynthesis.speak(speech);
-  };
 
   useEffect(() => {
     setFilteredWords(wordData.slice(0, visibleWordsCount));
   }, [visibleWordsCount]);
 
-  const handleSearch = event => {
+  const handleSearch = (event) => {
     const value = event.target.value.toLowerCase();
     setSearchTerm(value);
 
@@ -66,98 +21,15 @@ function WordApp() {
       const newFilteredWords = wordData.filter(
         word =>
           word.word.toLowerCase().includes(value) ||
-          word.meaningENG.toLowerCase().includes(value) ||
-          word.meaningTR.toLowerCase().includes(value) ||
-          word.Präteritum.toLowerCase().includes(value) ||
-          word.PartizipII.toLowerCase().includes(value)
+          word.meaningENG?.toLowerCase().includes(value) || // added optional chaining
+          word.meaningTR?.toLowerCase().includes(value) ||  // added optional chaining
+          word.Präteritum?.toLowerCase().includes(value) || // added optional chaining
+          word.PartizipII?.toLowerCase().includes(value)    // added optional chaining
       );
       setFilteredWords(newFilteredWords);
     } else {
       setFilteredWords(wordData.slice(0, visibleWordsCount));
     }
-  };
-
-  const handlePrint = word => {
-    const currentScrollPosition = window.scrollY;
-
-    let printContent = `
-    <html>
-      <head>
-        <title>Print</title>
-        <style>
-          body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-          }
-          .content {
-            text-align: left;
-            width: 80%; /* Adjust width as needed for your design preference */
-          }
-          h1 {
-            font-size: 24px;
-            margin-top: 20px;
-          }
-          p {
-            font-size: 18px;
-            margin: 10px 0;
-          }
-          .header {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 30px;
-          }
-          .meaning {
-            font-style: italic;
-          }
-          .tip {
-            font-size: 16px;
-            margin-top: 20px;
-            font-weight: bold;
-          }
-        </style>
-      </head>
-      <body>
-        <div class="content">
-          <h1>${word.word}</h1>
-          <p>・${word.grammar}</p>
-          <p class="meaning"><strong>&nbsp;-</strong> &nbsp;${word.meaningENG}</p>`;
-
-    if (word.meaningTR) {
-      printContent += `<p class="meaning"><strong>&nbsp;-</strong> &nbsp;${word.meaningTR}</p>`;
-    }
-
-    if (word.example1) {
-      printContent += `<p><strong>‣</strong> ${word.example1}</p>`;
-    }
-    if (word.example2) {
-      printContent += `<p><strong>‣</strong> ${word.example2}</p>`;
-    }
-    if (word.example3) {
-      printContent += `<p><strong>‣</strong> ${word.example3}</p>`;
-    }
-    if (word.example4) {
-      printContent += `<p><strong>‣</strong> ${word.example4}</p>`;
-    }
-    if (word.example5) {
-      printContent += `<p><strong>‣</strong> ${word.example5}</p>`;
-    }
-
-    printContent += `
-        </div>
-      </body>
-    </html>`;
-
-    const printWindow = window.open('', '');
-    printWindow.document.open();
-    printWindow.document.write(printContent);
-    printWindow.document.close();
-    printWindow.focus();
-    printWindow.print();
-    printWindow.close();
-    window.scrollTo(0, currentScrollPosition);
   };
 
   return (
@@ -180,46 +52,10 @@ function WordApp() {
             className='mainFrame pMain mt-3 mb-3 border-bottom p-2'
             key={index}
           >
-            <div className='gap-3 frameMAin frameMAinMobile d-flex justify-content-start align-items-start mb-3'>
-              <button
-                className=''
-                onClick={() => readWordAloud(word)}
-                style={{
-                  border: 'none',
-                  background: 'transparent',
-                  cursor: 'pointer',
-                }}
-              >
-                <VoiceIcon width='22' height='22' />
-              </button>
-              <button
-                className='btnTop text-body-emphasis'
-                onClick={() => handlePrint(word)}
-              >
-                <PrintIcon />
-              </button>
-
-              <button
-                className='btnTop text-body-emphasis'
-                onClick={() =>
-                  navigator.clipboard.writeText(
-                    `https://www.almancakelime.com/word/${word.word}`
-                  )
-                }
-                style={{
-                  border: 'none',
-                  background: 'transparent',
-                  cursor: 'pointer',
-                }}
-              >
-                <CopyIcon />
-              </button>
-            </div>
-
-            <div className='margin d-flex text-start frameMAin mobileMain mobileBelow flex-row'>
-              <div className='col-6 text-start word-containerMain2'>
+            <div className='margin d-flex text-start frameMAin mobileMain mobileBelow flex-column'>
+              <div className='col-12 text-start word-containerMain2'>
                 <div className='text-start mb-0'>
-                  <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article} ${word.word}`}</b>
+                  <b className='mobileWord mb-3 wordMain wordDay'>{`${word.article || ''} ${word.word}`}</b>
                 </div>
                 {word.grammar && (
                   <div className='pt-0 ps-0 pe-2'>
@@ -230,34 +66,25 @@ function WordApp() {
                 )}
 
                 <div className='word-containerMain2'>
-                  {' '}
                   <div className='word-container fs-4 mainBody mt-0 pt-0'>
                     <div className='d-flex  verbText text-body-secondary flex-row mb-0'>
                       {word.PartizipII && (
                         <div className='pt-2 pe-0'>
-                          <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6  text-body-secondary'>
-                            <span className=' verbText text-body-secondary'>
-                              {' '}
-                            </span>{' '}
+                          <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 text-body-secondary'>
                             {word.PartizipII} &nbsp;
                           </p>
                         </div>
                       )}
                       {word.Präteritum && (
                         <div className='pt-2 pe-0'>
-                          <p className='ms-0 mt-0 verbText pt-0 fs-6 flex-column  text-body-secondary'>
-                            <span className=' verbText text-body-secondary '>
-                              {' '}
-                              /&nbsp;&nbsp;
-                            </span>{' '}
-                            {word.Präteritum}
+                          <p className='ms-0 mt-0 verbText pt-0 fs-6 flex-column text-body-secondary'>
+                            /&nbsp;&nbsp; {word.Präteritum}
                           </p>
                         </div>
                       )}
                       {word.plural && (
                         <div className='pt-2 pe-0'>
-                          <p className='ms-0 mt-0 pt-0 fs-6 flex-column  text-body-secondary'>
-                            <span className=' text-body-secondary'></span>{' '}
+                          <p className='ms-0 mt-0 pt-0 fs-6 flex-column text-body-secondary'>
                             {word.plural}
                           </p>
                         </div>
@@ -278,15 +105,12 @@ function WordApp() {
                 </div>
               </div>
 
-              {/* Sağ Taraf: Örnek Cümleler */}
-              <div className='exampleSentence only-mobile'>
-                {/* Örnek Cümleler */}
+              {/* Example sentences below the word */}
+              <div className='exampleSentence'>
                 {word.example1 && (
-                  <>
-                    <p className='textWord'>
-                      <strong>‣</strong> {word.example1}
-                    </p>
-                  </>
+                  <p className='textWord'>
+                    <strong>‣</strong> {word.example1}
+                  </p>
                 )}
                 {word.example2 && (
                   <p className='textWord'>
@@ -325,7 +149,7 @@ function WordApp() {
         )}
       </div>
 
-      <div className='mt-1 text-center pt-1 wordListMain'>
+      <div className=''>
         <WordList />
       </div>
     </>

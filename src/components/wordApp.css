@@ -1,331 +1,69 @@
-/* Import the fonts */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-
-/* Base Styles */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Libre Franklin', sans-serif;
+/* General Styles */
+.mobileMain {
+  margin: 0 auto;
+  padding: 20px;
 }
 
-p {
-  font-family: 'Libre Franklin', sans-serif;
+.mainFrame {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
 }
 
-.wordDay {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 31px;
-}
-
-.textWord {
-  font-family: 'Libre Franklin', sans-serif;
-  margin-left: 0;
-  padding-left: 0;
-  font-size: 17px;
-}
-
-.loadMore {
-  border: 0.3px solid #ccc;
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 13px;
-  background-color: transparent;
-  padding: 1px 1px;
-  margin: 13px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.loadMore:hover {
-  background-color: transparent;
-  border-color: #132732;
-}
-
-.search-bar input.form-control:hover {
-  border-color: #132732;
-  box-shadow: 0 0 2px rgba(245, 205, 72, 0.5);
-}
-
-.search-bar input.form-control:focus {
-  border-color: #132732;
-  box-shadow: 0 0 2px rgba(245, 205, 72, 0.5);
-  outline: none;
-}
-
-.form-control,
-.search-bar {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-@media (max-width: 990px) {
-  .custom-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    margin: 0 auto;
-  }
-  .custom-image {
-    width: 50%;
-    height: auto;
-    display: block;
-  }
-}
-
-@media (max-width: 575px) {
-  .custom-image-container {
-    display: flex;
-    justify-content: center;
-  }
-  .custom-image {
-    width: 50%;
-    height: auto;
-  }
-}
-
-.btnTop {
-  background-color: transparent;
-  border: none;
-  color: #333;
-}
-
-.btnTop1 svg {
-  width: 14px;
-  height: 14px;
-}
-
-.btnTop:hover,
-.btnTop:hover svg {
-  color: #132732;
-  fill: #ffce01;
-}
-
-.textWord1 {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  margin: 0;
-  padding: 0;
-}
-
-@media (max-width: 768px) {
-  .textWord1 {
-    text-align: start;
-  }
-  .btnTop {
-    justify-content: flex-start;
-  }
-}
-
-.wordCount {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  font-style: italic;
-  margin-top: 5px;
-}
-
-.search-bar input[type='text'] {
-  background-repeat: no-repeat;
-  background-position: 10px center;
-  background-size: 16px 16px;
-}
-
-.button-voice {
-  position: relative;
-  top: 3px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .button-voice {
-    display: block;
-    margin: 0 auto;
-    top: 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .button-voice svg {
-    margin: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .mainBody {
-    text-align: justify;
-    word-wrap: normal;
-    overflow-wrap: normal;
-    hyphens: auto;
-    line-height: 1.6;
-  }
-}
-
-.grammar {
-  color: #2f5a8a;
-  font-size: 17px;
-}
-
-.wordCount:hover {
-  transform: scale(1.1);
-}
-
-.tense {
-  font-size: 19px;
-}
-
-.tip {
-  color: #2f5a8a;
-  font-size: 15px;
+.word-containerMain2 {
+  margin-bottom: 10px;
 }
 
 .wordMain {
-  font-size: 30px !important;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.marginMain {
-  margin-left: 60px !important;
-}
-
-@media (max-width: 768px) {
-  .mobileMain {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    text-align: justify;
-    hyphens: auto;
-    word-wrap: normal;
-    overflow-wrap: normal;
-    white-space: normal;
-    line-height: 1.6;
-  }
-
-  .frameMAinMobile {
-    display: flex !important;
-    justify-content: start !important;
-    align-items: start !important;
-  }
-}
-
-.search-bar input.form-control {
-  width: 100% !important;
-  border-radius: 4px !important;
-}
-
-.mobileMain {
-  padding-left: 100px !important;
-  padding-right: 100px !important;
-}
-
-.frameMAin {
-  display: flex !important;
-  justify-content: start !important;
-  align-items: start !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  margin-bottom: 15px !important;
-}
-
-@media (min-width: 768px) {
-  .frameMAin {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .frameMAin .col-6 {
-    width: 50%;
-  }
-}
-
-@media (max-width: 767px) {
-  .frameMAin,
-  .exampleSentence {
-    width: 100%;
-    word-wrap: break-word;
-    text-align: justify;
-    box-sizing: border-box;
-    display: block;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .frameMAin .col-6 {
-    width: 100%;
-  }
-
-  .pMain {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .only-mobile {
-    display: block !important;
-  }
-}
-
-.mobileBelow {
-  display: flex;
-  flex-direction: row;
-}
-
-.mobileMain {
-  font-size: 37px !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.exampleSentence {
-  display: block;
-  width: 100%;
-  word-wrap: break-word;
-  text-align: justify;
-  margin: 5px 0;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.mainFrame,
-.frameMAin,
-.only-mobile {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding: 0 !important;
-}
-
-.wordListMain {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding: 0 !important;
-}
-
-@media (max-width: 768px) {
-  .mobileBelow {
-    flex-direction: column !important;
-  }
-  .verbText {
-    font-size: 13px !important;
-  }
-
-  .mainFrame {
-    padding-left: 18px !important;
-    padding-right: 18px !important;
-  }
-
-  .frameMAin,
-  .frameMAinMobile {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
+.meaning {
+  font-style: italic;
+  color: #555;
 }
 
 .textWord {
-  font-size: 23px !important;
+  font-size: 18px;
+  color: #333;
+}
+
+.verbText {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+input.form-control {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Example Sentences */
+.exampleSentence {
+  margin-top: 15px;
+}
+
+.exampleSentence p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Load More Button */
+.loadMore {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loadMore:hover {
+  background-color: #0056b3;
 }

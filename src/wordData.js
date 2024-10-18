@@ -592,21 +592,7 @@ const wordData = [
     meaningENG: 'vote, ballot',
     meaningTR: 'oylama, referandum',
   },
-  {
-    article: 'die',
-    word: 'Tagesordnung',
-    grammar: 'nomen',
-    plural: 'die Tagesordnungen',
-    PartizipII: '',
-    Präteritum: '',
-    example1: 'Was ist noch auf der Tagesordnung?',
-    example2: '',
-    example3: '',
-    example4: '',
-    example5: '',
-    meaningENG: 'agenda, schedule',
-    meaningTR: 'gündem, program',
-  },
+
   {
     article: 'die',
     word: 'Tagesordnung',
@@ -9333,24 +9319,6 @@ const wordData = [
     meaningTR: '',
   },
 
-  {
-    date: '',
-    wordNo: '',
-    plural: '',
-    Präteritum: '',
-    PartizipII: '',
-    article: '',
-    word: 'wegbleiben',
-    grammar: 'verb',
-
-    example1: '',
-    example2: '',
-    example3: '',
-    example4: '',
-    example5: '',
-    meaningENG: 'to stay away',
-    meaningTR: '',
-  },
 
   {
     date: '',
