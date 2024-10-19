@@ -59,7 +59,7 @@ function WordApp() {
                 </div>
                 {word.grammar && (
                   <div className='pt-0 ps-0 pe-2'>
-                    <p className='verbText text-body-secondary fs-6 ms-0 ps-0 mb-0 mt-2 pt-0'>
+                    <p className='verbText  fs-6 ms-0 ps-0 mb-0 mt-2 pt-0'>
                       ✏︎ &nbsp;&nbsp; {word.grammar}
                     </p>
                   </div>
@@ -67,24 +67,24 @@ function WordApp() {
 
                 <div className='word-containerMain2'>
                   <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                    <div className='d-flex  verbText text-body-secondary flex-row mb-0'>
+                    <div className='d-flex  verbText  flex-row mb-0'>
                       {word.PartizipII && (
                         <div className='pt-2 pe-0'>
-                          <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 text-body-secondary'>
+                          <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 '>
                             {word.PartizipII} &nbsp;
                           </p>
                         </div>
                       )}
                       {word.Präteritum && (
                         <div className='pt-2 pe-0'>
-                          <p className='ms-0 mt-0 verbText pt-0 fs-6 flex-column text-body-secondary'>
+                          <p className='ms-0 mt-0 verbText pt-0 fs-6 flex-column '>
                             /&nbsp;&nbsp; {word.Präteritum}
                           </p>
                         </div>
                       )}
                       {word.plural && (
                         <div className='pt-2 pe-0'>
-                          <p className='ms-0 mt-0 pt-0 fs-6 flex-column text-body-secondary'>
+                          <p className='ms-0 mt-0 pt-0 fs-6 flex-column '>
                             {word.plural}
                           </p>
                         </div>

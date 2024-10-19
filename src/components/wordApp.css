@@ -20,17 +20,14 @@
 
 .meaning {
   font-style: italic;
-  color: #555;
 }
 
 .textWord {
   font-size: 18px;
-  color: #333;
 }
 
 .verbText {
   font-size: 16px;
-  color: #777;
 }
 
 /* Search Bar */
@@ -50,7 +47,6 @@ input.form-control {
 
 .exampleSentence p {
   font-size: 18px;
-  color: #333;
   margin-bottom: 10px;
 }
 

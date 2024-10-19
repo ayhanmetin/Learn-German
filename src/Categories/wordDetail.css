@@ -65,21 +65,9 @@ p, .wordDay, .textWord, .wordCount {
   outline: none;
 }
 
-/* Button styling */
-.btnTop {
-  background-color: transparent;
-  border: none;
-  color: #333;
-  transition: color 0.3s, fill 0.3s;
-}
 
-.btnTop:hover {
-  color: #132732;
-  fill: #ffce01;
-}
 
 .grammar {
-  color: #2f5a8a;
   font-size: 17px;
 }
 
@@ -87,10 +75,6 @@ p, .wordDay, .textWord, .wordCount {
   font-size: 19px;
 }
 
-.tip {
-  color: #2f5a8a;
-  font-size: 15px;
-}
 
 /* Main word styling */
 .wordMain {
