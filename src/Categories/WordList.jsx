@@ -10,7 +10,7 @@ const WordList = React.memo(() => {
   };
 
   return (
-    <div className="d-flex align-items-start justify-content-start mb-5 mx-3">
+    <div className="word-list-container  d-flex align-items-start justify-content-start mb-5 mx-3">
       <div>
         {wordData.map((word, index) => (
           <React.Fragment key={index}>

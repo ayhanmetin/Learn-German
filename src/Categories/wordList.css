@@ -1,41 +1,34 @@
-/* Word list item hover effect */
-.wordList:hover {
-  text-decoration: underline;
-  margin-bottom: 1px;
+/* Container for word list, with full justification adjustments */
+.word-list-container {
+  text-align: justify;
+  text-align-last: justify; /* Ensures the last line is also justified */
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word; /* Helps handle long words that might overflow */
+  hyphens: auto; /* Automatically hyphenate at appropriate points within words */
+  padding: 0 !important;
 }
 
-/* Word list item styling */
-.wordList {
-  transition: text-decoration 0.3s ease-in-out, margin-bottom 0.3s ease-in-out;
+/* Word list item styling, allowing inline display for proper flow */
+.word-list-item {
+  display: inline; /* Ensures words behave like inline elements, flowing with text */
   font-family: 'Libre Franklin', sans-serif;
-  text-align: justify;
-  word-wrap: break-word;
-  hyphens: auto;
-  line-height: 1.6;
   font-style: italic;
   font-size: 17px;
-  white-space: nowrap;
-}
-
-/* Word detail section styling */
-.word-detail {
-  min-height: 200px;
-  width: 100%;
-}
-
-/* Word count styling */
-.wordCountx {
-  transition: text-decoration 0.3s ease-in-out, margin-bottom 0.3s ease-in-out;
-  font-family: 'Libre Franklin', sans-serif;
-  text-align: justify;
-  word-wrap: break-word;
-  hyphens: auto;
   line-height: 1.6;
-  font-size: 14px;
-  gap: 20px;
+  margin-right: 0.5ch; /* Adjust spacing between words as needed */
 }
 
-/* Main container padding reset */
-.wordListMain {
-  padding: 0 !important;
+/* Word list item hover effect, simple underline */
+.word-list-item:hover {
+  text-decoration: underline;
+}
+
+/* Ensure the container stretches to the full width and any extra spaces are minimized */
+.word-list-container:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  visibility: hidden;
 }
