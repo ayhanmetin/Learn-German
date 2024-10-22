@@ -109,14 +109,4 @@ p, .wordDay, .textWord, .wordCount {
   flex-direction: row;
 }
 
-/* Media queries for mobile responsiveness */
-@media (max-width: 768px) {
-  .mobileBelow {
-    flex-direction: column;
-  }
 
-  .frameMAin {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
