@@ -1,48 +1,44 @@
-/* Global reset and font setup */
+.frameMAin {
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Libre Franklin', sans-serif;
-  box-sizing: border-box;
 }
 
-p, .wordDay, .textWord, .wordCount {
+p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-/* Styling for the main word */
 .wordDay {
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 31px;
-  line-height: 1.4;
-  margin-bottom: 15px;
 }
 
 .textWord {
+  font-family: 'Libre Franklin', sans-serif;
+  margin-left: 0;
+  padding-left: 0;
   font-size: 17px;
-  margin-bottom: 10px;
 }
 
-.wordCount {
-  font-size: 14px;
-  font-weight: 400;
-  font-style: italic;
-  margin-top: 5px;
-  transition: transform 0.3s ease-in-out;
+.textWord2 {
+  font-size: 18px;
 }
 
-.wordCount:hover {
-  transform: scale(1.1);
-}
-
-/* Load More Button */
 .loadMore {
   border: 0.3px solid #ccc;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 13px;
   background-color: transparent;
-  padding: 5px 10px;
+  padding: 1px 1px;
   margin: 13px;
+  padding: 1.2px;
   cursor: pointer;
-  transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .loadMore:hover {
@@ -50,63 +46,241 @@ p, .wordDay, .textWord, .wordCount {
   border-color: #132732;
 }
 
-/* Search bar */
-.search-bar input.form-control {
-  width: 100%;
-  border-radius: 4px;
-  padding: 10px;
-  transition: border-color 0.3s, box-shadow 0.3s;
+.search-bar input.form-control:hover {
+  border-color: #132732;
+  box-shadow: 0 0 2px rgba(245, 205, 72, 0.5);
 }
 
-.search-bar input.form-control:hover,
 .search-bar input.form-control:focus {
   border-color: #132732;
   box-shadow: 0 0 2px rgba(245, 205, 72, 0.5);
   outline: none;
 }
 
+.custom-image-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
 
+.custom-image {
+  width: 320px;
+  height: 300px;
+  border-radius: 20px;
+  border: 5px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-image:hover {
+  transform: scale(1.75);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 990px) {
+  .custom-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+  }
+  .custom-image {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  .custom-image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .custom-image {
+    width: 50%;
+    height: auto;
+  }
+}
+
+.btnTop {
+  background-color: transparent;
+  border: none;
+  color: #333;
+}
+.btnTop {
+  background-color: transparent;
+  border: none;
+  color: #333;
+}
+
+.btnTop1 svg {
+  width: 14px;
+  height: 14px;
+}
+
+.btnTop:hover,
+.btnTop:hover svg {
+  color: #132732;
+  fill: #ffce01;
+}
+
+.textWord1 {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .textWord1 {
+    text-align: start;
+  }
+  .btnTop {
+    justify-content: flex-start;
+  }
+}
+
+.wordCount {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.search-bar input[type='text'] {
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 16px 16px;
+}
+
+.button-voice {
+  position: relative;
+  top: 3px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .button-voice {
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .button-voice svg {
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainBody {
+    text-align: justify;
+    word-wrap: normal;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    hyphens: auto;
+    line-height: 1.6;
+  }
+}
 
 .grammar {
+  color: #2f5a8a;
   font-size: 17px;
+}
+
+.wordCount:hover {
+  transform: scale(1.1);
 }
 
 .tense {
   font-size: 19px;
 }
 
+.tip {
+  color: #2f5a8a;
+  font-size: 15px;
+}
 
-/* Main word styling */
 .wordMain {
-  font-size: 30px;
-  margin-bottom: 15px;
+  font-size: 30px !important;
 }
 
-/* Margin adjustments */
 .marginMain {
-  margin-left: 60px;
+  margin-left: 60px !important;
 }
 
-/* Main container adjustments */
 .frameMAin {
   padding-left: 90px;
   padding-right: 90px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 15px;
 }
 
-/* Example sentence alignment and spacing */
-.exampleSentence {
-  margin-top: 20px;
+@media (max-width: 768px) {
+  .frameMAinMobile {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+  }
 }
 
+@media (max-width: 768px) {
+  .mobileMain {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-align: justify;
+    hyphens: auto;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    white-space: normal;
+    line-height: 1.6;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .frameMAinMobile {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+  }
+}
+
+.search-bar input.form-control {
+  width: 100% !important;
+  border-radius: 4px !important;
+}
+
+.frameMAin {
+  display: flex !important;
+  justify-content: start !important;
+  align-items: start !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 15px !important;
+}
+
+@media (max-width: 768px) {
+  .only-mobile {
+    display: block !important;
+  }
+}
+
+/* Masaüstü (Geniş ekranlar) için */
 .mobileBelow {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /* Yan yana */
 }
 
-
+/* Mobil (Küçük ekranlar) için */
+@media (max-width: 768px) {
+  .mobileBelow {
+    flex-direction: column !important;
+  }
+  .verbText {
+    font-size: 13px !important;
+  }
+}

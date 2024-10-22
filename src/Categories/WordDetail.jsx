@@ -39,9 +39,9 @@ const WordDetail = () => {
               <div className='d-flex gap-3 justify-content-start align-items-start text-body-emphasis'></div>
             </div>
 
-            <div className='margin d-flex flex-row'>
+            <div className='margin d-flex '>
               {/* Word Details */}
-              <div className='col-6'>
+              <div className=''>
                 <div className='d-flex justify-content-start align-items-center mb-0'>
                   <b className='mobileWord mb-3 wordMain wordDay'>{`${
                     word.article || ''
@@ -57,7 +57,7 @@ const WordDetail = () => {
                 )}
 
                 <div className='word-container fs-4 mainBody mt-0 pt-0'>
-                  <div className='d-flex verbText  flex-row mb-0'>
+                  <div className='d-flex verbText mb-0'>
                     {word.PartizipII && (
                       <div className='pt-2 pe-0'>
                         <p className='mt-0 ms-0 verbText pt-0 m-0 p-0 flex-column ms-0 me-2 fs-6 '>
