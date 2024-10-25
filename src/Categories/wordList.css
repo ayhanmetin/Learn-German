@@ -32,3 +32,15 @@
   height: 0;
   visibility: hidden;
 }
+
+.word-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the min-width based on your needs */
+  gap: 10px; /* Add spacing between the grid items */
+}
+
+.word-list-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
