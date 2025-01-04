@@ -3,6 +3,23 @@ const wordData = [
     date: '',
     wordNo: '',
     article: '',
+    word: 'nämlich',
+    grammar: 'adverb',
+    plural: '',
+    PartizipII: '',
+    Präteritum: '',
+    example1: 'Er kann nicht kommen, er hat nämlich Dienst.',
+    example2: '',
+    example3: '',
+    example4: '',
+    example5: '',
+    meaningENG: 'namely, because, you see',
+    meaningTR: 'yani, çünkü, görüyorsunuz',
+  },
+  {
+    date: '',
+    wordNo: '',
+    article: '',
     word: 'hervorgehen',
     grammar: 'verb',
     plural: '',
@@ -19695,7 +19712,7 @@ const wordData = [
     example5: '',
     meaningENG: 'with it, with that, to do with it',
     meaningTR: 'onunla, onunla ilgili',
-  }
+  },
 
   {
     date: '',
